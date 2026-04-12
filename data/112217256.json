@@ -1,0 +1,96 @@
+{
+  "id": "112217256",
+  "nick": "Raicha",
+  "zone_id": "2566",
+  "role": "goldlaner",
+  "rank_current": "17",
+  "rank_highest": "59",
+  "statistic": {
+    "current_season": {
+      "matches_count": 71,
+      "win_rate": 71.83,
+      "kda": 6.59,
+      "team_participation": 53.1,
+      "gold_per_min": 801,
+      "dmg_per_min": 4314,
+      "deaths_per_match": 2.58,
+      "turret_dmg_per_match": 7720
+    },
+    "all_season": {
+      "matches_count": 4157,
+      "win_rate": 55.71,
+      "kda": 5.02,
+      "team_participation": 52.4,
+      "gold_per_min": 689,
+      "dmg_per_min": 3258,
+      "deaths_per_match": 2.84,
+      "turret_dmg_per_match": 3219
+    }
+  },
+  "hero_favorite": {
+    "current_season": [
+      {
+        "hero_name": "irithel",
+        "matches": 37,
+        "win_rate": 75.7
+      },
+      {
+        "hero_name": "cecilion",
+        "matches": 24,
+        "win_rate": 79.2
+      },
+      {
+        "hero_name": "hanabi",
+        "matches": 5,
+        "win_rate": 40.0
+      },
+      {
+        "hero_name": "esmeralda",
+        "matches": 2,
+        "win_rate": 50.0
+      },
+      {
+        "hero_name": "vale",
+        "matches": 1,
+        "win_rate": 100.0
+      },
+      {
+        "hero_name": "ruby",
+        "matches": 1,
+        "win_rate": 0.0
+      }
+    ],
+    "all_season": [
+      {
+        "hero_name": "cecilion",
+        "matches": 967,
+        "win_rate": 59.0
+      },
+      {
+        "hero_name": "kagura",
+        "matches": 800,
+        "win_rate": 55.5
+      },
+      {
+        "hero_name": "layla",
+        "matches": 479,
+        "win_rate": 53.7
+      },
+      {
+        "hero_name": "irithel",
+        "matches": 445,
+        "win_rate": 58.4
+      },
+      {
+        "hero_name": "ruby",
+        "matches": 412,
+        "win_rate": 56.6
+      },
+      {
+        "hero_name": "esmeralda",
+        "matches": 383,
+        "win_rate": 49.3
+      }
+    ]
+  }
+}
