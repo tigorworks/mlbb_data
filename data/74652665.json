@@ -1,95 +1,96 @@
 {
-	"id":"74652665",
-	"nick": "Hapizhah.",
-	"zone_id":"2140",
-	"role":"midlaner",
-	"rank_current":"25",
-	"rank_highest":"18",
-	"statistic":{
-		"current_season":{
-			"matches_count":88,
-			"win_rate":64.77,
-			"kda":4.42,
-			"team_participation":55.4,
-			"gold_per_min":784,
-			"dmg_per_min":5024,
-			"deaths_per_match":3.49,
-			"turret_dmg_per_match":10456
-		},
-		"all_season":{
-			"matches_count":11728,
-			"win_rate":54.53,
-			"kda":3.87,
-			"team_participation":54.7,
-			"gold_per_min":645,
-			"dmg_per_min":3164,
-			"deaths_per_match":3.75,
-			"turret_dmg_per_match":3765
-		},
-	"hero_favorite":{
-		"current_season":[
-			{
-				"hero_name":"hanabi",
-				"matches":36,
-				"win_rate":69.4
-			},
-			{
-				"hero_name":"yi sun-shin",
-				"matches":6,
-				"win_rate":50.0
-			},
-			{
-				"hero_name":"hayabusa",
-				"matches":5,
-				"win_rate":80.0
-			},
-			{
-				"hero_name":"chang'e",
-				"matches":3,
-				"win_rate":66.7
-			},
-			{
-				"hero_name":"moskov",
-				"matches":3,
-				"win_rate":66.7
-			},
-			{
-				"hero_name":"phoveus",
-				"matches":3,
-				"win_rate":33.3
-			}
-		],
-		"all_season":[
-			{
-				"hero_name":"franco",
-				"matches":678,
-				"win_rate":51.5
-			},
-			{
-				"hero_name":"selena",
-				"matches":636,
-				"win_rate":51.9
-			},
-			{
-				"hero_name":"chou",
-				"matches":615,
-				"win_rate":52.4
-			},
-			{
-				"hero_name":"ling",
-				"matches":422,
-				"win_rate":47.6
-			},
-			{
-				"hero_name":"khufra",
-				"matches":419,
-				"win_rate":60.1
-			},
-			{
-				"hero_name":"hayabusa",
-				"matches":368,
-				"win_rate":50.8
-			}
-		]
-	}
+  "id": "74652665",
+  "nick": "Hapizhah.",
+  "zone_id": "2140",
+  "role": "midlaner",
+  "rank_current": "25",
+  "rank_highest": "118",
+  "statistic": {
+    "current_season": {
+      "matches_count": 88,
+      "win_rate": 64.77,
+      "kda": 4.42,
+      "team_participation": 55.4,
+      "gold_per_min": 784,
+      "dmg_per_min": 5024,
+      "deaths_per_match": 3.49,
+      "turret_dmg_per_match": 10456
+    },
+    "all_season": {
+      "matches_count": 11728,
+      "win_rate": 54.53,
+      "kda": 3.87,
+      "team_participation": 54.7,
+      "gold_per_min": 645,
+      "dmg_per_min": 3164,
+      "deaths_per_match": 3.75,
+      "turret_dmg_per_match": 3765
+    }
+  },
+  "hero_favorite": {
+    "current_season": [
+      {
+        "hero_name": "hanabi",
+        "matches": 36,
+        "win_rate": 69.4
+      },
+      {
+        "hero_name": "yi sun-shin",
+        "matches": 6,
+        "win_rate": 50.0
+      },
+      {
+        "hero_name": "hayabusa",
+        "matches": 5,
+        "win_rate": 80.0
+      },
+      {
+        "hero_name": "chang'e",
+        "matches": 3,
+        "win_rate": 66.7
+      },
+      {
+        "hero_name": "moskov",
+        "matches": 3,
+        "win_rate": 66.7
+      },
+      {
+        "hero_name": "phoveus",
+        "matches": 3,
+        "win_rate": 33.3
+      }
+    ],
+    "all_season": [
+      {
+        "hero_name": "franco",
+        "matches": 678,
+        "win_rate": 51.5
+      },
+      {
+        "hero_name": "selena",
+        "matches": 636,
+        "win_rate": 51.9
+      },
+      {
+        "hero_name": "chou",
+        "matches": 615,
+        "win_rate": 52.4
+      },
+      {
+        "hero_name": "ling",
+        "matches": 422,
+        "win_rate": 47.6
+      },
+      {
+        "hero_name": "khufra",
+        "matches": 419,
+        "win_rate": 60.1
+      },
+      {
+        "hero_name": "hayabusa",
+        "matches": 368,
+        "win_rate": 50.8
+      }
+    ]
+  }
 }
