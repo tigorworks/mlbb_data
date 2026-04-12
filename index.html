@@ -196,6 +196,84 @@ padding:16px!important;
 .child-table th:nth-child(6),
 .child-table td:nth-child(6){width:50%;}
 
+/* MOBILE PLAYER CARDS (shown on small screens instead of table) */
+
+.mobile-player-cards{display:none;}
+
+.m-player-card{
+background:#252b3a;
+border-radius:10px;
+padding:14px;
+margin-bottom:10px;
+border-left:3px solid #f59e0b;
+}
+
+.m-player-header{
+display:flex;
+align-items:center;
+justify-content:space-between;
+flex-wrap:wrap;
+gap:6px;
+margin-bottom:10px;
+}
+
+.m-player-name{
+font-size:15px;
+font-weight:700;
+color:#e5e7eb;
+}
+
+.m-player-role{
+font-size:11px;
+font-weight:600;
+color:#facc15;
+}
+
+.m-stat-row{
+display:grid;
+grid-template-columns:1fr 1fr 1fr;
+gap:8px;
+margin-bottom:10px;
+}
+
+.m-stat-item{
+background:#1b202b;
+border-radius:6px;
+padding:8px;
+text-align:center;
+}
+
+.m-stat-label{
+font-size:10px;
+color:#6b7280;
+text-transform:uppercase;
+letter-spacing:0.5px;
+margin-bottom:2px;
+}
+
+.m-stat-value{
+font-size:13px;
+font-weight:700;
+color:#e5e7eb;
+}
+
+.m-hero-section{margin-top:8px;}
+
+.m-hero-title{
+font-size:11px;
+color:#6b7280;
+text-transform:uppercase;
+letter-spacing:0.5px;
+margin-bottom:6px;
+font-weight:600;
+}
+
+.m-hero-badges{
+display:grid;
+grid-template-columns:repeat(3,1fr);
+gap:4px;
+}
+
 /* HERO BADGES IN CHILD */
 
 .hero-badges{
@@ -500,6 +578,10 @@ margin-bottom:10px;
 
 .dataTables_filter input{width:100%;box-sizing:border-box;}
 
+/* CHILD TABLE: hide table, show cards on mobile */
+.child-table-desktop{display:none!important;}
+.mobile-player-cards{display:block!important;}
+
 #scoutModal{padding:0;}
 
 .modal-box{border-radius:0;min-height:100dvh;}
@@ -622,13 +704,19 @@ return await res.json();
 }catch(e){return null;}
 }));
 
-let html='<table class="child-table"><thead><tr><th>Player Name</th><th>Rank</th><th>WR (%)</th><th>Match</th><th>Current Heroes</th><th>All Heroes</th></tr></thead><tbody>';
+/* === DESKTOP TABLE === */
+let tableHtml='<table class="child-table child-table-desktop"><thead><tr><th>Player Name</th><th>Rank</th><th>WR (%)</th><th>Match</th><th>Current Heroes</th><th>All Heroes</th></tr></thead><tbody>';
+
+/* === MOBILE CARDS === */
+let cardsHtml='<div class="mobile-player-cards">';
 
 members.forEach((m,i)=>{
 const d=heroData[i];
-const role=d&&d.role?`<span style="font-size:11px;font-weight:600;color:#facc15;">${d.role}</span>`:'';
+const role=d&&d.role?d.role:'';
+const roleLabel=role?`<span style="font-size:11px;font-weight:600;color:#facc15;">${role}</span>`:'';
+const nick=d?d.nick:m.game_nick;
 const playerName=d
-?`<div style="display:flex;flex-direction:column;gap:4px;"><span>${d.nick} - ${m.game_id}</span>${role}</div>`
+?`<div style="display:flex;flex-direction:column;gap:4px;"><span>${d.nick} - ${m.game_id}</span>${roleLabel}</div>`
 :`${m.game_nick} - ${m.game_id}`;
 const currentHeroes=d?renderHeroBadges(d.hero_favorite.current_season,6):'-';
 const allHeroes=d?renderHeroBadges(d.hero_favorite.all_season,6):'-';
@@ -639,11 +727,44 @@ const matchCount=d?`${d.statistic.current_season.matches_count} / ${d.statistic.
 const rankCurrent=d?(d.rank_current||'-'):'-';
 const rankHighest=d?(d.rank_highest||'-'):'-';
 const rankInfo=d?`<span style="color:#facc15;font-weight:700;">${rankCurrent}</span> <span style="color:#6b7280;">/</span> <span style="color:#9ca3af;">${rankHighest}</span>`:'-';
-html+=`<tr><td>${playerName}</td><td style="white-space:nowrap;">${rankInfo}</td><td>${winRate}</td><td style="white-space:nowrap;">${matchCount}</td><td>${currentHeroes}</td><td>${allHeroes}</td></tr>`;
+
+/* Desktop row */
+tableHtml+=`<tr><td>${playerName}</td><td style="white-space:nowrap;">${rankInfo}</td><td>${winRate}</td><td style="white-space:nowrap;">${matchCount}</td><td>${currentHeroes}</td><td>${allHeroes}</td></tr>`;
+
+/* Mobile card */
+cardsHtml+=`<div class="m-player-card">
+<div class="m-player-header">
+<div class="m-player-name">${nick} - ${m.game_id}</div>
+${role?`<div class="m-player-role">${role}</div>`:''}
+</div>
+<div class="m-stat-row">
+<div class="m-stat-item">
+<div class="m-stat-label">Rank</div>
+<div class="m-stat-value">${rankInfo}</div>
+</div>
+<div class="m-stat-item">
+<div class="m-stat-label">WR (%)</div>
+<div class="m-stat-value">${winRate}</div>
+</div>
+<div class="m-stat-item">
+<div class="m-stat-label">Match</div>
+<div class="m-stat-value">${matchCount}</div>
+</div>
+</div>
+<div class="m-hero-section">
+<div class="m-hero-title">Current Heroes</div>
+<div class="m-hero-badges">${currentHeroes}</div>
+</div>
+<div class="m-hero-section" style="margin-top:10px;">
+<div class="m-hero-title">All Heroes</div>
+<div class="m-hero-badges">${allHeroes}</div>
+</div>
+</div>`;
 });
 
-html+='</tbody></table>';
-return '<div style="overflow-x:auto">'+html+'</div>';
+tableHtml+='</tbody></table>';
+cardsHtml+='</div>';
+return '<div style="overflow-x:auto">'+tableHtml+'</div>'+cardsHtml;
 }
 
 function buildMemberSearch(members){
