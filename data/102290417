@@ -1,0 +1,96 @@
+{
+  "id": "102290417",
+  "nick": "S&H . Ray~Hunt",
+  "zone_id": "2529",
+  "role": "goldlaner",
+  "rank_current": "1",
+  "rank_highest": "89",
+  "statistic": {
+    "current_season": {
+      "matches_count": 56,
+      "win_rate": 60.71,
+      "kda": 3.35,
+      "team_participation": 55.6,
+      "gold_per_min": 754,
+      "dmg_per_min": 5665,
+      "deaths_per_match": 5.82,
+      "turret_dmg_per_match": 8513
+    },
+    "all_season": {
+      "matches_count": 6152,
+      "win_rate": 63.09,
+      "kda": 3.4,
+      "team_participation": 56.4,
+      "gold_per_min": 661,
+      "dmg_per_min": 4067,
+      "deaths_per_match": 5.00,
+      "turret_dmg_per_match": 5196
+    }
+  },
+  "hero_favorite": {
+    "current_season": [
+      {
+        "hero_name": "obsidia",
+        "matches": 29,
+        "win_rate": 75.9
+      },
+      {
+        "hero_name": "eudora",
+        "matches": 10,
+        "win_rate": 60.0
+      },
+      {
+        "hero_name": "kagura",
+        "matches": 10,
+        "win_rate": 50.0
+      },
+      {
+        "hero_name": "hanabi",
+        "matches": 2,
+        "win_rate": 50.0
+      },
+      {
+        "hero_name": "zetian",
+        "matches": 1,
+        "win_rate": 0.0
+      },
+      {
+        "hero_name": "kadita",
+        "matches": 1,
+        "win_rate": 0.0
+      }
+    ],
+    "all_season": [
+      {
+        "hero_name": "natalia",
+        "matches": 1602,
+        "win_rate": 65.5
+      },
+      {
+        "hero_name": "fanny",
+        "matches": 915,
+        "win_rate": 47.8
+      },
+      {
+        "hero_name": "kagura",
+        "matches": 875,
+        "win_rate": 62.6
+      },
+      {
+        "hero_name": "guinevere",
+        "matches": 695,
+        "win_rate": 69.8
+      },
+      {
+        "hero_name": "layla",
+        "matches": 477,
+        "win_rate": 68.3
+      },
+      {
+        "hero_name": "karina",
+        "matches": 324,
+        "win_rate": 59.6
+      }
+    ]
+  }
+}
