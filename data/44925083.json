@@ -1,0 +1,96 @@
+{
+  "id": "44925083",
+  "nick": "SnobbyZ",
+  "zone_id": "2062",
+  "role": "jungler",
+  "rank_current": "1",
+  "rank_highest": "61",
+  "statistic": {
+    "current_season": {
+      "matches_count": 98,
+      "win_rate": 62.24,
+      "kda": 4.07,
+      "team_participation": 53.0,
+      "gold_per_min": 729,
+      "dmg_per_min": 4026,
+      "deaths_per_match": 4.11,
+      "turret_dmg_per_match": 7871
+    },
+    "all_season": {
+      "matches_count": 7504,
+      "win_rate": 56.77,
+      "kda": 3.52,
+      "team_participation": 53.5,
+      "gold_per_min": 646,
+      "dmg_per_min": 3575,
+      "deaths_per_match": 4.42,
+      "turret_dmg_per_match": 4568
+    }
+  },
+  "hero_favorite": {
+    "current_season": [
+      {
+        "hero_name": "sun",
+        "matches": 39,
+        "win_rate": 71.8
+      },
+      {
+        "hero_name": "silvanna",
+        "matches": 17,
+        "win_rate": 64.7
+      },
+      {
+        "hero_name": "cyclops",
+        "matches": 5,
+        "win_rate": 80.0
+      },
+      {
+        "hero_name": "yin",
+        "matches": 4,
+        "win_rate": 50.0
+      },
+      {
+        "hero_name": "harley",
+        "matches": 3,
+        "win_rate": 100.0
+      },
+      {
+        "hero_name": "alice",
+        "matches": 3,
+        "win_rate": 66.7
+      }
+    ],
+    "all_season": [
+      {
+        "hero_name": "harley",
+        "matches": 441,
+        "win_rate": 61.9
+      },
+      {
+        "hero_name": "vale",
+        "matches": 360,
+        "win_rate": 59.7
+      },
+      {
+        "hero_name": "cyclops",
+        "matches": 340,
+        "win_rate": 60.3
+      },
+      {
+        "hero_name": "lesley",
+        "matches": 305,
+        "win_rate": 57.7
+      },
+      {
+        "hero_name": "irithel",
+        "matches": 255,
+        "win_rate": 65.9
+      },
+      {
+        "hero_name": "eudora",
+        "matches": 249,
+        "win_rate": 59.4
+      }
+    ]
+  }
+}
