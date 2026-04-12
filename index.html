@@ -268,13 +268,36 @@ margin-bottom:6px;
 font-weight:600;
 }
 
+/* MOBILE HERO BADGES - full width grid */
 .m-hero-badges{
 display:grid;
 grid-template-columns:repeat(3,1fr);
-gap:4px;
+gap:6px;
+width:100%;
+box-sizing:border-box;
 }
 
-/* HERO BADGES IN CHILD */
+.m-hero-badges .hero-badge{
+font-size:13px;
+padding:8px 6px;
+white-space:normal;
+word-break:break-word;
+text-align:center;
+}
+
+.m-hero-badges .hero-badge .hero-badge-name{
+font-size:14px;
+font-weight:700;
+line-height:1.2;
+margin-bottom:2px;
+}
+
+.m-hero-badges .hero-badge .hero-badge-wr{
+font-size:11px;
+opacity:0.85;
+}
+
+/* HERO BADGES IN CHILD (desktop) */
 
 .hero-badges{
 display:grid;
@@ -598,6 +621,31 @@ margin-bottom:10px;
 
 .scout-table th,.scout-table td{padding:10px 8px;}
 
+/* === MOBILE HERO BADGES: full-width 3-col, bigger text === */
+.m-hero-badges{
+grid-template-columns:repeat(3,1fr);
+gap:6px;
+width:100%;
+}
+
+.m-hero-badges .hero-badge{
+font-size:12px;
+padding:10px 6px;
+border-radius:8px;
+white-space:normal;
+word-break:break-word;
+}
+
+.m-hero-badges .hero-badge .hero-badge-name{
+font-size:14px;
+font-weight:700;
+margin-bottom:3px;
+}
+
+.m-hero-badges .hero-badge .hero-badge-wr{
+font-size:12px;
+}
+
 }
 
 @media(max-width:480px){
@@ -607,6 +655,11 @@ body{padding:10px;}
 h1{font-size:18px;}
 
 .header-meta{font-size:12px;}
+
+/* On very small screens, drop to 2 columns so hero names aren't too cramped */
+.m-hero-badges{
+grid-template-columns:repeat(2,1fr);
+}
 
 }
 
@@ -720,6 +773,8 @@ const playerName=d
 :`${m.game_nick} - ${m.game_id}`;
 const currentHeroes=d?renderHeroBadges(d.hero_favorite.current_season,6):'-';
 const allHeroes=d?renderHeroBadges(d.hero_favorite.all_season,6):'-';
+const currentHeroesMobile=d?renderHeroBadgesMobile(d.hero_favorite.current_season,6):'-';
+const allHeroesMobile=d?renderHeroBadgesMobile(d.hero_favorite.all_season,6):'-';
 const wrCurrent=d?d.statistic.current_season.win_rate:null;
 const wrAll=d?d.statistic.all_season.win_rate:null;
 const winRate=d?`<span class="${winrateColor(wrCurrent)}">${wrCurrent}</span> / <span class="${winrateColor(wrAll)}">${wrAll}</span>`:'-';
@@ -731,7 +786,7 @@ const rankInfo=d?`<span style="color:#facc15;font-weight:700;">${rankCurrent}</s
 /* Desktop row */
 tableHtml+=`<tr><td>${playerName}</td><td style="white-space:nowrap;">${rankInfo}</td><td>${winRate}</td><td style="white-space:nowrap;">${matchCount}</td><td>${currentHeroes}</td><td>${allHeroes}</td></tr>`;
 
-/* Mobile card */
+/* Mobile card — uses renderHeroBadgesMobile for full-width badges */
 cardsHtml+=`<div class="m-player-card">
 <div class="m-player-header">
 <div class="m-player-name">${nick} - ${m.game_id}</div>
@@ -753,11 +808,11 @@ ${role?`<div class="m-player-role">${role}</div>`:''}
 </div>
 <div class="m-hero-section">
 <div class="m-hero-title">Current Heroes</div>
-<div class="m-hero-badges">${currentHeroes}</div>
+<div class="m-hero-badges">${currentHeroesMobile}</div>
 </div>
 <div class="m-hero-section" style="margin-top:10px;">
 <div class="m-hero-title">All Heroes</div>
-<div class="m-hero-badges">${allHeroes}</div>
+<div class="m-hero-badges">${allHeroesMobile}</div>
 </div>
 </div>`;
 });
@@ -775,10 +830,19 @@ combined+=`${m.full_name} ${m.game_id} ${m.game_nick} `;
 return combined;
 }
 
+/* Desktop hero badges (compact, nowrap) */
 function renderHeroBadges(heroes,limit){
 if(!heroes||heroes.length===0) return '-';
 const list=limit?heroes.slice(0,limit):heroes;
 return '<div class="hero-badges">'+list.map(h=>`<div class="hero-badge ${heroStrength(h.win_rate)}"><div class="hero-badge-name">${h.hero_name}</div><div class="hero-badge-wr">${h.win_rate}%</div></div>`).join('')+'</div>';
+}
+
+/* Mobile hero badges — same markup but wrapped in .m-hero-badges for full-width CSS */
+function renderHeroBadgesMobile(heroes,limit){
+if(!heroes||heroes.length===0) return '-';
+const list=limit?heroes.slice(0,limit):heroes;
+/* Re-use hero-badge color classes, but container is .m-hero-badges */
+return list.map(h=>`<div class="hero-badge ${heroStrength(h.win_rate)}"><div class="hero-badge-name">${h.hero_name}</div><div class="hero-badge-wr">${h.win_rate}%</div></div>`).join('');
 }
 
 function extractGameId(rawId){
