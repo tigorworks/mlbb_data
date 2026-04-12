@@ -1,0 +1,96 @@
+{
+  "id": "1096156118",
+  "nick": "S&H.awashead",
+  "zone_id": "13386",
+  "role": "midlaner",
+  "rank_current": "L3",
+  "rank_highest": "15",
+  "statistic": {
+    "current_season": {
+      "matches_count": 28,
+      "win_rate": 78.57,
+      "kda": 4.09,
+      "team_participation": 51.3,
+      "gold_per_min": 720,
+      "dmg_per_min": 4934,
+      "deaths_per_match": 4.04,
+      "turret_dmg_per_match": 5760
+    },
+    "all_season": {
+      "matches_count": 1858,
+      "win_rate": 56.24,
+      "kda": 3.17,
+      "team_participation": 43.4,
+      "gold_per_min": 644,
+      "dmg_per_min": 3370,
+      "deaths_per_match": 5.01,
+      "turret_dmg_per_match": 4005
+    }
+  },
+  "hero_favorite": {
+    "current_season": [
+      {
+        "hero_name": "valir",
+        "matches": 6,
+        "win_rate": 66.7
+      },
+      {
+        "hero_name": "granger",
+        "matches": 5,
+        "win_rate": 80.0
+      },
+      {
+        "hero_name": "cecilion",
+        "matches": 5,
+        "win_rate": 60.0
+      },
+      {
+        "hero_name": "zhask",
+        "matches": 4,
+        "win_rate": 100.0
+      },
+      {
+        "hero_name": "obsidia",
+        "matches": 3,
+        "win_rate": 100.0
+      },
+      {
+        "hero_name": "sora",
+        "matches": 2,
+        "win_rate": 100.0
+      }
+    ],
+    "all_season": [
+      {
+        "hero_name": "pharsa",
+        "matches": 205,
+        "win_rate": 52.2
+      },
+      {
+        "hero_name": "nana",
+        "matches": 133,
+        "win_rate": 63.2
+      },
+      {
+        "hero_name": "harley",
+        "matches": 132,
+        "win_rate": 58.3
+      },
+      {
+        "hero_name": "vale",
+        "matches": 129,
+        "win_rate": 58.1
+      },
+      {
+        "hero_name": "cecilion",
+        "matches": 121,
+        "win_rate": 62.0
+      },
+      {
+        "hero_name": "terizla",
+        "matches": 99,
+        "win_rate": 67.7
+      }
+    ]
+  }
+}
