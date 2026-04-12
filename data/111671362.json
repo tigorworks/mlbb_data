@@ -1,95 +1,96 @@
 {
-	"id":"111671362",
-	"nick": "Ayashi",
-	"zone_id":"2561",
-	"role":"goldlaner",
-	"rank_current":"48",
-	"rank_highest":"21",
-	"statistic":{
-		"current_season":{
-			"matches_count":217,
-			"win_rate":59.45,
-			"kda":3.04,
-			"team_participation":46.3,
-			"gold_per_min":689,
-			"dmg_per_min":4125,
-			"deaths_per_match":4.83,
-			"turret_dmg_per_match":6002
-		},
-		"all_season":{
-			"matches_count":12162,
-			"win_rate":53.07,
-			"kda":3.04,
-			"team_participation":51.0,
-			"gold_per_min":658,
-			"dmg_per_min":3385,
-			"deaths_per_match":4.62,
-			"turret_dmg_per_match":4910
-		},
-	"hero_favorite":{
-		"current_season":[
-			{
-				"hero_name":"yi sun-shin",
-				"matches":34,
-				"win_rate":61.8
-			},
-			{
-				"hero_name":"khaleed",
-				"matches":27,
-				"win_rate":70.4
-			},
-			{
-				"hero_name":"claude",
-				"matches":17,
-				"win_rate":58.8
-			},
-			{
-				"hero_name":"guinevere",
-				"matches":13,
-				"win_rate":61.5
-			},
-			{
-				"hero_name":"freya",
-				"matches":13,
-				"win_rate":53.8
-			},
-			{
-				"hero_name":"sora",
-				"matches":11,
-				"win_rate":45.5
-			}
-		],
-		"all_season":[
-			{
-				"hero_name":"dyrroth",
-				"matches":498,
-				"win_rate":54.8
-			},
-			{
-				"hero_name":"hayabusa",
-				"matches":471,
-				"win_rate":53.5
-			},
-			{
-				"hero_name":"lesley",
-				"matches":439,
-				"win_rate":53.8
-			},
-			{
-				"hero_name":"claude",
-				"matches":401,
-				"win_rate":55.9
-			},
-			{
-				"hero_name":"granger",
-				"matches":374,
-				"win_rate":55.6
-			},
-			{
-				"hero_name":"roger",
-				"matches":272,
-				"win_rate":46.3
-			}
-		]
-	}
+  "id": "111671362",
+  "nick": "Ayashi",
+  "zone_id": "2561",
+  "role": "goldlaner",
+  "rank_current": "48",
+  "rank_highest": "121",
+  "statistic": {
+    "current_season": {
+      "matches_count": 217,
+      "win_rate": 59.45,
+      "kda": 3.04,
+      "team_participation": 46.3,
+      "gold_per_min": 689,
+      "dmg_per_min": 4125,
+      "deaths_per_match": 4.83,
+      "turret_dmg_per_match": 6002
+    },
+    "all_season": {
+      "matches_count": 12162,
+      "win_rate": 53.07,
+      "kda": 3.04,
+      "team_participation": 51.0,
+      "gold_per_min": 658,
+      "dmg_per_min": 3385,
+      "deaths_per_match": 4.62,
+      "turret_dmg_per_match": 4910
+    }
+  },
+  "hero_favorite": {
+    "current_season": [
+      {
+        "hero_name": "yi sun-shin",
+        "matches": 34,
+        "win_rate": 61.8
+      },
+      {
+        "hero_name": "khaleed",
+        "matches": 27,
+        "win_rate": 70.4
+      },
+      {
+        "hero_name": "claude",
+        "matches": 17,
+        "win_rate": 58.8
+      },
+      {
+        "hero_name": "guinevere",
+        "matches": 13,
+        "win_rate": 61.5
+      },
+      {
+        "hero_name": "freya",
+        "matches": 13,
+        "win_rate": 53.8
+      },
+      {
+        "hero_name": "sora",
+        "matches": 11,
+        "win_rate": 45.5
+      }
+    ],
+    "all_season": [
+      {
+        "hero_name": "dyrroth",
+        "matches": 498,
+        "win_rate": 54.8
+      },
+      {
+        "hero_name": "hayabusa",
+        "matches": 471,
+        "win_rate": 53.5
+      },
+      {
+        "hero_name": "lesley",
+        "matches": 439,
+        "win_rate": 53.8
+      },
+      {
+        "hero_name": "claude",
+        "matches": 401,
+        "win_rate": 55.9
+      },
+      {
+        "hero_name": "granger",
+        "matches": 374,
+        "win_rate": 55.6
+      },
+      {
+        "hero_name": "roger",
+        "matches": 272,
+        "win_rate": 46.3
+      }
+    ]
+  }
 }
