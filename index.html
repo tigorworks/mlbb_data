@@ -1,5 +1,4 @@
 <!DOCTYPE html>
-
 <html lang="id">
 <head>
 <meta charset="UTF-8">
@@ -10,7 +9,6 @@
 <link rel="stylesheet" href="https://cdn.datatables.net/1.13.6/css/jquery.dataTables.min.css">
 
 <script src="https://code.jquery.com/jquery-3.7.0.min.js"></script>
-
 <script src="https://cdn.datatables.net/1.13.6/js/jquery.dataTables.min.js"></script>
 
 <style>
@@ -183,13 +181,18 @@ padding:16px!important;
 .child-table td{padding:8px;border-bottom:1px solid #2b3142;vertical-align:top;}
 
 .child-table th:nth-child(1),
-.child-table td:nth-child(1){white-space:nowrap;width:1%;}
-
+.child-table td:nth-child(1),
 .child-table th:nth-child(2),
-.child-table td:nth-child(2){white-space:nowrap;width:1%;}
-
+.child-table td:nth-child(2),
 .child-table th:nth-child(3),
-.child-table td:nth-child(3){white-space:nowrap;width:1%;}
+.child-table td:nth-child(3),
+.child-table th:nth-child(4),
+.child-table td:nth-child(4){white-space:nowrap;width:1%;}
+
+.child-table th:nth-child(5),
+.child-table td:nth-child(5),
+.child-table th:nth-child(6),
+.child-table td:nth-child(6){width:50%;}
 
 /* HERO BADGES IN CHILD */
 
@@ -524,7 +527,6 @@ h1{font-size:18px;}
 }
 
 </style>
-
 </head>
 
 <body>
@@ -565,7 +567,6 @@ Powered by <strong>Tigor M Manurung</strong>
 </div>
 
 <!-- SCOUTING MODAL -->
-
 <div id="scoutModal">
 <div class="modal-box">
 
@@ -617,14 +618,11 @@ return await res.json();
 }catch(e){return null;}
 }));
 
-let html='<table class="child-table"><thead><tr><th>Player Name</th><th>Win Rate</th><th>Match</th><th>Rank Info</th><th>Current Heroes</th><th>All Heroes</th></tr></thead><tbody>';
+let html='<table class="child-table"><thead><tr><th>Player Name</th><th>WR (%)</th><th>Match</th><th>Rank</th><th>Current Heroes</th><th>All Heroes</th></tr></thead><tbody>';
 
 members.forEach((m,i)=>{
 const d=heroData[i];
-const roleColors={'jungler':'#facc15','tank':'#3b82f6','fighter':'#f97316','assassin':'#ef4444','mage':'#a855f7','marksman':'#22c55e','support':'#06b6d4'};
-const roleKey=d&&d.role?Object.keys(roleColors).find(k=>d.role.toLowerCase().includes(k)):null;
-const roleColor=roleKey?roleColors[roleKey]:'#9ca3af';
-const role=d&&d.role?`<span style="font-size:11px;font-weight:600;color:${roleColor};">${d.role}</span>`:'';
+const role=d&&d.role?`<span style="font-size:11px;font-weight:600;color:#facc15;">${d.role}</span>`:'';
 const playerName=d
 ?`<div style="display:flex;flex-direction:column;gap:4px;"><span>${m.game_id} - ${d.nick}</span>${role}</div>`
 :`${m.game_id} - ${m.game_nick}`;
@@ -632,7 +630,7 @@ const currentHeroes=d?renderHeroBadges(d.hero_favorite.current_season,6):'-';
 const allHeroes=d?renderHeroBadges(d.hero_favorite.all_season,6):'-';
 const wrCurrent=d?d.statistic.current_season.win_rate:null;
 const wrAll=d?d.statistic.all_season.win_rate:null;
-const winRate=d?`<span class="${winrateColor(wrCurrent)}">${wrCurrent}%</span> / <span class="${winrateColor(wrAll)}">${wrAll}%</span>`:'-';
+const winRate=d?`<span class="${winrateColor(wrCurrent)}">${wrCurrent}</span> / <span class="${winrateColor(wrAll)}">${wrAll}</span>`:'-';
 const matchCount=d?`${d.statistic.current_season.matches_count} / ${d.statistic.all_season.matches_count}`:'-';
 const rankCurrent=d?(d.rank_current||'-'):'-';
 const rankHighest=d?(d.rank_highest||'-'):'-';
