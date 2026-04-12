@@ -1,0 +1,96 @@
+{
+  "id": "223908928",
+  "nick": "Pendar",
+  "zone_id": "9175",
+  "role": "roamer",
+  "rank_current": "12",
+  "rank_highest": "84",
+  "statistic": {
+    "current_season": {
+      "matches_count": 65,
+      "win_rate": 66.15,
+      "kda": 3.36,
+      "team_participation": 59.8,
+      "gold_per_min": 614,
+      "dmg_per_min": 2715,
+      "deaths_per_match": 5.52,
+      "turret_dmg_per_match": 938
+    },
+    "all_season": {
+      "matches_count": 6317,
+      "win_rate": 56.93,
+      "kda": 3.2,
+      "team_participation": 56.2,
+      "gold_per_min": 565,
+      "dmg_per_min": 2141,
+      "deaths_per_match": 4.80,
+      "turret_dmg_per_match": 1660
+    }
+  },
+  "hero_favorite": {
+    "current_season": [
+      {
+        "hero_name": "badang",
+        "matches": 31,
+        "win_rate": 67.7
+      },
+      {
+        "hero_name": "jawhead",
+        "matches": 11,
+        "win_rate": 72.7
+      },
+      {
+        "hero_name": "karrie",
+        "matches": 5,
+        "win_rate": 60.0
+      },
+      {
+        "hero_name": "minotaur",
+        "matches": 4,
+        "win_rate": 75.0
+      },
+      {
+        "hero_name": "clint",
+        "matches": 2,
+        "win_rate": 100.0
+      },
+      {
+        "hero_name": "cici",
+        "matches": 2,
+        "win_rate": 0.0
+      }
+    ],
+    "all_season": [
+      {
+        "hero_name": "angela",
+        "matches": 572,
+        "win_rate": 56.8
+      },
+      {
+        "hero_name": "minotaur",
+        "matches": 562,
+        "win_rate": 59.3
+      },
+      {
+        "hero_name": "grock",
+        "matches": 372,
+        "win_rate": 57.5
+      },
+      {
+        "hero_name": "gatotkaca",
+        "matches": 329,
+        "win_rate": 57.1
+      },
+      {
+        "hero_name": "badang",
+        "matches": 301,
+        "win_rate": 66.1
+      },
+      {
+        "hero_name": "lolita",
+        "matches": 286,
+        "win_rate": 59.4
+      }
+    ]
+  }
+}
