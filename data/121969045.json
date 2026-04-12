@@ -1,0 +1,96 @@
+{
+  "id": "121969045",
+  "nick": "S&H. Oozone",
+  "zone_id": "2608",
+  "role": "explaner",
+  "rank_current": "L3",
+  "rank_highest": "16",
+  "statistic": {
+    "current_season": {
+      "matches_count": 31,
+      "win_rate": 77.42,
+      "kda": 4.17,
+      "team_participation": 51.8,
+      "gold_per_min": 637,
+      "dmg_per_min": 2491,
+      "deaths_per_match": 4.65,
+      "turret_dmg_per_match": 1716
+    },
+    "all_season": {
+      "matches_count": 713,
+      "win_rate": 68.58,
+      "kda": 4.02,
+      "team_participation": 51.5,
+      "gold_per_min": 623,
+      "dmg_per_min": 2369,
+      "deaths_per_match": 4.72,
+      "turret_dmg_per_match": 2689
+    }
+  },
+  "hero_favorite": {
+    "current_season": [
+      {
+        "hero_name": "hylos",
+        "matches": 9,
+        "win_rate": 77.8
+      },
+      {
+        "hero_name": "tigreal",
+        "matches": 6,
+        "win_rate": 83.3
+      },
+      {
+        "hero_name": "phoveus",
+        "matches": 6,
+        "win_rate": 83.3
+      },
+      {
+        "hero_name": "cici",
+        "matches": 5,
+        "win_rate": 80.0
+      },
+      {
+        "hero_name": "uranus",
+        "matches": 4,
+        "win_rate": 25.0
+      },
+      {
+        "hero_name": "marcel",
+        "matches": 2,
+        "win_rate": 100.0
+      }
+    ],
+    "all_season": [
+      {
+        "hero_name": "tigreal",
+        "matches": 123,
+        "win_rate": 70.7
+      },
+      {
+        "hero_name": "hylos",
+        "matches": 113,
+        "win_rate": 71.7
+      },
+      {
+        "hero_name": "gatotkaca",
+        "matches": 56,
+        "win_rate": 73.2
+      },
+      {
+        "hero_name": "hilda",
+        "matches": 42,
+        "win_rate": 59.5
+      },
+      {
+        "hero_name": "cici",
+        "matches": 37,
+        "win_rate": 70.3
+      },
+      {
+        "hero_name": "edith",
+        "matches": 36,
+        "win_rate": 63.9
+      }
+    ]
+  }
+}
