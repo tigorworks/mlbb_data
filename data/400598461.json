@@ -1,0 +1,96 @@
+{
+  "id": "400598461",
+  "nick": "Embek Super",
+  "zone_id": "9839",
+  "role": "midlaner",
+  "rank_current": "24",
+  "rank_highest": "102",
+  "statistic": {
+    "current_season": {
+      "matches_count": 187,
+      "win_rate": 52.94,
+      "kda": 3.31,
+      "team_participation": 53.3,
+      "gold_per_min": 621,
+      "dmg_per_min": 3395,
+      "deaths_per_match": 4.13,
+      "turret_dmg_per_match": 3059
+    },
+    "all_season": {
+      "matches_count": 5037,
+      "win_rate": 55.53,
+      "kda": 3.39,
+      "team_participation": 54.8,
+      "gold_per_min": 631,
+      "dmg_per_min": 2868,
+      "deaths_per_match": 4.86,
+      "turret_dmg_per_match": 3076
+    }
+  },
+  "hero_favorite": {
+    "current_season": [
+      {
+        "hero_name": "lylia",
+        "matches": 47,
+        "win_rate": 48.9
+      },
+      {
+        "hero_name": "zetian",
+        "matches": 42,
+        "win_rate": 64.3
+      },
+      {
+        "hero_name": "hilda",
+        "matches": 18,
+        "win_rate": 50.0
+      },
+      {
+        "hero_name": "clint",
+        "matches": 16,
+        "win_rate": 62.5
+      },
+      {
+        "hero_name": "mathilda",
+        "matches": 12,
+        "win_rate": 50.0
+      },
+      {
+        "hero_name": "nana",
+        "matches": 9,
+        "win_rate": 77.8
+      }
+    ],
+    "all_season": [
+      {
+        "hero_name": "gatotkaca",
+        "matches": 657,
+        "win_rate": 58.0
+      },
+      {
+        "hero_name": "edith",
+        "matches": 587,
+        "win_rate": 61.0
+      },
+      {
+        "hero_name": "atlas",
+        "matches": 517,
+        "win_rate": 53.8
+      },
+      {
+        "hero_name": "nana",
+        "matches": 437,
+        "win_rate": 62.0
+      },
+      {
+        "hero_name": "harley",
+        "matches": 358,
+        "win_rate": 56.1
+      },
+      {
+        "hero_name": "hylos",
+        "matches": 260,
+        "win_rate": 57.3
+      }
+    ]
+  }
+}
