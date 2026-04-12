@@ -1,0 +1,96 @@
+{
+  "id": "74551937",
+  "nick": "BUDIONO SIREGAR",
+  "zone_id": "2139",
+  "role": "explaner",
+  "rank_current": "1",
+  "rank_highest": "93",
+  "statistic": {
+    "current_season": {
+      "matches_count": 19,
+      "win_rate": 63.16,
+      "kda": 3.37,
+      "team_participation": 55.5,
+      "gold_per_min": 662,
+      "dmg_per_min": 3594,
+      "deaths_per_match": 4.37,
+      "turret_dmg_per_match": 2170
+    },
+    "all_season": {
+      "matches_count": 11691,
+      "win_rate": 55.78,
+      "kda": 3.86,
+      "team_participation": 57.8,
+      "gold_per_min": 634,
+      "dmg_per_min": 3357,
+      "deaths_per_match": 4.23,
+      "turret_dmg_per_match": 3783
+    }
+  },
+  "hero_favorite": {
+    "current_season": [
+      {
+        "hero_name": "ruby",
+        "matches": 6,
+        "win_rate": 66.7
+      },
+      {
+        "hero_name": "lapu-lapu",
+        "matches": 3,
+        "win_rate": 66.7
+      },
+      {
+        "hero_name": "alice",
+        "matches": 2,
+        "win_rate": 100.0
+      },
+      {
+        "hero_name": "fredrinn",
+        "matches": 2,
+        "win_rate": 50.0
+      },
+      {
+        "hero_name": "hayabusa",
+        "matches": 1,
+        "win_rate": 100.0
+      },
+      {
+        "hero_name": "harley",
+        "matches": 1,
+        "win_rate": 100.0
+      }
+    ],
+    "all_season": [
+      {
+        "hero_name": "fanny",
+        "matches": 1467,
+        "win_rate": 54.4
+      },
+      {
+        "hero_name": "franco",
+        "matches": 1007,
+        "win_rate": 57.5
+      },
+      {
+        "hero_name": "chou",
+        "matches": 881,
+        "win_rate": 54.4
+      },
+      {
+        "hero_name": "lapu-lapu",
+        "matches": 808,
+        "win_rate": 60.5
+      },
+      {
+        "hero_name": "alice",
+        "matches": 631,
+        "win_rate": 64.0
+      },
+      {
+        "hero_name": "ling",
+        "matches": 592,
+        "win_rate": 55.2
+      }
+    ]
+  }
+}
