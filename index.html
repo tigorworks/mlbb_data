@@ -1,4 +1,5 @@
 <!DOCTYPE html>
+
 <html lang="id">
 <head>
 <meta charset="UTF-8">
@@ -9,6 +10,7 @@
 <link rel="stylesheet" href="https://cdn.datatables.net/1.13.6/css/jquery.dataTables.min.css">
 
 <script src="https://code.jquery.com/jquery-3.7.0.min.js"></script>
+
 <script src="https://cdn.datatables.net/1.13.6/js/jquery.dataTables.min.js"></script>
 
 <style>
@@ -527,6 +529,7 @@ h1{font-size:18px;}
 }
 
 </style>
+
 </head>
 
 <body>
@@ -567,6 +570,7 @@ Powered by <strong>Tigor M Manurung</strong>
 </div>
 
 <!-- SCOUTING MODAL -->
+
 <div id="scoutModal">
 <div class="modal-box">
 
@@ -618,14 +622,14 @@ return await res.json();
 }catch(e){return null;}
 }));
 
-let html='<table class="child-table"><thead><tr><th>Player Name</th><th>WR (%)</th><th>Match</th><th>Rank</th><th>Current Heroes</th><th>All Heroes</th></tr></thead><tbody>';
+let html='<table class="child-table"><thead><tr><th>Player Name</th><th>Rank</th><th>WR (%)</th><th>Match</th><th>Current Heroes</th><th>All Heroes</th></tr></thead><tbody>';
 
 members.forEach((m,i)=>{
 const d=heroData[i];
 const role=d&&d.role?`<span style="font-size:11px;font-weight:600;color:#facc15;">${d.role}</span>`:'';
 const playerName=d
-?`<div style="display:flex;flex-direction:column;gap:4px;"><span>${m.game_id} - ${d.nick}</span>${role}</div>`
-:`${m.game_id} - ${m.game_nick}`;
+?`<div style="display:flex;flex-direction:column;gap:4px;"><span>${d.nick} - ${m.game_id}</span>${role}</div>`
+:`${m.game_nick} - ${m.game_id}`;
 const currentHeroes=d?renderHeroBadges(d.hero_favorite.current_season,6):'-';
 const allHeroes=d?renderHeroBadges(d.hero_favorite.all_season,6):'-';
 const wrCurrent=d?d.statistic.current_season.win_rate:null;
@@ -635,7 +639,7 @@ const matchCount=d?`${d.statistic.current_season.matches_count} / ${d.statistic.
 const rankCurrent=d?(d.rank_current||'-'):'-';
 const rankHighest=d?(d.rank_highest||'-'):'-';
 const rankInfo=d?`<span style="color:#facc15;font-weight:700;">${rankCurrent}</span> <span style="color:#6b7280;">/</span> <span style="color:#9ca3af;">${rankHighest}</span>`:'-';
-html+=`<tr><td>${playerName}</td><td>${winRate}</td><td style="white-space:nowrap;">${matchCount}</td><td style="white-space:nowrap;">${rankInfo}</td><td>${currentHeroes}</td><td>${allHeroes}</td></tr>`;
+html+=`<tr><td>${playerName}</td><td style="white-space:nowrap;">${rankInfo}</td><td>${winRate}</td><td style="white-space:nowrap;">${matchCount}</td><td>${currentHeroes}</td><td>${allHeroes}</td></tr>`;
 });
 
 html+='</tbody></table>';
