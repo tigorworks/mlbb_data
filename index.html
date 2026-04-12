@@ -182,6 +182,15 @@ padding:16px!important;
 .child-table th{background:#252b3a;padding:8px;text-align:left;}
 .child-table td{padding:8px;border-bottom:1px solid #2b3142;vertical-align:top;}
 
+.child-table th:nth-child(1),
+.child-table td:nth-child(1){white-space:nowrap;width:1%;}
+
+.child-table th:nth-child(2),
+.child-table td:nth-child(2){white-space:nowrap;width:1%;}
+
+.child-table th:nth-child(3),
+.child-table td:nth-child(3){white-space:nowrap;width:1%;}
+
 /* HERO BADGES IN CHILD */
 
 .hero-badges{
@@ -486,8 +495,6 @@ margin-bottom:10px;
 
 .dataTables_filter input{width:100%;box-sizing:border-box;}
 
-.hero-badges{grid-template-columns:repeat(2,1fr);}
-
 #scoutModal{padding:0;}
 
 .modal-box{border-radius:0;min-height:100dvh;}
@@ -513,8 +520,6 @@ body{padding:10px;}
 h1{font-size:18px;}
 
 .header-meta{font-size:12px;}
-
-.hero-badges{grid-template-columns:1fr;}
 
 }
 
@@ -612,20 +617,27 @@ return await res.json();
 }catch(e){return null;}
 }));
 
-let html='<table class="child-table"><thead><tr><th>Full Name</th><th>Player Name</th><th>Win Rate</th><th>Rank Info</th><th>Current Heroes</th><th>All Heroes</th></tr></thead><tbody>';
+let html='<table class="child-table"><thead><tr><th>Player Name</th><th>Win Rate</th><th>Match</th><th>Rank Info</th><th>Current Heroes</th><th>All Heroes</th></tr></thead><tbody>';
 
 members.forEach((m,i)=>{
 const d=heroData[i];
-const playerName=d?`${m.game_id} - ${d.nick}`:`${m.game_id} - ${m.game_nick}`;
-const currentHeroes=d?renderHeroBadges(d.hero_favorite.current_season):'-';
-const allHeroes=d?renderHeroBadges(d.hero_favorite.all_season):'-';
+const roleColors={'jungler':'#facc15','tank':'#3b82f6','fighter':'#f97316','assassin':'#ef4444','mage':'#a855f7','marksman':'#22c55e','support':'#06b6d4'};
+const roleKey=d&&d.role?Object.keys(roleColors).find(k=>d.role.toLowerCase().includes(k)):null;
+const roleColor=roleKey?roleColors[roleKey]:'#9ca3af';
+const role=d&&d.role?`<span style="font-size:11px;font-weight:600;color:${roleColor};">${d.role}</span>`:'';
+const playerName=d
+?`<div style="display:flex;flex-direction:column;gap:4px;"><span>${m.game_id} - ${d.nick}</span>${role}</div>`
+:`${m.game_id} - ${m.game_nick}`;
+const currentHeroes=d?renderHeroBadges(d.hero_favorite.current_season,6):'-';
+const allHeroes=d?renderHeroBadges(d.hero_favorite.all_season,6):'-';
 const wrCurrent=d?d.statistic.current_season.win_rate:null;
 const wrAll=d?d.statistic.all_season.win_rate:null;
 const winRate=d?`<span class="${winrateColor(wrCurrent)}">${wrCurrent}%</span> / <span class="${winrateColor(wrAll)}">${wrAll}%</span>`:'-';
+const matchCount=d?`${d.statistic.current_season.matches_count} / ${d.statistic.all_season.matches_count}`:'-';
 const rankCurrent=d?(d.rank_current||'-'):'-';
 const rankHighest=d?(d.rank_highest||'-'):'-';
 const rankInfo=d?`<span style="color:#facc15;font-weight:700;">${rankCurrent}</span> <span style="color:#6b7280;">/</span> <span style="color:#9ca3af;">${rankHighest}</span>`:'-';
-html+=`<tr><td>${m.full_name}</td><td>${playerName}</td><td>${winRate}</td><td style="white-space:nowrap;">${rankInfo}</td><td>${currentHeroes}</td><td>${allHeroes}</td></tr>`;
+html+=`<tr><td>${playerName}</td><td>${winRate}</td><td style="white-space:nowrap;">${matchCount}</td><td style="white-space:nowrap;">${rankInfo}</td><td>${currentHeroes}</td><td>${allHeroes}</td></tr>`;
 });
 
 html+='</tbody></table>';
@@ -640,9 +652,10 @@ combined+=`${m.full_name} ${m.game_id} ${m.game_nick} `;
 return combined;
 }
 
-function renderHeroBadges(heroes){
+function renderHeroBadges(heroes,limit){
 if(!heroes||heroes.length===0) return '-';
-return '<div class="hero-badges">'+heroes.map(h=>`<div class="hero-badge ${heroStrength(h.win_rate)}"><div class="hero-badge-name">${h.hero_name}</div><div class="hero-badge-wr">${h.win_rate}%</div></div>`).join('')+'</div>';
+const list=limit?heroes.slice(0,limit):heroes;
+return '<div class="hero-badges">'+list.map(h=>`<div class="hero-badge ${heroStrength(h.win_rate)}"><div class="hero-badge-name">${h.hero_name}</div><div class="hero-badge-wr">${h.win_rate}%</div></div>`).join('')+'</div>';
 }
 
 function extractGameId(rawId){
@@ -739,12 +752,14 @@ return `<tr>
 <div class="player-name">${p.nick}</div>
 <span class="role ${roleClass(p.role)}">${p.role}</span>
 </div>
+<div class="player-id">${p.full_name||''}</div>
 <div class="player-id">ID : ${p.id}</div>
 <div class="index-box ${tier[1]}">Performance Index : ${tier[0]}</div>
 </div>
 </td>
 <td>
 <div class="stat-box">
+<div class="stat-label">Rank</div><div class="stat-value" style="color:#facc15;">${p.rank_current||'-'}</div>
 <div class="stat-label">Match</div><div class="stat-value">${cs.matches_count}</div>
 <div class="stat-label">Win Rate</div><div class="stat-value ${winrateColor(cs.win_rate)}">${cs.win_rate}%</div>
 <div class="stat-label">KDA</div><div class="stat-value">${cs.kda}</div>
@@ -754,6 +769,7 @@ return `<tr>
 </td>
 <td>
 <div class="stat-box">
+<div class="stat-label">Rank</div><div class="stat-value" style="color:#9ca3af;">${p.rank_highest||'-'}</div>
 <div class="stat-label">Match</div><div class="stat-value">${as.matches_count}</div>
 <div class="stat-label">Win Rate</div><div class="stat-value ${winrateColor(as.win_rate)}">${as.win_rate}%</div>
 <div class="stat-label">KDA</div><div class="stat-value">${as.kda}</div>
@@ -781,7 +797,8 @@ if(!gameId) return null;
 try{
 const res=await fetch('data/'+gameId[0]+'.json?v='+Date.now());
 if(!res.ok) return null;
-return await res.json();
+const data=await res.json();
+return {...data,full_name:m.full_name};
 }catch(e){return null;}
 }));
 
