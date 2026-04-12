@@ -1,0 +1,96 @@
+{
+  "id": "109269383",
+  "nick": "hong's",
+  "zone_id": "2548",
+  "role": "roamer",
+  "rank_current": "1",
+  "rank_highest": "11",
+  "statistic": {
+    "current_season": {
+      "matches_count": 74,
+      "win_rate": 66.22,
+      "kda": 3.08,
+      "team_participation": 52.3,
+      "gold_per_min": 647,
+      "dmg_per_min": 3303,
+      "deaths_per_match": 5.45,
+      "turret_dmg_per_match": 2645
+    },
+    "all_season": {
+      "matches_count": 1662,
+      "win_rate": 55.17,
+      "kda": 2.84,
+      "team_participation": 46.1,
+      "gold_per_min": 614,
+      "dmg_per_min": 3179,
+      "deaths_per_match": 5.33,
+      "turret_dmg_per_match": 4152
+    }
+  },
+  "hero_favorite": {
+    "current_season": [
+      {
+        "hero_name": "belerick",
+        "matches": 46,
+        "win_rate": 73.9
+      },
+      {
+        "hero_name": "esmeralda",
+        "matches": 15,
+        "win_rate": 66.7
+      },
+      {
+        "hero_name": "hanabi",
+        "matches": 9,
+        "win_rate": 44.4
+      },
+      {
+        "hero_name": "popol and kupa",
+        "matches": 3,
+        "win_rate": 66.7
+      },
+      {
+        "hero_name": "eudora",
+        "matches": 3,
+        "win_rate": 33.3
+      },
+      {
+        "hero_name": "franco",
+        "matches": 2,
+        "win_rate": 50.0
+      }
+    ],
+    "all_season": [
+      {
+        "hero_name": "hanabi",
+        "matches": 207,
+        "win_rate": 65.7
+      },
+      {
+        "hero_name": "layla",
+        "matches": 185,
+        "win_rate": 62.7
+      },
+      {
+        "hero_name": "balmond",
+        "matches": 134,
+        "win_rate": 58.2
+      },
+      {
+        "hero_name": "belerick",
+        "matches": 124,
+        "win_rate": 67.7
+      },
+      {
+        "hero_name": "eudora",
+        "matches": 119,
+        "win_rate": 56.3
+      },
+      {
+        "hero_name": "nana",
+        "matches": 97,
+        "win_rate": 64.9
+      }
+    ]
+  }
+}
