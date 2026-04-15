@@ -1,0 +1,96 @@
+{
+  "id": "123820325",
+  "nick": "Quinzell",
+  "zone_id": "2629",
+  "role": "jungler",
+  "rank_current": "44",
+  "rank_highest": "19",
+  "statistic": {
+    "current_season": {
+      "matches_count": 271,
+      "win_rate": 55.72,
+      "kda": 2.76,
+      "team_participation": 49.2,
+      "gold_per_min": 639,
+      "dmg_per_min": 3642,
+      "deaths_per_match": 5.44,
+      "turret_dmg_per_match": 4780
+    },
+    "all_season": {
+      "matches_count": 15414,
+      "win_rate": 53.71,
+      "kda": 2.87,
+      "team_participation": 49.6,
+      "gold_per_min": 639,
+      "dmg_per_min": 3003,
+      "deaths_per_match": 4.75,
+      "turret_dmg_per_match": 4598
+    }
+  },
+  "hero_favorite": {
+    "current_season": [
+      {
+        "hero_name": "Guinevere",
+        "matches": 23,
+        "win_rate": 73.9
+      },
+      {
+        "hero_name": "Freya",
+        "matches": 19,
+        "win_rate": 63.2
+      },
+      {
+        "hero_name": "Gusion",
+        "matches": 18,
+        "win_rate": 50.0
+      },
+      {
+        "hero_name": "Jawhead",
+        "matches": 15,
+        "win_rate": 66.7
+      },
+      {
+        "hero_name": "Aamon",
+        "matches": 13,
+        "win_rate": 46.2
+      },
+      {
+        "hero_name": "Saber",
+        "matches": 12,
+        "win_rate": 75.0
+      }
+    ],
+    "all_season": [
+      {
+        "hero_name": "Gusion",
+        "matches": 1214,
+        "win_rate": 52.2
+      },
+      {
+        "hero_name": "Masha",
+        "matches": 1074,
+        "win_rate": 65.5
+      },
+      {
+        "hero_name": "Selena",
+        "matches": 707,
+        "win_rate": 54.5
+      },
+      {
+        "hero_name": "Hayabusa",
+        "matches": 553,
+        "win_rate": 55.7
+      },
+      {
+        "hero_name": "Franco",
+        "matches": 460,
+        "win_rate": 51.5
+      },
+      {
+        "hero_name": "Lesley",
+        "matches": 346,
+        "win_rate": 48.0
+      }
+    ]
+  }
+}
