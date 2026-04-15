@@ -1,0 +1,96 @@
+{
+  "id": "49628515",
+  "nick": "•RecKha•",
+  "zone_id": "2081",
+  "role": "midlaner",
+  "rank_current": "26",
+  "rank_highest": "107",
+  "statistic": {
+    "current_season": {
+      "matches_count": 284,
+      "win_rate": 51.76,
+      "kda": 3.57,
+      "team_participation": 46.1,
+      "gold_per_min": 636,
+      "dmg_per_min": 3601,
+      "deaths_per_match": 3.68,
+      "turret_dmg_per_match": 5987
+    },
+    "all_season": {
+      "matches_count": 17146,
+      "win_rate": 50.45,
+      "kda": 3.84,
+      "team_participation": 52.0,
+      "gold_per_min": 560,
+      "dmg_per_min": 2652,
+      "deaths_per_match": 3.40,
+      "turret_dmg_per_match": 2730
+    }
+  },
+  "hero_favorite": {
+    "current_season": [
+      {
+        "hero_name": "Fanny",
+        "matches": 82,
+        "win_rate": 54.9
+      },
+      {
+        "hero_name": "Karrie",
+        "matches": 48,
+        "win_rate": 56.2
+      },
+      {
+        "hero_name": "Gusion",
+        "matches": 31,
+        "win_rate": 54.8
+      },
+      {
+        "hero_name": "Melissa",
+        "matches": 15,
+        "win_rate": 60.0
+      },
+      {
+        "hero_name": "Hanabi",
+        "matches": 14,
+        "win_rate": 71.4
+      },
+      {
+        "hero_name": "Moskov",
+        "matches": 14,
+        "win_rate": 42.9
+      }
+    ],
+    "all_season": [
+      {
+        "hero_name": "Fanny",
+        "matches": 2460,
+        "win_rate": 48.2
+      },
+      {
+        "hero_name": "Gusion",
+        "matches": 1243,
+        "win_rate": 49.6
+      },
+      {
+        "hero_name": "Selena",
+        "matches": 713,
+        "win_rate": 52.2
+      },
+      {
+        "hero_name": "Franco",
+        "matches": 672,
+        "win_rate": 47.5
+      },
+      {
+        "hero_name": "Lancelot",
+        "matches": 641,
+        "win_rate": 47.9
+      },
+      {
+        "hero_name": "Ling",
+        "matches": 569,
+        "win_rate": 51.0
+      }
+    ]
+  }
+}
