@@ -1,0 +1,96 @@
+{
+  "id": "31371091",
+  "nick": "Rizkay",
+  "zone_id": "2043",
+  "role": "roamer",
+  "rank_current": "1",
+  "rank_highest": "58",
+  "statistic": {
+    "current_season": {
+      "matches_count": 96,
+      "win_rate": 51.04,
+      "kda": 2.51,
+      "team_participation": 54.4,
+      "gold_per_min": 627,
+      "dmg_per_min": 2710,
+      "deaths_per_match": 6.53,
+      "turret_dmg_per_match": 4337
+    },
+    "all_season": {
+      "matches_count": 4975,
+      "win_rate": 57.35,
+      "kda": 3.22,
+      "team_participation": 54.1,
+      "gold_per_min": 562,
+      "dmg_per_min": 2669,
+      "deaths_per_match": 4.74,
+      "turret_dmg_per_match": 4271
+    }
+  },
+  "hero_favorite": {
+    "current_season": [
+      {
+        "hero_name": "Angela",
+        "matches": 796,
+        "win_rate": 64.3
+      },
+      {
+        "hero_name": "Claude",
+        "matches": 426,
+        "win_rate": 53.1
+      },
+      {
+        "hero_name": "Alpha",
+        "matches": 286,
+        "win_rate": 54.2
+      },
+      {
+        "hero_name": "Eudora",
+        "matches": 257,
+        "win_rate": 54.1
+      },
+      {
+        "hero_name": "Gord",
+        "matches": 230,
+        "win_rate": 51.7
+      },
+      {
+        "hero_name": "Aurora",
+        "matches": 202,
+        "win_rate": 42.6
+      }
+    ],
+    "all_season": [
+      {
+        "hero_name": "Tigreal",
+        "matches": 23,
+        "win_rate": 52.2
+      },
+      {
+        "hero_name": "Gatotkaca",
+        "matches": 12,
+        "win_rate": 50.0
+      },
+      {
+        "hero_name": "Hanabi",
+        "matches": 10,
+        "win_rate": 70.0
+      },
+      {
+        "hero_name": "Belerick",
+        "matches": 8,
+        "win_rate": 25.0
+      },
+      {
+        "hero_name": "Miya",
+        "matches": 6,
+        "win_rate": 66.7
+      },
+      {
+        "hero_name": "Freya",
+        "matches": 6,
+        "win_rate": 50.0
+      }
+    ]
+  }
+}
