@@ -1,0 +1,96 @@
+{
+  "id": "101813909",
+  "nick": "Ashsensen",
+  "zone_id": "2535",
+  "role": "roamer",
+  "rank_current": "19",
+  "rank_highest": "102",
+  "statistic": {
+    "current_season": {
+      "matches_count": 152,
+      "win_rate": 54.61,
+      "kda": 2.37,
+      "team_participation": 53.6,
+      "gold_per_min": 592,
+      "dmg_per_min": 2667,
+      "deaths_per_match": 6.66,
+      "turret_dmg_per_match": 683
+    },
+    "all_season": {
+      "matches_count": 11530,
+      "win_rate": 52.02,
+      "kda": 2.8,
+      "team_participation": 52.6,
+      "gold_per_min": 515,
+      "dmg_per_min": 2156,
+      "deaths_per_match": 5.09,
+      "turret_dmg_per_match": 1384
+    }
+  },
+  "hero_favorite": {
+    "current_season": [
+      {
+        "hero_name": "Badang",
+        "matches": 44,
+        "win_rate": 61.4
+      },
+      {
+        "hero_name": "Grock",
+        "matches": 25,
+        "win_rate": 56.0
+      },
+      {
+        "hero_name": "Hilda",
+        "matches": 13,
+        "win_rate": 69.2
+      },
+      {
+        "hero_name": "Floryn",
+        "matches": 11,
+        "win_rate": 72.7
+      },
+      {
+        "hero_name": "Pharsa",
+        "matches": 9,
+        "win_rate": 22.2
+      },
+      {
+        "hero_name": "Minotaur",
+        "matches": 7,
+        "win_rate": 71.4
+      }
+    ],
+    "all_season": [
+      {
+        "hero_name": "Balmond",
+        "matches": 983,
+        "win_rate": 46.1
+      },
+      {
+        "hero_name": "Grock",
+        "matches": 900,
+        "win_rate": 51.7
+      },
+      {
+        "hero_name": "Lolita",
+        "matches": 763,
+        "win_rate": 56.4
+      },
+      {
+        "hero_name": "Khufra",
+        "matches": 751,
+        "win_rate": 52.6
+      },
+      {
+        "hero_name": "Angela",
+        "matches": 503,
+        "win_rate": 51.3
+      },
+      {
+        "hero_name": "Vexana",
+        "matches": 454,
+        "win_rate": 54.2
+      }
+    ]
+  }
+}
