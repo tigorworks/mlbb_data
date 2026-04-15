@@ -1088,12 +1088,12 @@ document.getElementById("scoutModal").addEventListener("click",function(e){
 if(e.target===this) closeModal();
 });
 
-/* Row selection: click to toggle highlight */
+/* Row selection: click to toggle highlight (disabled when hide others is active) */
 document.getElementById("scoutTableBody").addEventListener("click",function(e){
+if(hideOthersActive) return;
 const tr=e.target.closest("tr");
 if(!tr) return;
 tr.classList.toggle("scout-selected");
-if(hideOthersActive) applyHideOthers();
 updateSelectionBar();
 });
 
@@ -1101,8 +1101,8 @@ updateSelectionBar();
 document.getElementById("scoutModal").addEventListener("click",function(e){
 const card=e.target.closest(".m-player-card");
 if(!card) return;
+if(hideOthersActive) return;
 card.classList.toggle("scout-selected");
-if(hideOthersActive) applyHideOthers();
 updateSelectionBar();
 });
 
