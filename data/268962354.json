@@ -1,0 +1,96 @@
+{
+  "id": "268962354",
+  "nick": "iWayKyibooe",
+  "zone_id": "9406",
+  "role": "roamer",
+  "rank_current": "1",
+  "rank_highest": "5",
+  "statistic": {
+    "current_season": {
+      "matches_count": 129,
+      "win_rate": 51.16,
+      "kda": 2.93,
+      "team_participation": 54.0,
+      "gold_per_min": 652,
+      "dmg_per_min": 3772,
+      "deaths_per_match": 5.93,
+      "turret_dmg_per_match": 1800
+    },
+    "all_season": {
+      "matches_count": 7312,
+      "win_rate": 54.39,
+      "kda": 2.73,
+      "team_participation": 54.2,
+      "gold_per_min": 667,
+      "dmg_per_min": 3753,
+      "deaths_per_match": 5.96,
+      "turret_dmg_per_match": 2601
+    }
+  },
+  "hero_favorite": {
+    "current_season": [
+      {
+        "hero_name": "Tigreal",
+        "matches": 19,
+        "win_rate": 68.4
+      },
+      {
+        "hero_name": "Hayabusa",
+        "matches": 15,
+        "win_rate": 73.3
+      },
+      {
+        "hero_name": "Lukas",
+        "matches": 8,
+        "win_rate": 50.0
+      },
+      {
+        "hero_name": "Yi Sun-shin",
+        "matches": 7,
+        "win_rate": 57.1
+      },
+      {
+        "hero_name": "Yin",
+        "matches": 6,
+        "win_rate": 50.0
+      },
+      {
+        "hero_name": "Marcel",
+        "matches": 5,
+        "win_rate": 60.0
+      }
+    ],
+    "all_season": [
+      {
+        "hero_name": "Yin",
+        "matches": 722,
+        "win_rate": 63.3
+      },
+      {
+        "hero_name": "Suyou",
+        "matches": 413,
+        "win_rate": 58.8
+      },
+      {
+        "hero_name": "Cici",
+        "matches": 376,
+        "win_rate": 59.8
+      },
+      {
+        "hero_name": "Phoveus",
+        "matches": 285,
+        "win_rate": 61.1
+      },
+      {
+        "hero_name": "Cecilion",
+        "matches": 252,
+        "win_rate": 53.6
+      },
+      {
+        "hero_name": "Melissa",
+        "matches": 243,
+        "win_rate": 55.6
+      }
+    ]
+  }
+}
