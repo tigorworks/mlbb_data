@@ -1,0 +1,96 @@
+{
+  "id": "259314715",
+  "nick": "Lefere.",
+  "zone_id": "9369",
+  "role": "midlaner",
+  "rank_current": "43",
+  "rank_highest": "75",
+  "statistic": {
+    "current_season": {
+      "matches_count": 204,
+      "win_rate": 57.35,
+      "kda": 3.96,
+      "team_participation": 50.8,
+      "gold_per_min": 653,
+      "dmg_per_min": 3878,
+      "deaths_per_match": 4.30,
+      "turret_dmg_per_match": 5411
+    },
+    "all_season": {
+      "matches_count": 10996,
+      "win_rate": 53.45,
+      "kda": 4.15,
+      "team_participation": 52.8,
+      "gold_per_min": 652,
+      "dmg_per_min": 3386,
+      "deaths_per_match": 3.76,
+      "turret_dmg_per_match": 3973
+    }
+  },
+  "hero_favorite": {
+    "current_season": [
+      {
+        "hero_name": "Zhuxin",
+        "matches": 14,
+        "win_rate": 42.9
+      },
+      {
+        "hero_name": "Clint",
+        "matches": 12,
+        "win_rate": 66.7
+      },
+      {
+        "hero_name": "Tigreal",
+        "matches": 12,
+        "win_rate": 66.7
+      },
+      {
+        "hero_name": "Natan",
+        "matches": 10,
+        "win_rate": 50.0
+      },
+      {
+        "hero_name": "Gord",
+        "matches": 8,
+        "win_rate": 75.0
+      },
+      {
+        "hero_name": "Pharsa",
+        "matches": 8,
+        "win_rate": 62.5
+      }
+    ],
+    "all_season": [
+      {
+        "hero_name": "Johnson",
+        "matches": 966,
+        "win_rate": 58.4
+      },
+      {
+        "hero_name": "Eudora",
+        "matches": 730,
+        "win_rate": 52.9
+      },
+      {
+        "hero_name": "Vale",
+        "matches": 671,
+        "win_rate": 58.7
+      },
+      {
+        "hero_name": "Lesley",
+        "matches": 544,
+        "win_rate": 56.1
+      },
+      {
+        "hero_name": "Cecilion",
+        "matches": 465,
+        "win_rate": 59.8
+      },
+      {
+        "hero_name": "Saber",
+        "matches": 337,
+        "win_rate": 57.0
+      }
+    ]
+  }
+}
