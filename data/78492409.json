@@ -1,0 +1,96 @@
+{
+  "id": "78492409",
+  "nick": "EL HAJI 888",
+  "zone_id": "2153",
+  "role": "midlaner",
+  "rank_current": "53",
+  "rank_highest": "109",
+  "statistic": {
+    "current_season": {
+      "matches_count": 258,
+      "win_rate": 60.47,
+      "kda": 3.14,
+      "team_participation": 46.0,
+      "gold_per_min": 678,
+      "dmg_per_min": 3977,
+      "deaths_per_match": 4.56,
+      "turret_dmg_per_match": 5917
+    },
+    "all_season": {
+      "matches_count": 21857,
+      "win_rate": 55.21,
+      "kda": 3.28,
+      "team_participation": 52.4,
+      "gold_per_min": 631,
+      "dmg_per_min": 3276,
+      "deaths_per_match": 4.17,
+      "turret_dmg_per_match": 3469
+    }
+  },
+  "hero_favorite": {
+    "current_season": [
+      {
+        "hero_name": "Moskov",
+        "matches": 55,
+        "win_rate": 56.4
+      },
+      {
+        "hero_name": "Novaria",
+        "matches": 27,
+        "win_rate": 55.6
+      },
+      {
+        "hero_name": "Hayabusa",
+        "matches": 21,
+        "win_rate": 81.0
+      },
+      {
+        "hero_name": "Hanabi",
+        "matches": 17,
+        "win_rate": 70.6
+      },
+      {
+        "hero_name": "Kadita",
+        "matches": 9,
+        "win_rate": 66.7
+      },
+      {
+        "hero_name": "Granger",
+        "matches": 9,
+        "win_rate": 55.6
+      }
+    ],
+    "all_season": [
+      {
+        "hero_name": "Lancelot",
+        "matches": 1409,
+        "win_rate": 55.6
+      },
+      {
+        "hero_name": "Karrie",
+        "matches": 1337,
+        "win_rate": 55.4
+      },
+      {
+        "hero_name": "Moskov",
+        "matches": 1212,
+        "win_rate": 57.1
+      },
+      {
+        "hero_name": "Claude",
+        "matches": 1182,
+        "win_rate": 65.3
+      },
+      {
+        "hero_name": "Ling",
+        "matches": 978,
+        "win_rate": 66.9
+      },
+      {
+        "hero_name": "Chou",
+        "matches": 914,
+        "win_rate": 51.2
+      }
+    ]
+  }
+}
