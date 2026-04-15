@@ -1,5 +1,4 @@
 <!DOCTYPE html>
-
 <html lang="id">
 <head>
 <meta charset="UTF-8">
@@ -10,7 +9,6 @@
 <link rel="stylesheet" href="https://cdn.datatables.net/1.13.6/css/jquery.dataTables.min.css">
 
 <script src="https://code.jquery.com/jquery-3.7.0.min.js"></script>
-
 <script src="https://cdn.datatables.net/1.13.6/js/jquery.dataTables.min.js"></script>
 
 <style>
@@ -268,36 +266,13 @@ margin-bottom:6px;
 font-weight:600;
 }
 
-/* MOBILE HERO BADGES - full width grid */
 .m-hero-badges{
 display:grid;
 grid-template-columns:repeat(3,1fr);
-gap:6px;
-width:100%;
-box-sizing:border-box;
+gap:4px;
 }
 
-.m-hero-badges .hero-badge{
-font-size:13px;
-padding:8px 6px;
-white-space:normal;
-word-break:break-word;
-text-align:center;
-}
-
-.m-hero-badges .hero-badge .hero-badge-name{
-font-size:14px;
-font-weight:700;
-line-height:1.2;
-margin-bottom:2px;
-}
-
-.m-hero-badges .hero-badge .hero-badge-wr{
-font-size:11px;
-opacity:0.85;
-}
-
-/* HERO BADGES IN CHILD (desktop) */
+/* HERO BADGES IN CHILD */
 
 .hero-badges{
 display:grid;
@@ -327,6 +302,28 @@ font-weight:700;
 font-size:10px;
 opacity:0.85;
 font-weight:400;
+}
+
+/* ROW SELECTION IN SCOUT MODAL */
+
+.scout-table tbody tr{cursor:pointer;}
+
+.scout-table tbody tr.scout-selected{
+background:#3f2d16;
+box-shadow:inset 4px 0 0 #f59e0b;
+outline:none;
+}
+
+.scout-table tbody tr.scout-selected td{
+background:rgba(245,158,11,0.07);
+}
+
+/* Mobile card selection */
+.m-player-card{cursor:pointer;transition:border-color .15s,background .15s;}
+.m-player-card.scout-selected{
+background:#2e2010;
+border-left-color:#facc15;
+box-shadow:0 0 0 1px rgba(245,158,11,0.25);
 }
 
 /* VIEW STAT BUTTON */
@@ -621,31 +618,6 @@ margin-bottom:10px;
 
 .scout-table th,.scout-table td{padding:10px 8px;}
 
-/* === MOBILE HERO BADGES: full-width 3-col, bigger text === */
-.m-hero-badges{
-grid-template-columns:repeat(3,1fr);
-gap:6px;
-width:100%;
-}
-
-.m-hero-badges .hero-badge{
-font-size:12px;
-padding:10px 6px;
-border-radius:8px;
-white-space:normal;
-word-break:break-word;
-}
-
-.m-hero-badges .hero-badge .hero-badge-name{
-font-size:14px;
-font-weight:700;
-margin-bottom:3px;
-}
-
-.m-hero-badges .hero-badge .hero-badge-wr{
-font-size:12px;
-}
-
 }
 
 @media(max-width:480px){
@@ -656,15 +628,9 @@ h1{font-size:18px;}
 
 .header-meta{font-size:12px;}
 
-/* On very small screens, drop to 2 columns so hero names aren't too cramped */
-.m-hero-badges{
-grid-template-columns:repeat(2,1fr);
-}
-
 }
 
 </style>
-
 </head>
 
 <body>
@@ -705,7 +671,6 @@ Powered by <strong>Tigor M Manurung</strong>
 </div>
 
 <!-- SCOUTING MODAL -->
-
 <div id="scoutModal">
 <div class="modal-box">
 
@@ -773,8 +738,6 @@ const playerName=d
 :`${m.game_nick} - ${m.game_id}`;
 const currentHeroes=d?renderHeroBadges(d.hero_favorite.current_season,6):'-';
 const allHeroes=d?renderHeroBadges(d.hero_favorite.all_season,6):'-';
-const currentHeroesMobile=d?renderHeroBadgesMobile(d.hero_favorite.current_season,6):'-';
-const allHeroesMobile=d?renderHeroBadgesMobile(d.hero_favorite.all_season,6):'-';
 const wrCurrent=d?d.statistic.current_season.win_rate:null;
 const wrAll=d?d.statistic.all_season.win_rate:null;
 const winRate=d?`<span class="${winrateColor(wrCurrent)}">${wrCurrent}</span> / <span class="${winrateColor(wrAll)}">${wrAll}</span>`:'-';
@@ -786,7 +749,7 @@ const rankInfo=d?`<span style="color:#facc15;font-weight:700;">${rankCurrent}</s
 /* Desktop row */
 tableHtml+=`<tr><td>${playerName}</td><td style="white-space:nowrap;">${rankInfo}</td><td>${winRate}</td><td style="white-space:nowrap;">${matchCount}</td><td>${currentHeroes}</td><td>${allHeroes}</td></tr>`;
 
-/* Mobile card — uses renderHeroBadgesMobile for full-width badges */
+/* Mobile card */
 cardsHtml+=`<div class="m-player-card">
 <div class="m-player-header">
 <div class="m-player-name">${nick} - ${m.game_id}</div>
@@ -808,11 +771,11 @@ ${role?`<div class="m-player-role">${role}</div>`:''}
 </div>
 <div class="m-hero-section">
 <div class="m-hero-title">Current Heroes</div>
-<div class="m-hero-badges">${currentHeroesMobile}</div>
+<div class="m-hero-badges">${currentHeroes}</div>
 </div>
 <div class="m-hero-section" style="margin-top:10px;">
 <div class="m-hero-title">All Heroes</div>
-<div class="m-hero-badges">${allHeroesMobile}</div>
+<div class="m-hero-badges">${allHeroes}</div>
 </div>
 </div>`;
 });
@@ -830,19 +793,10 @@ combined+=`${m.full_name} ${m.game_id} ${m.game_nick} `;
 return combined;
 }
 
-/* Desktop hero badges (compact, nowrap) */
 function renderHeroBadges(heroes,limit){
 if(!heroes||heroes.length===0) return '-';
 const list=limit?heroes.slice(0,limit):heroes;
 return '<div class="hero-badges">'+list.map(h=>`<div class="hero-badge ${heroStrength(h.win_rate)}"><div class="hero-badge-name">${h.hero_name}</div><div class="hero-badge-wr">${h.win_rate}%</div></div>`).join('')+'</div>';
-}
-
-/* Mobile hero badges — same markup but wrapped in .m-hero-badges for full-width CSS */
-function renderHeroBadgesMobile(heroes,limit){
-if(!heroes||heroes.length===0) return '-';
-const list=limit?heroes.slice(0,limit):heroes;
-/* Re-use hero-badge color classes, but container is .m-hero-badges */
-return list.map(h=>`<div class="hero-badge ${heroStrength(h.win_rate)}"><div class="hero-badge-name">${h.hero_name}</div><div class="hero-badge-wr">${h.win_rate}%</div></div>`).join('');
 }
 
 function extractGameId(rawId){
@@ -1005,10 +959,29 @@ document.getElementById("scoutTableBody").innerHTML=`<tr><td colspan="5" style="
 function closeModal(){
 document.getElementById("scoutModal").classList.remove("active");
 document.body.style.overflow="";
+document.querySelectorAll('.scout-selected').forEach(el=>el.classList.remove('scout-selected'));
 }
 
 document.getElementById("scoutModal").addEventListener("click",function(e){
 if(e.target===this) closeModal();
+});
+
+/* Row selection: click to toggle highlight */
+document.getElementById("scoutTableBody").addEventListener("click",function(e){
+const tr=e.target.closest("tr");
+if(!tr) return;
+tr.classList.toggle("scout-selected");
+});
+
+/* Mobile card selection */
+document.getElementById("scoutModal").addEventListener("click",function(e){
+const card=e.target.closest(".m-player-card");
+if(!card) return;
+if(card.classList.contains("scout-selected")){
+card.classList.remove("scout-selected");
+}else{
+card.classList.add("scout-selected");
+}
 });
 
 document.addEventListener("keydown",function(e){
