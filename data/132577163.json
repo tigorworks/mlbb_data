@@ -1,0 +1,96 @@
+{
+  "id": "132577163",
+  "nick": "PAKHOY",
+  "zone_id": "2671",
+  "role": "explaner",
+  "rank_current": "24",
+  "rank_highest": "86",
+  "statistic": {
+    "current_season": {
+      "matches_count": 117,
+      "win_rate": 64.96,
+      "kda": 3.05,
+      "team_participation": 50.4,
+      "gold_per_min": 679,
+      "dmg_per_min": 3804,
+      "deaths_per_match": 4.68,
+      "turret_dmg_per_match": 5218
+    },
+    "all_season": {
+      "matches_count": 10297,
+      "win_rate": 54.23,
+      "kda": 3.15,
+      "team_participation": 49.8,
+      "gold_per_min": 618,
+      "dmg_per_min": 2874,
+      "deaths_per_match": 4.35,
+      "turret_dmg_per_match": 3950
+    }
+  },
+  "hero_favorite": {
+    "current_season": [
+      {
+        "hero_name": "Minsitthar",
+        "matches": 16,
+        "win_rate": 68.8
+      },
+      {
+        "hero_name": "Hanabi",
+        "matches": 14,
+        "win_rate": 92.9
+      },
+      {
+        "hero_name": "Atlas",
+        "matches": 12,
+        "win_rate": 75.0
+      },
+      {
+        "hero_name": "Esmeralda",
+        "matches": 8,
+        "win_rate": 75.0
+      },
+      {
+        "hero_name": "Cici",
+        "matches": 8,
+        "win_rate": 25.0
+      },
+      {
+        "hero_name": "Valir",
+        "matches": 6,
+        "win_rate": 33.3
+      }
+    ],
+    "all_season": [
+      {
+        "hero_name": "Jawhead",
+        "matches": 1026,
+        "win_rate": 55.6
+      },
+      {
+        "hero_name": "Zilong",
+        "matches": 852,
+        "win_rate": 57.2
+      },
+      {
+        "hero_name": "Bruno",
+        "matches": 637,
+        "win_rate": 54.8
+      },
+      {
+        "hero_name": "Alpha",
+        "matches": 625,
+        "win_rate": 60.6
+      },
+      {
+        "hero_name": "Franco",
+        "matches": 487,
+        "win_rate": 49.3
+      },
+      {
+        "hero_name": "Chang'e",
+        "matches": 469,
+        "win_rate": 56.9
+      }
+    ]
+  }
+}
