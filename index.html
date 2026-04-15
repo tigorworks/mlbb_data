@@ -326,6 +326,77 @@ border-left-color:#facc15;
 box-shadow:0 0 0 1px rgba(245,158,11,0.25);
 }
 
+/* SCOUT SELECTION BAR */
+
+.scout-selection-bar{
+display:none;
+align-items:center;
+justify-content:space-between;
+padding:12px 18px;
+background:#1a1f2e;
+border-top:1px solid rgba(245,158,11,0.3);
+gap:12px;
+flex-shrink:0;
+animation:bar-slide-up .18s ease;
+}
+
+.scout-selection-bar.active{display:flex;}
+
+@keyframes bar-slide-up{
+from{opacity:0;transform:translateY(6px);}
+to{opacity:1;transform:translateY(0);}
+}
+
+.selection-count{
+font-size:13px;
+font-weight:600;
+color:#facc15;
+white-space:nowrap;
+}
+
+.selection-actions{
+display:flex;
+gap:8px;
+flex-shrink:0;
+}
+
+.sel-btn{
+padding:6px 14px;
+border-radius:7px;
+font-size:12px;
+font-weight:600;
+font-family:inherit;
+cursor:pointer;
+transition:background .15s,color .15s,border-color .15s;
+white-space:nowrap;
+}
+
+.sel-btn-hide{
+border:1px solid rgba(245,158,11,0.35);
+background:rgba(245,158,11,0.1);
+color:#facc15;
+}
+
+.sel-btn-hide:hover{background:rgba(245,158,11,0.2);}
+
+.sel-btn-hide.active{
+background:#f59e0b;
+color:#1f2430;
+border-color:#f59e0b;
+}
+
+.sel-btn-clear{
+border:1px solid rgba(156,163,175,0.2);
+background:rgba(156,163,175,0.07);
+color:#6b7280;
+}
+
+.sel-btn-clear:hover{
+background:rgba(156,163,175,0.15);
+color:#e5e7eb;
+border-color:rgba(156,163,175,0.35);
+}
+
 /* VIEW STAT BUTTON */
 
 .view-stat-btn{
@@ -694,6 +765,14 @@ Powered by <strong>Tigor M Manurung</strong>
 </table>
 </div>
 
+<div class="scout-selection-bar" id="scoutSelectionBar">
+<span class="selection-count" id="selectionCount">0 player selected</span>
+<div class="selection-actions">
+<button class="sel-btn sel-btn-hide" id="hideOthersBtn" onclick="toggleHideOthers()">Hide Others</button>
+<button class="sel-btn sel-btn-clear" onclick="clearScoutSelection()">Clear</button>
+</div>
+</div>
+
 </div>
 </div>
 
@@ -956,10 +1035,53 @@ document.getElementById("scoutTableBody").innerHTML=`<tr><td colspan="5" style="
 }
 }
 
+let hideOthersActive=false;
+
+function updateSelectionBar(){
+const selected=document.querySelectorAll('#scoutTableBody tr.scout-selected, #scoutModal .m-player-card.scout-selected');
+const count=selected.length;
+const bar=document.getElementById('scoutSelectionBar');
+const countEl=document.getElementById('selectionCount');
+countEl.textContent=count+' player'+(count!==1?'s':'')+' selected';
+bar.classList.toggle('active',count>0);
+if(count===0&&hideOthersActive) resetHideOthers();
+}
+
+function toggleHideOthers(){
+hideOthersActive=!hideOthersActive;
+const btn=document.getElementById('hideOthersBtn');
+btn.classList.toggle('active',hideOthersActive);
+btn.textContent=hideOthersActive?'Show All':'Hide Others';
+applyHideOthers();
+}
+
+function applyHideOthers(){
+document.querySelectorAll('#scoutTableBody tr').forEach(tr=>{
+tr.style.display=hideOthersActive&&!tr.classList.contains('scout-selected')?'none':'';
+});
+document.querySelectorAll('#scoutModal .m-player-card').forEach(card=>{
+card.style.display=hideOthersActive&&!card.classList.contains('scout-selected')?'none':'';
+});
+}
+
+function resetHideOthers(){
+hideOthersActive=false;
+const btn=document.getElementById('hideOthersBtn');
+if(btn){btn.classList.remove('active');btn.textContent='Hide Others';}
+document.querySelectorAll('#scoutTableBody tr').forEach(tr=>tr.style.display='');
+document.querySelectorAll('#scoutModal .m-player-card').forEach(card=>card.style.display='');
+}
+
+function clearScoutSelection(){
+document.querySelectorAll('.scout-selected').forEach(el=>el.classList.remove('scout-selected'));
+resetHideOthers();
+updateSelectionBar();
+}
+
 function closeModal(){
 document.getElementById("scoutModal").classList.remove("active");
 document.body.style.overflow="";
-document.querySelectorAll('.scout-selected').forEach(el=>el.classList.remove('scout-selected'));
+clearScoutSelection();
 }
 
 document.getElementById("scoutModal").addEventListener("click",function(e){
@@ -971,17 +1093,17 @@ document.getElementById("scoutTableBody").addEventListener("click",function(e){
 const tr=e.target.closest("tr");
 if(!tr) return;
 tr.classList.toggle("scout-selected");
+if(hideOthersActive) applyHideOthers();
+updateSelectionBar();
 });
 
 /* Mobile card selection */
 document.getElementById("scoutModal").addEventListener("click",function(e){
 const card=e.target.closest(".m-player-card");
 if(!card) return;
-if(card.classList.contains("scout-selected")){
-card.classList.remove("scout-selected");
-}else{
-card.classList.add("scout-selected");
-}
+card.classList.toggle("scout-selected");
+if(hideOthersActive) applyHideOthers();
+updateSelectionBar();
 });
 
 document.addEventListener("keydown",function(e){
