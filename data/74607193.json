@@ -1,0 +1,81 @@
+{
+  "id": "74607193",
+  "nick": "Sasadara",
+  "zone_id": "2139",
+  "role": "midlaner",
+  "rank_current": "",
+  "rank_highest": "33",
+  "statistic": {
+    "current_season": {
+      "matches_count": 22,
+      "win_rate": 72.73,
+      "kda": 3.55,
+      "team_participation": 54.7,
+      "gold_per_min": 719,
+      "dmg_per_min": 5660,
+      "deaths_per_match": 4.32,
+      "turret_dmg_per_match": 2918
+    },
+    "all_season": {
+      "matches_count": 3365,
+      "win_rate": 53.37,
+      "kda": 2.77,
+      "team_participation": 48.4,
+      "gold_per_min": 564,
+      "dmg_per_min": 3144,
+      "deaths_per_match": 4.63,
+      "turret_dmg_per_match": 3186
+    }
+  },
+  "hero_favorite": {
+    "current_season": [
+      {
+        "hero_name": "Cyclops",
+        "matches": 18,
+        "win_rate": 77.8
+      },
+      {
+        "hero_name": "Lesley",
+        "matches": 3,
+        "win_rate": 66.7
+      },
+      {
+        "hero_name": "Chang'e",
+        "matches": 1,
+        "win_rate": 0.0
+      }
+    ],
+    "all_season": [
+      {
+        "hero_name": "Cyclops",
+        "matches": 474,
+        "win_rate": 54.9
+      },
+      {
+        "hero_name": "Lesley",
+        "matches": 415,
+        "win_rate": 56.1
+      },
+      {
+        "hero_name": "Chang'e",
+        "matches": 379,
+        "win_rate": 60.9
+      },
+      {
+        "hero_name": "Lunox",
+        "matches": 230,
+        "win_rate": 52.2
+      },
+      {
+        "hero_name": "Minotaur",
+        "matches": 223,
+        "win_rate": 56.5
+      },
+      {
+        "hero_name": "Karrie",
+        "matches": 156,
+        "win_rate": 39.7
+      }
+    ]
+  }
+}
