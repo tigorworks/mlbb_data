@@ -1,0 +1,96 @@
+{
+  "id": "180786270",
+  "nick": "UDiN BALOK ★",
+  "zone_id": "2933",
+  "role": "explaner",
+  "rank_current": "",
+  "rank_highest": "13",
+  "statistic": {
+    "current_season": {
+      "matches_count": 20,
+      "win_rate": 60.00,
+      "kda": 6.85,
+      "team_participation": 52.0,
+      "gold_per_min": 700,
+      "dmg_per_min": 3356,
+      "deaths_per_match": 2.55,
+      "turret_dmg_per_match": 3329
+    },
+    "all_season": {
+      "matches_count": 1846,
+      "win_rate": 55.15,
+      "kda": 3.79,
+      "team_participation": 51.8,
+      "gold_per_min": 596,
+      "dmg_per_min": 2788,
+      "deaths_per_match": 3.88,
+      "turret_dmg_per_match": 3518
+    }
+  },
+  "hero_favorite": {
+    "current_season": [
+      {
+        "hero_name": "Uranus",
+        "matches": 6,
+        "win_rate": 66.7
+      },
+      {
+        "hero_name": "Jawhead",
+        "matches": 5,
+        "win_rate": 60.0
+      },
+      {
+        "hero_name": "Cici",
+        "matches": 4,
+        "win_rate": 50.0
+      },
+      {
+        "hero_name": "Tigreal",
+        "matches": 3,
+        "win_rate": 100.0
+      },
+      {
+        "hero_name": "Lesley",
+        "matches": 1,
+        "win_rate": 0.0
+      },
+      {
+        "hero_name": "Belerick",
+        "matches": 1,
+        "win_rate": 0.0
+      }
+    ],
+    "all_season": [
+      {
+        "hero_name": "Harley",
+        "matches": 578,
+        "win_rate": 51.9
+      },
+      {
+        "hero_name": "Jawhead",
+        "matches": 512,
+        "win_rate": 54.3
+      },
+      {
+        "hero_name": "Hayabusa",
+        "matches": 390,
+        "win_rate": 63.3
+      },
+      {
+        "hero_name": "Balmond",
+        "matches": 343,
+        "win_rate": 51.3
+      },
+      {
+        "hero_name": "Hilda",
+        "matches": 278,
+        "win_rate": 51.8
+      },
+      {
+        "hero_name": "Moskov",
+        "matches": 241,
+        "win_rate": 51.5
+      }
+    ]
+  }
+}
