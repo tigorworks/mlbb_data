@@ -1,9 +1,11 @@
+Berikut JSON untuk player id: 74607193 (midlaner) berdasarkan gambar yang kamu kirim:
+
 {
   "id": "74607193",
   "nick": "Sasadara",
   "zone_id": "2139",
   "role": "midlaner",
-  "rank_current": "",
+  "rank_current": "L5",
   "rank_highest": "33",
   "statistic": {
     "current_season": {
@@ -79,3 +81,5 @@
     ]
   }
 }
+
+Kalau mau, next step gue bisa langsung breakdown analisa midlane-nya (ini sebenarnya ada mismatch antara role vs hero pool yang bisa jadi masalah di rank tinggi).
