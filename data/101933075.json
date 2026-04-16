@@ -1,0 +1,96 @@
+{
+  "id": "101933075",
+  "nick": "Donlezi",
+  "zone_id": "2528",
+  "role": "midlaner",
+  "rank_current": "39",
+  "rank_highest": "75",
+  "statistic": {
+    "current_season": {
+      "matches_count": 343,
+      "win_rate": 51.90,
+      "kda": 2.45,
+      "team_participation": 42.8,
+      "gold_per_min": 589,
+      "dmg_per_min": 3781,
+      "deaths_per_match": 4.97,
+      "turret_dmg_per_match": 5674
+    },
+    "all_season": {
+      "matches_count": 7792,
+      "win_rate": 56.22,
+      "kda": 3.22,
+      "team_participation": 50.6,
+      "gold_per_min": 648,
+      "dmg_per_min": 3343,
+      "deaths_per_match": 4.61,
+      "turret_dmg_per_match": 4629
+    }
+  },
+  "hero_favorite": {
+    "current_season": [
+      {
+        "hero_name": "Guinevere",
+        "matches": 58,
+        "win_rate": 63.8
+      },
+      {
+        "hero_name": "Sora",
+        "matches": 45,
+        "win_rate": 60.0
+      },
+      {
+        "hero_name": "Lukas",
+        "matches": 40,
+        "win_rate": 47.5
+      },
+      {
+        "hero_name": "Arlott",
+        "matches": 25,
+        "win_rate": 64.0
+      },
+      {
+        "hero_name": "Gloo",
+        "matches": 20,
+        "win_rate": 50.0
+      },
+      {
+        "hero_name": "Minsitthar",
+        "matches": 19,
+        "win_rate": 63.2
+      }
+    ],
+    "all_season": [
+      {
+        "hero_name": "Alice",
+        "matches": 1075,
+        "win_rate": 66.0
+      },
+      {
+        "hero_name": "Lapu-Lapu",
+        "matches": 776,
+        "win_rate": 53.9
+      },
+      {
+        "hero_name": "Gatotkaca",
+        "matches": 495,
+        "win_rate": 58.0
+      },
+      {
+        "hero_name": "Guinevere",
+        "matches": 345,
+        "win_rate": 57.1
+      },
+      {
+        "hero_name": "Layla",
+        "matches": 337,
+        "win_rate": 57.9
+      },
+      {
+        "hero_name": "Benedetta",
+        "matches": 316,
+        "win_rate": 54.1
+      }
+    ]
+  }
+}
