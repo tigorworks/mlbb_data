@@ -614,6 +614,49 @@ line-height:1.55;
 .note-item.note-info{border-left-color:rgba(96,165,250,0.4);}
 .note-item.note-ok{border-left-color:rgba(52,211,153,0.4);}
 
+/* phase tags */
+.phase-tag{display:inline-block;font-size:8px;font-weight:800;text-transform:uppercase;letter-spacing:.5px;padding:1px 5px;border-radius:3px;flex-shrink:0;}
+.phase-early{background:rgba(239,68,68,.15);color:#fca5a5;border:1px solid rgba(239,68,68,.25);}
+.phase-mid  {background:rgba(234,179,8,.12);color:#fde68a;border:1px solid rgba(234,179,8,.25);}
+.phase-late {background:rgba(96,165,250,.12);color:#93c5fd;border:1px solid rgba(96,165,250,.22);}
+.phase-all  {background:rgba(167,139,250,.12);color:#c4b5fd;border:1px solid rgba(167,139,250,.2);}
+
+/* playstyle tags */
+.ps-tag{display:inline-block;font-size:8px;font-weight:700;text-transform:uppercase;letter-spacing:.4px;padding:1px 5px;border-radius:3px;background:rgba(255,255,255,.06);color:#6b7280;border:1px solid rgba(255,255,255,.08);}
+.ps-allin     {color:#fca5a5;background:rgba(239,68,68,.1);border-color:rgba(239,68,68,.2);}
+.ps-aggro     {color:#fdba74;background:rgba(249,115,22,.1);border-color:rgba(249,115,22,.2);}
+.ps-farm      {color:#86efac;background:rgba(34,197,94,.1);border-color:rgba(34,197,94,.18);}
+.ps-discipline{color:#93c5fd;background:rgba(96,165,250,.1);border-color:rgba(96,165,250,.2);}
+.ps-calc      {color:#c4b5fd;background:rgba(167,139,250,.1);border-color:rgba(167,139,250,.2);}
+
+/* weakness line on threat card */
+.weakness-line{font-size:10px;color:#f87171;margin-top:4px;padding-top:4px;border-top:1px solid rgba(255,255,255,.05);}
+
+/* ban list */
+.ban-list{display:flex;flex-direction:column;gap:5px;}
+.ban-item{display:flex;align-items:center;gap:8px;padding:7px 10px;background:#141924;border-radius:6px;border:1px solid rgba(255,255,255,.05);font-size:12px;}
+.ban-rank{font-size:10px;font-weight:800;color:#374151;width:16px;text-align:center;flex-shrink:0;}
+.ban-hero{font-weight:700;text-transform:capitalize;color:#e5e7eb;flex:1;}
+.ban-wr{font-size:10px;font-weight:700;color:#f87171;flex-shrink:0;}
+.ban-from{font-size:10px;color:#4b5563;flex-shrink:0;}
+
+/* win condition badges */
+.wincond-block{display:flex;flex-wrap:wrap;gap:6px;}
+.wincond-badge{display:inline-flex;align-items:center;gap:4px;padding:4px 10px;border-radius:6px;font-size:11px;font-weight:600;}
+.wc-danger{background:rgba(239,68,68,.12);color:#fca5a5;border:1px solid rgba(239,68,68,.22);}
+.wc-warn  {background:rgba(249,115,22,.12);color:#fdba74;border:1px solid rgba(249,115,22,.22);}
+.wc-ok    {background:rgba(52,211,153,.1);color:#6ee7b7;border:1px solid rgba(52,211,153,.2);}
+.wc-early {background:rgba(239,68,68,.1);color:#fca5a5;border:1px solid rgba(239,68,68,.18);}
+.wc-mid   {background:rgba(234,179,8,.1);color:#fde68a;border:1px solid rgba(234,179,8,.18);}
+.wc-late  {background:rgba(96,165,250,.1);color:#93c5fd;border:1px solid rgba(96,165,250,.16);}
+.wc-tag   {background:rgba(255,255,255,.05);color:#6b7280;border:1px solid rgba(255,255,255,.08);}
+
+/* strategy list */
+.strat-list{display:flex;flex-direction:column;gap:6px;}
+.strat-item{display:flex;gap:10px;padding:8px 12px;background:#141924;border-radius:6px;border:1px solid rgba(255,255,255,.04);font-size:12px;color:#9ca3af;line-height:1.55;}
+.strat-icon{font-size:14px;flex-shrink:0;line-height:1.4;}
+.strat-item strong{color:#e5e7eb;}
+
 /* ===================== */
 /* MODAL OVERLAY         */
 /* ===================== */
@@ -1388,61 +1431,133 @@ if(!rows.length) return;
 const players=rows.map(tr=>renderedPlayers[parseInt(tr.dataset.pid)]).filter(Boolean);
 if(!players.length) return;
 
-// ── PI scores ────────────────────────────────────────
-const piScores=players.map(p=>performanceIndex(p.statistic.current_season,p.statistic.all_season,p.role,p.rank_current,p.rank_highest));
+const piScores=players.map(p=>performanceIndex(
+  p.statistic.current_season,p.statistic.all_season,
+  p.role,p.rank_current,p.rank_highest
+));
 
-// ── Threat cards (semua player, sorted by PI desc) ───
+// ── Helpers ──────────────────────────────────────────
+
 function threatDanger(pi){
-  if(pi>=88) return ['danger-critical','Sangat Berbahaya'];
-  if(pi>=72) return ['danger-high','Berbahaya'];
-  if(pi>=58) return ['danger-medium','Perlu Diwaspadai'];
-  return ['danger-low','Pantau'];
+  if(pi>=88) return 'danger-critical';
+  if(pi>=72) return 'danger-high';
+  if(pi>=62) return 'danger-medium';
+  return 'danger-low';
 }
 
-function threatHighlight(p,cs){
-  const rg=getRoleGroup(p.role);
-  // Role-specific highlights dulu
-  if((rg==='jungle'||rg==='gold')&&cs.gold_per_min>=800)
-    return `GPM ${cs.gold_per_min} — farming route sangat efisien, scaling cepat`;
-  if((rg==='jungle'||rg==='gold')&&cs.gold_per_min>=700)
-    return `Economy solid sebagai ${p.role} — konsisten farm di setiap game`;
-  if((rg==='roam'||rg==='exp')&&cs.team_participation>=65&&cs.deaths_per_match>=4)
-    return `TP ${cs.team_participation}% + deaths tinggi — initiator agresif, selalu all-in`;
-  if((rg==='roam'||rg==='exp')&&cs.team_participation>=65)
-    return `Team participation ${cs.team_participation}% — selalu hadir di setiap teamfight`;
-  if(rg==='assassin'&&cs.kda>=5)
-    return `KDA ${cs.kda} sebagai assassin — mekanik tinggi, sangat mematikan`;
-  // General
-  if(cs.win_rate>=75) return `Win rate ${cs.win_rate}% — konsisten menang`;
-  if(cs.kda>=5)       return `KDA ${cs.kda} — berpotensi carry game`;
-  if(cs.team_participation>=60) return `Team participation ${cs.team_participation}% — aktif di teamfight`;
-  if(cs.gold_per_min>=700)      return `GPM ${cs.gold_per_min} — economy kuat`;
+function getGamePhase(rg,cs){
+  if(rg==='roam'&&cs.team_participation>=60)  return {label:'Early',cls:'phase-early'};
+  if(rg==='jungle'&&cs.gold_per_min>=680)     return {label:'Early',cls:'phase-early'};
+  if(rg==='gold'&&cs.gold_per_min>=700)       return {label:'Late', cls:'phase-late'};
+  if(rg==='exp'&&cs.gold_per_min>=650)        return {label:'Late', cls:'phase-late'};
+  if(rg==='mid'&&cs.team_participation>=50)   return {label:'Mid',  cls:'phase-mid'};
   return null;
 }
 
-const sortedPlayers=[...players.map((p,i)=>({p,pi:piScores[i]}))].sort((a,b)=>b.pi-a.pi);
+function getPlaystyle(rg,cs){
+  const tp=cs.team_participation||0,d=cs.deaths_per_match||0,
+        gpm=cs.gold_per_min||0,kda=cs.kda||0;
+  if(tp>=65&&d>=5)    return {tag:'All-In',    cls:'ps-allin'};
+  if(tp>=65&&d<3.5)   return {tag:'Disiplin',  cls:'ps-discipline'};
+  if(tp>=60)          return {tag:'Agresif',   cls:'ps-aggro'};
+  if(gpm>=750&&tp<48) return {tag:'Farmer',    cls:'ps-farm'};
+  if(kda>=5&&d<3)     return {tag:'Calculated',cls:'ps-calc'};
+  return null;
+}
 
-const threatHtml=sortedPlayers.map(({p,pi})=>{
+function getStrength(rg,cs){
+  if((rg==='jungle'||rg==='gold')&&cs.gold_per_min>=800)
+    return `GPM ${cs.gold_per_min} — farming route sangat efisien, scaling cepat`;
+  if((rg==='jungle'||rg==='gold')&&cs.gold_per_min>=680)
+    return `Economy solid (${cs.gold_per_min} GPM) — konsisten farm`;
+  if((rg==='roam'||rg==='exp')&&cs.team_participation>=65&&cs.deaths_per_match>=4)
+    return `TP ${cs.team_participation}% + all-in — initiator agresif, selalu all-in`;
+  if((rg==='roam'||rg==='exp')&&cs.team_participation>=65)
+    return `TP ${cs.team_participation}% — hadir di hampir setiap teamfight`;
+  if(rg==='assassin'&&cs.kda>=5)
+    return `KDA ${cs.kda} — mekanik tinggi, extremely mematikan`;
+  if(rg==='mid'&&cs.kda>=4)
+    return `KDA ${cs.kda} sebagai midlaner — rotasi efektif, burst damage tinggi`;
+  if(cs.win_rate>=75) return `Win rate ${cs.win_rate}% — sangat konsisten menang`;
+  if(cs.kda>=5)       return `KDA ${cs.kda} — berpotensi hard carry`;
+  if(cs.team_participation>=60) return `TP ${cs.team_participation}% — aktif di setiap fight`;
+  return null;
+}
+
+function getWeakness(rg,cs){
+  if(['jungle','gold','mid'].includes(rg)&&cs.deaths_per_match>=5)
+    return `Mati ${cs.deaths_per_match}x — dive agresif, paksa mati di early`;
+  if(['jungle','gold','mid'].includes(rg)&&cs.deaths_per_match>=4)
+    return `Deaths ${cs.deaths_per_match}x — rentan di-punish saat overextend`;
+  if(rg!=='roam'&&cs.team_participation<45)
+    return `TP ${cs.team_participation}% — solo player, mudah di-isolasi & 2v1`;
+  if((rg==='gold'||rg==='jungle')&&cs.gold_per_min<600)
+    return `GPM ${cs.gold_per_min} — ekonomi lemah, deny farm lebih agresif`;
+  if(cs.win_rate<52)
+    return `WR ${cs.win_rate}% — tidak konsisten, tekanan early bisa tilt`;
+  return null;
+}
+
+// ── 1. Ancaman Pemain ────────────────────────────────
+const sorted=[...players.map((p,i)=>({p,pi:piScores[i]}))].sort((a,b)=>b.pi-a.pi);
+
+const threatHtml=sorted.map(({p,pi})=>{
   const cs=p.statistic.current_season;
-  const [dangerClass,dangerLabel]=threatDanger(pi);
+  const rg=getRoleGroup(p.role);
   const tier=performanceTier(pi);
-  const hl=threatHighlight(p,cs);
-  return `<div class="threat-card ${dangerClass}">
+  const tierKey=tier[0]==='Weak'?'W':tier[0];
+  const phase=getGamePhase(rg,cs);
+  const ps=getPlaystyle(rg,cs);
+  const str=getStrength(rg,cs);
+  const wk=getWeakness(rg,cs);
+  return `<div class="threat-card ${threatDanger(pi)}">
     <div class="threat-card-top">
       <div class="threat-name">${p.nick}</div>
-      <span class="threat-pi index-${tier[0]==='Weak'?'W':tier[0]}">${tier[0]} <span style="opacity:.7;font-weight:500;">${pi.toFixed(1)}</span></span>
+      <div style="display:flex;gap:4px;align-items:center;flex-shrink:0;">
+        ${phase?`<span class="phase-tag ${phase.cls}">${phase.label}</span>`:''}
+        <span class="threat-pi index-${tierKey}">${tier[0]} <span style="opacity:.7;font-weight:500">${pi.toFixed(1)}</span></span>
+      </div>
     </div>
     <div class="threat-stats">
-      <span class="role ${roleClass(p.role||'')} role-chip" style="font-size:9px;padding:2px 7px;">${p.role||'?'}</span>
-      &nbsp;WR <strong style="color:#e5e7eb;">${cs.win_rate}%</strong>
-      &nbsp;·&nbsp;KDA <strong style="color:#e5e7eb;">${cs.kda}</strong>
-      &nbsp;·&nbsp;TP <strong style="color:#e5e7eb;">${cs.team_participation}%</strong>
+      <span class="role ${roleClass(p.role||'')} role-chip" style="font-size:9px;padding:2px 7px">${p.role||'?'}</span>
+      ${ps?`<span class="ps-tag ${ps.cls}">${ps.tag}</span> `:''}
+      WR <strong style="color:#e5e7eb">${cs.win_rate}%</strong>
+      &nbsp;·&nbsp;KDA <strong style="color:#e5e7eb">${cs.kda}</strong>
+      &nbsp;·&nbsp;Deaths <strong style="color:#e5e7eb">${cs.deaths_per_match}</strong>
     </div>
-    ${hl?`<div class="threat-highlight">&#8594; ${hl}</div>`:''}
+    ${str?`<div class="threat-highlight">↑ ${str}</div>`:''}
+    ${wk?`<div class="weakness-line">⚠ ${wk}</div>`:''}
   </div>`;
 }).join('');
 
-// ── Hero concern (aggregate dari semua player) ───────
+// ── 2. Rekomendasi Ban ───────────────────────────────
+const banPool=[];
+players.forEach((p,i)=>{
+  const pi=piScores[i];
+  if(pi<58) return;
+  (p.hero_favorite.current_season||[]).forEach(h=>{
+    if(!h.hero_name||h.win_rate<57||h.matches<5) return;
+    const wrN=(h.win_rate-50)/50;
+    const volN=Math.min(Math.log(h.matches+1)/Math.log(30),1);
+    const piN=Math.min(pi/65,1.3);
+    banPool.push({hero:h.hero_name,wr:h.win_rate,matches:h.matches,player:p.nick,score:wrN*volN*piN*100});
+  });
+});
+const topBans=banPool.sort((a,b)=>b.score-a.score)
+  .reduce((acc,c)=>{if(!acc.find(x=>x.hero===c.hero))acc.push(c);return acc;},[])
+  .slice(0,5);
+
+const banHtml=topBans.length
+  ? `<div class="ban-list">${topBans.map((b,i)=>`
+      <div class="ban-item">
+        <span class="ban-rank">#${i+1}</span>
+        <span class="ban-hero">${b.hero}</span>
+        <span class="ban-wr">${b.wr}% WR</span>
+        <span class="ban-from">· ${b.player}</span>
+      </div>`).join('')}</div>`
+  : '<span style="font-size:12px;color:#374151;">Tidak cukup data untuk rekomendasi ban</span>';
+
+// ── 3. Hero Pool ─────────────────────────────────────
 const heroMap={};
 players.forEach(p=>{
   (p.hero_favorite.current_season||[]).forEach(h=>{
@@ -1451,19 +1566,12 @@ players.forEach(p=>{
       heroMap[h.hero_name]={name:h.hero_name,wr:h.win_rate,matches:h.matches,count:1};
     } else {
       const e=heroMap[h.hero_name];
-      e.wr=Math.max(e.wr,h.win_rate);
-      e.matches+=h.matches;
-      e.count++;
+      e.wr=Math.max(e.wr,h.win_rate); e.matches+=h.matches; e.count++;
     }
   });
 });
-
-const heroList=Object.values(heroMap)
-  .sort((a,b)=>(b.wr+b.count*3)-(a.wr+a.count*3))
-  .slice(0,12);
-
-function heroDanger(wr){ return wr>=65?'hc-critical':wr>=57?'hc-high':'hc-medium'; }
-
+const heroList=Object.values(heroMap).sort((a,b)=>(b.wr+b.count*3)-(a.wr+a.count*3)).slice(0,12);
+function heroDanger(wr){return wr>=65?'hc-critical':wr>=57?'hc-high':'hc-medium';}
 const heroHtml=heroList.length
   ? heroList.map(h=>`<span class="hc-badge ${heroDanger(h.wr)}">
       <span class="hc-name">${h.name}</span>
@@ -1472,91 +1580,107 @@ const heroHtml=heroList.length
     </span>`).join('')
   : '<span style="font-size:12px;color:#374151;">Tidak ada data hero</span>';
 
-// ── Auto-generated scouting notes ───────────────────
-const notes=[];
-const csArr=players.map(p=>p.statistic.current_season);
-const avg=(arr,key)=>arr.reduce((s,x)=>s+(x[key]||0),0)/arr.length;
-const avgWR    =avg(csArr,'win_rate');
-const avgKDA   =avg(csArr,'kda');
-const avgDeaths=avg(csArr,'deaths_per_match');
-const avgPI    =piScores.reduce((s,x)=>s+x,0)/piScores.length;
+// ── 4. Pola Permainan ────────────────────────────────
+const phSc={early:0,mid:0,late:0}, cpSc={dive:0,teamfight:0,farm:0,pick:0};
+players.forEach((p,i)=>{
+  const cs=p.statistic.current_season, rg=getRoleGroup(p.role), w=piScores[i]>=68?2:1;
+  if(rg==='roam'&&cs.team_participation>=60)       phSc.early+=2*w;
+  if(rg==='jungle'&&cs.gold_per_min>=680)          phSc.early+=1*w;
+  if(rg==='gold'&&cs.gold_per_min>=700)            phSc.late +=2*w;
+  if(rg==='exp'&&cs.gold_per_min>=650)             phSc.late +=1*w;
+  if(rg==='mid'&&cs.team_participation>=50)        phSc.mid  +=1*w;
+  if(cs.team_participation>=65&&cs.deaths_per_match>=4.5) cpSc.dive++;
+  if(cs.team_participation>=60)                    cpSc.teamfight++;
+  if(cs.gold_per_min>=750&&cs.team_participation<50) cpSc.farm++;
+  if(cs.kda>=5&&cs.team_participation<52)          cpSc.pick++;
+});
+const domPh=Object.entries(phSc).sort((a,b)=>b[1]-a[1])[0];
+const domCp=Object.entries(cpSc).sort((a,b)=>b[1]-a[1])[0];
+const avgPI=piScores.reduce((s,x)=>s+x,0)/piScores.length;
+const [ovTxt,ovCls]=avgPI>=72?['Ancaman Tinggi','wc-danger']:avgPI>=62?['Ancaman Sedang','wc-warn']:['Ancaman Rendah','wc-ok'];
+const phLabel={early:'☀ Early Game',mid:'⚡ Mid Game',late:'🌙 Late Game'};
+const cpLabel={dive:'Dive/Engage',teamfight:'Teamfight',farm:'Farming',pick:'Pick-Off'};
+const compHtml=`<div class="wincond-block">
+  <span class="wincond-badge ${ovCls}">${ovTxt} (${avgPI.toFixed(1)})</span>
+  ${domPh[1]>0?`<span class="wincond-badge wc-${domPh[0]}">${phLabel[domPh[0]]||domPh[0]}</span>`:''}
+  ${domCp[1]>0?`<span class="wincond-badge wc-tag">${cpLabel[domCp[0]]||domCp[0]}</span>`:''}
+</div>`;
 
-// Kekuatan keseluruhan
-if(avgPI>=72)
-  notes.push({cls:'note-warn',text:`Grup ini didominasi player tier A/S — <strong>ancaman serius</strong>. Persiapkan strategi counter yang matang.`});
-else if(avgPI>=58)
-  notes.push({cls:'',text:`Kekuatan grup secara keseluruhan <strong>di atas rata-rata</strong>. Jangan anggap remeh.`});
+// ── 5. Cara Menghadapi ───────────────────────────────
+const strats=[];
+
+// Phase strategy
+if(domPh[0]==='early'&&domPh[1]>0)
+  strats.push({i:'⚡',t:'Kuat di early — <strong>prioritaskan kontrol Turtle pertama</strong>. Ward semak sekitar Turtle spawn, beri tekanan pada jungler/roamer mereka sejak menit pertama.'});
+else if(domPh[0]==='late'&&domPh[1]>0)
+  strats.push({i:'⏱',t:'Ancaman terbesar di late game — <strong>habiskan early secara agresif</strong>. Rebut Turtle 1 & 2, deny farm carry mereka, jangan beri waktu scale.'});
 else
-  notes.push({cls:'note-ok',text:`Performa rata-rata grup <strong>standar kompetitif</strong>. Masih bisa diatasi dengan koordinasi yang baik.`});
+  strats.push({i:'⚖',t:'Kekuatan merata — terapkan <strong>pressure konsisten</strong>, jangan beri window berkembang di fase manapun.'});
 
-// Win rate tinggi
-const highWRPlayers=players.filter(p=>p.statistic.current_season.win_rate>=70);
-if(highWRPlayers.length)
-  notes.push({cls:'note-warn',text:`<strong>${highWRPlayers.map(p=>p.nick).join(', ')}</strong> memiliki win rate ≥70% — sangat konsisten menang, kemungkinan besar penentu jalannya game.`});
+// Comp strategy
+if(domCp[0]==='dive'&&domCp[1]>=2)
+  strats.push({i:'🛡',t:'Gaya dive/engage — pilih hero dengan <strong>disengage atau counter-CC</strong>. Jangan bergerombol di choke point, selalu ada jalur kabur.'});
+else if(domCp[0]==='farm'&&domCp[1]>=2)
+  strats.push({i:'🌾',t:'Gaya farming — <strong>invade jungle</strong> mereka, contest camp, dan split push agar mereka tidak bisa farm dengan nyaman.'});
+else if(domCp[0]==='pick'&&domCp[1]>=2)
+  strats.push({i:'👁',t:'Gaya pick-off — <strong>jangan jalan sendiri</strong>. Minimal bergerak berdua, beli item detection, ward choke point sebelum rotate.'});
+else if(domCp[0]==='teamfight'&&domCp[1]>=2)
+  strats.push({i:'💥',t:'Komposisi teamfight — <strong>hindari 5v5 terbuka</strong>. Gunakan poke/split push untuk kurangi jumlah mereka sebelum engage besar.'});
 
-// Jungler/Marksman dengan GPM tinggi
-const highGPMPlayers=players.filter(p=>{
-  const rg=getRoleGroup(p.role);
-  return (rg==='jungle'||rg==='gold')&&p.statistic.current_season.gold_per_min>=750;
-});
-if(highGPMPlayers.length)
-  notes.push({cls:'note-warn',text:`<strong>${highGPMPlayers.map(p=>p.nick+' ('+p.statistic.current_season.gold_per_min+' GPM)').join(', ')}</strong> — farming sangat efisien. Waspada scaling mid-late game, pertimbangkan early invade atau deny camp.`});
+// Priority target
+const carryTarget=sorted.filter(({p})=>getRoleGroup(p.role)!=='roam')[0];
+if(carryTarget&&carryTarget.pi>=62)
+  strats.push({i:'🎯',t:`<strong>${carryTarget.p.nick}</strong> (${carryTarget.p.role}) adalah anchor utama — ban hero andalannya, fokus pressure di lane mereka dari awal game.`});
 
-// Tank/Fighter agresif (TP tinggi + deaths tinggi)
-const aggressiveEngagers=players.filter(p=>{
-  const rg=getRoleGroup(p.role);
-  const cs=p.statistic.current_season;
-  return (rg==='roam'||rg==='exp')&&cs.team_participation>=60&&cs.deaths_per_match>=4;
-});
-if(aggressiveEngagers.length)
-  notes.push({cls:'note-warn',text:`<strong>${aggressiveEngagers.map(p=>p.nick+' ('+p.role+')').join(', ')}</strong> bermain very aggressive — TP tinggi dengan deaths tinggi menunjukkan initiator yang berani all-in. Siapkan counter-engage dan disengage cepat.`});
+// Soft target
+const softT=sorted
+  .filter(({p})=>['jungle','gold','mid'].includes(getRoleGroup(p.role))&&p.statistic.current_season.deaths_per_match>=4.5)
+  .sort((a,b)=>b.p.statistic.current_season.deaths_per_match-a.p.statistic.current_season.deaths_per_match)[0];
+if(softT)
+  strats.push({i:'🔪',t:`<strong>${softT.p.nick}</strong> (avg ${softT.p.statistic.current_season.deaths_per_match}x deaths) — target lunak. <strong>Fokuskan dive</strong> ke posisinya di setiap engage untuk keluarkan dari game lebih awal.`});
 
-// Tank/Fighter dengan TP sangat tinggi tapi deaths rendah = disciplined engager
-const disciplinedEngagers=players.filter(p=>{
-  const rg=getRoleGroup(p.role);
-  const cs=p.statistic.current_season;
-  return (rg==='roam'||rg==='exp')&&cs.team_participation>=65&&cs.deaths_per_match<3.5;
-});
-if(disciplinedEngagers.length)
-  notes.push({cls:'note-warn',text:`<strong>${disciplinedEngagers.map(p=>p.nick).join(', ')}</strong> — TP tinggi dengan deaths rendah, sangat disiplin dalam engage. Sulit untuk di-punish balik.`});
+// No-rotate
+const noRot=players.filter(p=>getRoleGroup(p.role)!=='roam'&&p.statistic.current_season.team_participation<45);
+if(noRot.length)
+  strats.push({i:'✂',t:`<strong>${noRot.map(p=>p.nick).join(', ')}</strong> jarang rotate (TP <45%) — manfaatkan dengan <strong>pressure 4v5</strong> di sisi lain map saat mereka solo farming.`});
 
-// Carry potential (bukan roam)
-const carryPlayers=players.filter((p,i)=>{
-  const rg=getRoleGroup(p.role);
-  return piScores[i]>=72&&p.statistic.current_season.kda>=4&&rg!=='roam';
-});
-if(carryPlayers.length)
-  notes.push({cls:'note-warn',text:`Potensi carry kuat: <strong>${carryPlayers.map(p=>p.nick).join(', ')}</strong>. Prioritaskan pressure early agar mereka tidak nyaman farm.`});
+// Objective control note (always)
+const hasStrongJungler=players.some(p=>getRoleGroup(p.role)==='jungle'&&p.statistic.current_season.gold_per_min>=680);
+if(hasStrongJungler)
+  strats.push({i:'🐢',t:'Jungler mereka efisien — <strong>kontrol visi sekitar Lord & Turtle</strong> sejak menit ke-8. Jangan biarkan mereka setup Lord tanpa respons.'});
 
-// Pocket pick (shared hero dengan WR tinggi)
-const sharedHeroes=Object.values(heroMap).filter(h=>h.count>=2&&h.wr>=57);
-if(sharedHeroes.length)
-  notes.push({cls:'note-warn',text:`Hero <strong>${sharedHeroes.map(h=>h.name).join(', ')}</strong> dikuasai beberapa player di grup ini — kemungkinan besar akan jadi <strong>pocket pick</strong> andalan. Pertimbangkan ban.`});
+const stratHtml=`<div class="strat-list">${strats.map(s=>`
+  <div class="strat-item"><span class="strat-icon">${s.i}</span><span>${s.t}</span></div>`).join('')}</div>`;
 
-// Split push / farming style
-const farmers=players.filter(p=>{
-  const rg=getRoleGroup(p.role);
-  const cs=p.statistic.current_season;
-  return cs.kda>=4&&cs.team_participation<45&&rg!=='roam';
-});
-if(farmers.length)
-  notes.push({cls:'note-info',text:`<strong>${farmers.map(p=>p.nick).join(', ')}</strong> — KDA tinggi tapi TP rendah, kemungkinan gaya bermain <strong>split push / solo carry</strong>. Jaga side lane dan jangan beri ruang farm.`});
+// ── 6. Catatan Scouting ──────────────────────────────
+const notes=[];
+const highWR=players.filter(p=>p.statistic.current_season.win_rate>=70);
+if(highWR.length)
+  notes.push({cls:'note-warn',text:`<strong>${highWR.map(p=>p.nick).join(', ')}</strong> — WR ≥70%, sangat konsisten. Kemungkinan besar game-changer, prioritaskan ban heronya.`});
 
-// Experience: player dengan match count tinggi
-const veterans=players.filter(p=>(p.statistic.current_season.matches_count||0)>=300);
-if(veterans.length)
-  notes.push({cls:'note-info',text:`<strong>${veterans.map(p=>p.nick+' ('+p.statistic.current_season.matches_count+' match)').join(', ')}</strong> — jam terbang tinggi, berpengalaman di berbagai situasi game.`});
+const highGPM=players.filter(p=>{const rg=getRoleGroup(p.role);return (rg==='jungle'||rg==='gold')&&p.statistic.current_season.gold_per_min>=750;});
+if(highGPM.length)
+  notes.push({cls:'note-warn',text:`<strong>${highGPM.map(p=>p.nick+' ('+p.statistic.current_season.gold_per_min+' GPM)').join(', ')}</strong> — farming sangat efisien. <strong>Early invade</strong> atau deny camp untuk ganggu ritme farm mereka.`});
 
-// Deaths exploitable (role non-tank)
-const softPlayers=players.filter(p=>{
-  const rg=getRoleGroup(p.role);
-  const cs=p.statistic.current_season;
-  return cs.deaths_per_match>5.5&&!['roam','exp'].includes(rg);
-});
-if(softPlayers.length)
-  notes.push({cls:'note-ok',text:`<strong>${softPlayers.map(p=>p.nick+' ('+p.role+')').join(', ')}</strong> memiliki deaths tinggi untuk rolenya — bisa dieksploitasi dengan <strong>dive dan assassination</strong> agresif.`});
+const discEng=players.filter(p=>{const rg=getRoleGroup(p.role);const cs=p.statistic.current_season;return (rg==='roam'||rg==='exp')&&cs.team_participation>=65&&cs.deaths_per_match<3.5;});
+if(discEng.length)
+  notes.push({cls:'note-warn',text:`<strong>${discEng.map(p=>p.nick).join(', ')}</strong> — TP tinggi + deaths rendah. Initiator disiplin, <strong>sulit di-punish balik</strong>, paling berbahaya saat engage.`});
 
-const notesHtml=notes.map(n=>`<div class="note-item ${n.cls}">${n.text}</div>`).join('');
+const sharedH=Object.values(heroMap).filter(h=>h.count>=2&&h.wr>=57);
+if(sharedH.length)
+  notes.push({cls:'note-warn',text:`Hero <strong>${sharedH.map(h=>h.name).join(', ')}</strong> dikuasai beberapa player — kemungkinan besar <strong>pocket pick andalan</strong> tim ini.`});
+
+const narrowPool=players.filter((p,i)=>(p.hero_favorite.current_season||[]).length<=2&&piScores[i]>=62);
+if(narrowPool.length)
+  notes.push({cls:'note-ok',text:`<strong>${narrowPool.map(p=>p.nick).join(', ')}</strong> — pool hero sempit. Cukup ban 2 hero terbaik mereka untuk keluarkan dari comfort zone.`});
+
+const splitPush=players.filter(p=>{const rg=getRoleGroup(p.role);const cs=p.statistic.current_season;return cs.kda>=4&&cs.team_participation<45&&rg!=='roam';});
+if(splitPush.length)
+  notes.push({cls:'note-info',text:`<strong>${splitPush.map(p=>p.nick).join(', ')}</strong> — KDA tinggi + TP rendah, gaya <strong>split push / solo carry</strong>. Jaga side lane dan jangan beri ruang farm.`});
+
+const notesHtml=notes.length
+  ? notes.map(n=>`<div class="note-item ${n.cls}">${n.text}</div>`).join('')
+  : '<div class="note-item note-ok">Tidak ada catatan khusus — lanjutkan dengan game plan standar.</div>';
 
 // ── Render ───────────────────────────────────────────
 document.getElementById('analysisBody').innerHTML=`
@@ -1565,8 +1689,20 @@ document.getElementById('analysisBody').innerHTML=`
   <div class="threat-grid">${threatHtml}</div>
 </div>
 <div class="report-section">
+  <div class="report-section-title">Rekomendasi Ban</div>
+  ${banHtml}
+</div>
+<div class="report-section">
   <div class="report-section-title">Hero yang Harus Diwaspadai</div>
   <div class="hero-concern-list">${heroHtml}</div>
+</div>
+<div class="report-section">
+  <div class="report-section-title">Pola Permainan</div>
+  ${compHtml}
+</div>
+<div class="report-section">
+  <div class="report-section-title">Cara Menghadapi</div>
+  ${stratHtml}
 </div>
 <div class="report-section">
   <div class="report-section-title">Catatan Scouting</div>
