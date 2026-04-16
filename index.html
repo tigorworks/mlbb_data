@@ -1180,12 +1180,17 @@ function getTPCap(rg){
 // ── Normalisasi ────────────────────────────────────────
 function norm(val, max){ return Math.min((val||0)/max,1)*100; }
 
-// Death: lenient untuk tank/fighter/support yg TP-nya tinggi (all-in style)
+// Death: strict untuk gold/mid/jungle (prioritas tidak boleh mati),
+//        exp & roam dikaitkan dengan TP (frontline/initiate = wajar mati kalau TP tinggi)
 function normDeath(d, tp, rg){
   d = d||5; tp = tp||0;
-  const warrior=['roam','exp'].includes(rg)&&tp>=60;
-  if(warrior) return Math.max(0,1-((d-2.5)/8.0))*100;
-  return       Math.max(0,1-((d-1.5)/6.5))*100;
+  if(['jungle','gold','mid'].includes(rg))
+    return Math.max(0,1-((d-1.5)/5.0))*100;          // strict: range 5, titik nol di 6.5k
+  if(['roam','exp'].includes(rg)){
+    if(tp>=60) return Math.max(0,1-((d-2.5)/8.0))*100; // lenient: frontline/all-in
+    else       return Math.max(0,1-((d-1.5)/6.5))*100; // standard: kalau TP rendah tetap dihukum
+  }
+  return Math.max(0,1-((d-1.5)/6.5))*100;            // default
 }
 
 // Experience: 500 match = cap, memberi bonus konsistensi
@@ -1195,7 +1200,7 @@ function normExp(matches){ return Math.min((matches||0)/500,1)*100; }
 function getWeights(rg){
   //                      wr     kda    tp     gpm    death  exp
   const W={
-    jungle:   [0.28, 0.18, 0.20, 0.22, 0.07, 0.05],
+    jungle:   [0.29, 0.18, 0.12, 0.22, 0.14, 0.05],
     gold:     [0.25, 0.14, 0.15, 0.30, 0.11, 0.05],
     exp:      [0.27, 0.18, 0.27, 0.10, 0.13, 0.05],
     roam:     [0.20, 0.07, 0.42, 0.05, 0.21, 0.05],
@@ -1224,9 +1229,9 @@ function performanceIndex(cs, as, role){
 
 function performanceTier(score){
 if(score>=88) return ["S","index-S"];
-if(score>=70) return ["A","index-A"];
-if(score>=55) return ["B","index-B"];
-if(score>=42) return ["C","index-C"];
+if(score>=68) return ["A","index-A"];
+if(score>=58) return ["B","index-B"];
+if(score>=44) return ["C","index-C"];
 return ["Weak","index-W"];
 }
 
