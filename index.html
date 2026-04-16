@@ -432,6 +432,189 @@ font-size:13px;
 }
 
 /* ===================== */
+/* SCOUTING REPORT       */
+/* ===================== */
+
+.analysis-panel{
+display:none;
+border-top:1px solid rgba(245,158,11,0.15);
+background:#0b0f1c;
+padding:18px 20px 22px;
+animation:bar-slide-up .2s ease;
+}
+.analysis-panel.active{display:block;}
+
+.analysis-header{
+display:flex;
+align-items:center;
+gap:8px;
+font-size:10px;
+font-weight:700;
+text-transform:uppercase;
+letter-spacing:2px;
+color:#f59e0b;
+margin-bottom:16px;
+}
+
+.analysis-header::before{
+content:'';
+display:inline-block;
+width:3px;height:14px;
+background:#f59e0b;
+border-radius:2px;
+}
+
+/* section */
+.report-section{margin-bottom:16px;}
+.report-section:last-child{margin-bottom:0;}
+
+.report-section-title{
+font-size:9px;
+font-weight:700;
+text-transform:uppercase;
+letter-spacing:1.5px;
+color:#374151;
+margin-bottom:8px;
+display:flex;
+align-items:center;
+gap:6px;
+}
+
+.report-section-title::after{
+content:'';
+flex:1;
+height:1px;
+background:rgba(255,255,255,0.05);
+}
+
+/* threat cards */
+.threat-grid{
+display:grid;
+grid-template-columns:repeat(auto-fill,minmax(200px,1fr));
+gap:8px;
+}
+
+.threat-card{
+background:#141924;
+border:1px solid rgba(255,255,255,0.06);
+border-radius:8px;
+padding:10px 12px;
+border-left:3px solid #374151;
+}
+
+.threat-card.danger-critical{border-left-color:#ef4444;}
+.threat-card.danger-high{border-left-color:#f97316;}
+.threat-card.danger-medium{border-left-color:#eab308;}
+.threat-card.danger-low{border-left-color:#374151;}
+
+.threat-card-top{
+display:flex;
+align-items:center;
+justify-content:space-between;
+margin-bottom:5px;
+gap:6px;
+}
+
+.threat-name{
+font-size:13px;
+font-weight:700;
+color:#e5e7eb;
+white-space:nowrap;
+overflow:hidden;
+text-overflow:ellipsis;
+}
+
+.threat-pi{
+display:inline-flex;
+align-items:center;
+gap:3px;
+padding:2px 7px;
+border-radius:5px;
+font-size:10px;
+font-weight:800;
+flex-shrink:0;
+}
+
+.threat-stats{
+font-size:11px;
+color:#4b5563;
+line-height:1.6;
+}
+
+.threat-highlight{
+font-size:10px;
+color:#9ca3af;
+margin-top:4px;
+font-style:italic;
+}
+
+/* hero concern badges */
+.hero-concern-list{
+display:flex;
+flex-wrap:wrap;
+gap:6px;
+}
+
+.hc-badge{
+display:inline-flex;
+align-items:center;
+gap:5px;
+padding:4px 10px;
+border-radius:6px;
+font-size:11px;
+font-weight:600;
+cursor:default;
+}
+
+.hc-badge.hc-critical{
+background:rgba(239,68,68,0.15);
+border:1px solid rgba(239,68,68,0.3);
+color:#fca5a5;
+}
+.hc-badge.hc-high{
+background:rgba(249,115,22,0.13);
+border:1px solid rgba(249,115,22,0.28);
+color:#fdba74;
+}
+.hc-badge.hc-medium{
+background:rgba(234,179,8,0.1);
+border:1px solid rgba(234,179,8,0.22);
+color:#fde68a;
+}
+
+.hc-name{font-weight:700;text-transform:capitalize;}
+.hc-wr{opacity:0.8;}
+.hc-shared{
+font-size:9px;
+font-weight:800;
+background:rgba(255,255,255,0.12);
+border-radius:3px;
+padding:1px 4px;
+}
+
+/* notes */
+.notes-list{
+display:flex;
+flex-direction:column;
+gap:6px;
+}
+
+.note-item{
+font-size:12px;
+color:#9ca3af;
+padding:8px 12px 8px 14px;
+background:rgba(255,255,255,0.025);
+border-radius:6px;
+border-left:2px solid rgba(245,158,11,0.35);
+line-height:1.55;
+}
+
+.note-item strong{color:#e5e7eb;}
+.note-item.note-warn{border-left-color:rgba(239,68,68,0.5);}
+.note-item.note-info{border-left-color:rgba(96,165,250,0.4);}
+.note-item.note-ok{border-left-color:rgba(52,211,153,0.4);}
+
+/* ===================== */
 /* MODAL OVERLAY         */
 /* ===================== */
 
@@ -571,11 +754,25 @@ text-transform:uppercase;
 /* PERFORMANCE INDEX */
 
 .index-box{
+display:inline-flex;
+align-items:center;
+gap:7px;
 padding:5px 10px;
 border-radius:6px;
 font-weight:700;
 font-size:12px;
-display:inline-block;
+}
+
+.index-tier{
+font-size:13px;
+font-weight:800;
+}
+
+.index-score-num{
+font-size:11px;
+font-weight:500;
+opacity:0.75;
+letter-spacing:0.2px;
 }
 
 .index-S{background:#16a34a;color:white;}
@@ -773,6 +970,11 @@ Powered by <strong>Tigor M Manurung</strong>
 </div>
 </div>
 
+<div class="analysis-panel" id="analysisPanel">
+<div class="analysis-header">&#9650; Team Analysis</div>
+<div id="analysisBody"></div>
+</div>
+
 </div>
 </div>
 
@@ -947,25 +1149,47 @@ if(role.includes("support")) return "role-support";
 return "";
 }
 
-function performanceIndex(wr,kda,gpm){
-return (wr*0.6)+(kda*8*0.25)+((gpm/10)*0.15);
+// Normalisasi nilai ke 0–100 dengan cap realistis
+function norm(val, max){ return Math.min((val||0) / max, 1) * 100; }
+function normDeath(d){ return Math.max(0, 1 - ((d||5) - 1.5) / 6.5) * 100; }
+
+function calcSeasonScore(s){
+return norm(s.win_rate, 85)           * 0.35
+     + norm(s.kda, 8)                 * 0.25
+     + norm(s.team_participation, 70) * 0.20
+     + norm(s.gold_per_min, 850)      * 0.15
+     + normDeath(s.deaths_per_match)  * 0.05;
+}
+
+// Blend 70% current season + 30% all season
+function performanceIndex(cs, as){
+return calcSeasonScore(cs) * 0.7 + calcSeasonScore(as) * 0.3;
 }
 
 function performanceTier(score){
-if(score>=85) return ["S","index-S"];
-if(score>=75) return ["A","index-A"];
-if(score>=65) return ["B","index-B"];
-if(score>=55) return ["C","index-C"];
+if(score>=88) return ["S","index-S"];
+if(score>=72) return ["A","index-A"];
+if(score>=58) return ["B","index-B"];
+if(score>=45) return ["C","index-C"];
 return ["Weak","index-W"];
 }
 
-function renderPlayerRow(p){
+function deathColor(d){
+if(d<=2.5) return "wr-strong";
+if(d<=3.5) return "wr-good";
+if(d<=5.0) return "wr-average";
+return "wr-weak";
+}
+
+let renderedPlayers=[];
+
+function renderPlayerRow(p,idx=0){
 const cs=p.statistic.current_season;
 const as=p.statistic.all_season;
-const score=performanceIndex(cs.win_rate,cs.kda,cs.gold_per_min);
+const score=performanceIndex(cs,as);
 const tier=performanceTier(score);
 
-return `<tr>
+return `<tr data-pid="${idx}">
 <td>
 <div class="player-card">
 <div class="player-header">
@@ -974,7 +1198,11 @@ return `<tr>
 </div>
 <div class="player-id">${p.full_name||''}</div>
 <div class="player-id">ID : ${p.id}</div>
-<div class="index-box ${tier[1]}">Performance Index : ${tier[0]}</div>
+<div class="index-box ${tier[1]}">
+  Performance Index :
+  <span class="index-tier">${tier[0]}</span>
+  <span class="index-score-num">${score.toFixed(1)}</span>
+</div>
 </div>
 </td>
 <td>
@@ -985,6 +1213,7 @@ return `<tr>
 <div class="stat-label">KDA</div><div class="stat-value">${cs.kda}</div>
 <div class="stat-label">Team Part</div><div class="stat-value ${participationColor(cs.team_participation)}">${cs.team_participation}%</div>
 <div class="stat-label">Gold/min</div><div class="stat-value">${cs.gold_per_min}</div>
+<div class="stat-label">Deaths</div><div class="stat-value ${deathColor(cs.deaths_per_match)}">${cs.deaths_per_match}</div>
 </div>
 </td>
 <td>
@@ -995,6 +1224,7 @@ return `<tr>
 <div class="stat-label">KDA</div><div class="stat-value">${as.kda}</div>
 <div class="stat-label">Team Part</div><div class="stat-value ${participationColor(as.team_participation)}">${as.team_participation}%</div>
 <div class="stat-label">Gold/min</div><div class="stat-value">${as.gold_per_min}</div>
+<div class="stat-label">Deaths</div><div class="stat-value ${deathColor(as.deaths_per_match)}">${as.deaths_per_match}</div>
 </div>
 </td>
 <td>${heroList(p.hero_favorite.current_season)}</td>
@@ -1029,7 +1259,8 @@ document.getElementById("scoutTableBody").innerHTML=`<tr><td colspan="5" style="
 return;
 }
 
-document.getElementById("scoutTableBody").innerHTML=players.map(renderPlayerRow).join("");
+renderedPlayers=players;
+document.getElementById("scoutTableBody").innerHTML=players.map((p,i)=>renderPlayerRow(p,i)).join("");
 }catch(err){
 document.getElementById("scoutTableBody").innerHTML=`<tr><td colspan="5" style="text-align:center;padding:32px;color:#ef4444;">Gagal memuat data scouting.</td></tr>`;
 }
@@ -1053,6 +1284,8 @@ const btn=document.getElementById('hideOthersBtn');
 btn.classList.toggle('active',hideOthersActive);
 btn.textContent=hideOthersActive?'Show All':'Hide Others';
 applyHideOthers();
+if(hideOthersActive) buildAnalysis();
+else document.getElementById('analysisPanel').classList.remove('active');
 }
 
 function applyHideOthers(){
@@ -1070,6 +1303,147 @@ const btn=document.getElementById('hideOthersBtn');
 if(btn){btn.classList.remove('active');btn.textContent='Hide Others';}
 document.querySelectorAll('#scoutTableBody tr').forEach(tr=>tr.style.display='');
 document.querySelectorAll('#scoutModal .m-player-card').forEach(card=>card.style.display='');
+document.getElementById('analysisPanel').classList.remove('active');
+}
+
+function buildAnalysis(){
+const rows=[...document.querySelectorAll('#scoutTableBody tr.scout-selected')];
+if(!rows.length) return;
+const players=rows.map(tr=>renderedPlayers[parseInt(tr.dataset.pid)]).filter(Boolean);
+if(!players.length) return;
+
+// ── PI scores ────────────────────────────────────────
+const piScores=players.map(p=>performanceIndex(p.statistic.current_season,p.statistic.all_season));
+
+// ── Threat cards (semua player, sorted by PI desc) ───
+function threatDanger(pi){
+  if(pi>=88) return ['danger-critical','Sangat Berbahaya'];
+  if(pi>=72) return ['danger-high','Berbahaya'];
+  if(pi>=58) return ['danger-medium','Perlu Diwaspadai'];
+  return ['danger-low','Pantau'];
+}
+
+function threatHighlight(p,cs){
+  if(cs.win_rate>=75) return 'Win rate sangat tinggi — konsisten menang';
+  if(cs.kda>=5)       return 'KDA tinggi — berpotensi carry game';
+  if(cs.team_participation>=65) return 'Team participation tinggi — dominan di teamfight';
+  if(cs.gold_per_min>=750)      return 'Economy kuat — scaling cepat';
+  return null;
+}
+
+const sortedPlayers=[...players.map((p,i)=>({p,pi:piScores[i]}))].sort((a,b)=>b.pi-a.pi);
+
+const threatHtml=sortedPlayers.map(({p,pi})=>{
+  const cs=p.statistic.current_season;
+  const [dangerClass,dangerLabel]=threatDanger(pi);
+  const tier=performanceTier(pi);
+  const hl=threatHighlight(p,cs);
+  return `<div class="threat-card ${dangerClass}">
+    <div class="threat-card-top">
+      <div class="threat-name">${p.nick}</div>
+      <span class="threat-pi index-${tier[0]==='Weak'?'W':tier[0]}">${tier[0]} <span style="opacity:.7;font-weight:500;">${pi.toFixed(1)}</span></span>
+    </div>
+    <div class="threat-stats">
+      <span class="role ${roleClass(p.role||'')} role-chip" style="font-size:9px;padding:2px 7px;">${p.role||'?'}</span>
+      &nbsp;WR <strong style="color:#e5e7eb;">${cs.win_rate}%</strong>
+      &nbsp;·&nbsp;KDA <strong style="color:#e5e7eb;">${cs.kda}</strong>
+      &nbsp;·&nbsp;TP <strong style="color:#e5e7eb;">${cs.team_participation}%</strong>
+    </div>
+    ${hl?`<div class="threat-highlight">&#8594; ${hl}</div>`:''}
+  </div>`;
+}).join('');
+
+// ── Hero concern (aggregate dari semua player) ───────
+const heroMap={};
+players.forEach(p=>{
+  (p.hero_favorite.current_season||[]).forEach(h=>{
+    if(!h.hero_name||h.win_rate<50||h.matches<3) return;
+    if(!heroMap[h.hero_name]){
+      heroMap[h.hero_name]={name:h.hero_name,wr:h.win_rate,matches:h.matches,count:1};
+    } else {
+      const e=heroMap[h.hero_name];
+      e.wr=Math.max(e.wr,h.win_rate);
+      e.matches+=h.matches;
+      e.count++;
+    }
+  });
+});
+
+const heroList=Object.values(heroMap)
+  .sort((a,b)=>(b.wr+b.count*3)-(a.wr+a.count*3))
+  .slice(0,12);
+
+function heroDanger(wr){ return wr>=65?'hc-critical':wr>=57?'hc-high':'hc-medium'; }
+
+const heroHtml=heroList.length
+  ? heroList.map(h=>`<span class="hc-badge ${heroDanger(h.wr)}">
+      <span class="hc-name">${h.name}</span>
+      <span class="hc-wr">${h.wr}%</span>
+      ${h.count>1?`<span class="hc-shared">×${h.count}</span>`:''}
+    </span>`).join('')
+  : '<span style="font-size:12px;color:#374151;">Tidak ada data hero</span>';
+
+// ── Auto-generated scouting notes ───────────────────
+const notes=[];
+const csArr=players.map(p=>p.statistic.current_season);
+const avg=(arr,key)=>arr.reduce((s,x)=>s+(x[key]||0),0)/arr.length;
+const avgWR=avg(csArr,'win_rate');
+const avgKDA=avg(csArr,'kda');
+const avgDeaths=avg(csArr,'deaths_per_match');
+const avgPI=piScores.reduce((s,x)=>s+x,0)/piScores.length;
+
+// Kekuatan keseluruhan
+if(avgPI>=72)
+  notes.push({cls:'note-warn',text:`Grup ini didominasi player tier A/S — <strong>ancaman serius</strong> secara keseluruhan. Persiapkan strategi counter yang matang.`});
+else if(avgPI>=58)
+  notes.push({cls:'',text:`Kekuatan grup secara keseluruhan <strong>di atas rata-rata</strong>. Jangan anggap remeh.`});
+else
+  notes.push({cls:'note-ok',text:`Performa rata-rata grup <strong>standar kompetitif</strong>. Masih bisa diatasi dengan koordinasi yang baik.`});
+
+// Win rate tinggi
+const highWRPlayers=players.filter(p=>p.statistic.current_season.win_rate>=70);
+if(highWRPlayers.length)
+  notes.push({cls:'note-warn',text:`<strong>${highWRPlayers.map(p=>p.nick).join(', ')}</strong> memiliki win rate ≥70% — kemungkinan besar akan menjadi penentu jalannya game.`});
+
+// Carry potential
+const carryPlayers=players.filter((p,i)=>piScores[i]>=72&&p.statistic.current_season.kda>=4);
+if(carryPlayers.length)
+  notes.push({cls:'note-warn',text:`Potensi carry kuat: <strong>${carryPlayers.map(p=>p.nick).join(', ')}</strong>. Prioritaskan pressure early-game untuk membatasi gold farm mereka.`});
+
+// Shared hero (pocket pick)
+const sharedHeroes=Object.values(heroMap).filter(h=>h.count>=2&&h.wr>=57);
+if(sharedHeroes.length)
+  notes.push({cls:'note-warn',text:`Hero <strong>${sharedHeroes.map(h=>h.name).join(', ')}</strong> dikuasai oleh beberapa player di tim ini — kemungkinan besar akan menjadi <strong>pocket pick</strong> andalan.`});
+
+// Deaths tinggi = exploitable
+if(avgDeaths>5)
+  notes.push({cls:'note-info',text:`Rata-rata deaths cukup tinggi (${avgDeaths.toFixed(1)}/match) — ada celah untuk dieksploitasi melalui <strong>dive & assassination</strong> agresif.`});
+else if(avgDeaths<3)
+  notes.push({cls:'note-info',text:`Rata-rata deaths rendah — tim ini bermain hati-hati dan cenderung menghindari trades yang tidak menguntungkan.`});
+
+// KDA tinggi tapi TP rendah
+const farmers=players.filter(p=>p.statistic.current_season.kda>=4&&p.statistic.current_season.team_participation<45);
+if(farmers.length)
+  notes.push({cls:'note-info',text:`<strong>${farmers.map(p=>p.nick).join(', ')}</strong> memiliki KDA tinggi namun team participation rendah — gaya bermain cenderung <strong>split push / farming</strong>, waspada saat late game.`});
+
+const notesHtml=notes.map(n=>`<div class="note-item ${n.cls}">${n.text}</div>`).join('');
+
+// ── Render ───────────────────────────────────────────
+document.getElementById('analysisBody').innerHTML=`
+<div class="report-section">
+  <div class="report-section-title">Ancaman Pemain</div>
+  <div class="threat-grid">${threatHtml}</div>
+</div>
+<div class="report-section">
+  <div class="report-section-title">Hero yang Harus Diwaspadai</div>
+  <div class="hero-concern-list">${heroHtml}</div>
+</div>
+<div class="report-section">
+  <div class="report-section-title">Catatan Scouting</div>
+  <div class="notes-list">${notesHtml}</div>
+</div>`;
+
+document.getElementById('analysisPanel').classList.add('active');
 }
 
 function clearScoutSelection(){
