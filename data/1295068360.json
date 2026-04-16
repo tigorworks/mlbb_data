@@ -1,0 +1,96 @@
+{
+  "id": "1295068360",
+  "nick": "EROS",
+  "zone_id": "15275",
+  "role": "goldlaner",
+  "rank_current": "13",
+  "rank_highest": "68",
+  "statistic": {
+    "current_season": {
+      "matches_count": 171,
+      "win_rate": 54.97,
+      "kda": 3.94,
+      "team_participation": 49.0,
+      "gold_per_min": 619,
+      "dmg_per_min": 3837,
+      "deaths_per_match": 4.13,
+      "turret_dmg_per_match": 3826
+    },
+    "all_season": {
+      "matches_count": 5348,
+      "win_rate": 52.00,
+      "kda": 3.41,
+      "team_participation": 46.6,
+      "gold_per_min": 623,
+      "dmg_per_min": 3228,
+      "deaths_per_match": 4.48,
+      "turret_dmg_per_match": 3395
+    }
+  },
+  "hero_favorite": {
+    "current_season": [
+      {
+        "hero_name": "Zetian",
+        "matches": 34,
+        "win_rate": 64.7
+      },
+      {
+        "hero_name": "Granger",
+        "matches": 20,
+        "win_rate": 60.0
+      },
+      {
+        "hero_name": "Clint",
+        "matches": 10,
+        "win_rate": 70.0
+      },
+      {
+        "hero_name": "Kadita",
+        "matches": 10,
+        "win_rate": 70.0
+      },
+      {
+        "hero_name": "Hanabi",
+        "matches": 8,
+        "win_rate": 75.0
+      },
+      {
+        "hero_name": "Novaria",
+        "matches": 8,
+        "win_rate": 62.5
+      }
+    ],
+    "all_season": [
+      {
+        "hero_name": "Selena",
+        "matches": 640,
+        "win_rate": 54.4
+      },
+      {
+        "hero_name": "Novaria",
+        "matches": 454,
+        "win_rate": 56.2
+      },
+      {
+        "hero_name": "Kadita",
+        "matches": 415,
+        "win_rate": 59.5
+      },
+      {
+        "hero_name": "Beatrix",
+        "matches": 404,
+        "win_rate": 49.0
+      },
+      {
+        "hero_name": "Pharsa",
+        "matches": 309,
+        "win_rate": 60.8
+      },
+      {
+        "hero_name": "Wanwan",
+        "matches": 257,
+        "win_rate": 49.8
+      }
+    ]
+  }
+}
