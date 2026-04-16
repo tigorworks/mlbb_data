@@ -1156,7 +1156,7 @@ function getRoleGroup(role){
   if(r==='marksman')                   return 'gold';
   if(r==='fighter')                    return 'exp';
   if(r==='tank'||r==='support')        return 'roam';
-  if(r==='mage')                       return 'mid';
+  if(r==='mage'||r==='midlaner')        return 'mid';
   if(r==='assassin')                   return 'assassin';
   return 'default';
 }
@@ -1166,6 +1166,7 @@ function getGPMCap(rg){
   if(rg==='jungle'||rg==='gold')  return 1000;
   if(rg==='exp'||rg==='assassin') return 750;
   if(rg==='roam')                 return 500;
+  if(rg==='mid')                  return 900;  // mage tidak seagresif marksman/jungle dalam farm
   return 700;
 }
 
@@ -1193,8 +1194,20 @@ function normDeath(d, tp, rg){
   return Math.max(0,1-((d-1.5)/6.5))*100;            // default
 }
 
-// Experience: 500 match = cap, memberi bonus konsistensi
-function normExp(matches){ return Math.min((matches||0)/500,1)*100; }
+// Progress: volume experience dikaitkan dengan rank tertinggi yang pernah dicapai.
+// Banyak match tapi rank rendah → stagnasi → skor dipotong.
+// rank: string angka, makin kecil makin bagus (1 = terbaik). Kosong = abaikan rank.
+function normProgress(matches, rank){
+  const vol = Math.min((matches||0)/500,1)*100;
+  if(!rank || rank==='') return vol;
+  const r = parseInt(rank); if(!r) return vol;
+  // rank 100 = titik batas minimum (rankQ=0), rank >100 = floor 0, rank 1 = 99
+  // rank 50 → 50, rank 75 → 25 (sedikit di atas batas), rank 100 → 0
+  const rankQ = Math.max(0,(1 - r/100))*100;
+  // Bobot rank baru penuh (70%) setelah 7k match — di bawah itu masih diberi kelonggaran
+  const rankWeight = Math.min((matches||0)/7000, 1)*0.7;
+  return vol*(1-rankWeight) + rankQ*rankWeight;
+}
 
 // ── Bobot per role ─────────────────────────────────────
 function getWeights(rg){
@@ -1204,34 +1217,36 @@ function getWeights(rg){
     gold:     [0.25, 0.14, 0.15, 0.30, 0.11, 0.05],
     exp:      [0.27, 0.18, 0.27, 0.10, 0.13, 0.05],
     roam:     [0.20, 0.07, 0.42, 0.05, 0.21, 0.05],
-    mid:      [0.30, 0.26, 0.18, 0.12, 0.09, 0.05],
+    mid:      [0.29, 0.26, 0.18, 0.07, 0.10, 0.10],  // GPM dikurangi, progress/rank dinaikkan
     assassin: [0.28, 0.28, 0.18, 0.12, 0.09, 0.05],
     default:  [0.30, 0.20, 0.22, 0.13, 0.10, 0.05],
   };
   return W[rg]||W.default;
 }
 
-function calcSeasonScore(s, rg){
+function calcSeasonScore(s, rg, rank){
   const [wWR,wKDA,wTP,wGPM,wDeath,wExp]=getWeights(rg);
-  return norm(s.win_rate, 85)                             * wWR
-       + norm(s.kda, 8)                                   * wKDA
-       + norm(s.team_participation, getTPCap(rg))         * wTP
-       + norm(s.gold_per_min, getGPMCap(rg))              * wGPM
+  return norm(s.win_rate, 85)                                    * wWR
+       + norm(s.kda, 8)                                          * wKDA
+       + norm(s.team_participation, getTPCap(rg))                * wTP
+       + norm(s.gold_per_min, getGPMCap(rg))                     * wGPM
        + normDeath(s.deaths_per_match, s.team_participation, rg) * wDeath
-       + normExp(s.matches_count)                         * wExp;
+       + normProgress(s.matches_count, rank)                     * wExp;
 }
 
 // Blend 70% current + 30% all season, role-aware
-function performanceIndex(cs, as, role){
+// rank_current dipakai untuk current season, rank_highest untuk all season
+function performanceIndex(cs, as, role, rank_current, rank_highest){
   const rg=getRoleGroup(role);
-  return calcSeasonScore(cs,rg)*0.7 + calcSeasonScore(as,rg)*0.3;
+  return calcSeasonScore(cs, rg, rank_current)*0.7
+       + calcSeasonScore(as, rg, rank_highest)*0.3;
 }
 
 function performanceTier(score){
 if(score>=88) return ["S","index-S"];
 if(score>=68) return ["A","index-A"];
-if(score>=58) return ["B","index-B"];
-if(score>=44) return ["C","index-C"];
+if(score>=62) return ["B","index-B"];
+if(score>=46) return ["C","index-C"];
 return ["Weak","index-W"];
 }
 
@@ -1247,7 +1262,7 @@ let renderedPlayers=[];
 function renderPlayerRow(p,idx=0){
 const cs=p.statistic.current_season;
 const as=p.statistic.all_season;
-const score=performanceIndex(cs,as,p.role);
+const score=performanceIndex(cs,as,p.role,p.rank_current,p.rank_highest);
 const tier=performanceTier(score);
 
 return `<tr data-pid="${idx}">
@@ -1374,7 +1389,7 @@ const players=rows.map(tr=>renderedPlayers[parseInt(tr.dataset.pid)]).filter(Boo
 if(!players.length) return;
 
 // ── PI scores ────────────────────────────────────────
-const piScores=players.map(p=>performanceIndex(p.statistic.current_season,p.statistic.all_season,p.role));
+const piScores=players.map(p=>performanceIndex(p.statistic.current_season,p.statistic.all_season,p.role,p.rank_current,p.rank_highest));
 
 // ── Threat cards (semua player, sorted by PI desc) ───
 function threatDanger(pi){
