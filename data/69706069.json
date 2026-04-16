@@ -1,0 +1,96 @@
+{
+  "id": "69706069",
+  "nick": "RochasMan",
+  "zone_id": "2127",
+  "role": "jungler",
+  "rank_current": "47",
+  "rank_highest": "64",
+  "statistic": {
+    "current_season": {
+      "matches_count": 345,
+      "win_rate": 53.04,
+      "kda": 2.19,
+      "team_participation": 42.5,
+      "gold_per_min": 653,
+      "dmg_per_min": 4042,
+      "deaths_per_match": 4.98,
+      "turret_dmg_per_match": 6988
+    },
+    "all_season": {
+      "matches_count": 6438,
+      "win_rate": 53.36,
+      "kda": 3.0,
+      "team_participation": 48.2,
+      "gold_per_min": 599,
+      "dmg_per_min": 2879,
+      "deaths_per_match": 4.45,
+      "turret_dmg_per_match": 5193
+    }
+  },
+  "hero_favorite": {
+    "current_season": [
+      {
+        "hero_name": "Irithel",
+        "matches": 86,
+        "win_rate": 55.8
+      },
+      {
+        "hero_name": "Hanabi",
+        "matches": 67,
+        "win_rate": 61.2
+      },
+      {
+        "hero_name": "Harley",
+        "matches": 49,
+        "win_rate": 44.9
+      },
+      {
+        "hero_name": "Jawhead",
+        "matches": 23,
+        "win_rate": 73.9
+      },
+      {
+        "hero_name": "Cyclops",
+        "matches": 19,
+        "win_rate": 47.4
+      },
+      {
+        "hero_name": "Layla",
+        "matches": 15,
+        "win_rate": 53.3
+      }
+    ],
+    "all_season": [
+      {
+        "hero_name": "Irithel",
+        "matches": 1195,
+        "win_rate": 55.0
+      },
+      {
+        "hero_name": "Jawhead",
+        "matches": 633,
+        "win_rate": 61.9
+      },
+      {
+        "hero_name": "Balmond",
+        "matches": 555,
+        "win_rate": 54.4
+      },
+      {
+        "hero_name": "Harley",
+        "matches": 519,
+        "win_rate": 52.2
+      },
+      {
+        "hero_name": "Layla",
+        "matches": 340,
+        "win_rate": 53.8
+      },
+      {
+        "hero_name": "Roger",
+        "matches": 288,
+        "win_rate": 45.5
+      }
+    ]
+  }
+}
