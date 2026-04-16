@@ -1,0 +1,96 @@
+{
+  "id": "31787980",
+  "nick": "Hidraa",
+  "zone_id": "2048",
+  "role": "goldlaner",
+  "rank_current": "22",
+  "rank_highest": "51",
+  "statistic": {
+    "current_season": {
+      "matches_count": 232,
+      "win_rate": 52.59,
+      "kda": 3.89,
+      "team_participation": 50.6,
+      "gold_per_min": 654,
+      "dmg_per_min": 4210,
+      "deaths_per_match": 3.70,
+      "turret_dmg_per_match": 4580
+    },
+    "all_season": {
+      "matches_count": 4765,
+      "win_rate": 54.48,
+      "kda": 4.6,
+      "team_participation": 55.6,
+      "gold_per_min": 576,
+      "dmg_per_min": 3459,
+      "deaths_per_match": 3.25,
+      "turret_dmg_per_match": 4219
+    }
+  },
+  "hero_favorite": {
+    "current_season": [
+      {
+        "hero_name": "Hanabi",
+        "matches": 41,
+        "win_rate": 61.0
+      },
+      {
+        "hero_name": "Silvanna",
+        "matches": 36,
+        "win_rate": 61.1
+      },
+      {
+        "hero_name": "Zetian",
+        "matches": 17,
+        "win_rate": 76.5
+      },
+      {
+        "hero_name": "Lesley",
+        "matches": 14,
+        "win_rate": 57.1
+      },
+      {
+        "hero_name": "Freya",
+        "matches": 14,
+        "win_rate": 42.9
+      },
+      {
+        "hero_name": "Kimmy",
+        "matches": 11,
+        "win_rate": 63.6
+      }
+    ],
+    "all_season": [
+      {
+        "hero_name": "Irithel",
+        "matches": 1504,
+        "win_rate": 61.2
+      },
+      {
+        "hero_name": "X.Borg",
+        "matches": 604,
+        "win_rate": 57.1
+      },
+      {
+        "hero_name": "Lesley",
+        "matches": 565,
+        "win_rate": 60.5
+      },
+      {
+        "hero_name": "Layla",
+        "matches": 374,
+        "win_rate": 59.1
+      },
+      {
+        "hero_name": "Granger",
+        "matches": 312,
+        "win_rate": 54.5
+      },
+      {
+        "hero_name": "Martis",
+        "matches": 299,
+        "win_rate": 58.5
+      }
+    ]
+  }
+}
