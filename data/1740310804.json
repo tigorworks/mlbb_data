@@ -1,0 +1,96 @@
+{
+  "id": "1740310804",
+  "nick": "petet",
+  "zone_id": "18392",
+  "role": "roamer",
+  "rank_current": "27",
+  "rank_highest": "32",
+  "statistic": {
+    "current_season": {
+      "matches_count": 262,
+      "win_rate": 54.96,
+      "kda": 1.81,
+      "team_participation": 43.7,
+      "gold_per_min": 559,
+      "dmg_per_min": 2168,
+      "deaths_per_match": 6.11,
+      "turret_dmg_per_match": 1702
+    },
+    "all_season": {
+      "matches_count": 2861,
+      "win_rate": 51.14,
+      "kda": 2.49,
+      "team_participation": 46.5,
+      "gold_per_min": 651,
+      "dmg_per_min": 3033,
+      "deaths_per_match": 5.98,
+      "turret_dmg_per_match": 3606
+    }
+  },
+  "hero_favorite": {
+    "current_season": [
+      {
+        "hero_name": "Chou",
+        "matches": 41,
+        "win_rate": 56.1
+      },
+      {
+        "hero_name": "Guinevere",
+        "matches": 31,
+        "win_rate": 58.1
+      },
+      {
+        "hero_name": "Grock",
+        "matches": 28,
+        "win_rate": 57.1
+      },
+      {
+        "hero_name": "Franco",
+        "matches": 25,
+        "win_rate": 64.0
+      },
+      {
+        "hero_name": "Tigreal",
+        "matches": 19,
+        "win_rate": 73.7
+      },
+      {
+        "hero_name": "Gatotkaca",
+        "matches": 12,
+        "win_rate": 50.0
+      }
+    ],
+    "all_season": [
+      {
+        "hero_name": "Hanabi",
+        "matches": 222,
+        "win_rate": 60.4
+      },
+      {
+        "hero_name": "Franco",
+        "matches": 162,
+        "win_rate": 52.5
+      },
+      {
+        "hero_name": "Guinevere",
+        "matches": 136,
+        "win_rate": 52.9
+      },
+      {
+        "hero_name": "Chang'e",
+        "matches": 117,
+        "win_rate": 50.4
+      },
+      {
+        "hero_name": "Vexana",
+        "matches": 109,
+        "win_rate": 56.0
+      },
+      {
+        "hero_name": "Bruno",
+        "matches": 104,
+        "win_rate": 48.1
+      }
+    ]
+  }
+}
