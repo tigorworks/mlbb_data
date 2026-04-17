@@ -1,0 +1,96 @@
+1{
+  "id": "53588925",
+  "nick": "Dragon Karubi",
+  "zone_id": "2012",
+  "role": "jungler",
+  "rank_current": "58",
+  "rank_highest": "113",
+  "statistic": {
+    "current_season": {
+      "matches_count": 176,
+      "win_rate": 63.64,
+      "kda": 4.28,
+      "team_participation": 51.8,
+      "gold_per_min": 701,
+      "dmg_per_min": 3740,
+      "deaths_per_match": 3.58,
+      "turret_dmg_per_match": 3106
+    },
+    "all_season": {
+      "matches_count": 5773,
+      "win_rate": 62.95,
+      "kda": 4.16,
+      "team_participation": 54.8,
+      "gold_per_min": 654,
+      "dmg_per_min": 3243,
+      "deaths_per_match": 3.63,
+      "turret_dmg_per_match": 3614
+    }
+  },
+  "hero_favorite": {
+    "current_season": [
+      {
+        "hero_name": "Suyou",
+        "matches": 32,
+        "win_rate": 81.2
+      },
+      {
+        "hero_name": "Leomord",
+        "matches": 23,
+        "win_rate": 69.6
+      },
+      {
+        "hero_name": "Alice",
+        "matches": 14,
+        "win_rate": 35.7
+      },
+      {
+        "hero_name": "Harley",
+        "matches": 11,
+        "win_rate": 72.7
+      },
+      {
+        "hero_name": "Guinevere",
+        "matches": 10,
+        "win_rate": 70.0
+      },
+      {
+        "hero_name": "Freya",
+        "matches": 9,
+        "win_rate": 44.4
+      }
+    ],
+    "all_season": [
+      {
+        "hero_name": "Hayabusa",
+        "matches": 439,
+        "win_rate": 61.3
+      },
+      {
+        "hero_name": "Chou",
+        "matches": 397,
+        "win_rate": 55.9
+      },
+      {
+        "hero_name": "Lancelot",
+        "matches": 305,
+        "win_rate": 65.2
+      },
+      {
+        "hero_name": "Roger",
+        "matches": 280,
+        "win_rate": 63.9
+      },
+      {
+        "hero_name": "Franco",
+        "matches": 270,
+        "win_rate": 61.1
+      },
+      {
+        "hero_name": "Selena",
+        "matches": 270,
+        "win_rate": 60.7
+      }
+    ]
+  }
+}
