@@ -1,0 +1,96 @@
+{
+  "id": "49284833",
+  "nick": "CMB . Fatikal",
+  "zone_id": "2101",
+  "role": "explaner",
+  "rank_current": "18",
+  "rank_highest": "63",
+  "statistic": {
+    "current_season": {
+      "matches_count": 107,
+      "win_rate": 66.36,
+      "kda": 4.36,
+      "team_participation": 54.3,
+      "gold_per_min": 790,
+      "dmg_per_min": 4964,
+      "deaths_per_match": 4.80,
+      "turret_dmg_per_match": 11144
+    },
+    "all_season": {
+      "matches_count": 4085,
+      "win_rate": 61.98,
+      "kda": 3.24,
+      "team_participation": 53.9,
+      "gold_per_min": 647,
+      "dmg_per_min": 3172,
+      "deaths_per_match": 4.93,
+      "turret_dmg_per_match": 4546
+    }
+  },
+  "hero_favorite": {
+    "current_season": [
+      {
+        "hero_name": "Hanabi",
+        "matches": 33,
+        "win_rate": 78.8
+      },
+      {
+        "hero_name": "Obsidia",
+        "matches": 21,
+        "win_rate": 66.7
+      },
+      {
+        "hero_name": "Alpha",
+        "matches": 8,
+        "win_rate": 62.5
+      },
+      {
+        "hero_name": "Yi Sun-shin",
+        "matches": 6,
+        "win_rate": 83.3
+      },
+      {
+        "hero_name": "Granger",
+        "matches": 5,
+        "win_rate": 60.0
+      },
+      {
+        "hero_name": "Natan",
+        "matches": 4,
+        "win_rate": 75.0
+      }
+    ],
+    "all_season": [
+      {
+        "hero_name": "Khaleed",
+        "matches": 360,
+        "win_rate": 66.7
+      },
+      {
+        "hero_name": "Granger",
+        "matches": 348,
+        "win_rate": 69.3
+      },
+      {
+        "hero_name": "Khufra",
+        "matches": 342,
+        "win_rate": 59.6
+      },
+      {
+        "hero_name": "Moskov",
+        "matches": 168,
+        "win_rate": 67.3
+      },
+      {
+        "hero_name": "Tigreal",
+        "matches": 157,
+        "win_rate": 62.4
+      },
+      {
+        "hero_name": "Thamuz",
+        "matches": 142,
+        "win_rate": 59.2
+      }
+    ]
+  }
+}
