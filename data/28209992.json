@@ -1,0 +1,96 @@
+{
+  "id": "28209992",
+  "nick": "myloo.",
+  "zone_id": "2040",
+  "role": "midlaner",
+  "rank_current": "90",
+  "rank_highest": "115",
+  "statistic": {
+    "current_season": {
+      "matches_count": 469,
+      "win_rate": 56.08,
+      "kda": 1.74,
+      "team_participation": 40.3,
+      "gold_per_min": 599,
+      "dmg_per_min": 3745,
+      "deaths_per_match": 5.36,
+      "turret_dmg_per_match": 4278
+    },
+    "all_season": {
+      "matches_count": 10871,
+      "win_rate": 53.93,
+      "kda": 2.94,
+      "team_participation": 50.5,
+      "gold_per_min": 660,
+      "dmg_per_min": 3462,
+      "deaths_per_match": 4.87,
+      "turret_dmg_per_match": 4503
+    }
+  },
+  "hero_favorite": {
+    "current_season": [
+      {
+        "hero_name": "Freya",
+        "matches": 69,
+        "win_rate": 59.4
+      },
+      {
+        "hero_name": "Guinevere",
+        "matches": 53,
+        "win_rate": 58.5
+      },
+      {
+        "hero_name": "Suyou",
+        "matches": 33,
+        "win_rate": 54.5
+      },
+      {
+        "hero_name": "Sora",
+        "matches": 32,
+        "win_rate": 50.0
+      },
+      {
+        "hero_name": "Zetian",
+        "matches": 31,
+        "win_rate": 51.6
+      },
+      {
+        "hero_name": "Gloo",
+        "matches": 30,
+        "win_rate": 70.0
+      }
+    ],
+    "all_season": [
+      {
+        "hero_name": "Guinevere",
+        "matches": 1097,
+        "win_rate": 59.3
+      },
+      {
+        "hero_name": "Layla",
+        "matches": 568,
+        "win_rate": 57.4
+      },
+      {
+        "hero_name": "Xavier",
+        "matches": 515,
+        "win_rate": 54.0
+      },
+      {
+        "hero_name": "Franco",
+        "matches": 447,
+        "win_rate": 52.8
+      },
+      {
+        "hero_name": "Kadita",
+        "matches": 431,
+        "win_rate": 56.6
+      },
+      {
+        "hero_name": "Badang",
+        "matches": 375,
+        "win_rate": 60.3
+      }
+    ]
+  }
+}
