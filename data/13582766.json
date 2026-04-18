@@ -1,0 +1,98 @@
+Berikut JSON untuk player id: 13582766 (explaner):
+
+{
+  "id": "13582766",
+  "nick": "CMB . Lalalalala...",
+  "zone_id": "2016",
+  "role": "explaner",
+  "rank_current": "80",
+  "rank_highest": "178",
+  "statistic": {
+    "current_season": {
+      "matches_count": 289,
+      "win_rate": 60.21,
+      "kda": 2.65,
+      "team_participation": 39.7,
+      "gold_per_min": 626,
+      "dmg_per_min": 4304,
+      "deaths_per_match": 4.01,
+      "turret_dmg_per_match": 4486
+    },
+    "all_season": {
+      "matches_count": 25532,
+      "win_rate": 54.90,
+      "kda": 3.43,
+      "team_participation": 48.6,
+      "gold_per_min": 596,
+      "dmg_per_min": 2963,
+      "deaths_per_match": 3.63,
+      "turret_dmg_per_match": 2945
+    }
+  },
+  "hero_favorite": {
+    "current_season": [
+      {
+        "hero_name": "Phoveus",
+        "matches": 41,
+        "win_rate": 68.3
+      },
+      {
+        "hero_name": "Alice",
+        "matches": 31,
+        "win_rate": 67.7
+      },
+      {
+        "hero_name": "Suyou",
+        "matches": 27,
+        "win_rate": 63.0
+      },
+      {
+        "hero_name": "Zhask",
+        "matches": 25,
+        "win_rate": 68.0
+      },
+      {
+        "hero_name": "Lukas",
+        "matches": 23,
+        "win_rate": 39.1
+      },
+      {
+        "hero_name": "Lapu-Lapu",
+        "matches": 22,
+        "win_rate": 63.6
+      }
+    ],
+    "all_season": [
+      {
+        "hero_name": "Grock",
+        "matches": 1026,
+        "win_rate": 65.7
+      },
+      {
+        "hero_name": "Selena",
+        "matches": 897,
+        "win_rate": 57.5
+      },
+      {
+        "hero_name": "Chou",
+        "matches": 706,
+        "win_rate": 50.1
+      },
+      {
+        "hero_name": "Miya",
+        "matches": 703,
+        "win_rate": 56.6
+      },
+      {
+        "hero_name": "Esmeralda",
+        "matches": 615,
+        "win_rate": 64.1
+      },
+      {
+        "hero_name": "Uranus",
+        "matches": 544,
+        "win_rate": 58.3
+      }
+    ]
+  }
+}
