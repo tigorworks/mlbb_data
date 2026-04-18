@@ -1,0 +1,98 @@
+Berikut JSON untuk player id: 142240021 (midlaner):
+
+{
+  "id": "142240021",
+  "nick": "epideMIC",
+  "zone_id": "2721",
+  "role": "midlaner",
+  "rank_current": "1",
+  "rank_highest": "115",
+  "statistic": {
+    "current_season": {
+      "matches_count": 59,
+      "win_rate": 66.10,
+      "kda": 5.24,
+      "team_participation": 62.7,
+      "gold_per_min": 743,
+      "dmg_per_min": 4717,
+      "deaths_per_match": 4.42,
+      "turret_dmg_per_match": 5536
+    },
+    "all_season": {
+      "matches_count": 6546,
+      "win_rate": 58.33,
+      "kda": 3.23,
+      "team_participation": 52.7,
+      "gold_per_min": 637,
+      "dmg_per_min": 3260,
+      "deaths_per_match": 4.74,
+      "turret_dmg_per_match": 4578
+    }
+  },
+  "hero_favorite": {
+    "current_season": [
+      {
+        "hero_name": "Kimmy",
+        "matches": 27,
+        "win_rate": 70.4
+      },
+      {
+        "hero_name": "Kadita",
+        "matches": 8,
+        "win_rate": 50.0
+      },
+      {
+        "hero_name": "Vexana",
+        "matches": 4,
+        "win_rate": 75.0
+      },
+      {
+        "hero_name": "Pharsa",
+        "matches": 3,
+        "win_rate": 100.0
+      },
+      {
+        "hero_name": "Marcel",
+        "matches": 3,
+        "win_rate": 100.0
+      },
+      {
+        "hero_name": "Fredrinn",
+        "matches": 3,
+        "win_rate": 66.7
+      }
+    ],
+    "all_season": [
+      {
+        "hero_name": "Franco",
+        "matches": 416,
+        "win_rate": 57.7
+      },
+      {
+        "hero_name": "Lesley",
+        "matches": 395,
+        "win_rate": 59.7
+      },
+      {
+        "hero_name": "Lancelot",
+        "matches": 391,
+        "win_rate": 50.6
+      },
+      {
+        "hero_name": "Hilda",
+        "matches": 359,
+        "win_rate": 63.0
+      },
+      {
+        "hero_name": "Vale",
+        "matches": 251,
+        "win_rate": 67.7
+      },
+      {
+        "hero_name": "Khufra",
+        "matches": 236,
+        "win_rate": 56.4
+      }
+    ]
+  }
+}
