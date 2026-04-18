@@ -1,0 +1,96 @@
+{
+  "id": "48787322",
+  "nick": "Cumcum",
+  "zone_id": "2210",
+  "role": "goldlaner",
+  "rank_current": "20",
+  "rank_highest": "160",
+  "statistic": {
+    "current_season": {
+      "matches_count": 83,
+      "win_rate": 66.27,
+      "kda": 3.5,
+      "team_participation": 53.0,
+      "gold_per_min": 704,
+      "dmg_per_min": 4148,
+      "deaths_per_match": 4.57,
+      "turret_dmg_per_match": 7434
+    },
+    "all_season": {
+      "matches_count": 14060,
+      "win_rate": 53.83,
+      "kda": 2.89,
+      "team_participation": 52.3,
+      "gold_per_min": 630,
+      "dmg_per_min": 3283,
+      "deaths_per_match": 4.99,
+      "turret_dmg_per_match": 5775
+    }
+  },
+  "hero_favorite": {
+    "current_season": [
+      {
+        "hero_name": "Kadita",
+        "matches": 18,
+        "win_rate": 72.2
+      },
+      {
+        "hero_name": "Beatrix",
+        "matches": 13,
+        "win_rate": 92.3
+      },
+      {
+        "hero_name": "Luo Yi",
+        "matches": 11,
+        "win_rate": 72.7
+      },
+      {
+        "hero_name": "Hanabi",
+        "matches": 6,
+        "win_rate": 66.7
+      },
+      {
+        "hero_name": "Karrie",
+        "matches": 6,
+        "win_rate": 50.0
+      },
+      {
+        "hero_name": "Miya",
+        "matches": 5,
+        "win_rate": 80.0
+      }
+    ],
+    "all_season": [
+      {
+        "hero_name": "Beatrix",
+        "matches": 936,
+        "win_rate": 57.6
+      },
+      {
+        "hero_name": "Chang'e",
+        "matches": 650,
+        "win_rate": 57.7
+      },
+      {
+        "hero_name": "Chou",
+        "matches": 632,
+        "win_rate": 48.3
+      },
+      {
+        "hero_name": "Saber",
+        "matches": 630,
+        "win_rate": 57.6
+      },
+      {
+        "hero_name": "Moskov",
+        "matches": 621,
+        "win_rate": 53.6
+      },
+      {
+        "hero_name": "Franco",
+        "matches": 616,
+        "win_rate": 48.5
+      }
+    ]
+  }
+}
