@@ -1,0 +1,98 @@
+Berikut JSON untuk player id: 122068402 (jungler):
+
+{
+  "id": "122068402",
+  "nick": "Spookeyjunkiezt",
+  "zone_id": "2626",
+  "role": "jungler",
+  "rank_current": "101",
+  "rank_highest": "134",
+  "statistic": {
+    "current_season": {
+      "matches_count": 348,
+      "win_rate": 59.48,
+      "kda": 3.52,
+      "team_participation": 51.6,
+      "gold_per_min": 618,
+      "dmg_per_min": 3546,
+      "deaths_per_match": 4.33,
+      "turret_dmg_per_match": 2674
+    },
+    "all_season": {
+      "matches_count": 11462,
+      "win_rate": 56.40,
+      "kda": 3.47,
+      "team_participation": 54.7,
+      "gold_per_min": 648,
+      "dmg_per_min": 3445,
+      "deaths_per_match": 4.57,
+      "turret_dmg_per_match": 3636
+    }
+  },
+  "hero_favorite": {
+    "current_season": [
+      {
+        "hero_name": "Suyou",
+        "matches": 50,
+        "win_rate": 50.0
+      },
+      {
+        "hero_name": "Cyclops",
+        "matches": 32,
+        "win_rate": 62.5
+      },
+      {
+        "hero_name": "Khaleed",
+        "matches": 24,
+        "win_rate": 58.3
+      },
+      {
+        "hero_name": "Yi Sun-shin",
+        "matches": 22,
+        "win_rate": 72.7
+      },
+      {
+        "hero_name": "Guinevere",
+        "matches": 17,
+        "win_rate": 76.5
+      },
+      {
+        "hero_name": "Obsidia",
+        "matches": 16,
+        "win_rate": 62.5
+      }
+    ],
+    "all_season": [
+      {
+        "hero_name": "Claude",
+        "matches": 779,
+        "win_rate": 60.1
+      },
+      {
+        "hero_name": "Harith",
+        "matches": 525,
+        "win_rate": 55.6
+      },
+      {
+        "hero_name": "Yi Sun-shin",
+        "matches": 492,
+        "win_rate": 62.6
+      },
+      {
+        "hero_name": "Gusion",
+        "matches": 404,
+        "win_rate": 59.4
+      },
+      {
+        "hero_name": "Harley",
+        "matches": 355,
+        "win_rate": 60.6
+      },
+      {
+        "hero_name": "Hayabusa",
+        "matches": 355,
+        "win_rate": 58.0
+      }
+    ]
+  }
+}
