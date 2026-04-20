@@ -7,24 +7,24 @@
   "rank_highest": "134",
   "statistic": {
     "current_season": {
-      "matches_count": 348,
-      "win_rate": 59.48,
-      "kda": 3.52,
-      "team_participation": 51.6,
-      "gold_per_min": 618,
-      "dmg_per_min": 3546,
-      "deaths_per_match": 4.33,
-      "turret_dmg_per_match": 2674
+      "matches_count": 386,
+      "win_rate": 58.03,
+      "kda": 3.25,
+      "team_participation": 50.6,
+      "gold_per_min": 600,
+      "dmg_per_min": 3490,
+      "deaths_per_match": 4.41,
+      "turret_dmg_per_match": 2544
     },
     "all_season": {
-      "matches_count": 11462,
-      "win_rate": 56.40,
+      "matches_count": 11500,
+      "win_rate": 56.36,
       "kda": 3.47,
       "team_participation": 54.7,
       "gold_per_min": 648,
-      "dmg_per_min": 3445,
+      "dmg_per_min": 3444,
       "deaths_per_match": 4.57,
-      "turret_dmg_per_match": 3636
+      "turret_dmg_per_match": 3629
     }
   },
   "hero_favorite": {
@@ -51,8 +51,8 @@
       },
       {
         "hero_name": "Guinevere",
-        "matches": 17,
-        "win_rate": 76.5
+        "matches": 19,
+        "win_rate": 73.7
       },
       {
         "hero_name": "Obsidia",
@@ -63,8 +63,8 @@
     "all_season": [
       {
         "hero_name": "Claude",
-        "matches": 779,
-        "win_rate": 60.1
+        "matches": 780,
+        "win_rate": 60.0
       },
       {
         "hero_name": "Harith",
