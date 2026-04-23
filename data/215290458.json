@@ -1,0 +1,96 @@
+{
+  "id": "215290458",
+  "nick": "Iceiceice X TBRN",
+  "zone_id": "9120",
+  "role": "goldlaner",
+  "rank_current": "",
+  "rank_highest": "109",
+  "statistic": {
+    "current_season": {
+      "matches_count": 116,
+      "win_rate": 56.90,
+      "kda": 3.69,
+      "team_participation": 47.1,
+      "gold_per_min": 744,
+      "dmg_per_min": 3796,
+      "deaths_per_match": 3.97,
+      "turret_dmg_per_match": 11416
+    },
+    "all_season": {
+      "matches_count": 10019,
+      "win_rate": 59.53,
+      "kda": 4.26,
+      "team_participation": 54.0,
+      "gold_per_min": 657,
+      "dmg_per_min": 3495,
+      "deaths_per_match": 3.44,
+      "turret_dmg_per_match": 6160
+    }
+  },
+  "hero_favorite": {
+    "current_season": [
+      {
+        "hero_name": "Yi Sun-shin",
+        "matches": 24,
+        "win_rate": 50.0
+      },
+      {
+        "hero_name": "Natan",
+        "matches": 14,
+        "win_rate": 57.1
+      },
+      {
+        "hero_name": "Saber",
+        "matches": 10,
+        "win_rate": 80.0
+      },
+      {
+        "hero_name": "Miya",
+        "matches": 8,
+        "win_rate": 75.0
+      },
+      {
+        "hero_name": "Claude",
+        "matches": 8,
+        "win_rate": 50.0
+      },
+      {
+        "hero_name": "Obsidia",
+        "matches": 7,
+        "win_rate": 71.4
+      }
+    ],
+    "all_season": [
+      {
+        "hero_name": "Kagura",
+        "matches": 541,
+        "win_rate": 56.6
+      },
+      {
+        "hero_name": "Lunox",
+        "matches": 492,
+        "win_rate": 70.3
+      },
+      {
+        "hero_name": "Claude",
+        "matches": 465,
+        "win_rate": 57.4
+      },
+      {
+        "hero_name": "Alice",
+        "matches": 363,
+        "win_rate": 65.3
+      },
+      {
+        "hero_name": "Granger",
+        "matches": 352,
+        "win_rate": 56.2
+      },
+      {
+        "hero_name": "Beatrix",
+        "matches": 269,
+        "win_rate": 55.8
+      }
+    ]
+  }
+}
