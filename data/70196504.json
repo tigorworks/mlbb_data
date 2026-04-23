@@ -1,0 +1,96 @@
+{
+  "id": "70196504",
+  "nick": "Hanzzome X TBRN",
+  "zone_id": "2219",
+  "role": "jungler",
+  "rank_current": "13",
+  "rank_highest": "48",
+  "statistic": {
+    "current_season": {
+      "matches_count": 138,
+      "win_rate": 51.45,
+      "kda": 2.46,
+      "team_participation": 54.5,
+      "gold_per_min": 698,
+      "dmg_per_min": 4561,
+      "deaths_per_match": 7.06,
+      "turret_dmg_per_match": 2587
+    },
+    "all_season": {
+      "matches_count": 10516,
+      "win_rate": 57.21,
+      "kda": 2.63,
+      "team_participation": 55.6,
+      "gold_per_min": 615,
+      "dmg_per_min": 4009,
+      "deaths_per_match": 5.98,
+      "turret_dmg_per_match": 2882
+    }
+  },
+  "hero_favorite": {
+    "current_season": [
+      {
+        "hero_name": "Natalia",
+        "matches": 45,
+        "win_rate": 57.8
+      },
+      {
+        "hero_name": "Cyclops",
+        "matches": 12,
+        "win_rate": 83.3
+      },
+      {
+        "hero_name": "Helcurt",
+        "matches": 7,
+        "win_rate": 57.1
+      },
+      {
+        "hero_name": "Guinevere",
+        "matches": 6,
+        "win_rate": 66.7
+      },
+      {
+        "hero_name": "Aamon",
+        "matches": 6,
+        "win_rate": 66.7
+      },
+      {
+        "hero_name": "Hayabusa",
+        "matches": 4,
+        "win_rate": 50.0
+      }
+    ],
+    "all_season": [
+      {
+        "hero_name": "Cyclops",
+        "matches": 2973,
+        "win_rate": 63.6
+      },
+      {
+        "hero_name": "Natalia",
+        "matches": 1081,
+        "win_rate": 62.6
+      },
+      {
+        "hero_name": "Clint",
+        "matches": 359,
+        "win_rate": 54.3
+      },
+      {
+        "hero_name": "Hilda",
+        "matches": 296,
+        "win_rate": 58.8
+      },
+      {
+        "hero_name": "Pharsa",
+        "matches": 289,
+        "win_rate": 63.3
+      },
+      {
+        "hero_name": "Sun",
+        "matches": 268,
+        "win_rate": 55.6
+      }
+    ]
+  }
+}
