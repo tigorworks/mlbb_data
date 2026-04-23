@@ -1,0 +1,96 @@
+{
+  "id": "257514650",
+  "nick": "AnakDota",
+  "zone_id": "9351",
+  "role": "roamer",
+  "rank_current": "16",
+  "rank_highest": "55",
+  "statistic": {
+    "current_season": {
+      "matches_count": 75,
+      "win_rate": 69.33,
+      "kda": 3.46,
+      "team_participation": 54.9,
+      "gold_per_min": 693,
+      "dmg_per_min": 3501,
+      "deaths_per_match": 5.55,
+      "turret_dmg_per_match": 3385
+    },
+    "all_season": {
+      "matches_count": 3265,
+      "win_rate": 59.51,
+      "kda": 2.78,
+      "team_participation": 47.9,
+      "gold_per_min": 687,
+      "dmg_per_min": 3487,
+      "deaths_per_match": 5.34,
+      "turret_dmg_per_match": 6198
+    }
+  },
+  "hero_favorite": {
+    "current_season": [
+      {
+        "hero_name": "Hilda",
+        "matches": 31,
+        "win_rate": 71.0
+      },
+      {
+        "hero_name": "Belerick",
+        "matches": 8,
+        "win_rate": 75.0
+      },
+      {
+        "hero_name": "Hanabi",
+        "matches": 7,
+        "win_rate": 85.7
+      },
+      {
+        "hero_name": "Tigreal",
+        "matches": 5,
+        "win_rate": 80.0
+      },
+      {
+        "hero_name": "Estes",
+        "matches": 5,
+        "win_rate": 60.0
+      },
+      {
+        "hero_name": "Bane",
+        "matches": 5,
+        "win_rate": 60.0
+      }
+    ],
+    "all_season": [
+      {
+        "hero_name": "Layla",
+        "matches": 595,
+        "win_rate": 65.4
+      },
+      {
+        "hero_name": "Bane",
+        "matches": 379,
+        "win_rate": 63.9
+      },
+      {
+        "hero_name": "Hanabi",
+        "matches": 343,
+        "win_rate": 63.6
+      },
+      {
+        "hero_name": "Belerick",
+        "matches": 238,
+        "win_rate": 64.7
+      },
+      {
+        "hero_name": "Tigreal",
+        "matches": 226,
+        "win_rate": 56.6
+      },
+      {
+        "hero_name": "Hylos",
+        "matches": 126,
+        "win_rate": 65.9
+      }
+    ]
+  }
+}
