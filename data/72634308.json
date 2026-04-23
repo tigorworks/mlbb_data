@@ -1,0 +1,96 @@
+{
+  "id": "72634308",
+  "nick": "Encyclopedia",
+  "zone_id": "2042",
+  "role": "goldlaner",
+  "rank_current": "66",
+  "rank_highest": "53",
+  "statistic": {
+    "current_season": {
+      "matches_count": 86,
+      "win_rate": 61.63,
+      "kda": 4.55,
+      "team_participation": 54.7,
+      "gold_per_min": 713,
+      "dmg_per_min": 4158,
+      "deaths_per_match": 3.72,
+      "turret_dmg_per_match": 5301
+    },
+    "all_season": {
+      "matches_count": 3485,
+      "win_rate": 56.73,
+      "kda": 4.55,
+      "team_participation": 52.4,
+      "gold_per_min": 667,
+      "dmg_per_min": 3275,
+      "deaths_per_match": 3.37,
+      "turret_dmg_per_match": 5536
+    }
+  },
+  "hero_favorite": {
+    "current_season": [
+      {
+        "hero_name": "Hanabi",
+        "matches": 13,
+        "win_rate": 76.9
+      },
+      {
+        "hero_name": "Gusion",
+        "matches": 11,
+        "win_rate": 36.4
+      },
+      {
+        "hero_name": "Johnson",
+        "matches": 7,
+        "win_rate": 85.7
+      },
+      {
+        "hero_name": "Irithel",
+        "matches": 6,
+        "win_rate": 66.7
+      },
+      {
+        "hero_name": "Freya",
+        "matches": 5,
+        "win_rate": 60.0
+      },
+      {
+        "hero_name": "Xavier",
+        "matches": 5,
+        "win_rate": 40.0
+      }
+    ],
+    "all_season": [
+      {
+        "hero_name": "Franco",
+        "matches": 157,
+        "win_rate": 52.2
+      },
+      {
+        "hero_name": "Gord",
+        "matches": 147,
+        "win_rate": 63.3
+      },
+      {
+        "hero_name": "Vale",
+        "matches": 139,
+        "win_rate": 59.0
+      },
+      {
+        "hero_name": "Wanwan",
+        "matches": 132,
+        "win_rate": 58.3
+      },
+      {
+        "hero_name": "Kimmy",
+        "matches": 115,
+        "win_rate": 71.3
+      },
+      {
+        "hero_name": "Miya",
+        "matches": 115,
+        "win_rate": 67.8
+      }
+    ]
+  }
+}
