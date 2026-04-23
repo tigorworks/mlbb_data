@@ -1,0 +1,96 @@
+{
+  "id": "217454808",
+  "nick": "NAY OZE X TBRN",
+  "zone_id": "9125",
+  "role": "jungler",
+  "rank_current": "21",
+  "rank_highest": "75",
+  "statistic": {
+    "current_season": {
+      "matches_count": 179,
+      "win_rate": 56.42,
+      "kda": 3.32,
+      "team_participation": 50.9,
+      "gold_per_min": 644,
+      "dmg_per_min": 3858,
+      "deaths_per_match": 4.57,
+      "turret_dmg_per_match": 2962
+    },
+    "all_season": {
+      "matches_count": 11315,
+      "win_rate": 55.88,
+      "kda": 3.2,
+      "team_participation": 54.8,
+      "gold_per_min": 662,
+      "dmg_per_min": 3627,
+      "deaths_per_match": 4.59,
+      "turret_dmg_per_match": 3825
+    }
+  },
+  "hero_favorite": {
+    "current_season": [
+      {
+        "hero_name": "Fanny",
+        "matches": 55,
+        "win_rate": 49.1
+      },
+      {
+        "hero_name": "Zetian",
+        "matches": 16,
+        "win_rate": 68.8
+      },
+      {
+        "hero_name": "Xavier",
+        "matches": 9,
+        "win_rate": 55.6
+      },
+      {
+        "hero_name": "Hanabi",
+        "matches": 8,
+        "win_rate": 50.0
+      },
+      {
+        "hero_name": "Odette",
+        "matches": 7,
+        "win_rate": 85.7
+      },
+      {
+        "hero_name": "Gusion",
+        "matches": 7,
+        "win_rate": 85.7
+      }
+    ],
+    "all_season": [
+      {
+        "hero_name": "Gusion",
+        "matches": 759,
+        "win_rate": 58.1
+      },
+      {
+        "hero_name": "Fanny",
+        "matches": 738,
+        "win_rate": 50.1
+      },
+      {
+        "hero_name": "Claude",
+        "matches": 547,
+        "win_rate": 61.8
+      },
+      {
+        "hero_name": "Hayabusa",
+        "matches": 478,
+        "win_rate": 62.1
+      },
+      {
+        "hero_name": "Lancelot",
+        "matches": 366,
+        "win_rate": 54.9
+      },
+      {
+        "hero_name": "Karrie",
+        "matches": 305,
+        "win_rate": 57.7
+      }
+    ]
+  }
+}
