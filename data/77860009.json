@@ -1,0 +1,96 @@
+{
+  "id": "77860009",
+  "nick": "Hadji. X TBRN",
+  "zone_id": "2146",
+  "role": "midlaner",
+  "rank_current": "55",
+  "rank_highest": "12",
+  "statistic": {
+    "current_season": {
+      "matches_count": 211,
+      "win_rate": 61.14,
+      "kda": 4.9,
+      "team_participation": 53.9,
+      "gold_per_min": 609,
+      "dmg_per_min": 3754,
+      "deaths_per_match": 3.66,
+      "turret_dmg_per_match": 1218
+    },
+    "all_season": {
+      "matches_count": 25678,
+      "win_rate": 51.09,
+      "kda": 3.68,
+      "team_participation": 55.0,
+      "gold_per_min": 608,
+      "dmg_per_min": 3421,
+      "deaths_per_match": 4.20,
+      "turret_dmg_per_match": 2706
+    }
+  },
+  "hero_favorite": {
+    "current_season": [
+      {
+        "hero_name": "Zetian",
+        "matches": 41,
+        "win_rate": 56.1
+      },
+      {
+        "hero_name": "Grock",
+        "matches": 29,
+        "win_rate": 58.6
+      },
+      {
+        "hero_name": "Pharsa",
+        "matches": 27,
+        "win_rate": 66.7
+      },
+      {
+        "hero_name": "Zhuxin",
+        "matches": 15,
+        "win_rate": 93.3
+      },
+      {
+        "hero_name": "Novaria",
+        "matches": 13,
+        "win_rate": 61.5
+      },
+      {
+        "hero_name": "Alice",
+        "matches": 12,
+        "win_rate": 41.7
+      }
+    ],
+    "all_season": [
+      {
+        "hero_name": "Pharsa",
+        "matches": 2288,
+        "win_rate": 55.1
+      },
+      {
+        "hero_name": "Valir",
+        "matches": 1376,
+        "win_rate": 52.4
+      },
+      {
+        "hero_name": "Irithel",
+        "matches": 1342,
+        "win_rate": 54.6
+      },
+      {
+        "hero_name": "Granger",
+        "matches": 1204,
+        "win_rate": 51.8
+      },
+      {
+        "hero_name": "Odette",
+        "matches": 1104,
+        "win_rate": 53.4
+      },
+      {
+        "hero_name": "Yve",
+        "matches": 876,
+        "win_rate": 55.0
+      }
+    ]
+  }
+}
