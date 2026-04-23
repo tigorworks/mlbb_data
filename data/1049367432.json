@@ -1,0 +1,96 @@
+{
+  "id": "1049367432",
+  "nick": "Fdl.RVG x TBRN",
+  "zone_id": "13205",
+  "role": "roamer",
+  "rank_current": "66",
+  "rank_highest": "130",
+  "statistic": {
+    "current_season": {
+      "matches_count": 255,
+      "win_rate": 56.08,
+      "kda": 2.73,
+      "team_participation": 51.3,
+      "gold_per_min": 581,
+      "dmg_per_min": 2546,
+      "deaths_per_match": 5.20,
+      "turret_dmg_per_match": 888
+    },
+    "all_season": {
+      "matches_count": 7001,
+      "win_rate": 54.99,
+      "kda": 3.48,
+      "team_participation": 56.0,
+      "gold_per_min": 611,
+      "dmg_per_min": 2422,
+      "deaths_per_match": 4.71,
+      "turret_dmg_per_match": 2032
+    }
+  },
+  "hero_favorite": {
+    "current_season": [
+      {
+        "hero_name": "Zhuxin",
+        "matches": 55,
+        "win_rate": 67.3
+      },
+      {
+        "hero_name": "Gatotkaca",
+        "matches": 26,
+        "win_rate": 69.2
+      },
+      {
+        "hero_name": "Hylos",
+        "matches": 18,
+        "win_rate": 72.2
+      },
+      {
+        "hero_name": "Ruby",
+        "matches": 15,
+        "win_rate": 46.7
+      },
+      {
+        "hero_name": "Khaleed",
+        "matches": 12,
+        "win_rate": 25.0
+      },
+      {
+        "hero_name": "Carmilla",
+        "matches": 11,
+        "win_rate": 45.5
+      }
+    ],
+    "all_season": [
+      {
+        "hero_name": "Gloo",
+        "matches": 1117,
+        "win_rate": 62.7
+      },
+      {
+        "hero_name": "Mathilda",
+        "matches": 410,
+        "win_rate": 56.1
+      },
+      {
+        "hero_name": "Gatotkaca",
+        "matches": 404,
+        "win_rate": 57.2
+      },
+      {
+        "hero_name": "Tigreal",
+        "matches": 364,
+        "win_rate": 53.6
+      },
+      {
+        "hero_name": "Franco",
+        "matches": 281,
+        "win_rate": 46.6
+      },
+      {
+        "hero_name": "Miya",
+        "matches": 233,
+        "win_rate": 55.8
+      }
+    ]
+  }
+}
