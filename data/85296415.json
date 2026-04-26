@@ -1,0 +1,96 @@
+{
+  "id": "85296415",
+  "nick": "Geto Suguru",
+  "zone_id": "2171",
+  "role": "goldlaner",
+  "rank_current": "35",
+  "rank_highest": "50",
+  "statistic": {
+    "current_season": {
+      "matches_count": 180,
+      "win_rate": 60.56,
+      "kda": 3.86,
+      "team_participation": 47.0,
+      "gold_per_min": 652,
+      "dmg_per_min": 3969,
+      "deaths_per_match": 4.04,
+      "turret_dmg_per_match": 3303
+    },
+    "all_season": {
+      "matches_count": 9099,
+      "win_rate": 53.05,
+      "kda": 3.09,
+      "team_participation": 51.4,
+      "gold_per_min": 609,
+      "dmg_per_min": 3160,
+      "deaths_per_match": 4.32,
+      "turret_dmg_per_match": 3513
+    }
+  },
+  "hero_favorite": {
+    "current_season": [
+      {
+        "hero_name": "Novaria",
+        "matches": 51,
+        "win_rate": 68.6
+      },
+      {
+        "hero_name": "Lapu-Lapu",
+        "matches": 33,
+        "win_rate": 60.6
+      },
+      {
+        "hero_name": "Sora",
+        "matches": 22,
+        "win_rate": 68.2
+      },
+      {
+        "hero_name": "Granger",
+        "matches": 21,
+        "win_rate": 66.7
+      },
+      {
+        "hero_name": "Phoveus",
+        "matches": 12,
+        "win_rate": 50.0
+      },
+      {
+        "hero_name": "Natan",
+        "matches": 6,
+        "win_rate": 33.3
+      }
+    ],
+    "all_season": [
+      {
+        "hero_name": "Karrie",
+        "matches": 589,
+        "win_rate": 55.0
+      },
+      {
+        "hero_name": "Brody",
+        "matches": 529,
+        "win_rate": 54.1
+      },
+      {
+        "hero_name": "Granger",
+        "matches": 444,
+        "win_rate": 53.4
+      },
+      {
+        "hero_name": "Lancelot",
+        "matches": 424,
+        "win_rate": 57.3
+      },
+      {
+        "hero_name": "Freya",
+        "matches": 351,
+        "win_rate": 55.3
+      },
+      {
+        "hero_name": "Harith",
+        "matches": 331,
+        "win_rate": 48.3
+      }
+    ]
+  }
+}
