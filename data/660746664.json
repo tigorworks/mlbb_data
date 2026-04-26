@@ -1,0 +1,96 @@
+{
+  "id": "660746664",
+  "nick": "Knightkill",
+  "zone_id": "8631",
+  "role": "goldlaner",
+  "rank_current": "54",
+  "rank_highest": "63",
+  "statistic": {
+    "current_season": {
+      "matches_count": 370,
+      "win_rate": 54.86,
+      "kda": 2.08,
+      "team_participation": 41.8,
+      "gold_per_min": 625,
+      "dmg_per_min": 3759,
+      "deaths_per_match": 5.32,
+      "turret_dmg_per_match": 3537
+    },
+    "all_season": {
+      "matches_count": 7382,
+      "win_rate": 52.60,
+      "kda": 2.75,
+      "team_participation": 48.1,
+      "gold_per_min": 670,
+      "dmg_per_min": 3320,
+      "deaths_per_match": 5.38,
+      "turret_dmg_per_match": 4143
+    }
+  },
+  "hero_favorite": {
+    "current_season": [
+      {
+        "hero_name": "Zhuxin",
+        "matches": 44,
+        "win_rate": 56.8
+      },
+      {
+        "hero_name": "Obsidia",
+        "matches": 27,
+        "win_rate": 55.6
+      },
+      {
+        "hero_name": "Pharsa",
+        "matches": 21,
+        "win_rate": 61.9
+      },
+      {
+        "hero_name": "Vexana",
+        "matches": 17,
+        "win_rate": 64.7
+      },
+      {
+        "hero_name": "Natan",
+        "matches": 16,
+        "win_rate": 50.0
+      },
+      {
+        "hero_name": "Sora",
+        "matches": 16,
+        "win_rate": 50.0
+      }
+    ],
+    "all_season": [
+      {
+        "hero_name": "Beatrix",
+        "matches": 309,
+        "win_rate": 56.6
+      },
+      {
+        "hero_name": "Lancelot",
+        "matches": 309,
+        "win_rate": 44.3
+      },
+      {
+        "hero_name": "Claude",
+        "matches": 237,
+        "win_rate": 53.6
+      },
+      {
+        "hero_name": "Julian",
+        "matches": 196,
+        "win_rate": 63.8
+      },
+      {
+        "hero_name": "Valentina",
+        "matches": 180,
+        "win_rate": 47.8
+      },
+      {
+        "hero_name": "Irithel",
+        "matches": 169,
+        "win_rate": 57.4
+      }
+    ]
+  }
+}
