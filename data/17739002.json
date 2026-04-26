@@ -1,0 +1,96 @@
+{
+  "id": "17739002",
+  "nick": "Coup de Flux",
+  "zone_id": "2019",
+  "role": "midlaner",
+  "rank_current": "18",
+  "rank_highest": "66",
+  "statistic": {
+    "current_season": {
+      "matches_count": 77,
+      "win_rate": 68.83,
+      "kda": 5.32,
+      "team_participation": 53.5,
+      "gold_per_min": 672,
+      "dmg_per_min": 3097,
+      "deaths_per_match": 3.64,
+      "turret_dmg_per_match": 4012
+    },
+    "all_season": {
+      "matches_count": 5037,
+      "win_rate": 60.02,
+      "kda": 3.72,
+      "team_participation": 51.7,
+      "gold_per_min": 617,
+      "dmg_per_min": 2779,
+      "deaths_per_match": 3.95,
+      "turret_dmg_per_match": 3650
+    }
+  },
+  "hero_favorite": {
+    "current_season": [
+      {
+        "hero_name": "Gord",
+        "matches": 10,
+        "win_rate": 70.0
+      },
+      {
+        "hero_name": "Yi Sun-shin",
+        "matches": 9,
+        "win_rate": 66.7
+      },
+      {
+        "hero_name": "Harley",
+        "matches": 8,
+        "win_rate": 62.5
+      },
+      {
+        "hero_name": "Sora",
+        "matches": 8,
+        "win_rate": 62.5
+      },
+      {
+        "hero_name": "Guinevere",
+        "matches": 7,
+        "win_rate": 71.4
+      },
+      {
+        "hero_name": "Obsidia",
+        "matches": 5,
+        "win_rate": 80.0
+      }
+    ],
+    "all_season": [
+      {
+        "hero_name": "Chou",
+        "matches": 420,
+        "win_rate": 57.1
+      },
+      {
+        "hero_name": "Clint",
+        "matches": 328,
+        "win_rate": 62.2
+      },
+      {
+        "hero_name": "Paquito",
+        "matches": 230,
+        "win_rate": 60.0
+      },
+      {
+        "hero_name": "Khufra",
+        "matches": 174,
+        "win_rate": 55.2
+      },
+      {
+        "hero_name": "Lancelot",
+        "matches": 137,
+        "win_rate": 56.9
+      },
+      {
+        "hero_name": "Akai",
+        "matches": 133,
+        "win_rate": 60.9
+      }
+    ]
+  }
+}
