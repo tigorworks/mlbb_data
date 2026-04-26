@@ -1,0 +1,96 @@
+{
+  "id": "97364824",
+  "nick": "T Hart",
+  "zone_id": "2504",
+  "role": "goldlaner",
+  "rank_current": "35",
+  "rank_highest": "66",
+  "statistic": {
+    "current_season": {
+      "matches_count": 247,
+      "win_rate": 57.89,
+      "kda": 1.98,
+      "team_participation": 45.4,
+      "gold_per_min": 670,
+      "dmg_per_min": 4881,
+      "deaths_per_match": 5.81,
+      "turret_dmg_per_match": 9766
+    },
+    "all_season": {
+      "matches_count": 13948,
+      "win_rate": 53.51,
+      "kda": 2.7,
+      "team_participation": 50.7,
+      "gold_per_min": 612,
+      "dmg_per_min": 3453,
+      "deaths_per_match": 5.13,
+      "turret_dmg_per_match": 6014
+    }
+  },
+  "hero_favorite": {
+    "current_season": [
+      {
+        "hero_name": "Hanabi",
+        "matches": 120,
+        "win_rate": 68.3
+      },
+      {
+        "hero_name": "Vale",
+        "matches": 17,
+        "win_rate": 52.9
+      },
+      {
+        "hero_name": "Lesley",
+        "matches": 14,
+        "win_rate": 42.9
+      },
+      {
+        "hero_name": "Natan",
+        "matches": 13,
+        "win_rate": 61.5
+      },
+      {
+        "hero_name": "Vexana",
+        "matches": 11,
+        "win_rate": 36.4
+      },
+      {
+        "hero_name": "Odette",
+        "matches": 10,
+        "win_rate": 60.0
+      }
+    ],
+    "all_season": [
+      {
+        "hero_name": "X.Borg",
+        "matches": 1652,
+        "win_rate": 57.6
+      },
+      {
+        "hero_name": "Layla",
+        "matches": 926,
+        "win_rate": 55.2
+      },
+      {
+        "hero_name": "Odette",
+        "matches": 851,
+        "win_rate": 58.6
+      },
+      {
+        "hero_name": "Hanabi",
+        "matches": 818,
+        "win_rate": 62.6
+      },
+      {
+        "hero_name": "Lesley",
+        "matches": 713,
+        "win_rate": 49.9
+      },
+      {
+        "hero_name": "Brody",
+        "matches": 554,
+        "win_rate": 54.0
+      }
+    ]
+  }
+}
