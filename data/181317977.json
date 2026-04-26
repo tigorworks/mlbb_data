@@ -1,0 +1,96 @@
+{
+  "id": "181317977",
+  "nick": "_Phoenix_",
+  "zone_id": "2918",
+  "role": "jungler",
+  "rank_current": "79",
+  "rank_highest": "79",
+  "statistic": {
+    "current_season": {
+      "matches_count": 551,
+      "win_rate": 56.44,
+      "kda": 1.58,
+      "team_participation": 37.5,
+      "gold_per_min": 585,
+      "dmg_per_min": 3184,
+      "deaths_per_match": 5.79,
+      "turret_dmg_per_match": 2500
+    },
+    "all_season": {
+      "matches_count": 11769,
+      "win_rate": 52.18,
+      "kda": 2.27,
+      "team_participation": 47.1,
+      "gold_per_min": 646,
+      "dmg_per_min": 3212,
+      "deaths_per_match": 6.00,
+      "turret_dmg_per_match": 3989
+    }
+  },
+  "hero_favorite": {
+    "current_season": [
+      {
+        "hero_name": "Saber",
+        "matches": 391,
+        "win_rate": 60.9
+      },
+      {
+        "hero_name": "Julian",
+        "matches": 31,
+        "win_rate": 41.9
+      },
+      {
+        "hero_name": "Helcurt",
+        "matches": 14,
+        "win_rate": 42.9
+      },
+      {
+        "hero_name": "Vexana",
+        "matches": 13,
+        "win_rate": 38.5
+      },
+      {
+        "hero_name": "Lancelot",
+        "matches": 12,
+        "win_rate": 58.3
+      },
+      {
+        "hero_name": "Harley",
+        "matches": 11,
+        "win_rate": 63.6
+      }
+    ],
+    "all_season": [
+      {
+        "hero_name": "Alucard",
+        "matches": 3620,
+        "win_rate": 53.8
+      },
+      {
+        "hero_name": "Saber",
+        "matches": 1391,
+        "win_rate": 57.9
+      },
+      {
+        "hero_name": "Lancelot",
+        "matches": 1182,
+        "win_rate": 49.4
+      },
+      {
+        "hero_name": "Miya",
+        "matches": 717,
+        "win_rate": 51.5
+      },
+      {
+        "hero_name": "Hanabi",
+        "matches": 678,
+        "win_rate": 50.3
+      },
+      {
+        "hero_name": "Karrie",
+        "matches": 548,
+        "win_rate": 54.0
+      }
+    ]
+  }
+}
