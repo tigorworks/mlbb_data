@@ -1,0 +1,96 @@
+{
+  "id": "146023020",
+  "nick": "MATOA",
+  "zone_id": "2736",
+  "role": "explaner",
+  "rank_current": "35",
+  "rank_highest": "64",
+  "statistic": {
+    "current_season": {
+      "matches_count": 232,
+      "win_rate": 58.62,
+      "kda": 2.52,
+      "team_participation": 38.0,
+      "gold_per_min": 631,
+      "dmg_per_min": 3142,
+      "deaths_per_match": 4.41,
+      "turret_dmg_per_match": 5117
+    },
+    "all_season": {
+      "matches_count": 4973,
+      "win_rate": 55.10,
+      "kda": 3.32,
+      "team_participation": 46.3,
+      "gold_per_min": 664,
+      "dmg_per_min": 2975,
+      "deaths_per_match": 4.15,
+      "turret_dmg_per_match": 4509
+    }
+  },
+  "hero_favorite": {
+    "current_season": [
+      {
+        "hero_name": "Sora",
+        "matches": 34,
+        "win_rate": 61.8
+      },
+      {
+        "hero_name": "Minsitthar",
+        "matches": 31,
+        "win_rate": 61.3
+      },
+      {
+        "hero_name": "Guinevere",
+        "matches": 27,
+        "win_rate": 63.0
+      },
+      {
+        "hero_name": "Lylia",
+        "matches": 21,
+        "win_rate": 61.9
+      },
+      {
+        "hero_name": "Julian",
+        "matches": 18,
+        "win_rate": 55.6
+      },
+      {
+        "hero_name": "Claude",
+        "matches": 15,
+        "win_rate": 60.0
+      }
+    ],
+    "all_season": [
+      {
+        "hero_name": "Julian",
+        "matches": 819,
+        "win_rate": 56.3
+      },
+      {
+        "hero_name": "Yu Zhong",
+        "matches": 405,
+        "win_rate": 56.3
+      },
+      {
+        "hero_name": "Cici",
+        "matches": 245,
+        "win_rate": 59.2
+      },
+      {
+        "hero_name": "Popol and Kupa",
+        "matches": 238,
+        "win_rate": 59.2
+      },
+      {
+        "hero_name": "Guinevere",
+        "matches": 238,
+        "win_rate": 55.5
+      },
+      {
+        "hero_name": "Minsitthar",
+        "matches": 234,
+        "win_rate": 54.7
+      }
+    ]
+  }
+}
