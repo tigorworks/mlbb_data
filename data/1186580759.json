@@ -1,0 +1,96 @@
+{
+  "id": "1186580759",
+  "nick": "Erza",
+  "zone_id": "13817",
+  "role": "midlaner",
+  "rank_current": "23",
+  "rank_highest": "65",
+  "statistic": {
+    "current_season": {
+      "matches_count": 171,
+      "win_rate": 57.31,
+      "kda": 3.77,
+      "team_participation": 51.7,
+      "gold_per_min": 622,
+      "dmg_per_min": 3833,
+      "deaths_per_match": 4.55,
+      "turret_dmg_per_match": 3635
+    },
+    "all_season": {
+      "matches_count": 6479,
+      "win_rate": 52.59,
+      "kda": 3.21,
+      "team_participation": 47.2,
+      "gold_per_min": 636,
+      "dmg_per_min": 2906,
+      "deaths_per_match": 4.63,
+      "turret_dmg_per_match": 3705
+    }
+  },
+  "hero_favorite": {
+    "current_season": [
+      {
+        "hero_name": "Zetian",
+        "matches": 25,
+        "win_rate": 56.0
+      },
+      {
+        "hero_name": "Vexana",
+        "matches": 11,
+        "win_rate": 72.7
+      },
+      {
+        "hero_name": "Xavier",
+        "matches": 11,
+        "win_rate": 72.7
+      },
+      {
+        "hero_name": "Gord",
+        "matches": 10,
+        "win_rate": 80.0
+      },
+      {
+        "hero_name": "Valir",
+        "matches": 8,
+        "win_rate": 87.5
+      },
+      {
+        "hero_name": "Hanabi",
+        "matches": 8,
+        "win_rate": 50.0
+      }
+    ],
+    "all_season": [
+      {
+        "hero_name": "Beatrix",
+        "matches": 445,
+        "win_rate": 48.5
+      },
+      {
+        "hero_name": "Cecilion",
+        "matches": 396,
+        "win_rate": 56.8
+      },
+      {
+        "hero_name": "Clint",
+        "matches": 337,
+        "win_rate": 52.2
+      },
+      {
+        "hero_name": "Cici",
+        "matches": 229,
+        "win_rate": 62.4
+      },
+      {
+        "hero_name": "Xavier",
+        "matches": 222,
+        "win_rate": 51.4
+      },
+      {
+        "hero_name": "Lylia",
+        "matches": 219,
+        "win_rate": 57.5
+      }
+    ]
+  }
+}
