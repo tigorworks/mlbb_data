@@ -1,0 +1,96 @@
+{
+  "id": "36175945",
+  "nick": "Kenjiro",
+  "zone_id": "2057",
+  "role": "jungler",
+  "rank_current": "35",
+  "rank_highest": "56",
+  "statistic": {
+    "current_season": {
+      "matches_count": 113,
+      "win_rate": 69.91,
+      "kda": 5.05,
+      "team_participation": 57.2,
+      "gold_per_min": 700,
+      "dmg_per_min": 3809,
+      "deaths_per_match": 3.69,
+      "turret_dmg_per_match": 2353
+    },
+    "all_season": {
+      "matches_count": 4320,
+      "win_rate": 59.54,
+      "kda": 4.25,
+      "team_participation": 54.0,
+      "gold_per_min": 643,
+      "dmg_per_min": 3140,
+      "deaths_per_match": 4.06,
+      "turret_dmg_per_match": 2327
+    }
+  },
+  "hero_favorite": {
+    "current_season": [
+      {
+        "hero_name": "Guinevere",
+        "matches": 30,
+        "win_rate": 83.3
+      },
+      {
+        "hero_name": "Suyou",
+        "matches": 23,
+        "win_rate": 60.9
+      },
+      {
+        "hero_name": "Aulus",
+        "matches": 5,
+        "win_rate": 100.0
+      },
+      {
+        "hero_name": "Sora",
+        "matches": 5,
+        "win_rate": 100.0
+      },
+      {
+        "hero_name": "Julian",
+        "matches": 5,
+        "win_rate": 80.0
+      },
+      {
+        "hero_name": "Angela",
+        "matches": 4,
+        "win_rate": 75.0
+      }
+    ],
+    "all_season": [
+      {
+        "hero_name": "Guinevere",
+        "matches": 266,
+        "win_rate": 68.4
+      },
+      {
+        "hero_name": "Ruby",
+        "matches": 216,
+        "win_rate": 60.6
+      },
+      {
+        "hero_name": "Fredrinn",
+        "matches": 188,
+        "win_rate": 52.1
+      },
+      {
+        "hero_name": "Novaria",
+        "matches": 186,
+        "win_rate": 62.4
+      },
+      {
+        "hero_name": "Khufra",
+        "matches": 184,
+        "win_rate": 55.4
+      },
+      {
+        "hero_name": "Suyou",
+        "matches": 179,
+        "win_rate": 63.7
+      }
+    ]
+  }
+}
