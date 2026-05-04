@@ -1,0 +1,96 @@
+{
+  "id": "69100630",
+  "nick": "ＦＯＣＵＳ",
+  "zone_id": "2216",
+  "role": "midlaner",
+  "rank_current": "24",
+  "rank_highest": "105",
+  "statistic": {
+    "current_season": {
+      "matches_count": 119,
+      "win_rate": 63.87,
+      "kda": 3.13,
+      "team_participation": 54.0,
+      "gold_per_min": 617,
+      "dmg_per_min": 3796,
+      "deaths_per_match": 5.45,
+      "turret_dmg_per_match": 3884
+    },
+    "all_season": {
+      "matches_count": 10314,
+      "win_rate": 52.83,
+      "kda": 2.7,
+      "team_participation": 52.2,
+      "gold_per_min": 543,
+      "dmg_per_min": 3059,
+      "deaths_per_match": 5.32,
+      "turret_dmg_per_match": 2850
+    }
+  },
+  "hero_favorite": {
+    "current_season": [
+      {
+        "hero_name": "Valir",
+        "matches": 77,
+        "win_rate": 62.3
+      },
+      {
+        "hero_name": "Vexana",
+        "matches": 26,
+        "win_rate": 69.2
+      },
+      {
+        "hero_name": "Aurora",
+        "matches": 7,
+        "win_rate": 71.4
+      },
+      {
+        "hero_name": "Beatrix",
+        "matches": 3,
+        "win_rate": 66.7
+      },
+      {
+        "hero_name": "Julian",
+        "matches": 1,
+        "win_rate": 100.0
+      },
+      {
+        "hero_name": "Gatotkaca",
+        "matches": 1,
+        "win_rate": 100.0
+      }
+    ],
+    "all_season": [
+      {
+        "hero_name": "Valir",
+        "matches": 2722,
+        "win_rate": 56.6
+      },
+      {
+        "hero_name": "Gatotkaca",
+        "matches": 1381,
+        "win_rate": 53.6
+      },
+      {
+        "hero_name": "Belerick",
+        "matches": 881,
+        "win_rate": 52.6
+      },
+      {
+        "hero_name": "Freya",
+        "matches": 598,
+        "win_rate": 51.8
+      },
+      {
+        "hero_name": "Vexana",
+        "matches": 517,
+        "win_rate": 55.3
+      },
+      {
+        "hero_name": "Lolita",
+        "matches": 501,
+        "win_rate": 57.1
+      }
+    ]
+  }
+}
