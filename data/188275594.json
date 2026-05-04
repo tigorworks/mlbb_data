@@ -1,0 +1,96 @@
+{
+  "id": "188275594",
+  "nick": "Han-Ta",
+  "zone_id": "2971",
+  "role": "roamer",
+  "rank_current": "100",
+  "rank_highest": "100",
+  "statistic": {
+    "current_season": {
+      "matches_count": 586,
+      "win_rate": 52.05,
+      "kda": 1.69,
+      "team_participation": 44.3,
+      "gold_per_min": 541,
+      "dmg_per_min": 2333,
+      "deaths_per_match": 4.97,
+      "turret_dmg_per_match": 2497
+    },
+    "all_season": {
+      "matches_count": 6798,
+      "win_rate": 54.68,
+      "kda": 3.11,
+      "team_participation": 52.4,
+      "gold_per_min": 663,
+      "dmg_per_min": 3081,
+      "deaths_per_match": 4.71,
+      "turret_dmg_per_match": 5969
+    }
+  },
+  "hero_favorite": {
+    "current_season": [
+      {
+        "hero_name": "Minotaur",
+        "matches": 151,
+        "win_rate": 62.9
+      },
+      {
+        "hero_name": "Akai",
+        "matches": 94,
+        "win_rate": 51.1
+      },
+      {
+        "hero_name": "Terizla",
+        "matches": 57,
+        "win_rate": 43.9
+      },
+      {
+        "hero_name": "X.Borg",
+        "matches": 48,
+        "win_rate": 66.7
+      },
+      {
+        "hero_name": "Khufra",
+        "matches": 40,
+        "win_rate": 45.0
+      },
+      {
+        "hero_name": "Natan",
+        "matches": 33,
+        "win_rate": 54.5
+      }
+    ],
+    "all_season": [
+      {
+        "hero_name": "Lesley",
+        "matches": 1499,
+        "win_rate": 58.7
+      },
+      {
+        "hero_name": "Dyrroth",
+        "matches": 968,
+        "win_rate": 61.1
+      },
+      {
+        "hero_name": "Lancelot",
+        "matches": 731,
+        "win_rate": 51.6
+      },
+      {
+        "hero_name": "Alucard",
+        "matches": 632,
+        "win_rate": 52.4
+      },
+      {
+        "hero_name": "Moskov",
+        "matches": 570,
+        "win_rate": 61.6
+      },
+      {
+        "hero_name": "Martis",
+        "matches": 481,
+        "win_rate": 59.7
+      }
+    ]
+  }
+}
