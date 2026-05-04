@@ -1,0 +1,96 @@
+{
+  "id": "987688064",
+  "nick": "LEVIATHAN",
+  "zone_id": "12932",
+  "role": "jungler",
+  "rank_current": "12",
+  "rank_highest": "48",
+  "statistic": {
+    "current_season": {
+      "matches_count": 79,
+      "win_rate": 68.35,
+      "kda": 3.96,
+      "team_participation": 48.6,
+      "gold_per_min": 680,
+      "dmg_per_min": 3499,
+      "deaths_per_match": 3.72,
+      "turret_dmg_per_match": 3668
+    },
+    "all_season": {
+      "matches_count": 4298,
+      "win_rate": 56.47,
+      "kda": 3.87,
+      "team_participation": 51.0,
+      "gold_per_min": 680,
+      "dmg_per_min": 3263,
+      "deaths_per_match": 3.93,
+      "turret_dmg_per_match": 3346
+    }
+  },
+  "hero_favorite": {
+    "current_season": [
+      {
+        "hero_name": "Julian",
+        "matches": 14,
+        "win_rate": 64.3
+      },
+      {
+        "hero_name": "Gord",
+        "matches": 13,
+        "win_rate": 84.6
+      },
+      {
+        "hero_name": "Claude",
+        "matches": 5,
+        "win_rate": 100.0
+      },
+      {
+        "hero_name": "Fredrinn",
+        "matches": 4,
+        "win_rate": 50.0
+      },
+      {
+        "hero_name": "Harley",
+        "matches": 3,
+        "win_rate": 100.0
+      },
+      {
+        "hero_name": "Alpha",
+        "matches": 3,
+        "win_rate": 100.0
+      }
+    ],
+    "all_season": [
+      {
+        "hero_name": "Benedetta",
+        "matches": 380,
+        "win_rate": 61.1
+      },
+      {
+        "hero_name": "Paquito",
+        "matches": 364,
+        "win_rate": 52.7
+      },
+      {
+        "hero_name": "Franco",
+        "matches": 293,
+        "win_rate": 53.2
+      },
+      {
+        "hero_name": "Harley",
+        "matches": 245,
+        "win_rate": 61.6
+      },
+      {
+        "hero_name": "Granger",
+        "matches": 228,
+        "win_rate": 60.5
+      },
+      {
+        "hero_name": "Jawhead",
+        "matches": 227,
+        "win_rate": 59.9
+      }
+    ]
+  }
+}
