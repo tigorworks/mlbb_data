@@ -1,0 +1,96 @@
+{
+  "id": "125865871",
+  "nick": "Kowalski x KONCO",
+  "zone_id": "2647",
+  "role": "jungler",
+  "rank_current": "24",
+  "rank_highest": "91",
+  "statistic": {
+    "current_season": {
+      "matches_count": 203,
+      "win_rate": 55.67,
+      "kda": 3.65,
+      "team_participation": 50.1,
+      "gold_per_min": 665,
+      "dmg_per_min": 3528,
+      "deaths_per_match": 4.51,
+      "turret_dmg_per_match": 2923
+    },
+    "all_season": {
+      "matches_count": 13925,
+      "win_rate": 54.97,
+      "kda": 3.61,
+      "team_participation": 54.2,
+      "gold_per_min": 612,
+      "dmg_per_min": 2931,
+      "deaths_per_match": 4.01,
+      "turret_dmg_per_match": 2857
+    }
+  },
+  "hero_favorite": {
+    "current_season": [
+      {
+        "hero_name": "Fanny",
+        "matches": 20,
+        "win_rate": 50.0
+      },
+      {
+        "hero_name": "Xavier",
+        "matches": 19,
+        "win_rate": 63.2
+      },
+      {
+        "hero_name": "Hayabusa",
+        "matches": 11,
+        "win_rate": 72.7
+      },
+      {
+        "hero_name": "Lunox",
+        "matches": 11,
+        "win_rate": 63.6
+      },
+      {
+        "hero_name": "Gusion",
+        "matches": 10,
+        "win_rate": 70.0
+      },
+      {
+        "hero_name": "Chou",
+        "matches": 10,
+        "win_rate": 50.0
+      }
+    ],
+    "all_season": [
+      {
+        "hero_name": "Chou",
+        "matches": 1807,
+        "win_rate": 55.7
+      },
+      {
+        "hero_name": "Lancelot",
+        "matches": 990,
+        "win_rate": 55.9
+      },
+      {
+        "hero_name": "Hylos",
+        "matches": 812,
+        "win_rate": 60.1
+      },
+      {
+        "hero_name": "Grock",
+        "matches": 761,
+        "win_rate": 59.5
+      },
+      {
+        "hero_name": "Hayabusa",
+        "matches": 597,
+        "win_rate": 60.3
+      },
+      {
+        "hero_name": "Xavier",
+        "matches": 562,
+        "win_rate": 61.2
+      }
+    ]
+  }
+}
