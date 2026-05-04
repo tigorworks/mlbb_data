@@ -1,0 +1,96 @@
+{
+  "id": "52330176",
+  "nick": "Dakuy",
+  "zone_id": "2214",
+  "role": "explaner",
+  "rank_current": "38",
+  "rank_highest": "88",
+  "statistic": {
+    "current_season": {
+      "matches_count": 110,
+      "win_rate": 70.91,
+      "kda": 2.9,
+      "team_participation": 51.4,
+      "gold_per_min": 713,
+      "dmg_per_min": 4645,
+      "deaths_per_match": 5.83,
+      "turret_dmg_per_match": 6695
+    },
+    "all_season": {
+      "matches_count": 3719,
+      "win_rate": 63.92,
+      "kda": 4.23,
+      "team_participation": 56.7,
+      "gold_per_min": 677,
+      "dmg_per_min": 4072,
+      "deaths_per_match": 4.12,
+      "turret_dmg_per_match": 5290
+    }
+  },
+  "hero_favorite": {
+    "current_season": [
+      {
+        "hero_name": "Guinevere",
+        "matches": 18,
+        "win_rate": 77.8
+      },
+      {
+        "hero_name": "Helcurt",
+        "matches": 9,
+        "win_rate": 55.6
+      },
+      {
+        "hero_name": "Lapu-Lapu",
+        "matches": 7,
+        "win_rate": 100.0
+      },
+      {
+        "hero_name": "Suyou",
+        "matches": 5,
+        "win_rate": 100.0
+      },
+      {
+        "hero_name": "Lancelot",
+        "matches": 5,
+        "win_rate": 100.0
+      },
+      {
+        "hero_name": "Zhuxin",
+        "matches": 4,
+        "win_rate": 75.0
+      }
+    ],
+    "all_season": [
+      {
+        "hero_name": "Natalia",
+        "matches": 200,
+        "win_rate": 61.5
+      },
+      {
+        "hero_name": "Gusion",
+        "matches": 179,
+        "win_rate": 73.7
+      },
+      {
+        "hero_name": "Franco",
+        "matches": 157,
+        "win_rate": 58.6
+      },
+      {
+        "hero_name": "Lancelot",
+        "matches": 152,
+        "win_rate": 62.5
+      },
+      {
+        "hero_name": "Hilda",
+        "matches": 150,
+        "win_rate": 56.7
+      },
+      {
+        "hero_name": "Lapu-Lapu",
+        "matches": 141,
+        "win_rate": 69.5
+      }
+    ]
+  }
+}
