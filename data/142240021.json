@@ -1,69 +1,69 @@
 {
   "id": "142240021",
-  "nick": "epideMIC",
+  "nick": "ερIdєMΙC",
   "zone_id": "2721",
   "role": "roamer",
-  "rank_current": "1",
+  "rank_current": "14",
   "rank_highest": "115",
   "statistic": {
     "current_season": {
-      "matches_count": 59,
-      "win_rate": 66.10,
-      "kda": 5.24,
-      "team_participation": 62.7,
-      "gold_per_min": 743,
-      "dmg_per_min": 4717,
-      "deaths_per_match": 4.42,
-      "turret_dmg_per_match": 5536
+      "matches_count": 87,
+      "win_rate": 57.47,
+      "kda": 4.13,
+      "team_participation": 60.4,
+      "gold_per_min": 696,
+      "dmg_per_min": 4138,
+      "deaths_per_match": 5.41,
+      "turret_dmg_per_match": 4541
     },
     "all_season": {
-      "matches_count": 6546,
-      "win_rate": 58.33,
+      "matches_count": 6574,
+      "win_rate": 58.24,
       "kda": 3.23,
       "team_participation": 52.7,
       "gold_per_min": 637,
-      "dmg_per_min": 3260,
-      "deaths_per_match": 4.74,
-      "turret_dmg_per_match": 4578
+      "dmg_per_min": 3258,
+      "deaths_per_match": 4.75,
+      "turret_dmg_per_match": 4569
     }
   },
   "hero_favorite": {
     "current_season": [
       {
         "hero_name": "Kimmy",
-        "matches": 27,
-        "win_rate": 70.4
+        "matches": 28,
+        "win_rate": 67.9
       },
       {
         "hero_name": "Kadita",
-        "matches": 8,
-        "win_rate": 50.0
+        "matches": 11,
+        "win_rate": 54.5
+      },
+      {
+        "hero_name": "Marcel",
+        "matches": 6,
+        "win_rate": 66.7
+      },
+      {
+        "hero_name": "Pharsa",
+        "matches": 5,
+        "win_rate": 60.0
+      },
+      {
+        "hero_name": "Fredrinn",
+        "matches": 5,
+        "win_rate": 40.0
       },
       {
         "hero_name": "Vexana",
         "matches": 4,
         "win_rate": 75.0
-      },
-      {
-        "hero_name": "Pharsa",
-        "matches": 3,
-        "win_rate": 100.0
-      },
-      {
-        "hero_name": "Marcel",
-        "matches": 3,
-        "win_rate": 100.0
-      },
-      {
-        "hero_name": "Fredrinn",
-        "matches": 3,
-        "win_rate": 66.7
       }
     ],
     "all_season": [
       {
         "hero_name": "Franco",
-        "matches": 416,
+        "matches": 418,
         "win_rate": 57.7
       },
       {
@@ -78,8 +78,8 @@
       },
       {
         "hero_name": "Hilda",
-        "matches": 359,
-        "win_rate": 63.0
+        "matches": 360,
+        "win_rate": 62.8
       },
       {
         "hero_name": "Vale",
@@ -88,8 +88,8 @@
       },
       {
         "hero_name": "Khufra",
-        "matches": 236,
-        "win_rate": 56.4
+        "matches": 237,
+        "win_rate": 56.1
       }
     ]
   }
