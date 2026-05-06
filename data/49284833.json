@@ -3,41 +3,41 @@
   "nick": "CMB . Fatikal",
   "zone_id": "2101",
   "role": "explaner",
-  "rank_current": "18",
+  "rank_current": "21",
   "rank_highest": "63",
   "statistic": {
     "current_season": {
-      "matches_count": 107,
-      "win_rate": 66.36,
-      "kda": 4.36,
-      "team_participation": 54.3,
-      "gold_per_min": 790,
-      "dmg_per_min": 4964,
-      "deaths_per_match": 4.80,
-      "turret_dmg_per_match": 11144
+      "matches_count": 120,
+      "win_rate": 65.00,
+      "kda": 4.15,
+      "team_participation": 53.9,
+      "gold_per_min": 779,
+      "dmg_per_min": 4930,
+      "deaths_per_match": 4.88,
+      "turret_dmg_per_match": 10880
     },
     "all_season": {
-      "matches_count": 4085,
-      "win_rate": 61.98,
+      "matches_count": 4098,
+      "win_rate": 61.96,
       "kda": 3.24,
       "team_participation": 53.9,
-      "gold_per_min": 647,
-      "dmg_per_min": 3172,
+      "gold_per_min": 648,
+      "dmg_per_min": 3177,
       "deaths_per_match": 4.93,
-      "turret_dmg_per_match": 4546
+      "turret_dmg_per_match": 4560
     }
   },
   "hero_favorite": {
     "current_season": [
       {
         "hero_name": "Hanabi",
-        "matches": 33,
-        "win_rate": 78.8
+        "matches": 36,
+        "win_rate": 80.6
       },
       {
         "hero_name": "Obsidia",
-        "matches": 21,
-        "win_rate": 66.7
+        "matches": 23,
+        "win_rate": 65.2
       },
       {
         "hero_name": "Alpha",
@@ -51,13 +51,13 @@
       },
       {
         "hero_name": "Granger",
-        "matches": 5,
-        "win_rate": 60.0
+        "matches": 6,
+        "win_rate": 50.0
       },
       {
         "hero_name": "Natan",
-        "matches": 4,
-        "win_rate": 75.0
+        "matches": 5,
+        "win_rate": 60.0
       }
     ],
     "all_season": [
@@ -68,8 +68,8 @@
       },
       {
         "hero_name": "Granger",
-        "matches": 348,
-        "win_rate": 69.3
+        "matches": 349,
+        "win_rate": 69.1
       },
       {
         "hero_name": "Khufra",
