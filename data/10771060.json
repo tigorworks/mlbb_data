@@ -1,93 +1,103 @@
 {
   "id": "10771060",
-  "nick": "MayorJendral",
-  "zone_id": "2201",
+  "nickname": "MayorJendral",
   "role": "roamer",
-  "rank_current": "46",
-  "rank_highest": "167",
-  "statistic": {
-    "current_season": {
-      "matches_count": 151,
-      "win_rate": 60.26,
-      "kda": 3.68,
-      "team_participation": 63.6,
-      "gold_per_min": 619,
-      "dmg_per_min": 2660,
-      "deaths_per_match": 4.64,
-      "turret_dmg_per_match": 2781
-    },
-    "all_season": {
-      "matches_count": 7921,
-      "win_rate": 55.86,
-      "kda": 3.77,
-      "team_participation": 58.5,
-      "gold_per_min": 639,
-      "dmg_per_min": 2880,
-      "deaths_per_match": 4.32,
-      "turret_dmg_per_match": 3247
-    }
-  },
-  "hero_favorite": {
-    "current_season": [
+  "server": "2201",
+  "current_rank": 70,
+  "highest_rank": 67,
+  "current_season": {
+    "matches": 236,
+    "win_rate": 58.47,
+    "mvp": 30,
+    "kda": 3.21,
+    "teamfight_participation": 58.6,
+    "gold_per_min": 600,
+    "hero_damage_per_min": 2758,
+    "deaths_per_match": 4.79,
+    "turret_damage_per_match": 2576,
+    "favorite_heroes": [
       {
-        "hero_name": "Estes",
+        "hero": "Estes",
+        "hero_power": 2313,
         "matches": 34,
         "win_rate": 70.6
       },
       {
-        "hero_name": "Khaleed",
-        "matches": 17,
-        "win_rate": 58.8
+        "hero": "Khaleed",
+        "hero_power": 2070,
+        "matches": 26,
+        "win_rate": 57.7
       },
       {
-        "hero_name": "Kaja",
+        "hero": "Kaja",
+        "hero_power": 2024,
+        "matches": 20,
+        "win_rate": 50.0
+      },
+      {
+        "hero": "Hanabi",
+        "hero_power": 1875,
+        "matches": 14,
+        "win_rate": 64.3
+      },
+      {
+        "hero": "Guinevere",
+        "hero_power": 1499,
         "matches": 13,
-        "win_rate": 53.8
+        "win_rate": 69.2
       },
       {
-        "hero_name": "Guinevere",
-        "matches": 12,
-        "win_rate": 66.7
-      },
-      {
-        "hero_name": "Minotaur",
-        "matches": 10,
-        "win_rate": 80.0
-      },
-      {
-        "hero_name": "Hanabi",
-        "matches": 8,
-        "win_rate": 87.5
+        "hero": "Minotaur",
+        "hero_power": 2293,
+        "matches": 11,
+        "win_rate": 81.8
       }
-    ],
-    "all_season": [
+    ]
+  },
+  "all_season": {
+    "matches": 8006,
+    "win_rate": 55.86,
+    "mvp": 940,
+    "kda": 3.76,
+    "teamfight_participation": 58.5,
+    "gold_per_min": 639,
+    "hero_damage_per_min": 2881,
+    "deaths_per_match": 4.33,
+    "turret_damage_per_match": 3237,
+    "favorite_heroes": [
       {
-        "hero_name": "Clint",
+        "hero": "Clint",
+        "hero_power": 3470,
         "matches": 421,
         "win_rate": 58.7
       },
       {
-        "hero_name": "Kaja",
-        "matches": 389,
-        "win_rate": 58.9
+        "hero": "Kaja",
+        "hero_power": 3410,
+        "matches": 396,
+        "win_rate": 58.6
       },
       {
-        "hero_name": "Claude",
-        "matches": 348,
-        "win_rate": 52.0
+        "hero": "Claude",
+        "hero_power": 2558,
+        "matches": 353,
+        "win_rate": 52.4
       },
       {
-        "hero_name": "Rafaela",
+        "hero": "Rafaela",
+        "hero_power": 2618,
         "matches": 333,
         "win_rate": 64.0
       },
       {
-        "hero_name": "Karrie",
-        "matches": 316,
-        "win_rate": 60.1
+        "hero": "Karrie",
+        "hero_power": 2871,
+        "matches": 320,
+        "win_rate": 60.0
       },
       {
-        "hero_name": "Ruby",
+        "hero": "Ruby",
+        "hero_power": 2914,
         "matches": 300,
         "win_rate": 56.0
       }
