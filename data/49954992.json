@@ -1,0 +1,96 @@
+{
+  "id": "49954992",
+  "nick": "TigreZz",
+  "zone_id": "2213",
+  "role": "midlaner",
+  "rank_current": "89",
+  "rank_highest": "234",
+  "statistic": {
+    "current_season": {
+      "matches_count": 292,
+      "win_rate": 62.67,
+      "kda": 4.51,
+      "team_participation": 54.9,
+      "gold_per_min": 610,
+      "dmg_per_min": 4260,
+      "deaths_per_match": 3.84,
+      "turret_dmg_per_match": 2553
+    },
+    "all_season": {
+      "matches_count": 16568,
+      "win_rate": 60.41,
+      "kda": 4.14,
+      "team_participation": 57.6,
+      "gold_per_min": 553,
+      "dmg_per_min": 3025,
+      "deaths_per_match": 3.80,
+      "turret_dmg_per_match": 1755
+    }
+  },
+  "hero_favorite": {
+    "current_season": [
+      {
+        "hero_name": "Yve",
+        "matches": 84,
+        "win_rate": 61.9
+      },
+      {
+        "hero_name": "Zetian",
+        "matches": 66,
+        "win_rate": 63.6
+      },
+      {
+        "hero_name": "Zhuxin",
+        "matches": 52,
+        "win_rate": 71.2
+      },
+      {
+        "hero_name": "Pharsa",
+        "matches": 44,
+        "win_rate": 61.4
+      },
+      {
+        "hero_name": "Valentina",
+        "matches": 20,
+        "win_rate": 45.0
+      },
+      {
+        "hero_name": "Fredrinn",
+        "matches": 7,
+        "win_rate": 71.4
+      }
+    ],
+    "all_season": [
+      {
+        "hero_name": "Selena",
+        "matches": 1378,
+        "win_rate": 66.8
+      },
+      {
+        "hero_name": "Pharsa",
+        "matches": 1249,
+        "win_rate": 65.5
+      },
+      {
+        "hero_name": "Akai",
+        "matches": 1077,
+        "win_rate": 61.4
+      },
+      {
+        "hero_name": "Grock",
+        "matches": 1031,
+        "win_rate": 74.4
+      },
+      {
+        "hero_name": "Lunox",
+        "matches": 844,
+        "win_rate": 65.4
+      },
+      {
+        "hero_name": "Kaja",
+        "matches": 744,
+        "win_rate": 67.9
+      }
+    ]
+  }
+}
