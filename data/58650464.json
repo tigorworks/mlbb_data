@@ -1,0 +1,96 @@
+{
+  "id": "58650464",
+  "nick": "WANZZ",
+  "zone_id": "2097",
+  "role": "goldlaner",
+  "rank_current": "101",
+  "rank_highest": "127",
+  "statistic": {
+    "current_season": {
+      "matches_count": 620,
+      "win_rate": 54.19,
+      "kda": 2.38,
+      "team_participation": 38.1,
+      "gold_per_min": 588,
+      "dmg_per_min": 4094,
+      "deaths_per_match": 4.30,
+      "turret_dmg_per_match": 3667
+    },
+    "all_season": {
+      "matches_count": 20468,
+      "win_rate": 51.73,
+      "kda": 3.55,
+      "team_participation": 53.3,
+      "gold_per_min": 622,
+      "dmg_per_min": 3377,
+      "deaths_per_match": 4.08,
+      "turret_dmg_per_match": 2900
+    }
+  },
+  "hero_favorite": {
+    "current_season": [
+      {
+        "hero_name": "Granger",
+        "matches": 77,
+        "win_rate": 44.2
+      },
+      {
+        "hero_name": "Yu Zhong",
+        "matches": 60,
+        "win_rate": 71.7
+      },
+      {
+        "hero_name": "Selena",
+        "matches": 60,
+        "win_rate": 33.3
+      },
+      {
+        "hero_name": "Zhuxin",
+        "matches": 49,
+        "win_rate": 69.4
+      },
+      {
+        "hero_name": "Phoveus",
+        "matches": 41,
+        "win_rate": 61.0
+      },
+      {
+        "hero_name": "Cici",
+        "matches": 39,
+        "win_rate": 56.4
+      }
+    ],
+    "all_season": [
+      {
+        "hero_name": "Hayabusa",
+        "matches": 986,
+        "win_rate": 56.5
+      },
+      {
+        "hero_name": "Kadita",
+        "matches": 843,
+        "win_rate": 54.4
+      },
+      {
+        "hero_name": "Granger",
+        "matches": 727,
+        "win_rate": 51.6
+      },
+      {
+        "hero_name": "Lancelot",
+        "matches": 703,
+        "win_rate": 46.8
+      },
+      {
+        "hero_name": "Selena",
+        "matches": 672,
+        "win_rate": 42.4
+      },
+      {
+        "hero_name": "Chou",
+        "matches": 642,
+        "win_rate": 43.6
+      }
+    ]
+  }
+}
