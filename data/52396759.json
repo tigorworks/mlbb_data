@@ -1,0 +1,96 @@
+{
+  "id": "52396759",
+  "nick": "kennzyy",
+  "zone_id": "2083",
+  "role": "jungler",
+  "rank_current": "77",
+  "rank_highest": "124",
+  "statistic": {
+    "current_season": {
+      "matches_count": 339,
+      "win_rate": 58.70,
+      "kda": 3.8,
+      "team_participation": 49.7,
+      "gold_per_min": 645,
+      "dmg_per_min": 3627,
+      "deaths_per_match": 3.77,
+      "turret_dmg_per_match": 6156
+    },
+    "all_season": {
+      "matches_count": 15679,
+      "win_rate": 56.46,
+      "kda": 3.84,
+      "team_participation": 57.3,
+      "gold_per_min": 591,
+      "dmg_per_min": 3099,
+      "deaths_per_match": 3.95,
+      "turret_dmg_per_match": 3534
+    }
+  },
+  "hero_favorite": {
+    "current_season": [
+      {
+        "hero_name": "Suyou",
+        "matches": 75,
+        "win_rate": 68.0
+      },
+      {
+        "hero_name": "Yi Sun-shin",
+        "matches": 61,
+        "win_rate": 60.7
+      },
+      {
+        "hero_name": "Fanny",
+        "matches": 46,
+        "win_rate": 43.5
+      },
+      {
+        "hero_name": "Granger",
+        "matches": 30,
+        "win_rate": 60.0
+      },
+      {
+        "hero_name": "Moskov",
+        "matches": 17,
+        "win_rate": 64.7
+      },
+      {
+        "hero_name": "Tigreal",
+        "matches": 13,
+        "win_rate": 69.2
+      }
+    ],
+    "all_season": [
+      {
+        "hero_name": "Fanny",
+        "matches": 2707,
+        "win_rate": 60.4
+      },
+      {
+        "hero_name": "Chou",
+        "matches": 1236,
+        "win_rate": 58.0
+      },
+      {
+        "hero_name": "Selena",
+        "matches": 983,
+        "win_rate": 62.7
+      },
+      {
+        "hero_name": "Gusion",
+        "matches": 981,
+        "win_rate": 62.0
+      },
+      {
+        "hero_name": "Franco",
+        "matches": 863,
+        "win_rate": 55.0
+      },
+      {
+        "hero_name": "Lancelot",
+        "matches": 614,
+        "win_rate": 51.3
+      }
+    ]
+  }
+}
