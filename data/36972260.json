@@ -1,0 +1,96 @@
+{
+  "id": "36972260",
+  "nick": "Ms•Lord",
+  "zone_id": "2060",
+  "role": "explaner",
+  "rank_current": "",
+  "rank_highest": "91",
+  "statistic": {
+    "current_season": {
+      "matches_count": 66,
+      "win_rate": 65.15,
+      "kda": 4.26,
+      "team_participation": 51.1,
+      "gold_per_min": 671,
+      "dmg_per_min": 4180,
+      "deaths_per_match": 4.24,
+      "turret_dmg_per_match": 3908
+    },
+    "all_season": {
+      "matches_count": 8480,
+      "win_rate": 56.99,
+      "kda": 3.43,
+      "team_participation": 54.5,
+      "gold_per_min": 563,
+      "dmg_per_min": 3263,
+      "deaths_per_match": 4.35,
+      "turret_dmg_per_match": 3061
+    }
+  },
+  "hero_favorite": {
+    "current_season": [
+      {
+        "hero_name": "Guinevere",
+        "matches": 23,
+        "win_rate": 78.3
+      },
+      {
+        "hero_name": "Lapu-Lapu",
+        "matches": 7,
+        "win_rate": 42.9
+      },
+      {
+        "hero_name": "Esmeralda",
+        "matches": 6,
+        "win_rate": 50.0
+      },
+      {
+        "hero_name": "Ruby",
+        "matches": 4,
+        "win_rate": 75.0
+      },
+      {
+        "hero_name": "Phoveus",
+        "matches": 4,
+        "win_rate": 50.0
+      },
+      {
+        "hero_name": "Sora",
+        "matches": 3,
+        "win_rate": 66.7
+      }
+    ],
+    "all_season": [
+      {
+        "hero_name": "Johnson",
+        "matches": 511,
+        "win_rate": 61.6
+      },
+      {
+        "hero_name": "Moskov",
+        "matches": 384,
+        "win_rate": 55.7
+      },
+      {
+        "hero_name": "Bruno",
+        "matches": 330,
+        "win_rate": 55.2
+      },
+      {
+        "hero_name": "Kadita",
+        "matches": 298,
+        "win_rate": 58.7
+      },
+      {
+        "hero_name": "Aurora",
+        "matches": 276,
+        "win_rate": 58.0
+      },
+      {
+        "hero_name": "Pharsa",
+        "matches": 262,
+        "win_rate": 58.8
+      }
+    ]
+  }
+}
