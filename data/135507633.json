@@ -1,0 +1,96 @@
+{
+  "id": "135507633",
+  "nick": "KOMZ. 404",
+  "zone_id": "2237",
+  "role": "explaner",
+  "rank_current": "100",
+  "rank_highest": "131",
+  "statistic": {
+    "current_season": {
+      "matches_count": 400,
+      "win_rate": 59.00,
+      "kda": 1.99,
+      "team_participation": 37.0,
+      "gold_per_min": 557,
+      "dmg_per_min": 3358,
+      "deaths_per_match": 4.55,
+      "turret_dmg_per_match": 3146
+    },
+    "all_season": {
+      "matches_count": 10793,
+      "win_rate": 56.32,
+      "kda": 3.79,
+      "team_participation": 51.7,
+      "gold_per_min": 675,
+      "dmg_per_min": 3351,
+      "deaths_per_match": 3.67,
+      "turret_dmg_per_match": 4890
+    }
+  },
+  "hero_favorite": {
+    "current_season": [
+      {
+        "hero_name": "Sora",
+        "matches": 62,
+        "win_rate": 64.5
+      },
+      {
+        "hero_name": "Suyou",
+        "matches": 43,
+        "win_rate": 44.2
+      },
+      {
+        "hero_name": "Uranus",
+        "matches": 32,
+        "win_rate": 59.4
+      },
+      {
+        "hero_name": "Badang",
+        "matches": 22,
+        "win_rate": 63.6
+      },
+      {
+        "hero_name": "Esmeralda",
+        "matches": 21,
+        "win_rate": 66.7
+      },
+      {
+        "hero_name": "Phoveus",
+        "matches": 21,
+        "win_rate": 57.1
+      }
+    ],
+    "all_season": [
+      {
+        "hero_name": "Gusion",
+        "matches": 1037,
+        "win_rate": 59.2
+      },
+      {
+        "hero_name": "Claude",
+        "matches": 905,
+        "win_rate": 56.8
+      },
+      {
+        "hero_name": "Hayabusa",
+        "matches": 534,
+        "win_rate": 62.0
+      },
+      {
+        "hero_name": "Lancelot",
+        "matches": 469,
+        "win_rate": 53.9
+      },
+      {
+        "hero_name": "Chou",
+        "matches": 369,
+        "win_rate": 55.0
+      },
+      {
+        "hero_name": "Granger",
+        "matches": 359,
+        "win_rate": 58.8
+      }
+    ]
+  }
+}
