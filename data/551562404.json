@@ -1,0 +1,96 @@
+{
+  "id": "551562404",
+  "nick": "K Y T A L A",
+  "zone_id": "8206",
+  "role": "goldlaner",
+  "rank_current": "106",
+  "rank_highest": "123",
+  "statistic": {
+    "current_season": {
+      "matches_count": 454,
+      "win_rate": 59.47,
+      "kda": 1.83,
+      "team_participation": 40.4,
+      "gold_per_min": 696,
+      "dmg_per_min": 4255,
+      "deaths_per_match": 5.30,
+      "turret_dmg_per_match": 8890
+    },
+    "all_season": {
+      "matches_count": 11930,
+      "win_rate": 57.33,
+      "kda": 2.82,
+      "team_participation": 49.7,
+      "gold_per_min": 745,
+      "dmg_per_min": 4031,
+      "deaths_per_match": 5.15,
+      "turret_dmg_per_match": 7220
+    }
+  },
+  "hero_favorite": {
+    "current_season": [
+      {
+        "hero_name": "Obsidia",
+        "matches": 96,
+        "win_rate": 56.2
+      },
+      {
+        "hero_name": "Granger",
+        "matches": 79,
+        "win_rate": 62.0
+      },
+      {
+        "hero_name": "Moskov",
+        "matches": 64,
+        "win_rate": 57.8
+      },
+      {
+        "hero_name": "Alpha",
+        "matches": 39,
+        "win_rate": 61.5
+      },
+      {
+        "hero_name": "Harith",
+        "matches": 22,
+        "win_rate": 81.8
+      },
+      {
+        "hero_name": "Karrie",
+        "matches": 18,
+        "win_rate": 44.4
+      }
+    ],
+    "all_season": [
+      {
+        "hero_name": "Granger",
+        "matches": 1155,
+        "win_rate": 60.6
+      },
+      {
+        "hero_name": "Wanwan",
+        "matches": 901,
+        "win_rate": 65.7
+      },
+      {
+        "hero_name": "Claude",
+        "matches": 668,
+        "win_rate": 61.4
+      },
+      {
+        "hero_name": "Bruno",
+        "matches": 647,
+        "win_rate": 66.8
+      },
+      {
+        "hero_name": "Harith",
+        "matches": 493,
+        "win_rate": 60.4
+      },
+      {
+        "hero_name": "Moskov",
+        "matches": 474,
+        "win_rate": 62.9
+      }
+    ]
+  }
+}
