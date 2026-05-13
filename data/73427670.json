@@ -1,0 +1,96 @@
+{
+  "id": "73427670",
+  "nick": "The Godfather",
+  "zone_id": "2032",
+  "role": "midlaner",
+  "rank_current": "43",
+  "rank_highest": "82",
+  "statistic": {
+    "current_season": {
+      "matches_count": 193,
+      "win_rate": 59.59,
+      "kda": 3.63,
+      "team_participation": 53.8,
+      "gold_per_min": 642,
+      "dmg_per_min": 4461,
+      "deaths_per_match": 4.87,
+      "turret_dmg_per_match": 4180
+    },
+    "all_season": {
+      "matches_count": 9171,
+      "win_rate": 52.62,
+      "kda": 3.15,
+      "team_participation": 51.1,
+      "gold_per_min": 635,
+      "dmg_per_min": 3146,
+      "deaths_per_match": 4.67,
+      "turret_dmg_per_match": 5658
+    }
+  },
+  "hero_favorite": {
+    "current_season": [
+      {
+        "hero_name": "Ruby",
+        "matches": 61,
+        "win_rate": 60.7
+      },
+      {
+        "hero_name": "Yu Zhong",
+        "matches": 28,
+        "win_rate": 60.7
+      },
+      {
+        "hero_name": "Valir",
+        "matches": 23,
+        "win_rate": 73.9
+      },
+      {
+        "hero_name": "Zetian",
+        "matches": 17,
+        "win_rate": 64.7
+      },
+      {
+        "hero_name": "Brody",
+        "matches": 12,
+        "win_rate": 75.0
+      },
+      {
+        "hero_name": "Esmeralda",
+        "matches": 9,
+        "win_rate": 44.4
+      }
+    ],
+    "all_season": [
+      {
+        "hero_name": "Popol and Kupa",
+        "matches": 1067,
+        "win_rate": 57.9
+      },
+      {
+        "hero_name": "Roger",
+        "matches": 727,
+        "win_rate": 52.1
+      },
+      {
+        "hero_name": "Hilda",
+        "matches": 544,
+        "win_rate": 50.2
+      },
+      {
+        "hero_name": "Brody",
+        "matches": 534,
+        "win_rate": 54.3
+      },
+      {
+        "hero_name": "Valir",
+        "matches": 458,
+        "win_rate": 52.4
+      },
+      {
+        "hero_name": "Ruby",
+        "matches": 437,
+        "win_rate": 57.2
+      }
+    ]
+  }
+}
