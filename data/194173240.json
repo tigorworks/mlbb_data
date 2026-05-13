@@ -1,0 +1,96 @@
+{
+  "id": "194173240",
+  "nick": "Rapswyne. 404",
+  "zone_id": "9021",
+  "role": "goldlaner",
+  "rank_current": "94",
+  "rank_highest": "201",
+  "statistic": {
+    "current_season": {
+      "matches_count": 293,
+      "win_rate": 61.77,
+      "kda": 2.85,
+      "team_participation": 46.2,
+      "gold_per_min": 730,
+      "dmg_per_min": 4487,
+      "deaths_per_match": 4.71,
+      "turret_dmg_per_match": 13744
+    },
+    "all_season": {
+      "matches_count": 11423,
+      "win_rate": 60.72,
+      "kda": 3.83,
+      "team_participation": 53.7,
+      "gold_per_min": 640,
+      "dmg_per_min": 3416,
+      "deaths_per_match": 3.85,
+      "turret_dmg_per_match": 4341
+    }
+  },
+  "hero_favorite": {
+    "current_season": [
+      {
+        "hero_name": "Obsidia",
+        "matches": 44,
+        "win_rate": 65.9
+      },
+      {
+        "hero_name": "Moskov",
+        "matches": 40,
+        "win_rate": 82.5
+      },
+      {
+        "hero_name": "Freya",
+        "matches": 37,
+        "win_rate": 56.8
+      },
+      {
+        "hero_name": "Karrie",
+        "matches": 35,
+        "win_rate": 62.9
+      },
+      {
+        "hero_name": "Claude",
+        "matches": 31,
+        "win_rate": 54.8
+      },
+      {
+        "hero_name": "Granger",
+        "matches": 22,
+        "win_rate": 68.2
+      }
+    ],
+    "all_season": [
+      {
+        "hero_name": "Granger",
+        "matches": 1775,
+        "win_rate": 91.1
+      },
+      {
+        "hero_name": "Hayabusa",
+        "matches": 1636,
+        "win_rate": 69.7
+      },
+      {
+        "hero_name": "Gusion",
+        "matches": 1500,
+        "win_rate": 71.1
+      },
+      {
+        "hero_name": "Lancelot",
+        "matches": 1288,
+        "win_rate": 70.7
+      },
+      {
+        "hero_name": "Chou",
+        "matches": 1153,
+        "win_rate": 69.8
+      },
+      {
+        "hero_name": "Karrie",
+        "matches": 768,
+        "win_rate": 69.4
+      }
+    ]
+  }
+}
