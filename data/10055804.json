@@ -1,0 +1,96 @@
+{
+  "id": "10055804",
+  "nick": "Her Irzhaa. 404",
+  "zone_id": "2011",
+  "role": "jungler",
+  "rank_current": "101",
+  "rank_highest": "127",
+  "statistic": {
+    "current_season": {
+      "matches_count": 433,
+      "win_rate": 57.97,
+      "kda": 2.57,
+      "team_participation": 47.4,
+      "gold_per_min": 648,
+      "dmg_per_min": 3771,
+      "deaths_per_match": 4.69,
+      "turret_dmg_per_match": 7145
+    },
+    "all_season": {
+      "matches_count": 11012,
+      "win_rate": 58.55,
+      "kda": 3.87,
+      "team_participation": 56.7,
+      "gold_per_min": 702,
+      "dmg_per_min": 3804,
+      "deaths_per_match": 4.02,
+      "turret_dmg_per_match": 7522
+    }
+  },
+  "hero_favorite": {
+    "current_season": [
+      {
+        "hero_name": "Suyou",
+        "matches": 111,
+        "win_rate": 59.5
+      },
+      {
+        "hero_name": "Yi Sun-shin",
+        "matches": 61,
+        "win_rate": 54.1
+      },
+      {
+        "hero_name": "Harley",
+        "matches": 42,
+        "win_rate": 54.8
+      },
+      {
+        "hero_name": "Leomord",
+        "matches": 35,
+        "win_rate": 68.6
+      },
+      {
+        "hero_name": "Obsidia",
+        "matches": 29,
+        "win_rate": 82.8
+      },
+      {
+        "hero_name": "Gusion",
+        "matches": 15,
+        "win_rate": 73.3
+      }
+    ],
+    "all_season": [
+      {
+        "hero_name": "Lesley",
+        "matches": 1070,
+        "win_rate": 64.7
+      },
+      {
+        "hero_name": "Granger",
+        "matches": 1017,
+        "win_rate": 65.1
+      },
+      {
+        "hero_name": "Yi Sun-shin",
+        "matches": 698,
+        "win_rate": 65.5
+      },
+      {
+        "hero_name": "Bruno",
+        "matches": 592,
+        "win_rate": 64.0
+      },
+      {
+        "hero_name": "Alucard",
+        "matches": 406,
+        "win_rate": 63.3
+      },
+      {
+        "hero_name": "Karrie",
+        "matches": 398,
+        "win_rate": 57.0
+      }
+    ]
+  }
+}
