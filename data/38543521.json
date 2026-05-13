@@ -1,0 +1,96 @@
+{
+  "id": "38543521",
+  "nick": "xSammyyy.404",
+  "zone_id": "2061",
+  "role": "roamer",
+  "rank_current": "61",
+  "rank_highest": "108",
+  "statistic": {
+    "current_season": {
+      "matches_count": 163,
+      "win_rate": 65.64,
+      "kda": 3.23,
+      "team_participation": 55.4,
+      "gold_per_min": 579,
+      "dmg_per_min": 1847,
+      "deaths_per_match": 5.52,
+      "turret_dmg_per_match": 941
+    },
+    "all_season": {
+      "matches_count": 7450,
+      "win_rate": 55.97,
+      "kda": 3.93,
+      "team_participation": 56.4,
+      "gold_per_min": 597,
+      "dmg_per_min": 2545,
+      "deaths_per_match": 3.93,
+      "turret_dmg_per_match": 2400
+    }
+  },
+  "hero_favorite": {
+    "current_season": [
+      {
+        "hero_name": "Kalea",
+        "matches": 32,
+        "win_rate": 81.2
+      },
+      {
+        "hero_name": "Grock",
+        "matches": 30,
+        "win_rate": 66.7
+      },
+      {
+        "hero_name": "Chou",
+        "matches": 19,
+        "win_rate": 73.7
+      },
+      {
+        "hero_name": "Franco",
+        "matches": 15,
+        "win_rate": 66.7
+      },
+      {
+        "hero_name": "Minotaur",
+        "matches": 14,
+        "win_rate": 71.4
+      },
+      {
+        "hero_name": "Marcel",
+        "matches": 9,
+        "win_rate": 100.0
+      }
+    ],
+    "all_season": [
+      {
+        "hero_name": "Hayabusa",
+        "matches": 476,
+        "win_rate": 52.7
+      },
+      {
+        "hero_name": "Khufra",
+        "matches": 427,
+        "win_rate": 57.1
+      },
+      {
+        "hero_name": "Chou",
+        "matches": 379,
+        "win_rate": 57.0
+      },
+      {
+        "hero_name": "Akai",
+        "matches": 377,
+        "win_rate": 54.4
+      },
+      {
+        "hero_name": "Grock",
+        "matches": 371,
+        "win_rate": 53.4
+      },
+      {
+        "hero_name": "Franco",
+        "matches": 312,
+        "win_rate": 56.7
+      }
+    ]
+  }
+}
