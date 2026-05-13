@@ -1,0 +1,96 @@
+{
+  "id": "40647388",
+  "nick": "BumBum",
+  "zone_id": "2209",
+  "role": "midlaner",
+  "rank_current": "127",
+  "rank_highest": "250",
+  "statistic": {
+    "current_season": {
+      "matches_count": 321,
+      "win_rate": 67.91,
+      "kda": 4.31,
+      "team_participation": 55.6,
+      "gold_per_min": 604,
+      "dmg_per_min": 4597,
+      "deaths_per_match": 4.14,
+      "turret_dmg_per_match": 3577
+    },
+    "all_season": {
+      "matches_count": 15163,
+      "win_rate": 59.14,
+      "kda": 3.73,
+      "team_participation": 58.0,
+      "gold_per_min": 600,
+      "dmg_per_min": 3598,
+      "deaths_per_match": 4.25,
+      "turret_dmg_per_match": 3274
+    }
+  },
+  "hero_favorite": {
+    "current_season": [
+      {
+        "hero_name": "Zetian",
+        "matches": 66,
+        "win_rate": 71.2
+      },
+      {
+        "hero_name": "Lunox",
+        "matches": 39,
+        "win_rate": 69.2
+      },
+      {
+        "hero_name": "Kadita",
+        "matches": 35,
+        "win_rate": 60.0
+      },
+      {
+        "hero_name": "Yve",
+        "matches": 27,
+        "win_rate": 77.8
+      },
+      {
+        "hero_name": "Xavier",
+        "matches": 18,
+        "win_rate": 77.8
+      },
+      {
+        "hero_name": "Lylia",
+        "matches": 17,
+        "win_rate": 76.5
+      }
+    ],
+    "all_season": [
+      {
+        "hero_name": "Guinevere",
+        "matches": 925,
+        "win_rate": 64.4
+      },
+      {
+        "hero_name": "Kagura",
+        "matches": 883,
+        "win_rate": 59.2
+      },
+      {
+        "hero_name": "Pharsa",
+        "matches": 828,
+        "win_rate": 71.5
+      },
+      {
+        "hero_name": "Ruby",
+        "matches": 795,
+        "win_rate": 61.4
+      },
+      {
+        "hero_name": "Selena",
+        "matches": 707,
+        "win_rate": 63.2
+      },
+      {
+        "hero_name": "Kadita",
+        "matches": 549,
+        "win_rate": 62.8
+      }
+    ]
+  }
+}
