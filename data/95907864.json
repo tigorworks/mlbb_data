@@ -1,0 +1,96 @@
+{
+  "id": "95907864",
+  "nick": "Salmennn. 404",
+  "zone_id": "3220",
+  "role": "midlaner",
+  "rank_current": "77",
+  "rank_highest": "131",
+  "statistic": {
+    "current_season": {
+      "matches_count": 234,
+      "win_rate": 61.97,
+      "kda": 4.85,
+      "team_participation": 56.0,
+      "gold_per_min": 634,
+      "dmg_per_min": 4345,
+      "deaths_per_match": 4.02,
+      "turret_dmg_per_match": 4599
+    },
+    "all_season": {
+      "matches_count": 10611,
+      "win_rate": 57.76,
+      "kda": 3.58,
+      "team_participation": 56.3,
+      "gold_per_min": 654,
+      "dmg_per_min": 3706,
+      "deaths_per_match": 4.60,
+      "turret_dmg_per_match": 4608
+    }
+  },
+  "hero_favorite": {
+    "current_season": [
+      {
+        "hero_name": "Zhuxin",
+        "matches": 28,
+        "win_rate": 78.6
+      },
+      {
+        "hero_name": "Claude",
+        "matches": 19,
+        "win_rate": 68.4
+      },
+      {
+        "hero_name": "Pharsa",
+        "matches": 14,
+        "win_rate": 78.6
+      },
+      {
+        "hero_name": "Lesley",
+        "matches": 14,
+        "win_rate": 57.1
+      },
+      {
+        "hero_name": "Zetian",
+        "matches": 13,
+        "win_rate": 61.5
+      },
+      {
+        "hero_name": "Selena",
+        "matches": 12,
+        "win_rate": 50.0
+      }
+    ],
+    "all_season": [
+      {
+        "hero_name": "Chou",
+        "matches": 421,
+        "win_rate": 60.3
+      },
+      {
+        "hero_name": "Franco",
+        "matches": 379,
+        "win_rate": 59.4
+      },
+      {
+        "hero_name": "Faramis",
+        "matches": 372,
+        "win_rate": 70.4
+      },
+      {
+        "hero_name": "Valir",
+        "matches": 352,
+        "win_rate": 63.4
+      },
+      {
+        "hero_name": "Xavier",
+        "matches": 334,
+        "win_rate": 58.1
+      },
+      {
+        "hero_name": "Brody",
+        "matches": 310,
+        "win_rate": 59.0
+      }
+    ]
+  }
+}
