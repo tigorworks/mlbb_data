@@ -1,0 +1,96 @@
+{
+  "id": "130037004",
+  "nick": "Abuddd.",
+  "zone_id": "2649",
+  "role": "jungler",
+  "rank_current": "101",
+  "rank_highest": "151",
+  "statistic": {
+    "current_season": {
+      "matches_count": 423,
+      "win_rate": 59.10,
+      "kda": 3.14,
+      "team_participation": 45.6,
+      "gold_per_min": 673,
+      "dmg_per_min": 4259,
+      "deaths_per_match": 4.58,
+      "turret_dmg_per_match": 4057
+    },
+    "all_season": {
+      "matches_count": 8153,
+      "win_rate": 59.83,
+      "kda": 3.62,
+      "team_participation": 54.6,
+      "gold_per_min": 760,
+      "dmg_per_min": 4039,
+      "deaths_per_match": 4.56,
+      "turret_dmg_per_match": 5357
+    }
+  },
+  "hero_favorite": {
+    "current_season": [
+      {
+        "hero_name": "Leomord",
+        "matches": 148,
+        "win_rate": 65.5
+      },
+      {
+        "hero_name": "Harley",
+        "matches": 113,
+        "win_rate": 68.1
+      },
+      {
+        "hero_name": "Joy",
+        "matches": 44,
+        "win_rate": 56.8
+      },
+      {
+        "hero_name": "Suyou",
+        "matches": 41,
+        "win_rate": 51.2
+      },
+      {
+        "hero_name": "Alice",
+        "matches": 12,
+        "win_rate": 41.7
+      },
+      {
+        "hero_name": "Akai",
+        "matches": 11,
+        "win_rate": 54.5
+      }
+    ],
+    "all_season": [
+      {
+        "hero_name": "Martis",
+        "matches": 947,
+        "win_rate": 63.7
+      },
+      {
+        "hero_name": "Joy",
+        "matches": 898,
+        "win_rate": 68.7
+      },
+      {
+        "hero_name": "Ling",
+        "matches": 613,
+        "win_rate": 61.5
+      },
+      {
+        "hero_name": "Hayabusa",
+        "matches": 568,
+        "win_rate": 61.8
+      },
+      {
+        "hero_name": "Leomord",
+        "matches": 384,
+        "win_rate": 63.5
+      },
+      {
+        "hero_name": "Paquito",
+        "matches": 373,
+        "win_rate": 58.4
+      }
+    ]
+  }
+}
