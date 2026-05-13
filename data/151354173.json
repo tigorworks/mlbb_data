@@ -1,0 +1,96 @@
+{
+  "id": "151354173",
+  "nick": "PrinceAranta. 404",
+  "zone_id": "2770",
+  "role": "roamer",
+  "rank_current": "111",
+  "rank_highest": "112",
+  "statistic": {
+    "current_season": {
+      "matches_count": 337,
+      "win_rate": 60.83,
+      "kda": 2.79,
+      "team_participation": 51.7,
+      "gold_per_min": 588,
+      "dmg_per_min": 3089,
+      "deaths_per_match": 4.96,
+      "turret_dmg_per_match": 3517
+    },
+    "all_season": {
+      "matches_count": 8108,
+      "win_rate": 56.35,
+      "kda": 4.22,
+      "team_participation": 55.1,
+      "gold_per_min": 636,
+      "dmg_per_min": 3324,
+      "deaths_per_match": 3.55,
+      "turret_dmg_per_match": 3449
+    }
+  },
+  "hero_favorite": {
+    "current_season": [
+      {
+        "hero_name": "Helcurt",
+        "matches": 42,
+        "win_rate": 64.3
+      },
+      {
+        "hero_name": "Kaja",
+        "matches": 28,
+        "win_rate": 75.0
+      },
+      {
+        "hero_name": "Obsidia",
+        "matches": 20,
+        "win_rate": 50.0
+      },
+      {
+        "hero_name": "Hilda",
+        "matches": 19,
+        "win_rate": 73.7
+      },
+      {
+        "hero_name": "Guinevere",
+        "matches": 14,
+        "win_rate": 42.9
+      },
+      {
+        "hero_name": "Claude",
+        "matches": 12,
+        "win_rate": 66.7
+      }
+    ],
+    "all_season": [
+      {
+        "hero_name": "Lesley",
+        "matches": 518,
+        "win_rate": 57.7
+      },
+      {
+        "hero_name": "Chou",
+        "matches": 472,
+        "win_rate": 55.3
+      },
+      {
+        "hero_name": "Claude",
+        "matches": 432,
+        "win_rate": 55.3
+      },
+      {
+        "hero_name": "Hayabusa",
+        "matches": 367,
+        "win_rate": 53.7
+      },
+      {
+        "hero_name": "Hylos",
+        "matches": 365,
+        "win_rate": 60.5
+      },
+      {
+        "hero_name": "Selena",
+        "matches": 273,
+        "win_rate": 59.7
+      }
+    ]
+  }
+}
