@@ -885,6 +885,127 @@ color:rgba(255,255,255,0.8);
 .hero-weak{background:#dc2626;}
 
 /* ===================== */
+/* LOGIN OVERLAY         */
+/* ===================== */
+
+#loginOverlay{
+position:fixed;
+inset:0;
+background:#0f1117;
+z-index:9999;
+display:flex;
+align-items:center;
+justify-content:center;
+}
+
+.login-box{
+background:#1f2430;
+border-radius:16px;
+padding:40px 36px;
+width:100%;
+max-width:360px;
+box-shadow:0 20px 60px rgba(0,0,0,0.7);
+border:1px solid #2b3142;
+}
+
+.login-logo{
+text-align:center;
+margin-bottom:20px;
+}
+
+.login-logo svg{
+width:48px;
+height:48px;
+color:#facc15;
+}
+
+.login-title{
+font-size:22px;
+font-weight:700;
+color:#facc15;
+margin-bottom:6px;
+text-align:center;
+}
+
+.login-subtitle{
+font-size:13px;
+color:#6b7280;
+text-align:center;
+margin-bottom:28px;
+}
+
+.login-label{
+display:block;
+font-size:12px;
+font-weight:600;
+color:#9ca3af;
+text-transform:uppercase;
+letter-spacing:0.5px;
+margin-bottom:6px;
+}
+
+.login-input{
+width:100%;
+background:#252b3a;
+border:1px solid #374151;
+color:#e5e7eb;
+padding:10px 14px;
+border-radius:8px;
+font-size:14px;
+font-family:inherit;
+box-sizing:border-box;
+outline:none;
+transition:border-color .2s,box-shadow .2s;
+}
+
+.login-input:focus{
+border-color:#3b82f6;
+box-shadow:0 0 0 3px rgba(59,130,246,0.15);
+}
+
+.login-input.error{
+border-color:#ef4444;
+box-shadow:0 0 0 3px rgba(239,68,68,0.15);
+}
+
+.login-btn{
+width:100%;
+background:#3b82f6;
+color:white;
+border:0;
+padding:11px;
+border-radius:8px;
+cursor:pointer;
+font-size:14px;
+font-weight:600;
+font-family:inherit;
+margin-top:14px;
+transition:background .2s;
+}
+
+.login-btn:hover{background:#2563eb;}
+
+.login-btn:active{background:#1d4ed8;}
+
+.login-error{
+color:#ef4444;
+font-size:12px;
+text-align:center;
+margin-top:10px;
+display:none;
+animation:shake .35s ease;
+}
+
+.login-error.show{display:block;}
+
+@keyframes shake{
+0%,100%{transform:translateX(0);}
+20%{transform:translateX(-6px);}
+60%{transform:translateX(6px);}
+80%{transform:translateX(-3px);}
+}
+
+/* ===================== */
 /* RESPONSIVE            */
 /* ===================== */
 
@@ -945,6 +1066,25 @@ h1{font-size:18px;}
 </head>
 
 <body>
+
+<!-- LOGIN OVERLAY -->
+<div id="loginOverlay">
+<div class="login-box">
+<div class="login-logo">
+<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+<path d="M12 2L2 7l10 5 10-5-10-5z"/>
+<path d="M2 17l10 5 10-5"/>
+<path d="M2 12l10 5 10-5"/>
+</svg>
+</div>
+<div class="login-title">MMPL Season 9</div>
+<div class="login-subtitle">Masukkan password untuk melanjutkan</div>
+<label class="login-label" for="loginPassword">Password</label>
+<input type="password" id="loginPassword" class="login-input" placeholder="••••••••••" autocomplete="current-password" />
+<button class="login-btn" id="loginBtn" onclick="doLogin()">Masuk</button>
+<div class="login-error" id="loginError">Password salah. Coba lagi.</div>
+</div>
+</div>
 
 <div class="header-container">
 
@@ -1022,6 +1162,52 @@ Powered by <strong>Tigor M Manurung</strong>
 </div>
 
 <script>
+
+/* ===================== */
+/* LOGIN                 */
+/* ===================== */
+
+(function(){
+if(sessionStorage.getItem('mlbb_auth')==='1'){
+var o=document.getElementById('loginOverlay');
+if(o) o.style.display='none';
+}
+})();
+
+function doLogin(){
+var pw=document.getElementById('loginPassword').value;
+var err=document.getElementById('loginError');
+var inp=document.getElementById('loginPassword');
+if(pw==='mafiaBagan'){
+sessionStorage.setItem('mlbb_auth','1');
+var overlay=document.getElementById('loginOverlay');
+overlay.style.opacity='0';
+overlay.style.transition='opacity .3s ease';
+setTimeout(function(){overlay.style.display='none';},300);
+}else{
+inp.classList.add('error');
+err.classList.add('show');
+err.style.animation='none';
+setTimeout(function(){err.style.animation='';},10);
+inp.value='';
+inp.focus();
+}
+}
+
+document.addEventListener('DOMContentLoaded',function(){
+var inp=document.getElementById('loginPassword');
+if(!inp) return;
+inp.addEventListener('keydown',function(e){
+if(e.key==='Enter') doLogin();
+inp.classList.remove('error');
+document.getElementById('loginError').classList.remove('show');
+});
+inp.focus();
+});
+
+/* ===================== */
+/* MMPL HELPERS          */
+/* ===================== */
 
 let table=null;
 
