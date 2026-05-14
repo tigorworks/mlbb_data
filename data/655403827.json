@@ -1,96 +1,96 @@
 {
-	"id":"655403827",
-	"nick":"Bonziii.",
-	"zone_id":"10206",
-	"role":"explaner",
-	"rank_current":"34",
-	"rank_highest":"20",
-	"statistic":{
-		"current_season":{
-			"matches_count":95,
-			"win_rate":73.68,
-			"kda":3.95,
-			"team_participation":54.3,
-			"gold_per_min":716,
-			"dmg_per_min":4929,
-			"deaths_per_match":4.75,
-			"turret_dmg_per_match":4960
-		},
-		"all_season":{
-			"matches_count":4967,
-			"win_rate":60.70,
-			"kda":3.81,
-			"team_participation":54.8,
-			"gold_per_min":718,
-			"dmg_per_min":4090,
-			"deaths_per_match":4.44,
-			"turret_dmg_per_match":5205
-		}
-	},
-	"hero_favorite":{
-		"current_season":[
-			{
-				"hero_name":"Yu Zhong",
-				"matches":9,
-				"win_rate":100.0
-			},
-			{
-				"hero_name":"Gusion",
-				"matches":9,
-				"win_rate":77.8
-			},
-			{
-				"hero_name":"Lapu-Lapu",
-				"matches":9,
-				"win_rate":66.7
-			},
-			{
-				"hero_name":"Granger",
-				"matches":8,
-				"win_rate":75.0
-			},
-			{
-				"hero_name":"Sora",
-				"matches":8,
-				"win_rate":50.0
-			},
-			{
-				"hero_name":"Paquito",
-				"matches":7,
-				"win_rate":85.7
-			}
-		],
-		"all_season":[
-			{
-				"hero_name":"Ling",
-				"matches":497,
-				"win_rate":61.8
-			},
-			{
-				"hero_name":"Lancelot",
-				"matches":379,
-				"win_rate":66.8
-			},
-			{
-				"hero_name":"Chou",
-				"matches":377,
-				"win_rate":52.0
-			},
-			{
-				"hero_name":"Yi Sun-shin",
-				"matches":352,
-				"win_rate":69.0
-			},
-			{
-				"hero_name":"Gusion",
-				"matches":346,
-				"win_rate":63.0
-			},
-			{
-				"hero_name":"Claude",
-				"matches":251,
-				"win_rate":57.8
-			}
-		]
-	}
+  "id": "655403827",
+  "nick": "Bonziii.",
+  "zone_id": "10206",
+  "role": "explaner",
+  "rank_current": "83",
+  "rank_highest": "120",
+  "statistic": {
+    "current_season": {
+      "matches_count": 201,
+      "win_rate": 71.64,
+      "kda": 3.41,
+      "team_participation": 51.4,
+      "gold_per_min": 657,
+      "dmg_per_min": 4600,
+      "deaths_per_match": 4.75,
+      "turret_dmg_per_match": 3993
+    },
+    "all_season": {
+      "matches_count": 5073,
+      "win_rate": 60.89,
+      "kda": 3.81,
+      "team_participation": 54.8,
+      "gold_per_min": 717,
+      "dmg_per_min": 4095,
+      "deaths_per_match": 4.45,
+      "turret_dmg_per_match": 5164
+    }
+  },
+  "hero_favorite": {
+    "current_season": [
+      {
+        "hero_name": "Lapu-Lapu",
+        "matches": 20,
+        "win_rate": 80.0
+      },
+      {
+        "hero_name": "Granger",
+        "matches": 19,
+        "win_rate": 63.2
+      },
+      {
+        "hero_name": "Yu Zhong",
+        "matches": 18,
+        "win_rate": 88.9
+      },
+      {
+        "hero_name": "Paquito",
+        "matches": 11,
+        "win_rate": 81.8
+      },
+      {
+        "hero_name": "Arlott",
+        "matches": 11,
+        "win_rate": 54.5
+      },
+      {
+        "hero_name": "Gusion",
+        "matches": 10,
+        "win_rate": 80.0
+      }
+    ],
+    "all_season": [
+      {
+        "hero_name": "Ling",
+        "matches": 497,
+        "win_rate": 61.8
+      },
+      {
+        "hero_name": "Lancelot",
+        "matches": 379,
+        "win_rate": 66.8
+      },
+      {
+        "hero_name": "Chou",
+        "matches": 378,
+        "win_rate": 52.1
+      },
+      {
+        "hero_name": "Yi Sun-shin",
+        "matches": 354,
+        "win_rate": 68.6
+      },
+      {
+        "hero_name": "Gusion",
+        "matches": 347,
+        "win_rate": 63.1
+      },
+      {
+        "hero_name": "Granger",
+        "matches": 260,
+        "win_rate": 61.5
+      }
+    ]
+  }
 }
