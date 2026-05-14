@@ -1183,7 +1183,10 @@ Powered by <strong>Tigor M Manurung</strong>
 <div class="modal-box">
 
 <div class="modal-header">
+<div>
 <div class="modal-title" id="modalTitle">Team Scouting</div>
+<div id="modalTournament" style="font-size:11px;color:#6b7280;margin-top:3px;"></div>
+</div>
 <div style="display:flex;gap:8px;align-items:center;">
 <button id="downloadBtn" class="download-btn" onclick="downloadScoutPNG()">&#8595; Download PNG</button>
 <button class="modal-close" onclick="closeModal()">&#10005;</button>
@@ -1667,6 +1670,7 @@ async function openModal(teamName, teamKey){
 const team=teamRegistry[teamKey];
 const members=team?team.members:[];
 document.getElementById("modalTitle").innerText=teamName;
+document.getElementById("modalTournament").innerText=currentEventName||'';
 document.getElementById("scoutTableBody").innerHTML=`<tr><td colspan="5" style="text-align:center;padding:32px;color:#6b7280;">Loading...</td></tr>`;
 document.getElementById("scoutModal").classList.add("active");
 document.body.style.overflow="hidden";
@@ -2178,8 +2182,9 @@ wrap.style.cssText='position:fixed;left:-9999px;top:0;width:1100px;background:#0
 var dateStr=new Date().toLocaleDateString('id-ID',{day:'numeric',month:'long',year:'numeric'});
 wrap.innerHTML='<div style="margin-bottom:24px;padding-bottom:16px;border-bottom:2px solid #2b3142;display:flex;align-items:center;justify-content:space-between;">'+
 '<div>'+
-'<div style="font-size:24px;font-weight:800;color:#facc15;letter-spacing:.3px;">'+teamName+'</div>'+
-'<div style="font-size:12px;color:#6b7280;margin-top:4px;">'+(currentEventName||'Mobile Legends')+' — Scouting Report</div>'+
+(currentEventName?'<div style="font-size:10px;font-weight:700;text-transform:uppercase;letter-spacing:1.5px;color:#f59e0b;margin-bottom:6px;">'+currentEventName+'</div>':'')+
+'<div style="font-size:24px;font-weight:800;color:#e5e7eb;letter-spacing:.3px;">'+teamName+'</div>'+
+'<div style="font-size:12px;color:#6b7280;margin-top:3px;">Scouting Report</div>'+
 '</div>'+
 '<div style="font-size:11px;color:#4b5563;text-align:right;">'+dateStr+'</div>'+
 '</div>';
