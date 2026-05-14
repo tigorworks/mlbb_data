@@ -1,96 +1,96 @@
 {
-	"id":"157882321",
-	"nick":"OniKG | Urr",
-	"zone_id":"2797",
-	"role":"jungler",
-	"rank_current":"35",
-	"rank_highest":"102",
-	"statistic":{
-		"current_season":{
-			"matches_count":198,
-			"win_rate":57.58,
-			"kda":3.7,
-			"team_participation":56.3,
-			"gold_per_min":705,
-			"dmg_per_min":4502,
-			"deaths_per_match":4.65,
-			"turret_dmg_per_match":3875
-		},
-		"all_season":{
-			"matches_count":6128,
-			"win_rate":62.66,
-			"kda":4.47,
-			"team_participation":57.3,
-			"gold_per_min":688,
-			"dmg_per_min":3843,
-			"deaths_per_match":3.88,
-			"turret_dmg_per_match":3909
-		}
-	},
-	"hero_favorite":{
-		"current_season":[
-			{
-				"hero_name":"Yi Sun-shin",
-				"matches":31,
-				"win_rate":61.3
-			},
-			{
-				"hero_name":"Lancelot",
-				"matches":25,
-				"win_rate":56.0
-			},
-			{
-				"hero_name":"Granger",
-				"matches":20,
-				"win_rate":45.0
-			},
-			{
-				"hero_name":"Harley",
-				"matches":19,
-				"win_rate":63.2
-			},
-			{
-				"hero_name":"Leomord",
-				"matches":14,
-				"win_rate":57.1
-			},
-			{
-				"hero_name":"Gusion",
-				"matches":11,
-				"win_rate":63.6
-			}
-		],
-		"all_season":[
-			{
-				"hero_name":"Chou",
-				"matches":357,
-				"win_rate":67.5
-			},
-			{
-				"hero_name":"Lancelot",
-				"matches":329,
-				"win_rate":60.2
-			},
-			{
-				"hero_name":"Valentina",
-				"matches":325,
-				"win_rate":68.0
-			},
-			{
-				"hero_name":"Franco",
-				"matches":314,
-				"win_rate":60.8
-			},
-			{
-				"hero_name":"Karrie",
-				"matches":305,
-				"win_rate":68.2
-			},
-			{
-				"hero_name":"Lesley",
-				"matches":303,
-				"win_rate":72.9
-			}
-		]
-	}
+  "id": "157882321",
+  "nick": "OniKG | Urr",
+  "zone_id": "2797",
+  "role": "jungler",
+  "rank_current": "55",
+  "rank_highest": "102",
+  "statistic": {
+    "current_season": {
+      "matches_count": 347,
+      "win_rate": 55.91,
+      "kda": 3.1,
+      "team_participation": 52.4,
+      "gold_per_min": 668,
+      "dmg_per_min": 4387,
+      "deaths_per_match": 4.96,
+      "turret_dmg_per_match": 3208
+    },
+    "all_season": {
+      "matches_count": 6277,
+      "win_rate": 62.45,
+      "kda": 4.45,
+      "team_participation": 57.4,
+      "gold_per_min": 689,
+      "dmg_per_min": 3855,
+      "deaths_per_match": 3.91,
+      "turret_dmg_per_match": 3874
+    }
+  },
+  "hero_favorite": {
+    "current_season": [
+      {
+        "hero_name": "Suyou",
+        "matches": 87,
+        "win_rate": 48.3
+      },
+      {
+        "hero_name": "Lancelot",
+        "matches": 36,
+        "win_rate": 52.8
+      },
+      {
+        "hero_name": "Yi Sun-shin",
+        "matches": 34,
+        "win_rate": 58.8
+      },
+      {
+        "hero_name": "Harley",
+        "matches": 28,
+        "win_rate": 60.7
+      },
+      {
+        "hero_name": "Leomord",
+        "matches": 24,
+        "win_rate": 54.2
+      },
+      {
+        "hero_name": "Granger",
+        "matches": 21,
+        "win_rate": 42.9
+      }
+    ],
+    "all_season": [
+      {
+        "hero_name": "Chou",
+        "matches": 357,
+        "win_rate": 67.5
+      },
+      {
+        "hero_name": "Lancelot",
+        "matches": 340,
+        "win_rate": 59.7
+      },
+      {
+        "hero_name": "Valentina",
+        "matches": 325,
+        "win_rate": 68.0
+      },
+      {
+        "hero_name": "Franco",
+        "matches": 314,
+        "win_rate": 60.8
+      },
+      {
+        "hero_name": "Karrie",
+        "matches": 306,
+        "win_rate": 68.3
+      },
+      {
+        "hero_name": "Lesley",
+        "matches": 303,
+        "win_rate": 72.9
+      }
+    ]
+  }
 }
