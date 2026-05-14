@@ -1,96 +1,96 @@
 {
-	"id":"108468897",
-	"nick":"kael:3",
-	"zone_id":"2556",
-	"role":"roamer",
-	"rank_current":"82",
-	"rank_highest":"140",
-	"statistic":{
-		"current_season":{
-			"matches_count":208,
-			"win_rate":67.31,
-			"kda":3.84,
-			"team_participation":57.1,
-			"gold_per_min":618,
-			"dmg_per_min":2937,
-			"deaths_per_match":4.27,
-			"turret_dmg_per_match":2904
-		},
-		"all_season":{
-			"matches_count":15089,
-			"win_rate":57.09,
-			"kda":3.23,
-			"team_participation":54.0,
-			"gold_per_min":597,
-			"dmg_per_min":2867,
-			"deaths_per_match":4.37,
-			"turret_dmg_per_match":3834
-		}
-	},
-	"hero_favorite":{
-		"current_season":[
-			{
-				"hero_name":"Khufra",
-				"matches":74,
-				"win_rate":73.0
-			},
-			{
-				"hero_name":"Helcurt",
-				"matches":28,
-				"win_rate":75.0
-			},
-			{
-				"hero_name":"Grock",
-				"matches":16,
-				"win_rate":56.2
-			},
-			{
-				"hero_name":"Beatrix",
-				"matches":14,
-				"win_rate":85.7
-			},
-			{
-				"hero_name":"Angela",
-				"matches":8,
-				"win_rate":75.0
-			},
-			{
-				"hero_name":"Luo Yi",
-				"matches":8,
-				"win_rate":50.0
-			}
-		],
-		"all_season":[
-			{
-				"hero_name":"Lesley",
-				"matches":1213,
-				"win_rate":52.8
-			},
-			{
-				"hero_name":"Gusion",
-				"matches":1027,
-				"win_rate":61.5
-			},
-			{
-				"hero_name":"Khufra",
-				"matches":904,
-				"win_rate":67.5
-			},
-			{
-				"hero_name":"Beatrix",
-				"matches":888,
-				"win_rate":61.1
-			},
-			{
-				"hero_name":"Franco",
-				"matches":698,
-				"win_rate":60.3
-			},
-			{
-				"hero_name":"Selena",
-				"matches":667,
-				"win_rate":58.6
-			}
-		]
-	}
+  "id": "108468897",
+  "nick": "kael:3",
+  "zone_id": "2556",
+  "role": "roamer",
+  "rank_current": "114",
+  "rank_highest": "140",
+  "statistic": {
+    "current_season": {
+      "matches_count": 301,
+      "win_rate": 66.45,
+      "kda": 3.35,
+      "team_participation": 54.3,
+      "gold_per_min": 590,
+      "dmg_per_min": 2892,
+      "deaths_per_match": 4.39,
+      "turret_dmg_per_match": 2916
+    },
+    "all_season": {
+      "matches_count": 15182,
+      "win_rate": 57.13,
+      "kda": 3.23,
+      "team_participation": 54.0,
+      "gold_per_min": 598,
+      "dmg_per_min": 2867,
+      "deaths_per_match": 4.37,
+      "turret_dmg_per_match": 3829
+    }
+  },
+  "hero_favorite": {
+    "current_season": [
+      {
+        "hero_name": "Khufra",
+        "matches": 88,
+        "win_rate": 75.0
+      },
+      {
+        "hero_name": "Helcurt",
+        "matches": 33,
+        "win_rate": 75.8
+      },
+      {
+        "hero_name": "Beatrix",
+        "matches": 30,
+        "win_rate": 73.3
+      },
+      {
+        "hero_name": "Grock",
+        "matches": 25,
+        "win_rate": 60.0
+      },
+      {
+        "hero_name": "Khaleed",
+        "matches": 11,
+        "win_rate": 63.6
+      },
+      {
+        "hero_name": "Minotaur",
+        "matches": 9,
+        "win_rate": 55.6
+      }
+    ],
+    "all_season": [
+      {
+        "hero_name": "Lesley",
+        "matches": 1213,
+        "win_rate": 52.8
+      },
+      {
+        "hero_name": "Gusion",
+        "matches": 1028,
+        "win_rate": 61.5
+      },
+      {
+        "hero_name": "Khufra",
+        "matches": 918,
+        "win_rate": 67.8
+      },
+      {
+        "hero_name": "Beatrix",
+        "matches": 904,
+        "win_rate": 61.2
+      },
+      {
+        "hero_name": "Franco",
+        "matches": 700,
+        "win_rate": 60.3
+      },
+      {
+        "hero_name": "Selena",
+        "matches": 669,
+        "win_rate": 58.7
+      }
+    ]
+  }
 }
