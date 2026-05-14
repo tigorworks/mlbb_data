@@ -10,6 +10,7 @@
 
 <script src="https://code.jquery.com/jquery-3.7.0.min.js"></script>
 <script src="https://cdn.datatables.net/1.13.6/js/jquery.dataTables.min.js"></script>
+<script src="https://unpkg.com/html2canvas@1.4.1/dist/html2canvas.min.js"></script>
 
 <style>
 
@@ -716,6 +717,30 @@ color:#e5e7eb;
 background:#374151;
 }
 
+.download-btn{
+background:rgba(245,158,11,0.12);
+border:1px solid rgba(245,158,11,0.3);
+color:#facc15;
+cursor:pointer;
+font-size:12px;
+font-weight:600;
+font-family:inherit;
+padding:6px 14px;
+border-radius:7px;
+transition:background .2s,border-color .2s;
+white-space:nowrap;
+}
+
+.download-btn:hover{
+background:rgba(245,158,11,0.22);
+border-color:rgba(245,158,11,0.5);
+}
+
+.download-btn:disabled{
+opacity:.5;
+cursor:default;
+}
+
 /* MODAL BODY */
 
 .modal-body{
@@ -891,21 +916,33 @@ color:rgba(255,255,255,0.8);
 #loginOverlay{
 position:fixed;
 inset:0;
-background:#0f1117;
+background:#0b0e17;
 z-index:9999;
 display:flex;
 align-items:center;
 justify-content:center;
+overflow:hidden;
+}
+
+#loginBg{
+position:absolute;
+inset:0;
+width:100%;
+height:100%;
 }
 
 .login-box{
-background:#1f2430;
+position:relative;
+z-index:1;
+background:rgba(31,36,48,0.85);
+backdrop-filter:blur(16px);
+-webkit-backdrop-filter:blur(16px);
 border-radius:16px;
 padding:40px 36px;
 width:100%;
 max-width:360px;
 box-shadow:0 20px 60px rgba(0,0,0,0.7);
-border:1px solid #2b3142;
+border:1px solid rgba(43,49,66,0.8);
 }
 
 .login-logo{
@@ -1069,6 +1106,7 @@ h1{font-size:18px;}
 
 <!-- LOGIN OVERLAY -->
 <div id="loginOverlay">
+<canvas id="loginBg"></canvas>
 <div class="login-box">
 <div class="login-logo">
 <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
@@ -1127,7 +1165,10 @@ Powered by <strong>Tigor M Manurung</strong>
 
 <div class="modal-header">
 <div class="modal-title" id="modalTitle">Team Scouting</div>
+<div style="display:flex;gap:8px;align-items:center;">
+<button id="downloadBtn" class="download-btn" onclick="downloadScoutPNG()">&#8595; Download PNG</button>
 <button class="modal-close" onclick="closeModal()">&#10005;</button>
+</div>
 </div>
 
 <div class="modal-body">
@@ -1203,7 +1244,81 @@ inp.classList.remove('error');
 document.getElementById('loginError').classList.remove('show');
 });
 inp.focus();
+initLoginBg();
 });
+
+function initLoginBg(){
+var canvas=document.getElementById('loginBg');
+if(!canvas) return;
+var ctx=canvas.getContext('2d');
+var W,H,dots;
+
+function resize(){
+W=canvas.width=window.innerWidth;
+H=canvas.height=window.innerHeight;
+}
+resize();
+window.addEventListener('resize',resize);
+
+var N=70;
+dots=Array.from({length:N},function(){
+return{
+x:Math.random()*W,
+y:Math.random()*H,
+vx:(Math.random()-.5)*0.45,
+vy:(Math.random()-.5)*0.45,
+r:Math.random()*1.8+0.8,
+};
+});
+
+var LINK=130;
+
+function frame(){
+ctx.clearRect(0,0,W,H);
+
+// Subtle animated gradient bg
+var grd=ctx.createRadialGradient(W*.35,H*.4,0,W*.35,H*.4,W*.7);
+grd.addColorStop(0,'rgba(30,40,80,0.55)');
+grd.addColorStop(1,'rgba(0,0,0,0)');
+ctx.fillStyle=grd;
+ctx.fillRect(0,0,W,H);
+
+var grd2=ctx.createRadialGradient(W*.72,H*.65,0,W*.72,H*.65,W*.5);
+grd2.addColorStop(0,'rgba(80,20,100,0.35)');
+grd2.addColorStop(1,'rgba(0,0,0,0)');
+ctx.fillStyle=grd2;
+ctx.fillRect(0,0,W,H);
+
+for(var i=0;i<N;i++){
+var d=dots[i];
+d.x+=d.vx;d.y+=d.vy;
+if(d.x<0)d.x=W; if(d.x>W)d.x=0;
+if(d.y<0)d.y=H; if(d.y>H)d.y=0;
+
+for(var j=i+1;j<N;j++){
+var d2=dots[j];
+var dx=d.x-d2.x, dy=d.y-d2.y;
+var dist=Math.sqrt(dx*dx+dy*dy);
+if(dist<LINK){
+var alpha=(1-dist/LINK)*0.35;
+ctx.beginPath();
+ctx.moveTo(d.x,d.y);
+ctx.lineTo(d2.x,d2.y);
+ctx.strokeStyle='rgba(139,148,220,'+alpha+')';
+ctx.lineWidth=0.7;
+ctx.stroke();
+}
+}
+
+ctx.beginPath();
+ctx.arc(d.x,d.y,d.r,0,Math.PI*2);
+ctx.fillStyle='rgba(160,170,230,0.7)';
+ctx.fill();
+}
+requestAnimationFrame(frame);
+}
+requestAnimationFrame(frame);
+}
 
 /* ===================== */
 /* MMPL HELPERS          */
@@ -1935,6 +2050,164 @@ updateSelectionBar();
 document.addEventListener("keydown",function(e){
 if(e.key==="Escape") closeModal();
 });
+
+/* ===================== */
+/* DOWNLOAD PNG          */
+/* ===================== */
+
+function _dlStatRow(label,value){
+return '<div style="display:flex;justify-content:space-between;font-size:12px;padding:3px 0;border-bottom:1px solid rgba(255,255,255,0.04);">'+
+'<span style="color:#6b7280;">'+label+'</span>'+
+'<span style="font-weight:600;color:#e5e7eb;">'+value+'</span></div>';
+}
+
+function _dlWrColor(wr){
+if(wr>=65) return '#22c55e';
+if(wr>=55) return '#eab308';
+if(wr>=50) return '#f97316';
+return '#ef4444';
+}
+
+function _dlRoleColor(role){
+role=(role||'').toLowerCase();
+if(role.includes('jungler')) return '#ca8a04';
+if(role.includes('tank'))    return '#3b82f6';
+if(role.includes('fighter')) return '#f97316';
+if(role.includes('assassin'))return '#ef4444';
+if(role.includes('mage'))    return '#a855f7';
+if(role.includes('marksman'))return '#22c55e';
+if(role.includes('support')) return '#06b6d4';
+return '#374151';
+}
+
+function _dlTierBg(t){
+if(t==='S')    return '#16a34a';
+if(t==='A')    return '#ca8a04';
+if(t==='B')    return '#ea580c';
+if(t==='C')    return '#92400e';
+return '#dc2626';
+}
+
+function _dlHeroBg(wr){
+if(wr>=60) return '#16a34a';
+if(wr>=55) return '#ca8a04';
+if(wr>=50) return '#ea580c';
+return '#dc2626';
+}
+
+function _dlPlayerCard(p){
+var cs=p.statistic.current_season;
+var as=p.statistic.all_season;
+var score=performanceIndex(cs,as,p.role,p.rank_current,p.rank_highest);
+var tier=performanceTier(score);
+var heroesHtml=(p.hero_favorite.current_season||[]).slice(0,6).map(function(h){
+return '<span style="background:'+_dlHeroBg(h.win_rate)+';color:white;padding:3px 9px;border-radius:5px;font-size:11px;font-weight:600;white-space:nowrap;">'+h.hero_name+' '+h.win_rate+'%</span>';
+}).join('');
+return '<div style="background:#1a1f2e;border-radius:12px;padding:18px;border:1px solid #2b3142;break-inside:avoid;">'+
+'<div style="display:flex;align-items:flex-start;justify-content:space-between;margin-bottom:14px;gap:10px;">'+
+'<div>'+
+'<div style="font-size:17px;font-weight:800;color:#e5e7eb;margin-bottom:2px;">'+p.nick+'</div>'+
+'<div style="font-size:11px;color:#6b7280;">ID: '+p.id+(p.full_name?' · '+p.full_name:'')+'</div>'+
+'</div>'+
+'<div style="display:flex;gap:5px;align-items:center;flex-shrink:0;">'+
+'<span style="padding:3px 10px;border-radius:20px;font-size:10px;font-weight:700;text-transform:uppercase;background:'+_dlRoleColor(p.role)+';color:white;">'+p.role+'</span>'+
+'<span style="background:'+_dlTierBg(tier[0])+';color:white;padding:3px 9px;border-radius:6px;font-weight:800;font-size:12px;">'+tier[0]+' '+score.toFixed(1)+'</span>'+
+'</div>'+
+'</div>'+
+'<div style="display:grid;grid-template-columns:1fr 1fr;gap:10px;margin-bottom:12px;">'+
+'<div style="background:#252b3a;border-radius:8px;padding:12px;">'+
+'<div style="font-size:9px;font-weight:700;text-transform:uppercase;letter-spacing:.5px;color:#9ca3af;margin-bottom:8px;">Current Season</div>'+
+_dlStatRow('Rank','<span style="color:#facc15;font-weight:700;">'+(p.rank_current||'-')+'</span>')+
+_dlStatRow('Match',cs.matches_count)+
+_dlStatRow('Win Rate','<span style="color:'+_dlWrColor(cs.win_rate)+'">'+cs.win_rate+'%</span>')+
+_dlStatRow('KDA',cs.kda)+
+_dlStatRow('Team Part',cs.team_participation+'%')+
+_dlStatRow('Gold/min',cs.gold_per_min)+
+_dlStatRow('Deaths',cs.deaths_per_match)+
+'</div>'+
+'<div style="background:#252b3a;border-radius:8px;padding:12px;">'+
+'<div style="font-size:9px;font-weight:700;text-transform:uppercase;letter-spacing:.5px;color:#9ca3af;margin-bottom:8px;">All Season</div>'+
+_dlStatRow('Rank','<span style="color:#9ca3af;font-weight:700;">'+(p.rank_highest||'-')+'</span>')+
+_dlStatRow('Match',as.matches_count)+
+_dlStatRow('Win Rate','<span style="color:'+_dlWrColor(as.win_rate)+'">'+as.win_rate+'%</span>')+
+_dlStatRow('KDA',as.kda)+
+_dlStatRow('Team Part',as.team_participation+'%')+
+_dlStatRow('Gold/min',as.gold_per_min)+
+_dlStatRow('Deaths',as.deaths_per_match)+
+'</div>'+
+'</div>'+
+(heroesHtml?'<div><div style="font-size:9px;color:#6b7280;text-transform:uppercase;letter-spacing:.5px;margin-bottom:6px;font-weight:600;">Top Heroes (Current)</div><div style="display:flex;flex-wrap:wrap;gap:4px;">'+heroesHtml+'</div></div>':'')+
+'</div>';
+}
+
+async function downloadScoutPNG(){
+var btn=document.getElementById('downloadBtn');
+btn.disabled=true;
+btn.textContent='Generating...';
+
+try{
+var teamName=document.getElementById('modalTitle').innerText;
+var selectedRows=[...document.querySelectorAll('#scoutTableBody tr.scout-selected')];
+var hasSelection=selectedRows.length>0;
+var analysisActive=document.getElementById('analysisPanel').classList.contains('active');
+
+var targetPlayers=hasSelection
+? selectedRows.map(function(tr){return renderedPlayers[parseInt(tr.dataset.pid)];}).filter(Boolean)
+: [...renderedPlayers];
+
+var wrap=document.createElement('div');
+wrap.style.cssText='position:fixed;left:-9999px;top:0;width:1100px;background:#0b0e17;padding:32px;font-family:Inter,sans-serif;color:#e5e7eb;box-sizing:border-box;';
+
+var dateStr=new Date().toLocaleDateString('id-ID',{day:'numeric',month:'long',year:'numeric'});
+wrap.innerHTML='<div style="margin-bottom:24px;padding-bottom:16px;border-bottom:2px solid #2b3142;display:flex;align-items:center;justify-content:space-between;">'+
+'<div>'+
+'<div style="font-size:24px;font-weight:800;color:#facc15;letter-spacing:.3px;">'+teamName+'</div>'+
+'<div style="font-size:12px;color:#6b7280;margin-top:4px;">MMPL Season 9 — Scouting Report</div>'+
+'</div>'+
+'<div style="font-size:11px;color:#4b5563;text-align:right;">'+dateStr+'</div>'+
+'</div>';
+
+var grid=document.createElement('div');
+grid.style.cssText='display:grid;grid-template-columns:repeat('+(targetPlayers.length===1?'1':'2')+',1fr);gap:14px;margin-bottom:'+(hasSelection&&analysisActive?'28px':'0')+';';
+targetPlayers.forEach(function(p){
+var card=document.createElement('div');
+card.innerHTML=_dlPlayerCard(p);
+grid.appendChild(card.firstElementChild);
+});
+wrap.appendChild(grid);
+
+if(hasSelection&&analysisActive){
+var aWrap=document.createElement('div');
+aWrap.style.cssText='background:#0f1117;padding:24px;border-radius:12px;border:1px solid #1a1f2e;';
+aWrap.innerHTML='<div style="font-size:11px;font-weight:700;text-transform:uppercase;letter-spacing:2px;color:#f59e0b;margin-bottom:18px;display:flex;align-items:center;gap:8px;">'+
+'<span style="display:inline-block;width:3px;height:13px;background:#f59e0b;border-radius:2px;flex-shrink:0;"></span>Team Analysis</div>'+
+document.getElementById('analysisBody').innerHTML;
+wrap.appendChild(aWrap);
+}
+
+document.body.appendChild(wrap);
+
+var canvas=await html2canvas(wrap,{
+backgroundColor:'#0b0e17',
+scale:2,
+useCORS:true,
+logging:false,
+allowTaint:true,
+});
+
+document.body.removeChild(wrap);
+
+var link=document.createElement('a');
+link.download=teamName.replace(/[^a-zA-Z0-9]/g,'_')+'_scout.png';
+link.href=canvas.toDataURL('image/png');
+link.click();
+}catch(err){
+console.error(err);
+}finally{
+btn.disabled=false;
+btn.textContent='↓ Download PNG';
+}
+}
 
 /* ===================== */
 /* LOAD DATA             */
