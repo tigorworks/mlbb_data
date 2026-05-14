@@ -71,6 +71,21 @@ opacity:.6;
 cursor:default;
 }
 
+.tournament-select{
+background:#252b3a;
+border:1px solid #374151;
+color:#e5e7eb;
+padding:8px 12px;
+border-radius:8px;
+cursor:pointer;
+font-size:14px;
+font-family:inherit;
+outline:none;
+transition:border-color .2s;
+}
+
+.tournament-select:focus{border-color:#3b82f6;}
+
 /* CARD */
 
 .table-container{
@@ -1129,12 +1144,16 @@ h1{font-size:18px;}
 <div class="header-left">
 <h1>Mobile Legends Player Scouting</h1>
 <div class="header-meta">
-<span id="teamCount">0</span> Teams Registered •
+<span id="eventName" style="color:#facc15;font-weight:500;">-</span> •
+<span id="teamCount">0</span> Tim •
 Last Updated <span id="lastUpdateText">-</span> (UTC+7)
 </div>
 </div>
 
-<button id="refreshBtn" class="refresh-btn" onclick="loadData()">Refresh Data</button>
+<div style="display:flex;gap:10px;align-items:center;flex-wrap:wrap;">
+<select id="tournamentSelect" class="tournament-select" onchange="onTournamentChange()"></select>
+<button id="refreshBtn" class="refresh-btn" onclick="refreshCurrent()">Refresh</button>
+</div>
 
 </div>
 
@@ -2160,7 +2179,7 @@ var dateStr=new Date().toLocaleDateString('id-ID',{day:'numeric',month:'long',ye
 wrap.innerHTML='<div style="margin-bottom:24px;padding-bottom:16px;border-bottom:2px solid #2b3142;display:flex;align-items:center;justify-content:space-between;">'+
 '<div>'+
 '<div style="font-size:24px;font-weight:800;color:#facc15;letter-spacing:.3px;">'+teamName+'</div>'+
-'<div style="font-size:12px;color:#6b7280;margin-top:4px;">Mobile Legends — Scouting Report</div>'+
+'<div style="font-size:12px;color:#6b7280;margin-top:4px;">'+(currentEventName||'Mobile Legends')+' — Scouting Report</div>'+
 '</div>'+
 '<div style="font-size:11px;color:#4b5563;text-align:right;">'+dateStr+'</div>'+
 '</div>';
@@ -2208,23 +2227,65 @@ btn.textContent='↓ Download PNG';
 }
 
 /* ===================== */
-/* LOAD DATA             */
+/* TOURNAMENT LOADER     */
 /* ===================== */
 
-async function loadData(){
+let currentEventName='';
 
+async function initTournaments(){
+try{
+const res=await fetch('tournaments/index.json?v='+Date.now());
+const files=await res.json();
+const select=document.getElementById('tournamentSelect');
+select.innerHTML='';
+
+const metaList=await Promise.all(files.map(async function(f){
+try{
+const r=await fetch('tournaments/'+f+'?v='+Date.now());
+const d=await r.json();
+return{file:f,name:d.event_name||f};
+}catch(e){return{file:f,name:f};}
+}));
+
+metaList.forEach(function(m){
+const opt=document.createElement('option');
+opt.value=m.file;
+opt.textContent=m.name;
+select.appendChild(opt);
+});
+
+if(files.length>0) await loadTournament(files[0]);
+}catch(err){
+document.getElementById("lastUpdateText").innerText="Failed to load tournaments";
+}
+}
+
+async function onTournamentChange(){
+const f=document.getElementById('tournamentSelect').value;
+if(f) await loadTournament(f);
+}
+
+async function refreshCurrent(){
+const f=document.getElementById('tournamentSelect').value;
+if(f) await loadTournament(f);
+}
+
+async function loadTournament(filename){
 const btn=document.getElementById("refreshBtn");
 btn.disabled=true;
-btn.innerText="Refreshing...";
+btn.innerText="Loading...";
 
 try{
-
-const res=await fetch('data.json?v='+Date.now());
+const res=await fetch('tournaments/'+filename+'?v='+Date.now());
 const data=await res.json();
 const teams=Array.isArray(data.teams)?data.teams:[];
 
+currentEventName=data.event_name||filename;
+document.getElementById("eventName").innerText=currentEventName;
 document.getElementById("teamCount").innerText=teams.length;
 document.getElementById("lastUpdateText").innerText=data.lastupdate||"Unknown";
+
+teamRegistry={};
 
 teams.forEach(t=>{
 t.member_search=buildMemberSearch(t.members);
@@ -2283,14 +2344,14 @@ table.clear().rows.add(teams).draw(false);
 }
 
 }catch(err){
-document.getElementById("lastUpdateText").innerText="Failed to refresh data";
+document.getElementById("lastUpdateText").innerText="Failed to load data";
 }
 
 btn.disabled=false;
-btn.innerText="Refresh Data";
+btn.innerText="Refresh";
 }
 
-loadData();
+initTournaments();
 
 </script>
 
