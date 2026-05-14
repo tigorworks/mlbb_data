@@ -1208,19 +1208,11 @@ Powered by <strong>Tigor M Manurung</strong>
 /* LOGIN                 */
 /* ===================== */
 
-(function(){
-if(sessionStorage.getItem('mlbb_auth')==='1'){
-var o=document.getElementById('loginOverlay');
-if(o) o.style.display='none';
-}
-})();
-
 function doLogin(){
 var pw=document.getElementById('loginPassword').value;
 var err=document.getElementById('loginError');
 var inp=document.getElementById('loginPassword');
 if(pw==='mafiaBagan'){
-sessionStorage.setItem('mlbb_auth','1');
 var overlay=document.getElementById('loginOverlay');
 overlay.style.opacity='0';
 overlay.style.transition='opacity .3s ease';
@@ -2100,9 +2092,14 @@ var cs=p.statistic.current_season;
 var as=p.statistic.all_season;
 var score=performanceIndex(cs,as,p.role,p.rank_current,p.rank_highest);
 var tier=performanceTier(score);
-var heroesHtml=(p.hero_favorite.current_season||[]).slice(0,6).map(function(h){
-return '<span style="background:'+_dlHeroBg(h.win_rate)+';color:white;padding:3px 9px;border-radius:5px;font-size:11px;font-weight:600;white-space:nowrap;">'+h.hero_name+' '+h.win_rate+'%</span>';
+function _dlHeroSpans(list){
+return (list||[]).slice(0,6).map(function(h){
+return '<span style="background:'+_dlHeroBg(h.win_rate)+';color:white;padding:3px 9px;border-radius:5px;font-size:11px;font-weight:600;white-space:nowrap;">'+
+h.hero_name+' '+h.win_rate+'% <span style="opacity:.75;font-weight:400;">('+h.matches+')</span></span>';
 }).join('');
+}
+var heroesCurrentHtml=_dlHeroSpans(p.hero_favorite.current_season);
+var heroesAllHtml=_dlHeroSpans(p.hero_favorite.all_season);
 return '<div style="background:#1a1f2e;border-radius:12px;padding:18px;border:1px solid #2b3142;break-inside:avoid;">'+
 '<div style="display:flex;align-items:flex-start;justify-content:space-between;margin-bottom:14px;gap:10px;">'+
 '<div>'+
@@ -2136,7 +2133,8 @@ _dlStatRow('Gold/min',as.gold_per_min)+
 _dlStatRow('Deaths',as.deaths_per_match)+
 '</div>'+
 '</div>'+
-(heroesHtml?'<div><div style="font-size:9px;color:#6b7280;text-transform:uppercase;letter-spacing:.5px;margin-bottom:6px;font-weight:600;">Top Heroes (Current)</div><div style="display:flex;flex-wrap:wrap;gap:4px;">'+heroesHtml+'</div></div>':'')+
+(heroesCurrentHtml?'<div style="margin-bottom:10px;"><div style="font-size:9px;color:#6b7280;text-transform:uppercase;letter-spacing:.5px;margin-bottom:6px;font-weight:600;">Top Heroes — Current Season</div><div style="display:flex;flex-wrap:wrap;gap:4px;">'+heroesCurrentHtml+'</div></div>':'')+
+(heroesAllHtml?'<div><div style="font-size:9px;color:#6b7280;text-transform:uppercase;letter-spacing:.5px;margin-bottom:6px;font-weight:600;">Top Heroes — All Season</div><div style="display:flex;flex-wrap:wrap;gap:4px;">'+heroesAllHtml+'</div></div>':'')+
 '</div>';
 }
 
