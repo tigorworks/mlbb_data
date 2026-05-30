@@ -1,0 +1,96 @@
+{
+  "id": "34130407",
+  "nick": "Tuking",
+  "zone_id": "2054",
+  "role": "roamer",
+  "rank_current": "111",
+  "rank_highest": "12",
+  "statistic": {
+    "current_season": {
+      "matches_count": 309,
+      "win_rate": 62.46,
+      "kda": 2.87,
+      "team_participation": 54.8,
+      "gold_per_min": 599,
+      "dmg_per_min": 2387,
+      "deaths_per_match": 5.33,
+      "turret_dmg_per_match": 3427
+    },
+    "all_season": {
+      "matches_count": 2921,
+      "win_rate": 60.18,
+      "kda": 3.73,
+      "team_participation": 58.9,
+      "gold_per_min": 589,
+      "dmg_per_min": 2128,
+      "deaths_per_match": 4.51,
+      "turret_dmg_per_match": 2504
+    }
+  },
+  "hero_favorite": {
+    "current_season": [
+      {
+        "hero_name": "Kalea",
+        "matches": 216,
+        "win_rate": 63.9
+      },
+      {
+        "hero_name": "Marcel",
+        "matches": 36,
+        "win_rate": 52.8
+      },
+      {
+        "hero_name": "Angela",
+        "matches": 28,
+        "win_rate": 78.6
+      },
+      {
+        "hero_name": "Tigreal",
+        "matches": 15,
+        "win_rate": 60.0
+      },
+      {
+        "hero_name": "Chip",
+        "matches": 6,
+        "win_rate": 33.3
+      },
+      {
+        "hero_name": "Estes",
+        "matches": 4,
+        "win_rate": 50.0
+      }
+    ],
+    "all_season": [
+      {
+        "hero_name": "Tigreal",
+        "matches": 968,
+        "win_rate": 59.0
+      },
+      {
+        "hero_name": "Kalea",
+        "matches": 846,
+        "win_rate": 61.5
+      },
+      {
+        "hero_name": "Estes",
+        "matches": 180,
+        "win_rate": 61.7
+      },
+      {
+        "hero_name": "Eudora",
+        "matches": 162,
+        "win_rate": 60.5
+      },
+      {
+        "hero_name": "Aurora",
+        "matches": 151,
+        "win_rate": 61.6
+      },
+      {
+        "hero_name": "Atlas",
+        "matches": 107,
+        "win_rate": 53.3
+      }
+    ]
+  }
+}
