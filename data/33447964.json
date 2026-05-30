@@ -1,0 +1,93 @@
+{
+  "id": "33447964",
+  "nick": "Rindtod",
+  "role": "jungler",
+  "statistic": {
+    "current_season": {
+      "matches_count": 357,
+      "win_rate": 55.46,
+      "kda": 3.28,
+      "team_participation": 48.9,
+      "gold_per_min": 701,
+      "dmg_per_min": 3899,
+      "deaths_per_match": 4.15,
+      "turret_dmg_per_match": 4066
+    },
+    "all_season": {
+      "matches_count": 16042,
+      "win_rate": 58.74,
+      "kda": 3.8,
+      "team_participation": 55.1,
+      "gold_per_min": 647,
+      "dmg_per_min": 3363,
+      "deaths_per_match": 3.93,
+      "turret_dmg_per_match": 4390
+    }
+  },
+  "hero_favorite": {
+    "current_season": [
+      {
+        "hero_name": "Suyou",
+        "matches": 85,
+        "win_rate": 55.3
+      },
+      {
+        "hero_name": "Lancelot",
+        "matches": 72,
+        "win_rate": 44.4
+      },
+      {
+        "hero_name": "Leomord",
+        "matches": 41,
+        "win_rate": 63.4
+      },
+      {
+        "hero_name": "Yi Sun-shin",
+        "matches": 38,
+        "win_rate": 57.9
+      },
+      {
+        "hero_name": "Gusion",
+        "matches": 25,
+        "win_rate": 56.0
+      },
+      {
+        "hero_name": "Hayabusa",
+        "matches": 18,
+        "win_rate": 72.2
+      }
+    ],
+    "all_season": [
+      {
+        "hero_name": "Lancelot",
+        "matches": 1277,
+        "win_rate": 58.9
+      },
+      {
+        "hero_name": "Ling",
+        "matches": 863,
+        "win_rate": 61.1
+      },
+      {
+        "hero_name": "Hayabusa",
+        "matches": 751,
+        "win_rate": 68.8
+      },
+      {
+        "hero_name": "Gusion",
+        "matches": 637,
+        "win_rate": 58.4
+      },
+      {
+        "hero_name": "Claude",
+        "matches": 594,
+        "win_rate": 66.8
+      },
+      {
+        "hero_name": "Karrie",
+        "matches": 594,
+        "win_rate": 59.3
+      }
+    ]
+  }
+}
