@@ -1,0 +1,96 @@
+{
+  "id": "228681487",
+  "nick": "XiryuuSsy",
+  "zone_id": "9203",
+  "role": "midlaner",
+  "rank_current": "16",
+  "rank_highest": "35",
+  "statistic": {
+    "current_season": {
+      "matches_count": 268,
+      "win_rate": 67.54,
+      "kda": 5.85,
+      "team_participation": 61.3,
+      "gold_per_min": 627,
+      "dmg_per_min": 4547,
+      "deaths_per_match": 3.11,
+      "turret_dmg_per_match": 2403
+    },
+    "all_season": {
+      "matches_count": 6222,
+      "win_rate": 63.63,
+      "kda": 4.71,
+      "team_participation": 58.4,
+      "gold_per_min": 644,
+      "dmg_per_min": 3732,
+      "deaths_per_match": 3.50,
+      "turret_dmg_per_match": 2739
+    }
+  },
+  "hero_favorite": {
+    "current_season": [
+      {
+        "hero_name": "Zhuxin",
+        "matches": 78,
+        "win_rate": 74.4
+      },
+      {
+        "hero_name": "Yve",
+        "matches": 48,
+        "win_rate": 66.7
+      },
+      {
+        "hero_name": "Pharsa",
+        "matches": 41,
+        "win_rate": 56.1
+      },
+      {
+        "hero_name": "Zetian",
+        "matches": 28,
+        "win_rate": 67.9
+      },
+      {
+        "hero_name": "Selena",
+        "matches": 17,
+        "win_rate": 52.9
+      },
+      {
+        "hero_name": "Kimmy",
+        "matches": 16,
+        "win_rate": 81.2
+      }
+    ],
+    "all_season": [
+      {
+        "hero_name": "Yve",
+        "matches": 629,
+        "win_rate": 65.0
+      },
+      {
+        "hero_name": "Selena",
+        "matches": 593,
+        "win_rate": 66.8
+      },
+      {
+        "hero_name": "Zhuxin",
+        "matches": 404,
+        "win_rate": 68.1
+      },
+      {
+        "hero_name": "Pharsa",
+        "matches": 331,
+        "win_rate": 55.6
+      },
+      {
+        "hero_name": "Valentina",
+        "matches": 314,
+        "win_rate": 61.5
+      },
+      {
+        "hero_name": "Esmeralda",
+        "matches": 294,
+        "win_rate": 69.7
+      }
+    ]
+  }
+}
