@@ -1,0 +1,96 @@
+{
+  "id": "54925325",
+  "nick": "A R U",
+  "zone_id": "2093",
+  "role": "explaner",
+  "rank_current": "103",
+  "rank_highest": "107",
+  "statistic": {
+    "current_season": {
+      "matches_count": 495,
+      "win_rate": 57.17,
+      "kda": 2.03,
+      "team_participation": 37.5,
+      "gold_per_min": 553,
+      "dmg_per_min": 3296,
+      "deaths_per_match": 4.41,
+      "turret_dmg_per_match": 1491
+    },
+    "all_season": {
+      "matches_count": 9699,
+      "win_rate": 52.86,
+      "kda": 2.96,
+      "team_participation": 50.1,
+      "gold_per_min": 582,
+      "dmg_per_min": 2732,
+      "deaths_per_match": 4.67,
+      "turret_dmg_per_match": 2228
+    }
+  },
+  "hero_favorite": {
+    "current_season": [
+      {
+        "hero_name": "Alice",
+        "matches": 108,
+        "win_rate": 58.3
+      },
+      {
+        "hero_name": "Sora",
+        "matches": 92,
+        "win_rate": 59.8
+      },
+      {
+        "hero_name": "Terizla",
+        "matches": 55,
+        "win_rate": 54.5
+      },
+      {
+        "hero_name": "Belerick",
+        "matches": 49,
+        "win_rate": 55.1
+      },
+      {
+        "hero_name": "Phoveus",
+        "matches": 46,
+        "win_rate": 67.4
+      },
+      {
+        "hero_name": "Gatotkaca",
+        "matches": 39,
+        "win_rate": 69.2
+      }
+    ],
+    "all_season": [
+      {
+        "hero_name": "Jawhead",
+        "matches": 1078,
+        "win_rate": 56.3
+      },
+      {
+        "hero_name": "Hilda",
+        "matches": 899,
+        "win_rate": 54.5
+      },
+      {
+        "hero_name": "Terizla",
+        "matches": 562,
+        "win_rate": 57.7
+      },
+      {
+        "hero_name": "Gatotkaca",
+        "matches": 538,
+        "win_rate": 58.2
+      },
+      {
+        "hero_name": "Gloo",
+        "matches": 522,
+        "win_rate": 56.7
+      },
+      {
+        "hero_name": "Johnson",
+        "matches": 446,
+        "win_rate": 56.1
+      }
+    ]
+  }
+}
