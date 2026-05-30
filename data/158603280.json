@@ -1,0 +1,96 @@
+{
+  "id": "158603280",
+  "nick": "Sakhmadigh.",
+  "zone_id": "2793",
+  "role": "explaner",
+  "rank_current": "87",
+  "rank_highest": "172",
+  "statistic": {
+    "current_season": {
+      "matches_count": 344,
+      "win_rate": 58.72,
+      "kda": 2.51,
+      "team_participation": 52.9,
+      "gold_per_min": 670,
+      "dmg_per_min": 5240,
+      "deaths_per_match": 5.96,
+      "turret_dmg_per_match": 5451
+    },
+    "all_season": {
+      "matches_count": 17979,
+      "win_rate": 59.98,
+      "kda": 3.45,
+      "team_participation": 57.4,
+      "gold_per_min": 702,
+      "dmg_per_min": 4304,
+      "deaths_per_match": 4.77,
+      "turret_dmg_per_match": 5472
+    }
+  },
+  "hero_favorite": {
+    "current_season": [
+      {
+        "hero_name": "Granger",
+        "matches": 49,
+        "win_rate": 53.1
+      },
+      {
+        "hero_name": "Yu Zhong",
+        "matches": 41,
+        "win_rate": 73.2
+      },
+      {
+        "hero_name": "Ruby",
+        "matches": 39,
+        "win_rate": 64.1
+      },
+      {
+        "hero_name": "Yi Sun-shin",
+        "matches": 30,
+        "win_rate": 60.0
+      },
+      {
+        "hero_name": "Benedetta",
+        "matches": 17,
+        "win_rate": 64.7
+      },
+      {
+        "hero_name": "Guinevere",
+        "matches": 16,
+        "win_rate": 62.5
+      }
+    ],
+    "all_season": [
+      {
+        "hero_name": "Lapu-Lapu",
+        "matches": 2188,
+        "win_rate": 65.6
+      },
+      {
+        "hero_name": "Dyrroth",
+        "matches": 1488,
+        "win_rate": 62.0
+      },
+      {
+        "hero_name": "Yu Zhong",
+        "matches": 1358,
+        "win_rate": 67.2
+      },
+      {
+        "hero_name": "Paquito",
+        "matches": 1099,
+        "win_rate": 64.1
+      },
+      {
+        "hero_name": "Selena",
+        "matches": 867,
+        "win_rate": 58.1
+      },
+      {
+        "hero_name": "Xavier",
+        "matches": 666,
+        "win_rate": 63.4
+      }
+    ]
+  }
+}
