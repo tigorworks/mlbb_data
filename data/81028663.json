@@ -1,0 +1,96 @@
+{
+  "id": "81028663",
+  "nick": "Jongjava",
+  "zone_id": "2158",
+  "role": "roamer",
+  "rank_current": "114",
+  "rank_highest": "116",
+  "statistic": {
+    "current_season": {
+      "matches_count": 419,
+      "win_rate": 58.47,
+      "kda": 3.05,
+      "team_participation": 44.4,
+      "gold_per_min": 645,
+      "dmg_per_min": 3728,
+      "deaths_per_match": 4.41,
+      "turret_dmg_per_match": 6182
+    },
+    "all_season": {
+      "matches_count": 9837,
+      "win_rate": 58.40,
+      "kda": 3.54,
+      "team_participation": 53.1,
+      "gold_per_min": 622,
+      "dmg_per_min": 3114,
+      "deaths_per_match": 4.08,
+      "turret_dmg_per_match": 3756
+    }
+  },
+  "hero_favorite": {
+    "current_season": [
+      {
+        "hero_name": "Obsidia",
+        "matches": 56,
+        "win_rate": 51.8
+      },
+      {
+        "hero_name": "Ixia",
+        "matches": 55,
+        "win_rate": 65.5
+      },
+      {
+        "hero_name": "Karrie",
+        "matches": 51,
+        "win_rate": 62.7
+      },
+      {
+        "hero_name": "Estes",
+        "matches": 30,
+        "win_rate": 76.7
+      },
+      {
+        "hero_name": "Zhuxin",
+        "matches": 27,
+        "win_rate": 70.4
+      },
+      {
+        "hero_name": "Clint",
+        "matches": 27,
+        "win_rate": 44.4
+      }
+    ],
+    "all_season": [
+      {
+        "hero_name": "Chou",
+        "matches": 996,
+        "win_rate": 65.0
+      },
+      {
+        "hero_name": "Hayabusa",
+        "matches": 634,
+        "win_rate": 64.4
+      },
+      {
+        "hero_name": "Lolita",
+        "matches": 355,
+        "win_rate": 56.6
+      },
+      {
+        "hero_name": "Ruby",
+        "matches": 285,
+        "win_rate": 59.3
+      },
+      {
+        "hero_name": "Karrie",
+        "matches": 285,
+        "win_rate": 48.4
+      },
+      {
+        "hero_name": "Zilong",
+        "matches": 280,
+        "win_rate": 57.1
+      }
+    ]
+  }
+}
