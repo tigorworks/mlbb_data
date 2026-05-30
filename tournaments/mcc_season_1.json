@@ -1,0 +1,847 @@
+{
+	"event_name": "MCC Season 1",
+	"lastupdate": "2026-05-30 00:00:00",
+	"teams": [
+		{
+			"team_name": "Kongkowders 1",
+			"captain_name": "Muhammad Syahryan Arsyad",
+			"members": [
+				{
+					"full_name": "Muhammad Syahryan Arsyad",
+					"game_id": "383025255",
+					"game_nick": "kang ghufron"
+				},
+				{
+					"full_name": "Azhar nur",
+					"game_id": "12882070",
+					"game_nick": "Astro"
+				},
+				{
+					"full_name": "Sulthan avif yoga pradana",
+					"game_id": "140063487",
+					"game_nick": "JazzyKing"
+				},
+				{
+					"full_name": "Arya pandu pratama",
+					"game_id": "136091715",
+					"game_nick": "PMA.Activated"
+				},
+				{
+					"full_name": "Erwinsyah tri sasongko",
+					"game_id": "70518598",
+					"game_nick": "Sonic"
+				},
+				{
+					"full_name": "Caesar ambasten",
+					"game_id": "151304966",
+					"game_nick": "BOSCAE"
+				},
+				{
+					"full_name": "Alief Lutfhi syabani",
+					"game_id": "108551719",
+					"game_nick": "I am lipp"
+				}
+			]
+		},
+		{
+			"team_name": "Annisa Gaming",
+			"captain_name": "Muhammad Fauzan",
+			"members": [
+				{
+					"full_name": "Muhammad Fauzan Nur Adilah",
+					"game_id": "366461970 (9707)",
+					"game_nick": "Raxakan"
+				},
+				{
+					"full_name": "Mochamad Rifky Ramadan Azmi",
+					"game_id": "46165057 (2211)",
+					"game_nick": "Morphling."
+				},
+				{
+					"full_name": "Albi Revlin Bagaskara",
+					"game_id": "136640643 (2684)",
+					"game_nick": "Ramm."
+				},
+				{
+					"full_name": "I Dewa Gede Pradnya Dwiditya",
+					"game_id": "352254059 (9491)",
+					"game_nick": "XR-RED"
+				},
+				{
+					"full_name": "Vieira Harits Arkaizstammam",
+					"game_id": "9745446 (2201)",
+					"game_nick": "giianiis"
+				},
+				{
+					"full_name": "Yoga Dwi A",
+					"game_id": "118402477 (2518)",
+					"game_nick": "YT: RiakiYT"
+				}
+			]
+		},
+		{
+			"team_name": "PLN",
+			"captain_name": "wahyu nugroho",
+			"members": [
+				{
+					"full_name": "Wahyu Nugroho",
+					"game_id": "100287612",
+					"game_nick": "masganteng"
+				},
+				{
+					"full_name": "Neva Saputra",
+					"game_id": "83019893",
+					"game_nick": "NVS"
+				},
+				{
+					"full_name": "Yoke Suryo",
+					"game_id": "1351336177",
+					"game_nick": "n0tail"
+				},
+				{
+					"full_name": "M Fadli Januar",
+					"game_id": "29254528",
+					"game_nick": "MBAHMBUT"
+				},
+				{
+					"full_name": "Tengku Muhammad",
+					"game_id": "37263050",
+					"game_nick": "Xaos"
+				},
+				{
+					"full_name": "Chrisye Rizky Ermawan",
+					"game_id": "262085077",
+					"game_nick": "MoonTaBear"
+				},
+				{
+					"full_name": "Lady",
+					"game_id": "158869270",
+					"game_nick": "ᬔᬏᬀᬄ"
+				}
+			]
+		},
+		{
+			"team_name": "AYAM",
+			"captain_name": "Ilham Indrastata",
+			"members": [
+				{
+					"full_name": "Ilham Indrastata",
+					"game_id": "912217711",
+					"game_nick": "Law."
+				},
+				{
+					"full_name": "Willy Teguh",
+					"game_id": "165591440",
+					"game_nick": "Shinzuki"
+				},
+				{
+					"full_name": "Michael Stanley Chandra Suwignyo",
+					"game_id": "55910554",
+					"game_nick": "Exaltation"
+				},
+				{
+					"full_name": "Ethan",
+					"game_id": "67589275",
+					"game_nick": "Disarm"
+				},
+				{
+					"full_name": "Matthew Desailly",
+					"game_id": "1323270157",
+					"game_nick": "mad3"
+				},
+				{
+					"full_name": "Kenny Kurniawan",
+					"game_id": "866786",
+					"game_nick": "AceCross"
+				},
+				{
+					"full_name": "Michael Oktavianus Hartanto",
+					"game_id": "101852469",
+					"game_nick": "Anvine."
+				}
+			]
+		},
+		{
+			"team_name": "PEGADAIAN CTR",
+			"captain_name": "ARIEF SUHADA SUHAIMI",
+			"members": [
+				{
+					"full_name": "ARIEF SUHADA SUHAIMI",
+					"game_id": "117922061",
+					"game_nick": "Outbee•"
+				},
+				{
+					"full_name": "FAJAR AZIZ MURDANI",
+					"game_id": "36283144",
+					"game_nick": "Nyx."
+				},
+				{
+					"full_name": "YASBAHULLAH",
+					"game_id": "158039278",
+					"game_nick": "Hawk"
+				},
+				{
+					"full_name": "ARDI PERMADI",
+					"game_id": "67015652",
+					"game_nick": "Goldyn"
+				},
+				{
+					"full_name": "HAZMI ALBY",
+					"game_id": "28682481",
+					"game_nick": "YoooR"
+				},
+				{
+					"full_name": "MULIAGA SAPUTRA",
+					"game_id": "29072160",
+					"game_nick": "Mr.Riuz"
+				}
+			]
+		},
+		{
+			"team_name": "LIF ESPORT",
+			"captain_name": "RIFAN MELDIANA",
+			"members": [
+				{
+					"full_name": "Rifan Meldiana",
+					"game_id": "317921328",
+					"game_nick": "Seitai"
+				},
+				{
+					"full_name": "Nopan Nopiandi",
+					"game_id": "1078546270",
+					"game_nick": "DarkSystemBGT."
+				},
+				{
+					"full_name": "Andhy Bhaskoro",
+					"game_id": "15245279",
+					"game_nick": "Okkotsu Arko."
+				},
+				{
+					"full_name": "Kamil Elian",
+					"game_id": "77671982",
+					"game_nick": "Keezchie."
+				},
+				{
+					"full_name": "Izaz Rakha",
+					"game_id": "666232599",
+					"game_nick": "Dezrakha"
+				},
+				{
+					"full_name": "Kevin Chandra",
+					"game_id": "43836305",
+					"game_nick": "Shrewd"
+				},
+				{
+					"full_name": "Denny Sofyan",
+					"game_id": "20962262",
+					"game_nick": "Hakari."
+				}
+			]
+		},
+		{
+			"team_name": "FNP",
+			"captain_name": "M. Yanuar Ardiansyah",
+			"members": [
+				{
+					"full_name": "M. Yanuar Ardiansyah",
+					"game_id": "70744472 (2134)",
+					"game_nick": "Myah"
+				},
+				{
+					"full_name": "Herada Kiptane Arga",
+					"game_id": "259662262 (9081)",
+					"game_nick": "Near"
+				},
+				{
+					"full_name": "Anggi Prasetianto",
+					"game_id": "34115054 (5011)",
+					"game_nick": "GorrilazGlaz"
+				},
+				{
+					"full_name": "Handika Kelana",
+					"game_id": "161257042 (2855)",
+					"game_nick": "tungtungtungsahur"
+				},
+				{
+					"full_name": "Haris Sasmita",
+					"game_id": "65667316 (2117)",
+					"game_nick": "Buah."
+				},
+				{
+					"full_name": "Lilia Anggraini",
+					"game_id": "601801745 (8414)",
+					"game_nick": "Luna"
+				},
+				{
+					"full_name": "Deva Prasetyo Ronaldo",
+					"game_id": "90686455 (2812)",
+					"game_nick": "Dev×Khamal"
+				}
+			]
+		},
+		{
+			"team_name": "WBS",
+			"captain_name": "Bagus Sukmana Putra",
+			"members": [
+				{
+					"full_name": "Bagus Sukmana Putra",
+					"game_id": "108128095",
+					"game_nick": "Uchiha xixixi"
+				},
+				{
+					"full_name": "M Syauqi R",
+					"game_id": "40781012",
+					"game_nick": "neko°Hysoka"
+				},
+				{
+					"full_name": "Bagus Rizki",
+					"game_id": "34213359",
+					"game_nick": "zNong.GG"
+				},
+				{
+					"full_name": "M Rizki F",
+					"game_id": "60429363",
+					"game_nick": "Chapeau!"
+				},
+				{
+					"full_name": "Anju Andi Naibaho",
+					"game_id": "17710375",
+					"game_nick": "Prodigies"
+				},
+				{
+					"full_name": "Ade Firmansyah",
+					"game_id": "18364230",
+					"game_nick": "Kang Dadang"
+				},
+				{
+					"full_name": "Dwinata Ariyanto",
+					"game_id": "54221900",
+					"game_nick": "Day After Dark"
+				}
+			]
+		},
+		{
+			"team_name": "MINING BRIGAGE GROUP",
+			"captain_name": "Dannys Fandy Pradana",
+			"members": [
+				{
+					"full_name": "Dannys Fandy Pradana",
+					"game_id": "63299095 (2026)",
+					"game_nick": "B0ts"
+				},
+				{
+					"full_name": "Vincent",
+					"game_id": "34389719 (2208)",
+					"game_nick": "A L F A ~ V I N"
+				},
+				{
+					"full_name": "Ryan Adam",
+					"game_id": "206580693 (2250)",
+					"game_nick": "Abu Lahab"
+				},
+				{
+					"full_name": "Fikri Mahpudin",
+					"game_id": "84995224 (2166)",
+					"game_nick": "ParZival_"
+				},
+				{
+					"full_name": "Fandi Mutaqien",
+					"game_id": "146767607 (2735)",
+					"game_nick": "F m a j o r"
+				},
+				{
+					"full_name": "M. Yusuf Ramadhan",
+					"game_id": "178656662 (2920)",
+					"game_nick": "Fibonacci_"
+				},
+				{
+					"full_name": "M. Rizalul Fiqri Prakoso",
+					"game_id": "46102563 (2074)",
+					"game_nick": "izzaal"
+				}
+			]
+		},
+		{
+			"team_name": "bjbs esport",
+			"captain_name": "Iman Hudaya",
+			"members": [
+				{
+					"full_name": "Iman Hudaya",
+					"game_id": "57043098",
+					"game_nick": "-N.C-"
+				},
+				{
+					"full_name": "Grahito Probhojati",
+					"game_id": "953202",
+					"game_nick": "sinosuke"
+				},
+				{
+					"full_name": "Rizaldi Ilman",
+					"game_id": "67296358",
+					"game_nick": "Zld."
+				},
+				{
+					"full_name": "Muhammad Amal",
+					"game_id": "1283223041",
+					"game_nick": "4U"
+				},
+				{
+					"full_name": "Aldi Reza Pranata",
+					"game_id": "190044826",
+					"game_nick": "R E E D"
+				},
+				{
+					"full_name": "M Herlambang Marsudi",
+					"game_id": "166726593",
+					"game_nick": "Osom."
+				},
+				{
+					"full_name": "Salman Sopandi",
+					"game_id": "410641285",
+					"game_nick": "mann verstappen"
+				}
+			]
+		},
+		{
+			"team_name": "Blue Lotus",
+			"captain_name": "Jocky M Triandana",
+			"members": [
+				{
+					"full_name": "Jocky",
+					"game_id": "22136235",
+					"game_nick": "KangCilok"
+				},
+				{
+					"full_name": "Romario",
+					"game_id": "60292790",
+					"game_nick": "Getuk Lindri"
+				},
+				{
+					"full_name": "Andika",
+					"game_id": "65549573",
+					"game_nick": "Anrez"
+				},
+				{
+					"full_name": "Rizky",
+					"game_id": "102040107",
+					"game_nick": "RICHEESE"
+				},
+				{
+					"full_name": "Awanda Wahyu",
+					"game_id": "140216987",
+					"game_nick": "G A A W"
+				},
+				{
+					"full_name": "Azhari Indrajaya",
+					"game_id": "107265698",
+					"game_nick": "R a y"
+				},
+				{
+					"full_name": "Muhammad Febriansyah",
+					"game_id": "22820517",
+					"game_nick": "Rayen"
+				}
+			]
+		},
+		{
+			"team_name": "btn bravo",
+			"captain_name": "Buyung Andari",
+			"members": [
+				{
+					"full_name": "Buyung Andari",
+					"game_id": "18754746",
+					"game_nick": "Holyfrosttt."
+				},
+				{
+					"full_name": "Muhammad Azdi Fahmi",
+					"game_id": "109886275",
+					"game_nick": "Azdyyy X Selena"
+				},
+				{
+					"full_name": "Teguh Muslim",
+					"game_id": "56689188",
+					"game_nick": "D E K K A H"
+				},
+				{
+					"full_name": "Agung Setiawan",
+					"game_id": "915699397",
+					"game_nick": "Fyemaa"
+				},
+				{
+					"full_name": "Achmad Faisal",
+					"game_id": "5779675",
+					"game_nick": "MALFROST."
+				},
+				{
+					"full_name": "M Arik Siswanto",
+					"game_id": "405294784",
+					"game_nick": "FrickEY"
+				},
+				{
+					"full_name": "Iqbal Syahputra",
+					"game_id": "112577356",
+					"game_nick": "Super Baal"
+				}
+			]
+		},
+		{
+			"team_name": "MACAN AIR",
+			"captain_name": "DICKY ARIF RAMADHAN",
+			"members": [
+				{
+					"full_name": "CHAIRUL ANWAR",
+					"game_id": "442537824",
+					"game_nick": "ꓔ꒬ꒆ ꒬꒤ꓒ"
+				},
+				{
+					"full_name": "REZA ABDIANSYAH",
+					"game_id": "15224613",
+					"game_nick": "GRINDELBERATE"
+				},
+				{
+					"full_name": "DICKY ARIF RAMADHAN",
+					"game_id": "211662880",
+					"game_nick": "Юamadhan"
+				},
+				{
+					"full_name": "GHULAM RIZQI",
+					"game_id": "956091100",
+					"game_nick": "LAMINE YALAM"
+				},
+				{
+					"full_name": "JAKA DWI PUTRA",
+					"game_id": "8975606",
+					"game_nick": "ラRirakkusu"
+				},
+				{
+					"full_name": "RIFKI AMINUDIN",
+					"game_id": "31137178",
+					"game_nick": "DON PABLO"
+				},
+				{
+					"full_name": "ERIK PURWANTO",
+					"game_id": "133607948",
+					"game_nick": "Babayagaa✓"
+				}
+			]
+		},
+		{
+			"team_name": "Jujutsu Mandiri",
+			"captain_name": "Agus",
+			"members": [
+				{
+					"full_name": "Hubert Louis",
+					"game_id": "972083587",
+					"game_nick": "Yuta Tjendra"
+				},
+				{
+					"full_name": "Julius Adetya Eka Bhaswara",
+					"game_id": "69632926",
+					"game_nick": "Itadori Bhaswara"
+				},
+				{
+					"full_name": "Fawaz Adiwida",
+					"game_id": "52162239",
+					"game_nick": "Nobara Lautreamont"
+				},
+				{
+					"full_name": "Carlo Tupa Indriauan",
+					"game_id": "16912566",
+					"game_nick": "Toji Silalahi"
+				},
+				{
+					"full_name": "Sandi",
+					"game_id": "1086910358",
+					"game_nick": "Choso Doo"
+				},
+				{
+					"full_name": "M. Abdul F",
+					"game_id": "40647388",
+					"game_nick": "Mahito Syaka"
+				},
+				{
+					"full_name": "Harry Nugraha",
+					"game_id": "1225830649",
+					"game_nick": "Hakari Nugraha."
+				}
+			]
+		},
+		{
+			"team_name": "OCBC Esport Tim I",
+			"captain_name": "Dino",
+			"members": [
+				{
+					"full_name": "Dino",
+					"game_id": "163279314",
+					"game_nick": "K _ Oces"
+				},
+				{
+					"full_name": "M. Rizki",
+					"game_id": "118069155",
+					"game_nick": "SE•KAYZ"
+				},
+				{
+					"full_name": "M.Bobby",
+					"game_id": "62169035",
+					"game_nick": "Lucid"
+				},
+				{
+					"full_name": "Muhikal",
+					"game_id": "262896981",
+					"game_nick": "Seiji Ookwara"
+				},
+				{
+					"full_name": "Ezra",
+					"game_id": "93785411",
+					"game_nick": "霊魂"
+				},
+				{
+					"full_name": "Ramdhani",
+					"game_id": "63799512",
+					"game_nick": "Maruden"
+				},
+				{
+					"full_name": "Rizki P",
+					"game_id": "1245049809",
+					"game_nick": "NYN"
+				}
+			]
+		},
+		{
+			"team_name": "BBTN ALPHA",
+			"captain_name": "Martin Tumpal Jehoshaphat Sitanggang",
+			"members": [
+				{
+					"full_name": "Martin Tumpal Jehoshaphat Sitanggang",
+					"game_id": "472949004",
+					"game_nick": "Tumpal God"
+				},
+				{
+					"full_name": "Dedi Muliana",
+					"game_id": "13269375",
+					"game_nick": "Arteezy"
+				},
+				{
+					"full_name": "Dhimas Bagus Wicaksono",
+					"game_id": "66070586",
+					"game_nick": "Super Beck"
+				},
+				{
+					"full_name": "Mohammad Gilang Nugraha",
+					"game_id": "91559043",
+					"game_nick": "M I N"
+				},
+				{
+					"full_name": "Moch Rizky Adiyanto",
+					"game_id": "170217532",
+					"game_nick": "GigasEY"
+				},
+				{
+					"full_name": "Dhito Ardiansyah",
+					"game_id": "74064602",
+					"game_nick": "DiboYy x Papskuy"
+				},
+				{
+					"full_name": "Dendi Bahtiar",
+					"game_id": "131331264",
+					"game_nick": "NDEN AGAIN"
+				}
+			]
+		},
+		{
+			"team_name": "OCBC Esport Tim II",
+			"captain_name": "Dino",
+			"members": [
+				{
+					"full_name": "Indra",
+					"game_id": "99256819",
+					"game_nick": "AaCoy"
+				},
+				{
+					"full_name": "Izet",
+					"game_id": "35009359",
+					"game_nick": "Zikmund"
+				},
+				{
+					"full_name": "San",
+					"game_id": "228525052",
+					"game_nick": "Azure Lights"
+				},
+				{
+					"full_name": "Teguh",
+					"game_id": "49574670",
+					"game_nick": "hurufkecil"
+				},
+				{
+					"full_name": "Johan",
+					"game_id": "95114137",
+					"game_nick": "DC | Jo"
+				},
+				{
+					"full_name": "Sat",
+					"game_id": "57960831",
+					"game_nick": "Xerneas"
+				},
+				{
+					"full_name": "Wildan",
+					"game_id": "106986396",
+					"game_nick": "BangProw"
+				}
+			]
+		},
+		{
+			"team_name": "bank bjb",
+			"captain_name": "Zhafran Aryya Baskara",
+			"members": [
+				{
+					"full_name": "Aditia Dwi Cahyo",
+					"game_id": "270158576",
+					"game_nick": "Sherina"
+				},
+				{
+					"full_name": "Naufal Irfanto",
+					"game_id": "1424090860",
+					"game_nick": "about you"
+				},
+				{
+					"full_name": "Nugraha Akbar Novrianto",
+					"game_id": "63256624",
+					"game_nick": "Freeman Legacy"
+				},
+				{
+					"full_name": "Zhafran Aryya Baskara",
+					"game_id": "19568136",
+					"game_nick": "Elphine"
+				},
+				{
+					"full_name": "Helvy Ramadhan",
+					"game_id": "19091610",
+					"game_nick": "Zam10"
+				},
+				{
+					"full_name": "Emirrul Mufti Ananda",
+					"game_id": "24239248",
+					"game_nick": "Shaulin"
+				}
+			]
+		},
+		{
+			"team_name": "Team Abal – Abal (AREA PONTIANAK)",
+			"captain_name": "Jefriyadi",
+			"members": [
+				{
+					"full_name": "Jefriyadi",
+					"game_id": "ID : 38926342 (2064)",
+					"game_nick": "CatchMeIfYouCan"
+				},
+				{
+					"full_name": "Baiturrahman",
+					"game_id": "ID : 94704715",
+					"game_nick": "BAYTR"
+				},
+				{
+					"full_name": "M. Lazen Edo Hadziq",
+					"game_id": "ID : 330646286 (9213)",
+					"game_nick": "e11."
+				},
+				{
+					"full_name": "Rico Irhandi",
+					"game_id": "ID : 100576520",
+					"game_nick": "G4. Visalux"
+				},
+				{
+					"full_name": "Zainal Abidin",
+					"game_id": "ID : 1506461340 (16282)",
+					"game_nick": "FERGUZO"
+				},
+				{
+					"full_name": "Ya Ahmad Rizky Ulya Andriyanda",
+					"game_id": "ID : 103272137 (2430)",
+					"game_nick": "ADEK GEMESH"
+				},
+				{
+					"full_name": "Leo Priadi",
+					"game_id": "ID : 25621500",
+					"game_nick": "KULUKULUKULUK"
+				}
+			]
+		},
+		{
+			"team_name": "BBSN WAHID",
+			"captain_name": "Muhammad Iqbal Ramdhani",
+			"members": [
+				{
+					"full_name": "Muhammad Iqbal Ramdhani",
+					"game_id": "109252446",
+					"game_nick": "L u c i f e r"
+				},
+				{
+					"full_name": "Muhammad Farhan Akmal",
+					"game_id": "52627326",
+					"game_nick": "XDYABOII"
+				},
+				{
+					"full_name": "Muhammad Fiqri Hermansyah",
+					"game_id": "30438096",
+					"game_nick": "Speechless."
+				},
+				{
+					"full_name": "Loudry Achmad Tiransri",
+					"game_id": "16773814",
+					"game_nick": "Al-Ruqyah Syar'iyyah"
+				},
+				{
+					"full_name": "Rendi Saputra",
+					"game_id": "814097138",
+					"game_nick": "BANGRENN."
+				},
+				{
+					"full_name": "Andri Dwi Khorahman",
+					"game_id": "106172359",
+					"game_nick": "Celingboy"
+				},
+				{
+					"full_name": "Muhammad Jani Refahmi Ramadhan",
+					"game_id": "46883006",
+					"game_nick": "Raxaquille"
+				}
+			]
+		},
+		{
+			"team_name": "bank bjb 1",
+			"captain_name": "Prameswara",
+			"members": [
+				{
+					"full_name": "Darma Wahyu R Prameswara",
+					"game_id": "670771682",
+					"game_nick": "Willyorse"
+				},
+				{
+					"full_name": "Muhammad Ilham Satria Akbar",
+					"game_id": "30176516",
+					"game_nick": "Donjon"
+				},
+				{
+					"full_name": "Widiya Nugraha",
+					"game_id": "59900251",
+					"game_nick": "Dobberman"
+				},
+				{
+					"full_name": "Muhamad saepul milah",
+					"game_id": "53501278",
+					"game_nick": "LexyDela"
+				},
+				{
+					"full_name": "Reza Firmansyah Y",
+					"game_id": "206852913",
+					"game_nick": "ᴿᶣσνєгclσck"
+				},
+				{
+					"full_name": "Gilang Rahadian P",
+					"game_id": "49439793",
+					"game_nick": "Bluehazlow"
+				}
+			]
+		}
+	]
+}
