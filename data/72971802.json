@@ -1,0 +1,96 @@
+{
+  "id": "72971802",
+  "nick": "Maarlong",
+  "zone_id": "2040",
+  "role": "midlaner",
+  "rank_current": "117",
+  "rank_highest": "131",
+  "statistic": {
+    "current_season": {
+      "matches_count": 680,
+      "win_rate": 54.56,
+      "kda": 1.57,
+      "team_participation": 38.1,
+      "gold_per_min": 579,
+      "dmg_per_min": 4193,
+      "deaths_per_match": 5.05,
+      "turret_dmg_per_match": 6085
+    },
+    "all_season": {
+      "matches_count": 15598,
+      "win_rate": 53.33,
+      "kda": 3.01,
+      "team_participation": 51.0,
+      "gold_per_min": 626,
+      "dmg_per_min": 3460,
+      "deaths_per_match": 4.75,
+      "turret_dmg_per_match": 4985
+    }
+  },
+  "hero_favorite": {
+    "current_season": [
+      {
+        "hero_name": "Odette",
+        "matches": 156,
+        "win_rate": 64.7
+      },
+      {
+        "hero_name": "Obsidia",
+        "matches": 100,
+        "win_rate": 55.0
+      },
+      {
+        "hero_name": "Beatrix",
+        "matches": 52,
+        "win_rate": 50.0
+      },
+      {
+        "hero_name": "Dyrroth",
+        "matches": 34,
+        "win_rate": 58.8
+      },
+      {
+        "hero_name": "Karrie",
+        "matches": 29,
+        "win_rate": 48.3
+      },
+      {
+        "hero_name": "Natalia",
+        "matches": 28,
+        "win_rate": 53.6
+      }
+    ],
+    "all_season": [
+      {
+        "hero_name": "Wanwan",
+        "matches": 1065,
+        "win_rate": 59.5
+      },
+      {
+        "hero_name": "Irithel",
+        "matches": 840,
+        "win_rate": 57.4
+      },
+      {
+        "hero_name": "Kadita",
+        "matches": 611,
+        "win_rate": 54.7
+      },
+      {
+        "hero_name": "Natalia",
+        "matches": 596,
+        "win_rate": 53.4
+      },
+      {
+        "hero_name": "Lolita",
+        "matches": 574,
+        "win_rate": 56.3
+      },
+      {
+        "hero_name": "Odette",
+        "matches": 527,
+        "win_rate": 57.3
+      }
+    ]
+  }
+}
