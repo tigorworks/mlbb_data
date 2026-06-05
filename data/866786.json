@@ -1,0 +1,96 @@
+{
+  "id": "866786",
+  "nick": "AceCross",
+  "zone_id": "2001",
+  "role": "midlaner",
+  "rank_current": "35",
+  "rank_highest": "58",
+  "statistic": {
+    "current_season": {
+      "matches_count": 154,
+      "win_rate": 60.39,
+      "kda": 4.79,
+      "team_participation": 56.7,
+      "gold_per_min": 618,
+      "dmg_per_min": 3044,
+      "deaths_per_match": 3.99,
+      "turret_dmg_per_match": 2279
+    },
+    "all_season": {
+      "matches_count": 4520,
+      "win_rate": 65.82,
+      "kda": 4.57,
+      "team_participation": 57.8,
+      "gold_per_min": 589,
+      "dmg_per_min": 3004,
+      "deaths_per_match": 3.31,
+      "turret_dmg_per_match": 3154
+    }
+  },
+  "hero_favorite": {
+    "current_season": [
+      {
+        "hero_name": "Zetian",
+        "matches": 19,
+        "win_rate": 78.9
+      },
+      {
+        "hero_name": "Grock",
+        "matches": 17,
+        "win_rate": 58.8
+      },
+      {
+        "hero_name": "Khaleed",
+        "matches": 16,
+        "win_rate": 50.0
+      },
+      {
+        "hero_name": "Harley",
+        "matches": 12,
+        "win_rate": 75.0
+      },
+      {
+        "hero_name": "Hayabusa",
+        "matches": 12,
+        "win_rate": 66.7
+      },
+      {
+        "hero_name": "Zhuxin",
+        "matches": 11,
+        "win_rate": 54.5
+      }
+    ],
+    "all_season": [
+      {
+        "hero_name": "Franco",
+        "matches": 418,
+        "win_rate": 63.2
+      },
+      {
+        "hero_name": "Saber",
+        "matches": 376,
+        "win_rate": 72.6
+      },
+      {
+        "hero_name": "Pharsa",
+        "matches": 289,
+        "win_rate": 64.7
+      },
+      {
+        "hero_name": "Granger",
+        "matches": 194,
+        "win_rate": 70.1
+      },
+      {
+        "hero_name": "Clint",
+        "matches": 149,
+        "win_rate": 70.5
+      },
+      {
+        "hero_name": "Eudora",
+        "matches": 147,
+        "win_rate": 73.5
+      }
+    ]
+  }
+}
