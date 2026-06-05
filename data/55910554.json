@@ -1,0 +1,96 @@
+{
+  "id": "55910554",
+  "nick": "Exaltation",
+  "zone_id": "2093",
+  "role": "jungler",
+  "rank_current": "138",
+  "rank_highest": "200",
+  "statistic": {
+    "current_season": {
+      "matches_count": 308,
+      "win_rate": 69.16,
+      "kda": 3.97,
+      "team_participation": 49.8,
+      "gold_per_min": 691,
+      "dmg_per_min": 3701,
+      "deaths_per_match": 3.65,
+      "turret_dmg_per_match": 4725
+    },
+    "all_season": {
+      "matches_count": 9727,
+      "win_rate": 65.97,
+      "kda": 4.29,
+      "team_participation": 56.9,
+      "gold_per_min": 708,
+      "dmg_per_min": 3542,
+      "deaths_per_match": 3.58,
+      "turret_dmg_per_match": 4744
+    }
+  },
+  "hero_favorite": {
+    "current_season": [
+      {
+        "hero_name": "Fanny",
+        "matches": 59,
+        "win_rate": 71.2
+      },
+      {
+        "hero_name": "Suyou",
+        "matches": 27,
+        "win_rate": 81.5
+      },
+      {
+        "hero_name": "Leomord",
+        "matches": 20,
+        "win_rate": 65.0
+      },
+      {
+        "hero_name": "Harley",
+        "matches": 16,
+        "win_rate": 75.0
+      },
+      {
+        "hero_name": "Fredrinn",
+        "matches": 16,
+        "win_rate": 62.5
+      },
+      {
+        "hero_name": "Lancelot",
+        "matches": 11,
+        "win_rate": 72.7
+      }
+    ],
+    "all_season": [
+      {
+        "hero_name": "Fanny",
+        "matches": 1410,
+        "win_rate": 66.4
+      },
+      {
+        "hero_name": "Chou",
+        "matches": 753,
+        "win_rate": 70.1
+      },
+      {
+        "hero_name": "Hayabusa",
+        "matches": 540,
+        "win_rate": 72.2
+      },
+      {
+        "hero_name": "Lancelot",
+        "matches": 531,
+        "win_rate": 74.8
+      },
+      {
+        "hero_name": "Ling",
+        "matches": 523,
+        "win_rate": 74.2
+      },
+      {
+        "hero_name": "Gusion",
+        "matches": 455,
+        "win_rate": 69.2
+      }
+    ]
+  }
+}
