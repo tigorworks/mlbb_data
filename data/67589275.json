@@ -1,0 +1,96 @@
+{
+  "id": "67589275",
+  "nick": "Disarm",
+  "zone_id": "2124",
+  "role": "roamer",
+  "rank_current": "140",
+  "rank_highest": "143",
+  "statistic": {
+    "current_season": {
+      "matches_count": 354,
+      "win_rate": 66.10,
+      "kda": 2.98,
+      "team_participation": 53.8,
+      "gold_per_min": 571,
+      "dmg_per_min": 3357,
+      "deaths_per_match": 4.78,
+      "turret_dmg_per_match": 1865
+    },
+    "all_season": {
+      "matches_count": 5804,
+      "win_rate": 62.46,
+      "kda": 3.75,
+      "team_participation": 57.8,
+      "gold_per_min": 633,
+      "dmg_per_min": 3232,
+      "deaths_per_match": 4.53,
+      "turret_dmg_per_match": 3309
+    }
+  },
+  "hero_favorite": {
+    "current_season": [
+      {
+        "hero_name": "Marcel",
+        "matches": 35,
+        "win_rate": 88.6
+      },
+      {
+        "hero_name": "Gloo",
+        "matches": 30,
+        "win_rate": 63.3
+      },
+      {
+        "hero_name": "Khaleed",
+        "matches": 27,
+        "win_rate": 74.1
+      },
+      {
+        "hero_name": "Harith",
+        "matches": 21,
+        "win_rate": 71.4
+      },
+      {
+        "hero_name": "Zhuxin",
+        "matches": 21,
+        "win_rate": 71.4
+      },
+      {
+        "hero_name": "Grock",
+        "matches": 18,
+        "win_rate": 72.2
+      }
+    ],
+    "all_season": [
+      {
+        "hero_name": "Khufra",
+        "matches": 329,
+        "win_rate": 62.6
+      },
+      {
+        "hero_name": "Chou",
+        "matches": 275,
+        "win_rate": 53.8
+      },
+      {
+        "hero_name": "Natalia",
+        "matches": 222,
+        "win_rate": 66.7
+      },
+      {
+        "hero_name": "Hayabusa",
+        "matches": 190,
+        "win_rate": 62.6
+      },
+      {
+        "hero_name": "Beatrix",
+        "matches": 188,
+        "win_rate": 58.0
+      },
+      {
+        "hero_name": "Lancelot",
+        "matches": 181,
+        "win_rate": 63.0
+      }
+    ]
+  }
+}
