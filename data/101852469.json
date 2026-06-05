@@ -1,0 +1,96 @@
+{
+  "id": "101852469",
+  "nick": "Anvine.",
+  "zone_id": "2531",
+  "role": "goldlaner",
+  "rank_current": "129",
+  "rank_highest": "200",
+  "statistic": {
+    "current_season": {
+      "matches_count": 323,
+      "win_rate": 65.94,
+      "kda": 3.34,
+      "team_participation": 46.2,
+      "gold_per_min": 733,
+      "dmg_per_min": 4665,
+      "deaths_per_match": 3.66,
+      "turret_dmg_per_match": 13081
+    },
+    "all_season": {
+      "matches_count": 9636,
+      "win_rate": 62.95,
+      "kda": 3.97,
+      "team_participation": 55.1,
+      "gold_per_min": 739,
+      "dmg_per_min": 3999,
+      "deaths_per_match": 3.92,
+      "turret_dmg_per_match": 6749
+    }
+  },
+  "hero_favorite": {
+    "current_season": [
+      {
+        "hero_name": "Claude",
+        "matches": 65,
+        "win_rate": 70.8
+      },
+      {
+        "hero_name": "Harith",
+        "matches": 61,
+        "win_rate": 57.4
+      },
+      {
+        "hero_name": "Moskov",
+        "matches": 41,
+        "win_rate": 63.4
+      },
+      {
+        "hero_name": "Obsidia",
+        "matches": 33,
+        "win_rate": 75.8
+      },
+      {
+        "hero_name": "Granger",
+        "matches": 30,
+        "win_rate": 60.0
+      },
+      {
+        "hero_name": "Karrie",
+        "matches": 25,
+        "win_rate": 84.0
+      }
+    ],
+    "all_season": [
+      {
+        "hero_name": "Claude",
+        "matches": 1241,
+        "win_rate": 68.3
+      },
+      {
+        "hero_name": "Ling",
+        "matches": 897,
+        "win_rate": 68.2
+      },
+      {
+        "hero_name": "Granger",
+        "matches": 880,
+        "win_rate": 65.2
+      },
+      {
+        "hero_name": "Harith",
+        "matches": 755,
+        "win_rate": 65.4
+      },
+      {
+        "hero_name": "Karrie",
+        "matches": 592,
+        "win_rate": 65.2
+      },
+      {
+        "hero_name": "Wanwan",
+        "matches": 444,
+        "win_rate": 68.7
+      }
+    ]
+  }
+}
