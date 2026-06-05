@@ -1,0 +1,96 @@
+{
+  "id": "912217711",
+  "nick": "Law.",
+  "zone_id": "1379",
+  "role": "explaner",
+  "rank_current": "143",
+  "rank_highest": "143",
+  "statistic": {
+    "current_season": {
+      "matches_count": 346,
+      "win_rate": 70.23,
+      "kda": 4.51,
+      "team_participation": 42.8,
+      "gold_per_min": 645,
+      "dmg_per_min": 3866,
+      "deaths_per_match": 3.38,
+      "turret_dmg_per_match": 3709
+    },
+    "all_season": {
+      "matches_count": 4770,
+      "win_rate": 53.19,
+      "kda": 2.99,
+      "team_participation": 48.6,
+      "gold_per_min": 657,
+      "dmg_per_min": 3641,
+      "deaths_per_match": 5.83,
+      "turret_dmg_per_match": 2874
+    }
+  },
+  "hero_favorite": {
+    "current_season": [
+      {
+        "hero_name": "Nolan",
+        "matches": 184,
+        "win_rate": 78.8
+      },
+      {
+        "hero_name": "Arlott",
+        "matches": 16,
+        "win_rate": 62.5
+      },
+      {
+        "hero_name": "Paquito",
+        "matches": 15,
+        "win_rate": 53.3
+      },
+      {
+        "hero_name": "Alice",
+        "matches": 13,
+        "win_rate": 53.8
+      },
+      {
+        "hero_name": "Gloo",
+        "matches": 10,
+        "win_rate": 90.0
+      },
+      {
+        "hero_name": "Phoveus",
+        "matches": 10,
+        "win_rate": 80.0
+      }
+    ],
+    "all_season": [
+      {
+        "hero_name": "Guinevere",
+        "matches": 281,
+        "win_rate": 47.0
+      },
+      {
+        "hero_name": "Nolan",
+        "matches": 206,
+        "win_rate": 77.2
+      },
+      {
+        "hero_name": "Fredrinn",
+        "matches": 205,
+        "win_rate": 55.1
+      },
+      {
+        "hero_name": "Alucard",
+        "matches": 188,
+        "win_rate": 48.4
+      },
+      {
+        "hero_name": "Wanwan",
+        "matches": 172,
+        "win_rate": 48.3
+      },
+      {
+        "hero_name": "Natalia",
+        "matches": 168,
+        "win_rate": 38.7
+      }
+    ]
+  }
+}
