@@ -1,0 +1,96 @@
+{
+  "id": "165591440",
+  "nick": "Shinzuki",
+  "zone_id": "2835",
+  "role": "roamer",
+  "rank_current": "94",
+  "rank_highest": "130",
+  "statistic": {
+    "current_season": {
+      "matches_count": 191,
+      "win_rate": 73.30,
+      "kda": 2.54,
+      "team_participation": 47.1,
+      "gold_per_min": 616,
+      "dmg_per_min": 3635,
+      "deaths_per_match": 5.23,
+      "turret_dmg_per_match": 5193
+    },
+    "all_season": {
+      "matches_count": 6807,
+      "win_rate": 65.01,
+      "kda": 3.13,
+      "team_participation": 57.9,
+      "gold_per_min": 631,
+      "dmg_per_min": 3484,
+      "deaths_per_match": 5.40,
+      "turret_dmg_per_match": 3632
+    }
+  },
+  "hero_favorite": {
+    "current_season": [
+      {
+        "hero_name": "Hanabi",
+        "matches": 23,
+        "win_rate": 69.6
+      },
+      {
+        "hero_name": "Belerick",
+        "matches": 17,
+        "win_rate": 70.6
+      },
+      {
+        "hero_name": "Marcel",
+        "matches": 14,
+        "win_rate": 85.7
+      },
+      {
+        "hero_name": "Jawhead",
+        "matches": 13,
+        "win_rate": 76.9
+      },
+      {
+        "hero_name": "Phoveus",
+        "matches": 12,
+        "win_rate": 91.7
+      },
+      {
+        "hero_name": "Minsitthar",
+        "matches": 9,
+        "win_rate": 88.9
+      }
+    ],
+    "all_season": [
+      {
+        "hero_name": "Badang",
+        "matches": 398,
+        "win_rate": 77.1
+      },
+      {
+        "hero_name": "Minsitthar",
+        "matches": 379,
+        "win_rate": 68.9
+      },
+      {
+        "hero_name": "Carmilla",
+        "matches": 270,
+        "win_rate": 65.6
+      },
+      {
+        "hero_name": "Gatotkaca",
+        "matches": 238,
+        "win_rate": 67.2
+      },
+      {
+        "hero_name": "Khufra",
+        "matches": 193,
+        "win_rate": 60.6
+      },
+      {
+        "hero_name": "Guinevere",
+        "matches": 181,
+        "win_rate": 62.4
+      }
+    ]
+  }
+}
