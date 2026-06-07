@@ -1,0 +1,96 @@
+{
+  "id": "118402477",
+  "nick": "YT: RiakiYT",
+  "server": "2518",
+  "role": "jungler",
+  "rank_current": "100",
+  "rank_highest": "500",
+  "statistic": {
+    "current_season": {
+      "matches_count": 238,
+      "win_rate": 72.27,
+      "kda": 5.43,
+      "team_participation": 55.6,
+      "gold_per_min": 708,
+      "dmg_per_min": 4040,
+      "deaths_per_match": 3.20,
+      "turret_dmg_per_match": 2762
+    },
+    "all_season": {
+      "matches_count": 15998,
+      "win_rate": 63.40,
+      "kda": 5.34,
+      "team_participation": 62.1,
+      "gold_per_min": 694,
+      "dmg_per_min": 3948,
+      "deaths_per_match": 3.32,
+      "turret_dmg_per_match": 4426
+    }
+  },
+  "hero_favorite": {
+    "current_season": [
+      {
+        "hero_name": "Suyou",
+        "matches": 62,
+        "win_rate": 67.7
+      },
+      {
+        "hero_name": "Fredrinn",
+        "matches": 47,
+        "win_rate": 76.6
+      },
+      {
+        "hero_name": "Hanzo",
+        "matches": 33,
+        "win_rate": 78.8
+      },
+      {
+        "hero_name": "Belerick",
+        "matches": 18,
+        "win_rate": 83.3
+      },
+      {
+        "hero_name": "Masha",
+        "matches": 17,
+        "win_rate": 76.5
+      },
+      {
+        "hero_name": "Leomord",
+        "matches": 16,
+        "win_rate": 75.0
+      }
+    ],
+    "all_season": [
+      {
+        "hero_name": "Barats",
+        "matches": 3828,
+        "win_rate": 75.1
+      },
+      {
+        "hero_name": "Kadita",
+        "matches": 1438,
+        "win_rate": 71.1
+      },
+      {
+        "hero_name": "Beatrix",
+        "matches": 906,
+        "win_rate": 72.7
+      },
+      {
+        "hero_name": "Roger",
+        "matches": 747,
+        "win_rate": 72.2
+      },
+      {
+        "hero_name": "Bane",
+        "matches": 558,
+        "win_rate": 68.6
+      },
+      {
+        "hero_name": "Lunox",
+        "matches": 498,
+        "win_rate": 70.9
+      }
+    ]
+  }
+}
