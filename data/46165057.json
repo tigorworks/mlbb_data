@@ -1,0 +1,96 @@
+{
+  "id": "46165057",
+  "nick": "Morphling.",
+  "zone_id": "2211",
+  "role": "goldlaner",
+  "rank_current": "117",
+  "rank_highest": "197",
+  "statistic": {
+    "current_season": {
+      "matches_count": 359,
+      "win_rate": 59.89,
+      "kda": 4.51,
+      "team_participation": 47.6,
+      "gold_per_min": 636,
+      "dmg_per_min": 3570,
+      "deaths_per_match": 3.08,
+      "turret_dmg_per_match": 5068
+    },
+    "all_season": {
+      "matches_count": 12672,
+      "win_rate": 62.52,
+      "kda": 5.15,
+      "team_participation": 57.6,
+      "gold_per_min": 630,
+      "dmg_per_min": 3368,
+      "deaths_per_match": 2.78,
+      "turret_dmg_per_match": 4643
+    }
+  },
+  "hero_favorite": {
+    "current_season": [
+      {
+        "hero_name": "Harith",
+        "matches": 79,
+        "win_rate": 62.0
+      },
+      {
+        "hero_name": "Harley",
+        "matches": 49,
+        "win_rate": 85.7
+      },
+      {
+        "hero_name": "Claude",
+        "matches": 46,
+        "win_rate": 60.9
+      },
+      {
+        "hero_name": "Yi Sun-shin",
+        "matches": 43,
+        "win_rate": 67.4
+      },
+      {
+        "hero_name": "Hilda",
+        "matches": 29,
+        "win_rate": 44.8
+      },
+      {
+        "hero_name": "Leomord",
+        "matches": 29,
+        "win_rate": 41.4
+      }
+    ],
+    "all_season": [
+      {
+        "hero_name": "Selena",
+        "matches": 1779,
+        "win_rate": 72.1
+      },
+      {
+        "hero_name": "Claude",
+        "matches": 1066,
+        "win_rate": 70.4
+      },
+      {
+        "hero_name": "Yi Sun-shin",
+        "matches": 906,
+        "win_rate": 68.7
+      },
+      {
+        "hero_name": "Granger",
+        "matches": 868,
+        "win_rate": 70.7
+      },
+      {
+        "hero_name": "Gusion",
+        "matches": 848,
+        "win_rate": 69.8
+      },
+      {
+        "hero_name": "Karrie",
+        "matches": 846,
+        "win_rate": 59.7
+      }
+    ]
+  }
+}
