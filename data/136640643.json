@@ -1,0 +1,96 @@
+{
+  "id": "136640643",
+  "nick": "Ramm.",
+  "zone_id": "2684",
+  "role": "jungler",
+  "rank_current": "94",
+  "rank_highest": "94",
+  "statistic": {
+    "current_season": {
+      "matches_count": 255,
+      "win_rate": 62.35,
+      "kda": 3.79,
+      "team_participation": 52.9,
+      "gold_per_min": 622,
+      "dmg_per_min": 3672,
+      "deaths_per_match": 4.05,
+      "turret_dmg_per_match": 2984
+    },
+    "all_season": {
+      "matches_count": 7673,
+      "win_rate": 55.64,
+      "kda": 3.23,
+      "team_participation": 51.9,
+      "gold_per_min": 583,
+      "dmg_per_min": 3147,
+      "deaths_per_match": 4.48,
+      "turret_dmg_per_match": 3920
+    }
+  },
+  "hero_favorite": {
+    "current_season": [
+      {
+        "hero_name": "Leomord",
+        "matches": 47,
+        "win_rate": 70.2
+      },
+      {
+        "hero_name": "Khaleed",
+        "matches": 41,
+        "win_rate": 78.0
+      },
+      {
+        "hero_name": "Suyou",
+        "matches": 14,
+        "win_rate": 71.4
+      },
+      {
+        "hero_name": "Minotaur",
+        "matches": 12,
+        "win_rate": 66.7
+      },
+      {
+        "hero_name": "Claude",
+        "matches": 10,
+        "win_rate": 30.0
+      },
+      {
+        "hero_name": "Zhuxin",
+        "matches": 9,
+        "win_rate": 66.7
+      }
+    ],
+    "all_season": [
+      {
+        "hero_name": "Layla",
+        "matches": 836,
+        "win_rate": 54.8
+      },
+      {
+        "hero_name": "Lancelot",
+        "matches": 463,
+        "win_rate": 55.3
+      },
+      {
+        "hero_name": "Lesley",
+        "matches": 358,
+        "win_rate": 62.0
+      },
+      {
+        "hero_name": "Wanwan",
+        "matches": 322,
+        "win_rate": 65.2
+      },
+      {
+        "hero_name": "Hanzo",
+        "matches": 304,
+        "win_rate": 65.1
+      },
+      {
+        "hero_name": "Karina",
+        "matches": 285,
+        "win_rate": 43.9
+      }
+    ]
+  }
+}
