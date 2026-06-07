@@ -1,0 +1,96 @@
+{
+  "id": "9745446",
+  "nick": "giianiis",
+  "zone_id": "2201",
+  "role": "roamer",
+  "rank_current": "116",
+  "rank_highest": "116",
+  "statistic": {
+    "current_season": {
+      "matches_count": 435,
+      "win_rate": 57.70,
+      "kda": 3.02,
+      "team_participation": 53.7,
+      "gold_per_min": 545,
+      "dmg_per_min": 2146,
+      "deaths_per_match": 4.74,
+      "turret_dmg_per_match": 1275
+    },
+    "all_season": {
+      "matches_count": 8005,
+      "win_rate": 57.61,
+      "kda": 3.61,
+      "team_participation": 56.1,
+      "gold_per_min": 543,
+      "dmg_per_min": 2073,
+      "deaths_per_match": 4.18,
+      "turret_dmg_per_match": 1961
+    }
+  },
+  "hero_favorite": {
+    "current_season": [
+      {
+        "hero_name": "Khaleed",
+        "matches": 133,
+        "win_rate": 64.7
+      },
+      {
+        "hero_name": "Hilda",
+        "matches": 41,
+        "win_rate": 68.3
+      },
+      {
+        "hero_name": "Grock",
+        "matches": 36,
+        "win_rate": 61.1
+      },
+      {
+        "hero_name": "Tigreal",
+        "matches": 21,
+        "win_rate": 61.9
+      },
+      {
+        "hero_name": "Gatotkaca",
+        "matches": 20,
+        "win_rate": 50.0
+      },
+      {
+        "hero_name": "Khufra",
+        "matches": 19,
+        "win_rate": 63.2
+      }
+    ],
+    "all_season": [
+      {
+        "hero_name": "Khufra",
+        "matches": 1021,
+        "win_rate": 59.6
+      },
+      {
+        "hero_name": "Grock",
+        "matches": 653,
+        "win_rate": 60.2
+      },
+      {
+        "hero_name": "Lancelot",
+        "matches": 401,
+        "win_rate": 62.8
+      },
+      {
+        "hero_name": "Jawhead",
+        "matches": 345,
+        "win_rate": 58.8
+      },
+      {
+        "hero_name": "Chou",
+        "matches": 324,
+        "win_rate": 51.9
+      },
+      {
+        "hero_name": "Akai",
+        "matches": 316,
+        "win_rate": 56.3
+      }
+    ]
+  }
+}
