@@ -1,0 +1,96 @@
+{
+  "id": "352254059",
+  "nick": "XR-RED",
+  "zone_id": "9491",
+  "role": "midlaner",
+  "rank_current": "111",
+  "rank_highest": "112",
+  "statistic": {
+    "current_season": {
+      "matches_count": 409,
+      "win_rate": 59.41,
+      "kda": 3.32,
+      "team_participation": 49.6,
+      "gold_per_min": 578,
+      "dmg_per_min": 3685,
+      "deaths_per_match": 4.11,
+      "turret_dmg_per_match": 4667
+    },
+    "all_season": {
+      "matches_count": 7422,
+      "win_rate": 59.63,
+      "kda": 3.94,
+      "team_participation": 56.3,
+      "gold_per_min": 651,
+      "dmg_per_min": 3235,
+      "deaths_per_match": 3.97,
+      "turret_dmg_per_match": 3929
+    }
+  },
+  "hero_favorite": {
+    "current_season": [
+      {
+        "hero_name": "Kadita",
+        "matches": 72,
+        "win_rate": 65.3
+      },
+      {
+        "hero_name": "Hanabi",
+        "matches": 59,
+        "win_rate": 69.5
+      },
+      {
+        "hero_name": "Zhuxin",
+        "matches": 38,
+        "win_rate": 73.7
+      },
+      {
+        "hero_name": "Zetian",
+        "matches": 33,
+        "win_rate": 54.5
+      },
+      {
+        "hero_name": "Gord",
+        "matches": 20,
+        "win_rate": 60.0
+      },
+      {
+        "hero_name": "Karrie",
+        "matches": 19,
+        "win_rate": 68.4
+      }
+    ],
+    "all_season": [
+      {
+        "hero_name": "Chou",
+        "matches": 388,
+        "win_rate": 63.1
+      },
+      {
+        "hero_name": "Kimmy",
+        "matches": 305,
+        "win_rate": 66.2
+      },
+      {
+        "hero_name": "Cecilion",
+        "matches": 285,
+        "win_rate": 65.6
+      },
+      {
+        "hero_name": "Claude",
+        "matches": 282,
+        "win_rate": 61.3
+      },
+      {
+        "hero_name": "X.Borg",
+        "matches": 265,
+        "win_rate": 62.3
+      },
+      {
+        "hero_name": "Yu Zhong",
+        "matches": 253,
+        "win_rate": 65.6
+      }
+    ]
+  }
+}
