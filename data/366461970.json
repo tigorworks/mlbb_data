@@ -1,0 +1,96 @@
+{
+  "id": "366461970",
+  "nick": "Raxakan",
+  "zone_id": "9707",
+  "role": "explaner",
+  "rank_current": "77",
+  "rank_highest": "80",
+  "statistic": {
+    "current_season": {
+      "matches_count": 287,
+      "win_rate": 59.58,
+      "kda": 3.88,
+      "team_participation": 47.8,
+      "gold_per_min": 625,
+      "dmg_per_min": 4063,
+      "deaths_per_match": 3.66,
+      "turret_dmg_per_match": 3785
+    },
+    "all_season": {
+      "matches_count": 6911,
+      "win_rate": 60.37,
+      "kda": 4.09,
+      "team_participation": 55.7,
+      "gold_per_min": 660,
+      "dmg_per_min": 3597,
+      "deaths_per_match": 3.89,
+      "turret_dmg_per_match": 2998
+    }
+  },
+  "hero_favorite": {
+    "current_season": [
+      {
+        "hero_name": "Minsitthar",
+        "matches": 63,
+        "win_rate": 61.9
+      },
+      {
+        "hero_name": "Terizla",
+        "matches": 40,
+        "win_rate": 72.5
+      },
+      {
+        "hero_name": "X.Borg",
+        "matches": 19,
+        "win_rate": 68.4
+      },
+      {
+        "hero_name": "Edith",
+        "matches": 18,
+        "win_rate": 66.7
+      },
+      {
+        "hero_name": "Phoveus",
+        "matches": 17,
+        "win_rate": 58.8
+      },
+      {
+        "hero_name": "Esmeralda",
+        "matches": 17,
+        "win_rate": 58.8
+      }
+    ],
+    "all_season": [
+      {
+        "hero_name": "Uranus",
+        "matches": 543,
+        "win_rate": 70.5
+      },
+      {
+        "hero_name": "Edith",
+        "matches": 437,
+        "win_rate": 65.2
+      },
+      {
+        "hero_name": "Cici",
+        "matches": 428,
+        "win_rate": 65.4
+      },
+      {
+        "hero_name": "Lunox",
+        "matches": 384,
+        "win_rate": 67.4
+      },
+      {
+        "hero_name": "Esmeralda",
+        "matches": 376,
+        "win_rate": 59.6
+      },
+      {
+        "hero_name": "Arlott",
+        "matches": 375,
+        "win_rate": 64.0
+      }
+    ]
+  }
+}
