@@ -1,0 +1,96 @@
+{
+  "id": "190347202",
+  "nick": "D",
+  "server": "2989",
+  "role": "jungler",
+  "rank_current": "63",
+  "rank_highest": "65",
+  "statistic": {
+    "current_season": {
+      "matches_count": 421,
+      "win_rate": 55.58,
+      "kda": 1.79,
+      "team_participation": 44.4,
+      "gold_per_min": 584,
+      "dmg_per_min": 3992,
+      "deaths_per_match": 5.86,
+      "turret_dmg_per_match": 3328
+    },
+    "all_season": {
+      "matches_count": 6845,
+      "win_rate": 57.41,
+      "kda": 3.3,
+      "team_participation": 54.1,
+      "gold_per_min": 604,
+      "dmg_per_min": 3769,
+      "deaths_per_match": 4.87,
+      "turret_dmg_per_match": 3250
+    }
+  },
+  "hero_favorite": {
+    "current_season": [
+      {
+        "hero_name": "Ixia",
+        "matches": 89,
+        "win_rate": 60.7
+      },
+      {
+        "hero_name": "Gord",
+        "matches": 63,
+        "win_rate": 68.3
+      },
+      {
+        "hero_name": "Saber",
+        "matches": 29,
+        "win_rate": 62.1
+      },
+      {
+        "hero_name": "Julian",
+        "matches": 27,
+        "win_rate": 48.1
+      },
+      {
+        "hero_name": "Guinevere",
+        "matches": 18,
+        "win_rate": 61.1
+      },
+      {
+        "hero_name": "Uranus",
+        "matches": 17,
+        "win_rate": 58.8
+      }
+    ],
+    "all_season": [
+      {
+        "hero_name": "Gord",
+        "matches": 1664,
+        "win_rate": 63.8
+      },
+      {
+        "hero_name": "Guinevere",
+        "matches": 498,
+        "win_rate": 59.6
+      },
+      {
+        "hero_name": "Harley",
+        "matches": 494,
+        "win_rate": 57.3
+      },
+      {
+        "hero_name": "Ixia",
+        "matches": 471,
+        "win_rate": 63.3
+      },
+      {
+        "hero_name": "Julian",
+        "matches": 435,
+        "win_rate": 66.4
+      },
+      {
+        "hero_name": "Uranus",
+        "matches": 341,
+        "win_rate": 64.8
+      }
+    ]
+  }
+}
