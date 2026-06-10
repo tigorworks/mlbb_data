@@ -1,0 +1,96 @@
+{
+  "id": "15275939",
+  "nick": "TAKSA",
+  "server": "2203",
+  "role": "roamer",
+  "rank_current": "82",
+  "rank_highest": "82",
+  "statistic": {
+    "current_season": {
+      "matches_count": 438,
+      "win_rate": 53.88,
+      "kda": 1.98,
+      "team_participation": 45.5,
+      "gold_per_min": 544,
+      "dmg_per_min": 2944,
+      "deaths_per_match": 5.55,
+      "turret_dmg_per_match": 1855
+    },
+    "all_season": {
+      "matches_count": 12126,
+      "win_rate": 52.72,
+      "kda": 2.75,
+      "team_participation": 51.8,
+      "gold_per_min": 551,
+      "dmg_per_min": 2713,
+      "deaths_per_match": 5.02,
+      "turret_dmg_per_match": 2447
+    }
+  },
+  "hero_favorite": {
+    "current_season": [
+      {
+        "hero_name": "Zetian",
+        "matches": 34,
+        "win_rate": 58.8
+      },
+      {
+        "hero_name": "Marcel",
+        "matches": 23,
+        "win_rate": 47.8
+      },
+      {
+        "hero_name": "Zhuxin",
+        "matches": 21,
+        "win_rate": 47.6
+      },
+      {
+        "hero_name": "Phoveus",
+        "matches": 19,
+        "win_rate": 73.7
+      },
+      {
+        "hero_name": "Gloo",
+        "matches": 19,
+        "win_rate": 63.2
+      },
+      {
+        "hero_name": "Sora",
+        "matches": 18,
+        "win_rate": 55.6
+      }
+    ],
+    "all_season": [
+      {
+        "hero_name": "Gatotkaca",
+        "matches": 529,
+        "win_rate": 54.1
+      },
+      {
+        "hero_name": "Akai",
+        "matches": 474,
+        "win_rate": 54.0
+      },
+      {
+        "hero_name": "Franco",
+        "matches": 442,
+        "win_rate": 49.5
+      },
+      {
+        "hero_name": "Hilda",
+        "matches": 375,
+        "win_rate": 52.8
+      },
+      {
+        "hero_name": "Eudora",
+        "matches": 318,
+        "win_rate": 56.3
+      },
+      {
+        "hero_name": "Johnson",
+        "matches": 317,
+        "win_rate": 57.7
+      }
+    ]
+  }
+}
