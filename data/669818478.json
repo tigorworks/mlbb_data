@@ -1,0 +1,96 @@
+{
+  "id": "669818478",
+  "nick": "Salvador.",
+  "server": "8671",
+  "role": "midlaner",
+  "rank_current": "14",
+  "rank_highest": "100",
+  "statistic": {
+    "current_season": {
+      "matches_count": 98,
+      "win_rate": 60.20,
+      "kda": 5.07,
+      "team_participation": 63.8,
+      "gold_per_min": 669,
+      "dmg_per_min": 4263,
+      "deaths_per_match": 3.82,
+      "turret_dmg_per_match": 2679
+    },
+    "all_season": {
+      "matches_count": 4368,
+      "win_rate": 62.82,
+      "kda": 4.82,
+      "team_participation": 62.4,
+      "gold_per_min": 610,
+      "dmg_per_min": 2970,
+      "deaths_per_match": 4.03,
+      "turret_dmg_per_match": 2082
+    }
+  },
+  "hero_favorite": {
+    "current_season": [
+      {
+        "hero_name": "Odette",
+        "matches": 24,
+        "win_rate": 62.5
+      },
+      {
+        "hero_name": "Lylia",
+        "matches": 15,
+        "win_rate": 66.7
+      },
+      {
+        "hero_name": "Zetian",
+        "matches": 9,
+        "win_rate": 33.3
+      },
+      {
+        "hero_name": "Zhuxin",
+        "matches": 6,
+        "win_rate": 83.3
+      },
+      {
+        "hero_name": "Kadita",
+        "matches": 6,
+        "win_rate": 33.3
+      },
+      {
+        "hero_name": "Valentina",
+        "matches": 5,
+        "win_rate": 80.0
+      }
+    ],
+    "all_season": [
+      {
+        "hero_name": "Lylia",
+        "matches": 2270,
+        "win_rate": 78.2
+      },
+      {
+        "hero_name": "Angela",
+        "matches": 977,
+        "win_rate": 72.9
+      },
+      {
+        "hero_name": "Tigreal",
+        "matches": 695,
+        "win_rate": 65.8
+      },
+      {
+        "hero_name": "Estes",
+        "matches": 633,
+        "win_rate": 74.9
+      },
+      {
+        "hero_name": "Rafaela",
+        "matches": 509,
+        "win_rate": 75.2
+      },
+      {
+        "hero_name": "Valentina",
+        "matches": 488,
+        "win_rate": 82.8
+      }
+    ]
+  }
+}
