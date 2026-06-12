@@ -1,0 +1,96 @@
+{
+  "id": "249123716",
+  "nick": "TotoDelToro",
+  "zone_id": "2259",
+  "role": "explaner",
+  "rank_current": "82",
+  "rank_highest": "82",
+  "statistic": {
+    "current_season": {
+      "matches_count": 358,
+      "win_rate": 52.79,
+      "kda": 2.35,
+      "team_participation": 49.5,
+      "gold_per_min": 579,
+      "dmg_per_min": 2369,
+      "deaths_per_match": 5.65,
+      "turret_dmg_per_match": 1006
+    },
+    "all_season": {
+      "matches_count": 9171,
+      "win_rate": 53.21,
+      "kda": 2.71,
+      "team_participation": 49.9,
+      "gold_per_min": 597,
+      "dmg_per_min": 2685,
+      "deaths_per_match": 5.27,
+      "turret_dmg_per_match": 2732
+    }
+  },
+  "hero_favorite": {
+    "current_season": [
+      {
+        "hero_name": "Atlas",
+        "matches": 230,
+        "win_rate": 55.7
+      },
+      {
+        "hero_name": "Kadita",
+        "matches": 54,
+        "win_rate": 50.0
+      },
+      {
+        "hero_name": "Terizla",
+        "matches": 31,
+        "win_rate": 41.9
+      },
+      {
+        "hero_name": "Hilda",
+        "matches": 18,
+        "win_rate": 55.6
+      },
+      {
+        "hero_name": "Jawhead",
+        "matches": 14,
+        "win_rate": 42.9
+      },
+      {
+        "hero_name": "Nana",
+        "matches": 5,
+        "win_rate": 40.0
+      }
+    ],
+    "all_season": [
+      {
+        "hero_name": "Kadita",
+        "matches": 2175,
+        "win_rate": 57.6
+      },
+      {
+        "hero_name": "Hilda",
+        "matches": 1384,
+        "win_rate": 47.5
+      },
+      {
+        "hero_name": "Tigreal",
+        "matches": 1292,
+        "win_rate": 51.9
+      },
+      {
+        "hero_name": "Atlas",
+        "matches": 1189,
+        "win_rate": 56.0
+      },
+      {
+        "hero_name": "Chang'e",
+        "matches": 873,
+        "win_rate": 55.0
+      },
+      {
+        "hero_name": "Balmond",
+        "matches": 489,
+        "win_rate": 52.4
+      }
+    ]
+  }
+}
