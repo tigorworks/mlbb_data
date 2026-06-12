@@ -1,0 +1,96 @@
+{
+  "id": "140994690",
+  "nick": "Ajinomoto",
+  "zone_id": "2707",
+  "role": "roamer",
+  "rank_current": "12",
+  "rank_highest": "20",
+  "statistic": {
+    "current_season": {
+      "matches_count": 97,
+      "win_rate": 61.86,
+      "kda": 3.25,
+      "team_participation": 50.7,
+      "gold_per_min": 624,
+      "dmg_per_min": 3005,
+      "deaths_per_match": 5.00,
+      "turret_dmg_per_match": 2162
+    },
+    "all_season": {
+      "matches_count": 3314,
+      "win_rate": 56.85,
+      "kda": 3.34,
+      "team_participation": 52.0,
+      "gold_per_min": 556,
+      "dmg_per_min": 2479,
+      "deaths_per_match": 4.51,
+      "turret_dmg_per_match": 1814
+    }
+  },
+  "hero_favorite": {
+    "current_season": [
+      {
+        "hero_name": "Lylia",
+        "matches": 15,
+        "win_rate": 86.7
+      },
+      {
+        "hero_name": "Harley",
+        "matches": 12,
+        "win_rate": 83.3
+      },
+      {
+        "hero_name": "Tigreal",
+        "matches": 9,
+        "win_rate": 44.4
+      },
+      {
+        "hero_name": "Valir",
+        "matches": 5,
+        "win_rate": 80.0
+      },
+      {
+        "hero_name": "Gatotkaca",
+        "matches": 5,
+        "win_rate": 60.0
+      },
+      {
+        "hero_name": "Uranus",
+        "matches": 5,
+        "win_rate": 40.0
+      }
+    ],
+    "all_season": [
+      {
+        "hero_name": "Hylos",
+        "matches": 532,
+        "win_rate": 58.3
+      },
+      {
+        "hero_name": "Baxia",
+        "matches": 460,
+        "win_rate": 61.3
+      },
+      {
+        "hero_name": "Uranus",
+        "matches": 177,
+        "win_rate": 57.1
+      },
+      {
+        "hero_name": "Valir",
+        "matches": 172,
+        "win_rate": 59.9
+      },
+      {
+        "hero_name": "Cyclops",
+        "matches": 160,
+        "win_rate": 56.2
+      },
+      {
+        "hero_name": "Edith",
+        "matches": 157,
+        "win_rate": 71.3
+      }
+    ]
+  }
+}
