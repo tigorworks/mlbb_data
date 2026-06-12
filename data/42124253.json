@@ -1,0 +1,96 @@
+{
+  "id": "42124253",
+  "nick": "{Leader}~MVP",
+  "zone_id": "2066",
+  "role": "jungler",
+  "rank_current": "E3",
+  "rank_highest": "53",
+  "statistic": {
+    "current_season": {
+      "matches_count": 26,
+      "win_rate": 57.69,
+      "kda": 4.53,
+      "team_participation": 59.1,
+      "gold_per_min": 711,
+      "dmg_per_min": 4530,
+      "deaths_per_match": 5.46,
+      "turret_dmg_per_match": 4960
+    },
+    "all_season": {
+      "matches_count": 4009,
+      "win_rate": 60.21,
+      "kda": 3.88,
+      "team_participation": 58.3,
+      "gold_per_min": 678,
+      "dmg_per_min": 3960,
+      "deaths_per_match": 4.46,
+      "turret_dmg_per_match": 5822
+    }
+  },
+  "hero_favorite": {
+    "current_season": [
+      {
+        "hero_name": "Leomord",
+        "matches": 11,
+        "win_rate": 63.6
+      },
+      {
+        "hero_name": "Alpha",
+        "matches": 5,
+        "win_rate": 80.0
+      },
+      {
+        "hero_name": "Freya",
+        "matches": 2,
+        "win_rate": 100.0
+      },
+      {
+        "hero_name": "Harith",
+        "matches": 2,
+        "win_rate": 50.0
+      },
+      {
+        "hero_name": "Harley",
+        "matches": 1,
+        "win_rate": 100.0
+      },
+      {
+        "hero_name": "Ling",
+        "matches": 1,
+        "win_rate": 0.0
+      }
+    ],
+    "all_season": [
+      {
+        "hero_name": "Moskov",
+        "matches": 429,
+        "win_rate": 63.6
+      },
+      {
+        "hero_name": "Hayabusa",
+        "matches": 400,
+        "win_rate": 65.8
+      },
+      {
+        "hero_name": "Freya",
+        "matches": 320,
+        "win_rate": 60.0
+      },
+      {
+        "hero_name": "Cyclops",
+        "matches": 185,
+        "win_rate": 69.2
+      },
+      {
+        "hero_name": "Lancelot",
+        "matches": 148,
+        "win_rate": 50.0
+      },
+      {
+        "hero_name": "Granger",
+        "matches": 141,
+        "win_rate": 63.8
+      }
+    ]
+  }
+}
