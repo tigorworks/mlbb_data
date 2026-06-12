@@ -1,0 +1,96 @@
+{
+  "id": "140061058",
+  "nick": "mocrama10",
+  "server": "2718",
+  "role": "explaner",
+  "rank_current": "63",
+  "rank_highest": "63",
+  "statistic": {
+    "current_season": {
+      "matches_count": 220,
+      "win_rate": 59.55,
+      "kda": 4.28,
+      "team_participation": 56.7,
+      "gold_per_min": 615,
+      "dmg_per_min": 2779,
+      "deaths_per_match": 4.34,
+      "turret_dmg_per_match": 2203
+    },
+    "all_season": {
+      "matches_count": 7136,
+      "win_rate": 53.28,
+      "kda": 3.36,
+      "team_participation": 55.3,
+      "gold_per_min": 572,
+      "dmg_per_min": 2733,
+      "deaths_per_match": 4.46,
+      "turret_dmg_per_match": 2480
+    }
+  },
+  "hero_favorite": {
+    "current_season": [
+      {
+        "hero_name": "Marcel",
+        "matches": 52,
+        "win_rate": 69.2
+      },
+      {
+        "hero_name": "Khufra",
+        "matches": 47,
+        "win_rate": 57.4
+      },
+      {
+        "hero_name": "Grock",
+        "matches": 14,
+        "win_rate": 64.3
+      },
+      {
+        "hero_name": "Carmilla",
+        "matches": 12,
+        "win_rate": 66.7
+      },
+      {
+        "hero_name": "Gloo",
+        "matches": 10,
+        "win_rate": 70.0
+      },
+      {
+        "hero_name": "Granger",
+        "matches": 10,
+        "win_rate": 70.0
+      }
+    ],
+    "all_season": [
+      {
+        "hero_name": "Khufra",
+        "matches": 1268,
+        "win_rate": 60.0
+      },
+      {
+        "hero_name": "Lancelot",
+        "matches": 495,
+        "win_rate": 53.5
+      },
+      {
+        "hero_name": "Grock",
+        "matches": 444,
+        "win_rate": 51.8
+      },
+      {
+        "hero_name": "Jawhead",
+        "matches": 398,
+        "win_rate": 54.5
+      },
+      {
+        "hero_name": "Hylos",
+        "matches": 370,
+        "win_rate": 51.1
+      },
+      {
+        "hero_name": "Karrie",
+        "matches": 250,
+        "win_rate": 52.8
+      }
+    ]
+  }
+}
