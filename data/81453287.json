@@ -1,0 +1,96 @@
+{
+  "id": "81453287",
+  "nick": "LittleNinja",
+  "zone_id": "2218",
+  "role": "midlaner",
+  "rank_current": "L1",
+  "rank_highest": "70",
+  "statistic": {
+    "current_season": {
+      "matches_count": 82,
+      "win_rate": 63.41,
+      "kda": 3.38,
+      "team_participation": 53.1,
+      "gold_per_min": 661,
+      "dmg_per_min": 3555,
+      "deaths_per_match": 4.96,
+      "turret_dmg_per_match": 3647
+    },
+    "all_season": {
+      "matches_count": 2614,
+      "win_rate": 60.44,
+      "kda": 3.48,
+      "team_participation": 54.0,
+      "gold_per_min": 634,
+      "dmg_per_min": 3341,
+      "deaths_per_match": 4.68,
+      "turret_dmg_per_match": 3815
+    }
+  },
+  "hero_favorite": {
+    "current_season": [
+      {
+        "hero_name": "Kalea",
+        "matches": 9,
+        "win_rate": 66.7
+      },
+      {
+        "hero_name": "Cyclops",
+        "matches": 8,
+        "win_rate": 87.5
+      },
+      {
+        "hero_name": "Marcel",
+        "matches": 8,
+        "win_rate": 62.5
+      },
+      {
+        "hero_name": "Gord",
+        "matches": 7,
+        "win_rate": 100.0
+      },
+      {
+        "hero_name": "Vexana",
+        "matches": 7,
+        "win_rate": 42.9
+      },
+      {
+        "hero_name": "Hanabi",
+        "matches": 3,
+        "win_rate": 66.7
+      }
+    ],
+    "all_season": [
+      {
+        "hero_name": "Selena",
+        "matches": 403,
+        "win_rate": 63.3
+      },
+      {
+        "hero_name": "Kagura",
+        "matches": 118,
+        "win_rate": 68.6
+      },
+      {
+        "hero_name": "Franco",
+        "matches": 115,
+        "win_rate": 56.5
+      },
+      {
+        "hero_name": "Harith",
+        "matches": 105,
+        "win_rate": 55.2
+      },
+      {
+        "hero_name": "Wanwan",
+        "matches": 104,
+        "win_rate": 60.6
+      },
+      {
+        "hero_name": "Hayabusa",
+        "matches": 101,
+        "win_rate": 57.4
+      }
+    ]
+  }
+}
