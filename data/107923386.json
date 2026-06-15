@@ -1,0 +1,96 @@
+{
+  "id": "107923386",
+  "nick": "Kaeyde",
+  "server": "2546",
+  "role": "goldlaner",
+  "rank_current": "115",
+  "rank_highest": "115",
+  "statistic": {
+    "current_season": {
+      "matches_count": 366,
+      "win_rate": 62.30,
+      "kda": 4.76,
+      "team_participation": 54.3,
+      "gold_per_min": 705,
+      "dmg_per_min": 4483,
+      "deaths_per_match": 3.84,
+      "turret_dmg_per_match": 6887
+    },
+    "all_season": {
+      "matches_count": 8841,
+      "win_rate": 58.73,
+      "kda": 5.02,
+      "team_participation": 62.1,
+      "gold_per_min": 727,
+      "dmg_per_min": 4294,
+      "deaths_per_match": 3.71,
+      "turret_dmg_per_match": 6291
+    }
+  },
+  "hero_favorite": {
+    "current_season": [
+      {
+        "hero_name": "Suyou",
+        "matches": 238,
+        "win_rate": 63.9
+      },
+      {
+        "hero_name": "Gusion",
+        "matches": 19,
+        "win_rate": 63.2
+      },
+      {
+        "hero_name": "Yi Sun-shin",
+        "matches": 8,
+        "win_rate": 70.6
+      },
+      {
+        "hero_name": "Julian",
+        "matches": 12,
+        "win_rate": 75.0
+      },
+      {
+        "hero_name": "Harith",
+        "matches": 8,
+        "win_rate": 75.0
+      },
+      {
+        "hero_name": "Lancelot",
+        "matches": 11,
+        "win_rate": 27.3
+      }
+    ],
+    "all_season": [
+      {
+        "hero_name": "Clint",
+        "matches": 983,
+        "win_rate": 66.2
+      },
+      {
+        "hero_name": "Suyou",
+        "matches": 794,
+        "win_rate": 62.6
+      },
+      {
+        "hero_name": "Granger",
+        "matches": 593,
+        "win_rate": 60.5
+      },
+      {
+        "hero_name": "Julian",
+        "matches": 557,
+        "win_rate": 66.4
+      },
+      {
+        "hero_name": "Lesley",
+        "matches": 673,
+        "win_rate": 57.5
+      },
+      {
+        "hero_name": "Karina",
+        "matches": 542,
+        "win_rate": 57.4
+      }
+    ]
+  }
+}
