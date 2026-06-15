@@ -1,0 +1,96 @@
+{
+  "id": "117922061",
+  "nick": "Outbee•",
+  "server": "2603",
+  "role": "jungler",
+  "rank_current": "116",
+  "rank_highest": "221",
+  "statistic": {
+    "current_season": {
+      "matches_count": 534,
+      "win_rate": 57.12,
+      "kda": 2.21,
+      "team_participation": 47.9,
+      "gold_per_min": 591,
+      "dmg_per_min": 3757,
+      "deaths_per_match": 5.87,
+      "turret_dmg_per_match": 4504
+    },
+    "all_season": {
+      "matches_count": 10942,
+      "win_rate": 58.85,
+      "kda": 3.54,
+      "team_participation": 58.8,
+      "gold_per_min": 631,
+      "dmg_per_min": 2861,
+      "deaths_per_match": 4.94,
+      "turret_dmg_per_match": 3611
+    }
+  },
+  "hero_favorite": {
+    "current_season": [
+      {
+        "hero_name": "Kadita",
+        "matches": 287,
+        "win_rate": 64.5
+      },
+      {
+        "hero_name": "Franco",
+        "matches": 46,
+        "win_rate": 58.7
+      },
+      {
+        "hero_name": "Minsithar",
+        "matches": 31,
+        "win_rate": 71.0
+      },
+      {
+        "hero_name": "Ixia",
+        "matches": 21,
+        "win_rate": 42.9
+      },
+      {
+        "hero_name": "Harley",
+        "matches": 16,
+        "win_rate": 50.0
+      },
+      {
+        "hero_name": "Helcurt",
+        "matches": 14,
+        "win_rate": 57.1
+      }
+    ],
+    "all_season": [
+      {
+        "hero_name": "Franco",
+        "matches": 3100,
+        "win_rate": 62.1
+      },
+      {
+        "hero_name": "Kadita",
+        "matches": 1093,
+        "win_rate": 62.2
+      },
+      {
+        "hero_name": "Aldous",
+        "matches": 1037,
+        "win_rate": 66.1
+      },
+      {
+        "hero_name": "Wanwan",
+        "matches": 592,
+        "win_rate": 65.2
+      },
+      {
+        "hero_name": "Helcurt",
+        "matches": 494,
+        "win_rate": 63.8
+      },
+      {
+        "hero_name": "Mathilda",
+        "matches": 411,
+        "win_rate": 64.5
+      }
+    ]
+  }
+}
