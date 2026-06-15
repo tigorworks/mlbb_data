@@ -1,0 +1,96 @@
+{
+  "id": "70744472",
+  "nick": "Myah",
+  "server": "2134",
+  "role": "goldlaner",
+  "rank_current": "139",
+  "rank_highest": "264",
+  "statistic": {
+    "current_season": {
+      "matches_count": 416,
+      "win_rate": 62.74,
+      "kda": 2.49,
+      "team_participation": 47.6,
+      "gold_per_min": 671,
+      "dmg_per_min": 4615,
+      "deaths_per_match": 4.22,
+      "turret_dmg_per_match": 12779
+    },
+    "all_season": {
+      "matches_count": 9814,
+      "win_rate": 63.39,
+      "kda": 3.9,
+      "team_participation": 54.5,
+      "gold_per_min": 723,
+      "dmg_per_min": 4060,
+      "deaths_per_match": 3.68,
+      "turret_dmg_per_match": 10919
+    }
+  },
+  "hero_favorite": {
+    "current_season": [
+      {
+        "hero_name": "Lesley",
+        "matches": 142,
+        "win_rate": 64.1
+      },
+      {
+        "hero_name": "Hanabi",
+        "matches": 70,
+        "win_rate": 68.6
+      },
+      {
+        "hero_name": "Obsidia",
+        "matches": 62,
+        "win_rate": 61.3
+      },
+      {
+        "hero_name": "Natan",
+        "matches": 42,
+        "win_rate": 66.7
+      },
+      {
+        "hero_name": "Wanwan",
+        "matches": 30,
+        "win_rate": 60.0
+      },
+      {
+        "hero_name": "Karrie",
+        "matches": 26,
+        "win_rate": 61.5
+      }
+    ],
+    "all_season": [
+      {
+        "hero_name": "Wanwan",
+        "matches": 1942,
+        "win_rate": 66.2
+      },
+      {
+        "hero_name": "Irithel",
+        "matches": 1871,
+        "win_rate": 70.1
+      },
+      {
+        "hero_name": "Lesley",
+        "matches": 1822,
+        "win_rate": 69.5
+      },
+      {
+        "hero_name": "Karrie",
+        "matches": 857,
+        "win_rate": 65.7
+      },
+      {
+        "hero_name": "Moskov",
+        "matches": 723,
+        "win_rate": 64.5
+      },
+      {
+        "hero_name": "Popol and Kupa",
+        "matches": 673,
+        "win_rate": 69.1
+      }
+    ]
+  }
+}
