@@ -1,0 +1,96 @@
+{
+  "id": "40781012",
+  "nick": "neko'Hysoka",
+  "server": "2032",
+  "role": "jungler",
+  "rank_current": "145",
+  "rank_highest": "236",
+  "statistic": {
+    "current_season": {
+      "matches_count": 325,
+      "win_rate": 65.85,
+      "kda": 4.24,
+      "team_participation": 50.1,
+      "gold_per_min": 686,
+      "dmg_per_min": 4239,
+      "deaths_per_match": 3.87,
+      "turret_dmg_per_match": 8025
+    },
+    "all_season": {
+      "matches_count": 10525,
+      "win_rate": 60.43,
+      "kda": 4.67,
+      "team_participation": 57.9,
+      "gold_per_min": 647,
+      "dmg_per_min": 3690,
+      "deaths_per_match": 3.26,
+      "turret_dmg_per_match": 4840
+    }
+  },
+  "hero_favorite": {
+    "current_season": [
+      {
+        "hero_name": "Yi Sun-shin",
+        "matches": 242,
+        "win_rate": 63.6
+      },
+      {
+        "hero_name": "Moskov",
+        "matches": 238,
+        "win_rate": 66.0
+      },
+      {
+        "hero_name": "Granger",
+        "matches": 229,
+        "win_rate": 61.6
+      },
+      {
+        "hero_name": "Hayabusa",
+        "matches": 229,
+        "win_rate": 60.7
+      },
+      {
+        "hero_name": "Claude",
+        "matches": 216,
+        "win_rate": 70.4
+      },
+      {
+        "hero_name": "Karrie",
+        "matches": 216,
+        "win_rate": 66.2
+      }
+    ],
+    "all_season": [
+      {
+        "hero_name": "Kadita",
+        "matches": 49,
+        "win_rate": 75.5
+      },
+      {
+        "hero_name": "Obsidia",
+        "matches": 43,
+        "win_rate": 65.1
+      },
+      {
+        "hero_name": "Suyou",
+        "matches": 31,
+        "win_rate": 58.1
+      },
+      {
+        "hero_name": "Freya",
+        "matches": 21,
+        "win_rate": 61.9
+      },
+      {
+        "hero_name": "Leomord",
+        "matches": 21,
+        "win_rate": 57.1
+      },
+      {
+        "hero_name": "Karrie",
+        "matches": 14,
+        "win_rate": 78.6
+      }
+    ]
+  }
+}
