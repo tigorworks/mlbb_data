@@ -1,0 +1,96 @@
+{
+  "id": "103272137",
+  "nick": "ADEK GEMESH",
+  "server": "2530",
+  "role": "jungler/goldlaner",
+  "rank_current": "87",
+  "rank_highest": "87",
+  "statistic": {
+    "current_season": {
+      "matches_count": 544,
+      "win_rate": 52.76,
+      "kda": 2.33,
+      "team_participation": 41.9,
+      "gold_per_min": 601,
+      "dmg_per_min": 4180,
+      "deaths_per_match": 4.58,
+      "turret_dmg_per_match": 4587
+    },
+    "all_season": {
+      "matches_count": 16486,
+      "win_rate": 53.62,
+      "kda": 3.38,
+      "team_participation": 53.5,
+      "gold_per_min": 638,
+      "dmg_per_min": 3533,
+      "deaths_per_match": 4.51,
+      "turret_dmg_per_match": 3602
+    }
+  },
+  "hero_favorite": {
+    "current_season": [
+      {
+        "hero_name": "Hayabusa",
+        "matches": 79,
+        "win_rate": 55.7
+      },
+      {
+        "hero_name": "Vexana",
+        "matches": 57,
+        "win_rate": 57.9
+      },
+      {
+        "hero_name": "Granger",
+        "matches": 55,
+        "win_rate": 47.3
+      },
+      {
+        "hero_name": "Claude",
+        "matches": 45,
+        "win_rate": 60.0
+      },
+      {
+        "hero_name": "Kadita",
+        "matches": 35,
+        "win_rate": 57.1
+      },
+      {
+        "hero_name": "Karrie",
+        "matches": 34,
+        "win_rate": 55.9
+      }
+    ],
+    "all_season": [
+      {
+        "hero_name": "Lancelot",
+        "matches": 2045,
+        "win_rate": 54.6
+      },
+      {
+        "hero_name": "Hayabusa",
+        "matches": 1217,
+        "win_rate": 55.4
+      },
+      {
+        "hero_name": "Claude",
+        "matches": 903,
+        "win_rate": 53.2
+      },
+      {
+        "hero_name": "Karrie",
+        "matches": 892,
+        "win_rate": 59.6
+      },
+      {
+        "hero_name": "Esmeralda",
+        "matches": 619,
+        "win_rate": 59.8
+      },
+      {
+        "hero_name": "Harith",
+        "matches": 574,
+        "win_rate": 56.8
+      }
+    ]
+  }
+}
