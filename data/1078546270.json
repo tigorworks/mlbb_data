@@ -1,0 +1,96 @@
+{
+  "id": "1078546270",
+  "nick": "DarkSystemBGT",
+  "server": "11196",
+  "role": "midlaner",
+  "rank_current": "46",
+  "rank_highest": "64",
+  "statistic": {
+    "current_season": {
+      "matches_count": 293,
+      "win_rate": 56.31,
+      "kda": 1.96,
+      "team_participation": 46.2,
+      "gold_per_min": 571,
+      "dmg_per_min": 3031,
+      "deaths_per_match": 6.0,
+      "turret_dmg_per_match": 3566
+    },
+    "all_season": {
+      "matches_count": 5883,
+      "win_rate": 51.11,
+      "kda": 2.83,
+      "team_participation": 47.7,
+      "gold_per_min": 668,
+      "dmg_per_min": 3108,
+      "deaths_per_match": 5.38,
+      "turret_dmg_per_match": 4084
+    }
+  },
+  "hero_favorite": {
+    "current_season": [
+      {
+        "hero_name": "Minsithar",
+        "matches": 115,
+        "win_rate": 64.3
+      },
+      {
+        "hero_name": "Hanabi",
+        "matches": 46,
+        "win_rate": 60.9
+      },
+      {
+        "hero_name": "Zetian",
+        "matches": 25,
+        "win_rate": 56.0
+      },
+      {
+        "hero_name": "Marcel",
+        "matches": 17,
+        "win_rate": 58.8
+      },
+      {
+        "hero_name": "Hilda",
+        "matches": 11,
+        "win_rate": 63.6
+      },
+      {
+        "hero_name": "Melissa",
+        "matches": 8,
+        "win_rate": 50.0
+      }
+    ],
+    "all_season": [
+      {
+        "hero_name": "Thamuz",
+        "matches": 1528,
+        "win_rate": 55.6
+      },
+      {
+        "hero_name": "Gusion",
+        "matches": 685,
+        "win_rate": 41.8
+      },
+      {
+        "hero_name": "Aldous",
+        "matches": 338,
+        "win_rate": 48.8
+      },
+      {
+        "hero_name": "Johnson",
+        "matches": 276,
+        "win_rate": 55.1
+      },
+      {
+        "hero_name": "Bane",
+        "matches": 195,
+        "win_rate": 48.7
+      },
+      {
+        "hero_name": "Cyclops",
+        "matches": 156,
+        "win_rate": 47.1
+      }
+    ]
+  }
+}
