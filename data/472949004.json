@@ -1,0 +1,96 @@
+{
+  "id": "472949004",
+  "nick": "Tumpal God",
+  "server": "2426",
+  "role": "roamer",
+  "rank_current": "168",
+  "rank_highest": "232",
+  "statistic": {
+    "current_season": {
+      "matches_count": 582,
+      "win_rate": 57.39,
+      "kda": 2.71,
+      "team_participation": 54.5,
+      "gold_per_min": 522,
+      "dmg_per_min": 2165,
+      "deaths_per_match": 4.55,
+      "turret_dmg_per_match": 893
+    },
+    "all_season": {
+      "matches_count": 11335,
+      "win_rate": 59.49,
+      "kda": 3.92,
+      "team_participation": 60.4,
+      "gold_per_min": 590,
+      "dmg_per_min": 2341,
+      "deaths_per_match": 4.22,
+      "turret_dmg_per_match": 1842
+    }
+  },
+  "hero_favorite": {
+    "current_season": [
+      {
+        "hero_name": "Gloo",
+        "matches": 70,
+        "win_rate": 65.7
+      },
+      {
+        "hero_name": "Minotaur",
+        "matches": 65,
+        "win_rate": 58.5
+      },
+      {
+        "hero_name": "Marcel",
+        "matches": 64,
+        "win_rate": 71.9
+      },
+      {
+        "hero_name": "Kalea",
+        "matches": 60,
+        "win_rate": 61.7
+      },
+      {
+        "hero_name": "Grock",
+        "matches": 51,
+        "win_rate": 62.7
+      },
+      {
+        "hero_name": "Chou",
+        "matches": 33,
+        "win_rate": 54.5
+      }
+    ],
+    "all_season": [
+      {
+        "hero_name": "Khufra",
+        "matches": 846,
+        "win_rate": 61.3
+      },
+      {
+        "hero_name": "Kaja",
+        "matches": 618,
+        "win_rate": 71.0
+      },
+      {
+        "hero_name": "Mathilda",
+        "matches": 597,
+        "win_rate": 62.3
+      },
+      {
+        "hero_name": "Chou",
+        "matches": 568,
+        "win_rate": 53.5
+      },
+      {
+        "hero_name": "Khaleed",
+        "matches": 564,
+        "win_rate": 60.8
+      },
+      {
+        "hero_name": "Franco",
+        "matches": 505,
+        "win_rate": 61.6
+      }
+    ]
+  }
+}
