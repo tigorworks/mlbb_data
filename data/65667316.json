@@ -1,0 +1,96 @@
+{
+  "id": "65667316",
+  "nick": "Buah.",
+  "server": "2117",
+  "role": "midlaner",
+  "rank_current": "101",
+  "rank_highest": "104",
+  "statistic": {
+    "current_season": {
+      "matches_count": 363,
+      "win_rate": 59.78,
+      "kda": 2.56,
+      "team_participation": 51.2,
+      "gold_per_min": 637,
+      "dmg_per_min": 4688,
+      "deaths_per_match": 5.55,
+      "turret_dmg_per_match": 4211
+    },
+    "all_season": {
+      "matches_count": 15846,
+      "win_rate": 54.05,
+      "kda": 3.04,
+      "team_participation": 54.6,
+      "gold_per_min": 564,
+      "dmg_per_min": 3518,
+      "deaths_per_match": 5.10,
+      "turret_dmg_per_match": 2321
+    }
+  },
+  "hero_favorite": {
+    "current_season": [
+      {
+        "hero_name": "Kimmy",
+        "matches": 193,
+        "win_rate": 63.7
+      },
+      {
+        "hero_name": "Gord",
+        "matches": 50,
+        "win_rate": 62.0
+      },
+      {
+        "hero_name": "Zhuxin",
+        "matches": 34,
+        "win_rate": 58.8
+      },
+      {
+        "hero_name": "Kagura",
+        "matches": 23,
+        "win_rate": 65.2
+      },
+      {
+        "hero_name": "Selena",
+        "matches": 23,
+        "win_rate": 39.1
+      },
+      {
+        "hero_name": "Faramis",
+        "matches": 5,
+        "win_rate": 40.0
+      }
+    ],
+    "all_season": [
+      {
+        "hero_name": "Kagura",
+        "matches": 4228,
+        "win_rate": 59.3
+      },
+      {
+        "hero_name": "Selena",
+        "matches": 1436,
+        "win_rate": 52.5
+      },
+      {
+        "hero_name": "Kimmy",
+        "matches": 660,
+        "win_rate": 59.2
+      },
+      {
+        "hero_name": "Harley",
+        "matches": 596,
+        "win_rate": 53.9
+      },
+      {
+        "hero_name": "Alice",
+        "matches": 520,
+        "win_rate": 57.9
+      },
+      {
+        "hero_name": "Gord",
+        "matches": 511,
+        "win_rate": 56.4
+      }
+    ]
+  }
+}
