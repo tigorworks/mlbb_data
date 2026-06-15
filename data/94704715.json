@@ -1,0 +1,96 @@
+{
+  "id": "94704715",
+  "nick": "BAYTR",
+  "server": "2199",
+  "role": "jungler",
+  "rank_current": "59",
+  "rank_highest": "59",
+  "statistic": {
+    "current_season": {
+      "matches_count": 483,
+      "win_rate": 50.72,
+      "kda": 2.64,
+      "team_participation": 42.9,
+      "gold_per_min": 628,
+      "dmg_per_min": 3120,
+      "deaths_per_match": 4.03,
+      "turret_dmg_per_match": 4491
+    },
+    "all_season": {
+      "matches_count": 9646,
+      "win_rate": 55.70,
+      "kda": 3.69,
+      "team_participation": 54.2,
+      "gold_per_min": 620,
+      "dmg_per_min": 2758,
+      "deaths_per_match": 3.85,
+      "turret_dmg_per_match": 4145
+    }
+  },
+  "hero_favorite": {
+    "current_season": [
+      {
+        "hero_name": "Yi Sun-shin",
+        "matches": 88,
+        "win_rate": 59.1
+      },
+      {
+        "hero_name": "Suyou",
+        "matches": 64,
+        "win_rate": 40.6
+      },
+      {
+        "hero_name": "Hayabusa",
+        "matches": 39,
+        "win_rate": 53.8
+      },
+      {
+        "hero_name": "Harley",
+        "matches": 35,
+        "win_rate": 48.6
+      },
+      {
+        "hero_name": "Leomord",
+        "matches": 26,
+        "win_rate": 65.4
+      },
+      {
+        "hero_name": "Karrie",
+        "matches": 24,
+        "win_rate": 54.2
+      }
+    ],
+    "all_season": [
+      {
+        "hero_name": "Hayabusa",
+        "matches": 1288,
+        "win_rate": 58.4
+      },
+      {
+        "hero_name": "Granger",
+        "matches": 473,
+        "win_rate": 61.1
+      },
+      {
+        "hero_name": "Lancelot",
+        "matches": 461,
+        "win_rate": 48.2
+      },
+      {
+        "hero_name": "Grock",
+        "matches": 456,
+        "win_rate": 55.3
+      },
+      {
+        "hero_name": "Chou",
+        "matches": 366,
+        "win_rate": 52.7
+      },
+      {
+        "hero_name": "Yi Sun-shin",
+        "matches": 280,
+        "win_rate": 55.4
+      }
+    ]
+  }
+}
