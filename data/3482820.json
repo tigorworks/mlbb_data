@@ -1,0 +1,96 @@
+{
+  "id": "3482820",
+  "nick": "Dragg.",
+  "server": "2004",
+  "role": "explaner",
+  "rank_current": "37",
+  "rank_highest": "18",
+  "statistic": {
+    "current_season": {
+      "matches_count": 106,
+      "win_rate": 72.64,
+      "kda": 3.80,
+      "team_participation": 51.3,
+      "gold_per_min": 645,
+      "dmg_per_min": 3839,
+      "deaths_per_match": 3.95,
+      "turret_dmg_per_match": 2767
+    },
+    "all_season": {
+      "matches_count": 12543,
+      "win_rate": 60.25,
+      "kda": 3.65,
+      "team_participation": 57.2,
+      "gold_per_min": 617,
+      "dmg_per_min": 3082,
+      "deaths_per_match": 4.35,
+      "turret_dmg_per_match": 3483
+    }
+  },
+  "hero_favorite": {
+    "current_season": [
+      {
+        "hero_name": "Yu Zhong",
+        "matches": 22,
+        "win_rate": 86.4
+      },
+      {
+        "hero_name": "Lapu-Lapu",
+        "matches": 20,
+        "win_rate": 75.0
+      },
+      {
+        "hero_name": "Alice",
+        "matches": 16,
+        "win_rate": 68.8
+      },
+      {
+        "hero_name": "Uranus",
+        "matches": 6,
+        "win_rate": 100.0
+      },
+      {
+        "hero_name": "Leomord",
+        "matches": 4,
+        "win_rate": 75.0
+      },
+      {
+        "hero_name": "Pharsa",
+        "matches": 4,
+        "win_rate": 75.0
+      }
+    ],
+    "all_season": [
+      {
+        "hero_name": "Leomord",
+        "matches": 815,
+        "win_rate": 66.0
+      },
+      {
+        "hero_name": "Grock",
+        "matches": 693,
+        "win_rate": 65.8
+      },
+      {
+        "hero_name": "Hylos",
+        "matches": 676,
+        "win_rate": 62.3
+      },
+      {
+        "hero_name": "Hayabusa",
+        "matches": 576,
+        "win_rate": 59.5
+      },
+      {
+        "hero_name": "Karina",
+        "matches": 562,
+        "win_rate": 57.7
+      },
+      {
+        "hero_name": "Fredrinn",
+        "matches": 390,
+        "win_rate": 71.0
+      }
+    ]
+  }
+}
