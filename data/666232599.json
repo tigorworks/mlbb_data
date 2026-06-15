@@ -1,0 +1,96 @@
+{
+  "id": "666232599",
+  "nick": "Dezrakha",
+  "server": "8657",
+  "role": "midlaner",
+  "rank_current": "131",
+  "rank_highest": "136",
+  "statistic": {
+    "current_season": {
+      "matches_count": 461,
+      "win_rate": 57.70,
+      "kda": 3.7,
+      "team_participation": 48.8,
+      "gold_per_min": 575,
+      "dmg_per_min": 3601,
+      "deaths_per_match": 3.55,
+      "turret_dmg_per_match": 2038
+    },
+    "all_season": {
+      "matches_count": 4690,
+      "win_rate": 58.04,
+      "kda": 4.02,
+      "team_participation": 52.9,
+      "gold_per_min": 642,
+      "dmg_per_min": 3179,
+      "deaths_per_match": 3.71,
+      "turret_dmg_per_match": 2541
+    }
+  },
+  "hero_favorite": {
+    "current_season": [
+      {
+        "hero_name": "Lylia",
+        "matches": 113,
+        "win_rate": 61.1
+      },
+      {
+        "hero_name": "Zetian",
+        "matches": 94,
+        "win_rate": 53.2
+      },
+      {
+        "hero_name": "Harley",
+        "matches": 74,
+        "win_rate": 62.2
+      },
+      {
+        "hero_name": "Leomord",
+        "matches": 27,
+        "win_rate": 51.9
+      },
+      {
+        "hero_name": "X.Borg",
+        "matches": 21,
+        "win_rate": 57.1
+      },
+      {
+        "hero_name": "Terizia",
+        "matches": 14,
+        "win_rate": 57.1
+      }
+    ],
+    "all_season": [
+      {
+        "hero_name": "X.Borg",
+        "matches": 569,
+        "win_rate": 59.4
+      },
+      {
+        "hero_name": "Cecilion",
+        "matches": 496,
+        "win_rate": 63.1
+      },
+      {
+        "hero_name": "Hayabusa",
+        "matches": 389,
+        "win_rate": 60.4
+      },
+      {
+        "hero_name": "Pharsa",
+        "matches": 277,
+        "win_rate": 59.6
+      },
+      {
+        "hero_name": "Brody",
+        "matches": 232,
+        "win_rate": 59.1
+      },
+      {
+        "hero_name": "Esmeralda",
+        "matches": 207,
+        "win_rate": 53.6
+      }
+    ]
+  }
+}
