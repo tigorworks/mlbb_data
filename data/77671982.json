@@ -1,0 +1,96 @@
+{
+  "id": "77671982",
+  "nick": "Keezchie.",
+  "server": "2142",
+  "role": "jungler",
+  "rank_current": "187",
+  "rank_highest": "260",
+  "statistic": {
+    "current_season": {
+      "matches_count": 458,
+      "win_rate": 64.19,
+      "kda": 5.41,
+      "team_participation": 54.3,
+      "gold_per_min": 701,
+      "dmg_per_min": 4406,
+      "deaths_per_match": 3.00,
+      "turret_dmg_per_match": 3861
+    },
+    "all_season": {
+      "matches_count": 10481,
+      "win_rate": 63.14,
+      "kda": 4.92,
+      "team_participation": 61.7,
+      "gold_per_min": 703,
+      "dmg_per_min": 4122,
+      "deaths_per_match": 3.75,
+      "turret_dmg_per_match": 3320
+    }
+  },
+  "hero_favorite": {
+    "current_season": [
+      {
+        "hero_name": "Leomord",
+        "matches": 312,
+        "win_rate": 67.6
+      },
+      {
+        "hero_name": "Suyou",
+        "matches": 80,
+        "win_rate": 55.0
+      },
+      {
+        "hero_name": "Lukas",
+        "matches": 32,
+        "win_rate": 59.4
+      },
+      {
+        "hero_name": "Fredrinn",
+        "matches": 21,
+        "win_rate": 66.7
+      },
+      {
+        "hero_name": "Julian",
+        "matches": 6,
+        "win_rate": 50.0
+      },
+      {
+        "hero_name": "Harley",
+        "matches": 5,
+        "win_rate": 60.0
+      }
+    ],
+    "all_season": [
+      {
+        "hero_name": "Lunox",
+        "matches": 2291,
+        "win_rate": 70.3
+      },
+      {
+        "hero_name": "Gusion",
+        "matches": 1265,
+        "win_rate": 61.3
+      },
+      {
+        "hero_name": "Leomord",
+        "matches": 976,
+        "win_rate": 64.0
+      },
+      {
+        "hero_name": "Granger",
+        "matches": 908,
+        "win_rate": 68.2
+      },
+      {
+        "hero_name": "Julian",
+        "matches": 699,
+        "win_rate": 69.5
+      },
+      {
+        "hero_name": "Lancelot",
+        "matches": 645,
+        "win_rate": 62.0
+      }
+    ]
+  }
+}
