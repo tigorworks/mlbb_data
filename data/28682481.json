@@ -1,0 +1,96 @@
+{
+  "id": "28682481",
+  "nick": "YoooR",
+  "server": "2041",
+  "role": "jungler",
+  "rank_current": "97",
+  "rank_highest": "104",
+  "statistic": {
+    "current_season": {
+      "matches_count": 518,
+      "win_rate": 54.44,
+      "kda": 2.01,
+      "team_participation": 51.4,
+      "gold_per_min": 578,
+      "dmg_per_min": 4199,
+      "deaths_per_match": 5.99,
+      "turret_dmg_per_match": 2127
+    },
+    "all_season": {
+      "matches_count": 10635,
+      "win_rate": 54.56,
+      "kda": 2.81,
+      "team_participation": 53.0,
+      "gold_per_min": 572,
+      "dmg_per_min": 3208,
+      "deaths_per_match": 5.26,
+      "turret_dmg_per_match": 3544
+    }
+  },
+  "hero_favorite": {
+    "current_season": [
+      {
+        "hero_name": "Zhuxin",
+        "matches": 172,
+        "win_rate": 65.7
+      },
+      {
+        "hero_name": "Lylia",
+        "matches": 60,
+        "win_rate": 51.7
+      },
+      {
+        "hero_name": "Fanny",
+        "matches": 39,
+        "win_rate": 51.3
+      },
+      {
+        "hero_name": "Kadita",
+        "matches": 32,
+        "win_rate": 46.9
+      },
+      {
+        "hero_name": "Zetian",
+        "matches": 31,
+        "win_rate": 45.2
+      },
+      {
+        "hero_name": "Yi Sun-shin",
+        "matches": 26,
+        "win_rate": 38.5
+      }
+    ],
+    "all_season": [
+      {
+        "hero_name": "Fanny",
+        "matches": 2769,
+        "win_rate": 58.5
+      },
+      {
+        "hero_name": "Chou",
+        "matches": 1034,
+        "win_rate": 51.0
+      },
+      {
+        "hero_name": "Yi Sun-shin",
+        "matches": 588,
+        "win_rate": 53.3
+      },
+      {
+        "hero_name": "Lancelot",
+        "matches": 409,
+        "win_rate": 53.5
+      },
+      {
+        "hero_name": "Hayabusa",
+        "matches": 398,
+        "win_rate": 58.3
+      },
+      {
+        "hero_name": "Moskov",
+        "matches": 330,
+        "win_rate": 51.2
+      }
+    ]
+  }
+}
