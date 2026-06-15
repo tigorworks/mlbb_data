@@ -1,38 +1,38 @@
 {
   "id": "523404745",
   "nick": "Saintess Lidia.",
-  "zone_id": "8100",
+  "server": "8100",
   "role": "roamer",
-  "rank_current": "137",
+  "rank_current": "201",
   "rank_highest": "1010",
   "statistic": {
     "current_season": {
-      "matches_count": 318,
-      "win_rate": 68.24,
-      "kda": 4.21,
-      "team_participation": 55.9,
-      "gold_per_min": 545,
-      "dmg_per_min": 1640,
-      "deaths_per_match": 3.81,
-      "turret_dmg_per_match": 669
+      "matches_count": 427,
+      "win_rate": 69.79,
+      "kda": 3.81,
+      "team_participation": 53.1,
+      "gold_per_min": 533,
+      "dmg_per_min": 1648,
+      "deaths_per_match": 3.77,
+      "turret_dmg_per_match": 595
     },
     "all_season": {
-      "matches_count": 9156,
-      "win_rate": 71.72,
+      "matches_count": 9265,
+      "win_rate": 71.75,
       "kda": 4.47,
-      "team_participation": 58.8,
+      "team_participation": 58.9,
       "gold_per_min": 622,
-      "dmg_per_min": 2353,
+      "dmg_per_min": 2347,
       "deaths_per_match": 3.60,
-      "turret_dmg_per_match": 2394
+      "turret_dmg_per_match": 2372
     }
   },
   "hero_favorite": {
     "current_season": [
       {
         "hero_name": "Minotaur",
-        "matches": 103,
-        "win_rate": 68.9
+        "matches": 113,
+        "win_rate": 69.0
       },
       {
         "hero_name": "Chip",
@@ -40,56 +40,56 @@
         "win_rate": 77.1
       },
       {
+        "hero_name": "Gloo",
+        "matches": 42,
+        "win_rate": 76.2
+      },
+      {
         "hero_name": "Grock",
-        "matches": 31,
-        "win_rate": 67.7
+        "matches": 38,
+        "win_rate": 63.2
       },
       {
         "hero_name": "Hilda",
-        "matches": 26,
-        "win_rate": 65.4
+        "matches": 28,
+        "win_rate": 64.3
       },
       {
         "hero_name": "Tigreal",
-        "matches": 17,
-        "win_rate": 70.6
-      },
-      {
-        "hero_name": "Hylos",
-        "matches": 12,
-        "win_rate": 58.3
+        "matches": 22,
+        "win_rate": 72.7
       }
     ],
     "all_season": [
       {
         "hero_name": "Minotaur",
-        "matches": 1208,
-        "win_rate": 79.7
+        "matches": 1218,
+        "win_rate": 79.6
       },
       {
         "hero_name": "Chou",
-        "matches": 920,
+        "matches": 925,
         "win_rate": 71.4
       },
       {
         "hero_name": "Gatotkaca",
-        "matches": 751,
-        "win_rate": 71.8
+        "matches": 755,
+        "win_rate": 71.5
       },
       {
         "hero_name": "Mathilda",
-        "matches": 653,
+        "matches": 655,
         "win_rate": 77.3
       },
       {
         "hero_name": "Grock",
-        "matches": 403,
-        "win_rate": 73.7
+        "matches": 410,
+        "win_rate": 73.2
       },
       {
         "hero_name": "Baxia",
-        "matches": 255,
-        "win_rate": 72.9
+        "matches": 256,
+        "win_rate": 73.0
       }
     ]
   }
