@@ -1,0 +1,96 @@
+{
+  "id": "276189995",
+  "nick": "YunZhao-88",
+  "server": "9441",
+  "role": "explaner",
+  "rank_current": "100",
+  "rank_highest": "137",
+  "statistic": {
+    "current_season": {
+      "matches_count": 371,
+      "win_rate": 59.03,
+      "kda": 1.37,
+      "team_participation": 37.9,
+      "gold_per_min": 585,
+      "dmg_per_min": 3985,
+      "deaths_per_match": 6.22,
+      "turret_dmg_per_match": 4585
+    },
+    "all_season": {
+      "matches_count": 7330,
+      "win_rate": 53.90,
+      "kda": 2.4,
+      "team_participation": 49.1,
+      "gold_per_min": 654,
+      "dmg_per_min": 3350,
+      "deaths_per_match": 5.46,
+      "turret_dmg_per_match": 4310
+    }
+  },
+  "hero_favorite": {
+    "current_season": [
+      {
+        "hero_name": "Minsithar",
+        "matches": 63,
+        "win_rate": 55.6
+      },
+      {
+        "hero_name": "Joy",
+        "matches": 59,
+        "win_rate": 55.9
+      },
+      {
+        "hero_name": "Sora",
+        "matches": 47,
+        "win_rate": 53.2
+      },
+      {
+        "hero_name": "Masha",
+        "matches": 45,
+        "win_rate": 84.4
+      },
+      {
+        "hero_name": "Gloo",
+        "matches": 37,
+        "win_rate": 59.5
+      },
+      {
+        "hero_name": "Phoveus",
+        "matches": 29,
+        "win_rate": 51.7
+      }
+    ],
+    "all_season": [
+      {
+        "hero_name": "Gusion",
+        "matches": 644,
+        "win_rate": 60.2
+      },
+      {
+        "hero_name": "Natalia",
+        "matches": 548,
+        "win_rate": 58.0
+      },
+      {
+        "hero_name": "Masha",
+        "matches": 542,
+        "win_rate": 66.6
+      },
+      {
+        "hero_name": "Zilong",
+        "matches": 520,
+        "win_rate": 57.9
+      },
+      {
+        "hero_name": "Gloo",
+        "matches": 401,
+        "win_rate": 60.1
+      },
+      {
+        "hero_name": "Claude",
+        "matches": 359,
+        "win_rate": 53.5
+      }
+    ]
+  }
+}
