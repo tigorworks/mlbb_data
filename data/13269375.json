@@ -1,0 +1,96 @@
+{
+  "id": "13269375",
+  "nick": "Arteezy",
+  "server": "2201",
+  "role": "midlaner",
+  "rank_current": "44",
+  "rank_highest": "81",
+  "statistic": {
+    "current_season": {
+      "matches_count": 199,
+      "win_rate": 56.28,
+      "kda": 4.36,
+      "team_participation": 56.0,
+      "gold_per_min": 667,
+      "dmg_per_min": 3832,
+      "deaths_per_match": 3.84,
+      "turret_dmg_per_match": 4509
+    },
+    "all_season": {
+      "matches_count": 12111,
+      "win_rate": 55.52,
+      "kda": 4.45,
+      "team_participation": 58.7,
+      "gold_per_min": 635,
+      "dmg_per_min": 3353,
+      "deaths_per_match": 3.77,
+      "turret_dmg_per_match": 3574
+    }
+  },
+  "hero_favorite": {
+    "current_season": [
+      {
+        "hero_name": "Claude",
+        "matches": 23,
+        "win_rate": 65.2
+      },
+      {
+        "hero_name": "Grock",
+        "matches": 21,
+        "win_rate": 47.6
+      },
+      {
+        "hero_name": "Obsidian",
+        "matches": 17,
+        "win_rate": 47.1
+      },
+      {
+        "hero_name": "Zhuxin",
+        "matches": 14,
+        "win_rate": 64.3
+      },
+      {
+        "hero_name": "Karrie",
+        "matches": 13,
+        "win_rate": 61.5
+      },
+      {
+        "hero_name": "Guinevere",
+        "matches": 10,
+        "win_rate": 80.0
+      }
+    ],
+    "all_season": [
+      {
+        "hero_name": "Harith",
+        "matches": 819,
+        "win_rate": 58.5
+      },
+      {
+        "hero_name": "Karina",
+        "matches": 604,
+        "win_rate": 55.1
+      },
+      {
+        "hero_name": "Hayabusa",
+        "matches": 515,
+        "win_rate": 54.4
+      },
+      {
+        "hero_name": "Yve",
+        "matches": 511,
+        "win_rate": 64.8
+      },
+      {
+        "hero_name": "Karrie",
+        "matches": 456,
+        "win_rate": 54.8
+      },
+      {
+        "hero_name": "Layla",
+        "matches": 412,
+        "win_rate": 53.2
+      }
+    ]
+  }
+}
