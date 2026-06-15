@@ -1,0 +1,96 @@
+{
+  "id": "161257042",
+  "nick": "tungtungtungSahur",
+  "server": "2855",
+  "role": "jungler",
+  "rank_current": "89",
+  "rank_highest": "102",
+  "statistic": {
+    "current_season": {
+      "matches_count": 275,
+      "win_rate": 61.82,
+      "kda": 2.87,
+      "team_participation": 48.4,
+      "gold_per_min": 611,
+      "dmg_per_min": 3619,
+      "deaths_per_match": 4.74,
+      "turret_dmg_per_match": 1928
+    },
+    "all_season": {
+      "matches_count": 10644,
+      "win_rate": 55.55,
+      "kda": 3.22,
+      "team_participation": 52.4,
+      "gold_per_min": 629,
+      "dmg_per_min": 3256,
+      "deaths_per_match": 4.49,
+      "turret_dmg_per_match": 3015
+    }
+  },
+  "hero_favorite": {
+    "current_season": [
+      {
+        "hero_name": "Harley",
+        "matches": 44,
+        "win_rate": 75.0
+      },
+      {
+        "hero_name": "Yi Sun-shin",
+        "matches": 20,
+        "win_rate": 65.0
+      },
+      {
+        "hero_name": "Selena",
+        "matches": 19,
+        "win_rate": 73.7
+      },
+      {
+        "hero_name": "Joy",
+        "matches": 11,
+        "win_rate": 54.5
+      },
+      {
+        "hero_name": "Minsithar",
+        "matches": 10,
+        "win_rate": 60.0
+      },
+      {
+        "hero_name": "Sora",
+        "matches": 9,
+        "win_rate": 66.7
+      }
+    ],
+    "all_season": [
+      {
+        "hero_name": "Chou",
+        "matches": 583,
+        "win_rate": 49.2
+      },
+      {
+        "hero_name": "Selena",
+        "matches": 580,
+        "win_rate": 58.6
+      },
+      {
+        "hero_name": "Harley",
+        "matches": 532,
+        "win_rate": 56.2
+      },
+      {
+        "hero_name": "Lancelot",
+        "matches": 483,
+        "win_rate": 50.5
+      },
+      {
+        "hero_name": "Franco",
+        "matches": 375,
+        "win_rate": 50.9
+      },
+      {
+        "hero_name": "Gusion",
+        "matches": 369,
+        "win_rate": 49.3
+      }
+    ]
+  }
+}
