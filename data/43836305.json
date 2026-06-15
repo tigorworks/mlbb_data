@@ -1,0 +1,96 @@
+{
+  "id": "43836305",
+  "nick": "Shrewd-",
+  "server": "2066",
+  "role": "roamer",
+  "rank_current": "114",
+  "rank_highest": "115",
+  "statistic": {
+    "current_season": {
+      "matches_count": 376,
+      "win_rate": 59.31,
+      "kda": 3.02,
+      "team_participation": 49.4,
+      "gold_per_min": 532,
+      "dmg_per_min": 2040,
+      "deaths_per_match": 4.45,
+      "turret_dmg_per_match": 1302
+    },
+    "all_season": {
+      "matches_count": 1719,
+      "win_rate": 57.07,
+      "kda": 4.26,
+      "team_participation": 54.3,
+      "gold_per_min": 572,
+      "dmg_per_min": 2381,
+      "deaths_per_match": 3.87,
+      "turret_dmg_per_match": 3236
+    }
+  },
+  "hero_favorite": {
+    "current_season": [
+      {
+        "hero_name": "Grock",
+        "matches": 71,
+        "win_rate": 62.0
+      },
+      {
+        "hero_name": "Kalea",
+        "matches": 68,
+        "win_rate": 61.8
+      },
+      {
+        "hero_name": "Uranus",
+        "matches": 36,
+        "win_rate": 77.8
+      },
+      {
+        "hero_name": "Gatotkaca",
+        "matches": 31,
+        "win_rate": 74.2
+      },
+      {
+        "hero_name": "Gloo",
+        "matches": 28,
+        "win_rate": 57.1
+      },
+      {
+        "hero_name": "Silvanna",
+        "matches": 19,
+        "win_rate": 57.9
+      }
+    ],
+    "all_season": [
+      {
+        "hero_name": "Grock",
+        "matches": 133,
+        "win_rate": 55.6
+      },
+      {
+        "hero_name": "Franco",
+        "matches": 132,
+        "win_rate": 62.1
+      },
+      {
+        "hero_name": "Kalea",
+        "matches": 115,
+        "win_rate": 55.7
+      },
+      {
+        "hero_name": "Minotaur",
+        "matches": 108,
+        "win_rate": 64.8
+      },
+      {
+        "hero_name": "Moskov",
+        "matches": 105,
+        "win_rate": 64.8
+      },
+      {
+        "hero_name": "Tigreal",
+        "matches": 92,
+        "win_rate": 62.0
+      }
+    ]
+  }
+}
