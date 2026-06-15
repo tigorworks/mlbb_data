@@ -1,48 +1,48 @@
 {
   "id": "67589275",
   "nick": "Disarm",
-  "zone_id": "2124",
+  "server": "2124",
   "role": "roamer",
-  "rank_current": "140",
-  "rank_highest": "143",
+  "rank_current": "157",
+  "rank_highest": "157",
   "statistic": {
     "current_season": {
-      "matches_count": 354,
-      "win_rate": 66.10,
-      "kda": 2.98,
-      "team_participation": 53.8,
-      "gold_per_min": 571,
-      "dmg_per_min": 3357,
-      "deaths_per_match": 4.78,
-      "turret_dmg_per_match": 1865
+      "matches_count": 377,
+      "win_rate": 66.84,
+      "kda": 2.96,
+      "team_participation": 53.5,
+      "gold_per_min": 570,
+      "dmg_per_min": 3311,
+      "deaths_per_match": 4.80,
+      "turret_dmg_per_match": 1767
     },
     "all_season": {
-      "matches_count": 5804,
-      "win_rate": 62.46,
+      "matches_count": 5827,
+      "win_rate": 62.52,
       "kda": 3.75,
       "team_participation": 57.8,
       "gold_per_min": 633,
-      "dmg_per_min": 3232,
+      "dmg_per_min": 3230,
       "deaths_per_match": 4.53,
-      "turret_dmg_per_match": 3309
+      "turret_dmg_per_match": 3298
     }
   },
   "hero_favorite": {
     "current_season": [
       {
-        "hero_name": "Marcel",
-        "matches": 35,
-        "win_rate": 88.6
+        "hero_name": "Gloo",
+        "matches": 37,
+        "win_rate": 67.6
       },
       {
-        "hero_name": "Gloo",
-        "matches": 30,
-        "win_rate": 63.3
+        "hero_name": "Marcel",
+        "matches": 36,
+        "win_rate": 88.9
       },
       {
         "hero_name": "Khaleed",
-        "matches": 27,
-        "win_rate": 74.1
+        "matches": 32,
+        "win_rate": 75.0
       },
       {
         "hero_name": "Harith",
@@ -63,8 +63,8 @@
     "all_season": [
       {
         "hero_name": "Khufra",
-        "matches": 329,
-        "win_rate": 62.6
+        "matches": 330,
+        "win_rate": 62.4
       },
       {
         "hero_name": "Chou",
