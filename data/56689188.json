@@ -1,0 +1,96 @@
+{
+  "id": "56689188",
+  "nick": "DEKKAH",
+  "server": "2094",
+  "role": "roamer",
+  "rank_current": "135",
+  "rank_highest": "166",
+  "statistic": {
+    "current_season": {
+      "matches_count": 473,
+      "win_rate": 61.95,
+      "kda": null,
+      "team_participation": null,
+      "gold_per_min": null,
+      "dmg_per_min": null,
+      "deaths_per_match": null,
+      "turret_dmg_per_match": null
+    },
+    "all_season": {
+      "matches_count": 18852,
+      "win_rate": 54.69,
+      "kda": null,
+      "team_participation": null,
+      "gold_per_min": null,
+      "dmg_per_min": null,
+      "deaths_per_match": null,
+      "turret_dmg_per_match": null
+    }
+  },
+  "hero_favorite": {
+    "current_season": [
+      {
+        "hero_name": "Natalia",
+        "matches": 2064,
+        "win_rate": 60.5
+      },
+      {
+        "hero_name": "Khufra",
+        "matches": 1129,
+        "win_rate": 60.1
+      },
+      {
+        "hero_name": "Claude",
+        "matches": 765,
+        "win_rate": 56.3
+      },
+      {
+        "hero_name": "Chou",
+        "matches": 658,
+        "win_rate": 55.0
+      },
+      {
+        "hero_name": "Franco",
+        "matches": 557,
+        "win_rate": 53.9
+      },
+      {
+        "hero_name": "Selena",
+        "matches": 546,
+        "win_rate": 56.6
+      }
+    ],
+    "all_season": [
+      {
+        "hero_name": "Belerick",
+        "matches": 140,
+        "win_rate": 65.0
+      },
+      {
+        "hero_name": "Miya",
+        "matches": 83,
+        "win_rate": 59.0
+      },
+      {
+        "hero_name": "Khufra",
+        "matches": 75,
+        "win_rate": 70.7
+      },
+      {
+        "hero_name": "Franco",
+        "matches": 19,
+        "win_rate": 57.9
+      },
+      {
+        "hero_name": "Grock",
+        "matches": 12,
+        "win_rate": 50.0
+      },
+      {
+        "hero_name": "Natalia",
+        "matches": 9,
+        "win_rate": 55.6
+      }
+    ]
+  }
+}
