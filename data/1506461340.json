@@ -1,0 +1,96 @@
+{
+  "id": "1506461340",
+  "nick": "FERGUZO",
+  "server": "16282",
+  "role": "roamer",
+  "rank_current": "132",
+  "rank_highest": "136",
+  "statistic": {
+    "current_season": {
+      "matches_count": 476,
+      "win_rate": 54.62,
+      "kda": 2.75,
+      "team_participation": 48.4,
+      "gold_per_min": 577,
+      "dmg_per_min": 2802,
+      "deaths_per_match": 4.90,
+      "turret_dmg_per_match": 1754
+    },
+    "all_season": {
+      "matches_count": 3255,
+      "win_rate": 54.96,
+      "kda": 3.31,
+      "team_participation": 50.3,
+      "gold_per_min": 662,
+      "dmg_per_min": 3011,
+      "deaths_per_match": 5.02,
+      "turret_dmg_per_match": 3138
+    }
+  },
+  "hero_favorite": {
+    "current_season": [
+      {
+        "hero_name": "Leomord",
+        "matches": 103,
+        "win_rate": 56.3
+      },
+      {
+        "hero_name": "Gloo",
+        "matches": 35,
+        "win_rate": 65.7
+      },
+      {
+        "hero_name": "Minisilthar",
+        "matches": 31,
+        "win_rate": 48.4
+      },
+      {
+        "hero_name": "Badang",
+        "matches": 29,
+        "win_rate": 62.1
+      },
+      {
+        "hero_name": "Hilda",
+        "matches": 28,
+        "win_rate": 71.4
+      },
+      {
+        "hero_name": "Marcel",
+        "matches": 24,
+        "win_rate": 70.8
+      }
+    ],
+    "all_season": [
+      {
+        "hero_name": "Terizla",
+        "matches": 494,
+        "win_rate": 57.5
+      },
+      {
+        "hero_name": "Dyrroth",
+        "matches": 480,
+        "win_rate": 51.5
+      },
+      {
+        "hero_name": "Alpha",
+        "matches": 216,
+        "win_rate": 61.1
+      },
+      {
+        "hero_name": "Baxia",
+        "matches": 183,
+        "win_rate": 58.5
+      },
+      {
+        "hero_name": "Hilda",
+        "matches": 169,
+        "win_rate": 62.7
+      },
+      {
+        "hero_name": "Badang",
+        "matches": 151,
+        "win_rate": 55.0
+      }
+    ]
+  }
+}
