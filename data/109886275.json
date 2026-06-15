@@ -1,0 +1,96 @@
+{
+  "id": "109886275",
+  "nick": "Azdyyy x Selena",
+  "server": "2559",
+  "role": "roamer",
+  "rank_current": "96",
+  "rank_highest": "96",
+  "statistic": {
+    "current_season": {
+      "matches_count": 272,
+      "win_rate": 62.87,
+      "kda": 3.51,
+      "team_participation": 46.0,
+      "gold_per_min": 686,
+      "dmg_per_min": 3672,
+      "deaths_per_match": 4.04,
+      "turret_dmg_per_match": 7053
+    },
+    "all_season": {
+      "matches_count": 9273,
+      "win_rate": 56.89,
+      "kda": 3.69,
+      "team_participation": 52.5,
+      "gold_per_min": 679,
+      "dmg_per_min": 3370,
+      "deaths_per_match": 4.09,
+      "turret_dmg_per_match": 4671
+    }
+  },
+  "hero_favorite": {
+    "current_season": [
+      {
+        "hero_name": "Hayabusa",
+        "matches": 1581,
+        "win_rate": 59.3
+      },
+      {
+        "hero_name": "Ling",
+        "matches": 640,
+        "win_rate": 59.4
+      },
+      {
+        "hero_name": "Claude",
+        "matches": 484,
+        "win_rate": 58.9
+      },
+      {
+        "hero_name": "Lancelot",
+        "matches": 465,
+        "win_rate": 53.8
+      },
+      {
+        "hero_name": "Aamon",
+        "matches": 463,
+        "win_rate": 66.5
+      },
+      {
+        "hero_name": "Nolan",
+        "matches": 413,
+        "win_rate": 61.3
+      }
+    ],
+    "all_season": [
+      {
+        "hero_name": "Claude",
+        "matches": 40,
+        "win_rate": 70.0
+      },
+      {
+        "hero_name": "Obsidian",
+        "matches": 28,
+        "win_rate": 71.4
+      },
+      {
+        "hero_name": "Nolan",
+        "matches": 26,
+        "win_rate": 76.9
+      },
+      {
+        "hero_name": "Yi Sun-shin",
+        "matches": 20,
+        "win_rate": 55.0
+      },
+      {
+        "hero_name": "Karrie",
+        "matches": 18,
+        "win_rate": 66.7
+      },
+      {
+        "hero_name": "Harley",
+        "matches": 17,
+        "win_rate": 41.2
+      }
+    ]
+  }
+}
