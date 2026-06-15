@@ -1,0 +1,96 @@
+{
+  "id": "5779675",
+  "nick": "MALFROST.",
+  "server": "2006",
+  "role": "midlaner",
+  "rank_current": "87",
+  "rank_highest": "112",
+  "statistic": {
+    "current_season": {
+      "matches_count": 196,
+      "win_rate": 68.37,
+      "kda": 4.88,
+      "team_participation": 52.1,
+      "gold_per_min": 616,
+      "dmg_per_min": 4137,
+      "deaths_per_match": 3.32,
+      "turret_dmg_per_match": 3784
+    },
+    "all_season": {
+      "matches_count": 8985,
+      "win_rate": 60.31,
+      "kda": 4.8,
+      "team_participation": 57.7,
+      "gold_per_min": 621,
+      "dmg_per_min": 3664,
+      "deaths_per_match": 3.42,
+      "turret_dmg_per_match": 4699
+    }
+  },
+  "hero_favorite": {
+    "current_season": [
+      {
+        "hero_name": "Clint",
+        "matches": 512,
+        "win_rate": 64.1
+      },
+      {
+        "hero_name": "Wanwan",
+        "matches": 387,
+        "win_rate": 68.2
+      },
+      {
+        "hero_name": "Gord",
+        "matches": 376,
+        "win_rate": 63.0
+      },
+      {
+        "hero_name": "Uranus",
+        "matches": 322,
+        "win_rate": 62.4
+      },
+      {
+        "hero_name": "Karrie",
+        "matches": 312,
+        "win_rate": 61.2
+      },
+      {
+        "hero_name": "X.Borg",
+        "matches": 298,
+        "win_rate": 62.8
+      }
+    ],
+    "all_season": [
+      {
+        "hero_name": "Gord",
+        "matches": 19,
+        "win_rate": 94.7
+      },
+      {
+        "hero_name": "Zetian",
+        "matches": 17,
+        "win_rate": 70.6
+      },
+      {
+        "hero_name": "Uranus",
+        "matches": 15,
+        "win_rate": 60.0
+      },
+      {
+        "hero_name": "Lapu-Lapu",
+        "matches": 14,
+        "win_rate": 71.4
+      },
+      {
+        "hero_name": "Vexana",
+        "matches": 10,
+        "win_rate": 90.0
+      },
+      {
+        "hero_name": "Sora",
+        "matches": 10,
+        "win_rate": 60.0
+      }
+    ]
+  }
+}
