@@ -1,0 +1,96 @@
+{
+  "id": "34115054",
+  "nick": "GorrilazGlaz",
+  "server": "5011",
+  "role": "roamer",
+  "rank_current": "111",
+  "rank_highest": "120",
+  "statistic": {
+    "current_season": {
+      "matches_count": 333,
+      "win_rate": 60.66,
+      "kda": 2.7,
+      "team_participation": 51.9,
+      "gold_per_min": 618,
+      "dmg_per_min": 3612,
+      "deaths_per_match": 4.96,
+      "turret_dmg_per_match": 4558
+    },
+    "all_season": {
+      "matches_count": 14103,
+      "win_rate": 58.36,
+      "kda": 3.86,
+      "team_participation": 58.3,
+      "gold_per_min": 625,
+      "dmg_per_min": 3406,
+      "deaths_per_match": 4.08,
+      "turret_dmg_per_match": 5328
+    }
+  },
+  "hero_favorite": {
+    "current_season": [
+      {
+        "hero_name": "Saber",
+        "matches": 30,
+        "win_rate": 73.3
+      },
+      {
+        "hero_name": "Sun",
+        "matches": 27,
+        "win_rate": 74.1
+      },
+      {
+        "hero_name": "Karrie",
+        "matches": 21,
+        "win_rate": 81.0
+      },
+      {
+        "hero_name": "Cici",
+        "matches": 17,
+        "win_rate": 76.5
+      },
+      {
+        "hero_name": "Badang",
+        "matches": 16,
+        "win_rate": 56.2
+      },
+      {
+        "hero_name": "Kaja",
+        "matches": 14,
+        "win_rate": 57.1
+      }
+    ],
+    "all_season": [
+      {
+        "hero_name": "Karrie",
+        "matches": 1078,
+        "win_rate": 63.1
+      },
+      {
+        "hero_name": "Wanwan",
+        "matches": 973,
+        "win_rate": 68.8
+      },
+      {
+        "hero_name": "Kaja",
+        "matches": 867,
+        "win_rate": 64.6
+      },
+      {
+        "hero_name": "Jawhead",
+        "matches": 652,
+        "win_rate": 56.4
+      },
+      {
+        "hero_name": "Karina",
+        "matches": 509,
+        "win_rate": 54.8
+      },
+      {
+        "hero_name": "Zilong",
+        "matches": 417,
+        "win_rate": 51.6
+      }
+    ]
+  }
+}
