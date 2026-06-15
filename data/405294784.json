@@ -1,0 +1,96 @@
+{
+  "id": "405294784",
+  "nick": "FricKEY",
+  "server": "9873",
+  "role": "midlaner",
+  "rank_current": "171",
+  "rank_highest": "174",
+  "statistic": {
+    "current_season": {
+      "matches_count": 294,
+      "win_rate": 57.82,
+      "kda": 3.52,
+      "team_participation": 53.7,
+      "gold_per_min": 598,
+      "dmg_per_min": 4240,
+      "deaths_per_match": 5.09,
+      "turret_dmg_per_match": 2332
+    },
+    "all_season": {
+      "matches_count": 8943,
+      "win_rate": 58.41,
+      "kda": 3.86,
+      "team_participation": 56.7,
+      "gold_per_min": 640,
+      "dmg_per_min": 3747,
+      "deaths_per_match": 4.20,
+      "turret_dmg_per_match": 2596
+    }
+  },
+  "hero_favorite": {
+    "current_season": [
+      {
+        "hero_name": "Lunox",
+        "matches": 799,
+        "win_rate": 67.6
+      },
+      {
+        "hero_name": "Gusion",
+        "matches": 648,
+        "win_rate": 79.2
+      },
+      {
+        "hero_name": "Novaria",
+        "matches": 470,
+        "win_rate": 64.9
+      },
+      {
+        "hero_name": "Aurora",
+        "matches": 464,
+        "win_rate": 67.5
+      },
+      {
+        "hero_name": "Pharsa",
+        "matches": 384,
+        "win_rate": 66.4
+      },
+      {
+        "hero_name": "Valentina",
+        "matches": 368,
+        "win_rate": 57.3
+      }
+    ],
+    "all_season": [
+      {
+        "hero_name": "Zhuxin",
+        "matches": 73,
+        "win_rate": 65.8
+      },
+      {
+        "hero_name": "Zetian",
+        "matches": 39,
+        "win_rate": 69.2
+      },
+      {
+        "hero_name": "Gusion",
+        "matches": 22,
+        "win_rate": 40.9
+      },
+      {
+        "hero_name": "Gord",
+        "matches": 15,
+        "win_rate": 46.7
+      },
+      {
+        "hero_name": "Claude",
+        "matches": 15,
+        "win_rate": 40.0
+      },
+      {
+        "hero_name": "Lunox",
+        "matches": 12,
+        "win_rate": 75.0
+      }
+    ]
+  }
+}
