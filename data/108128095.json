@@ -1,0 +1,96 @@
+{
+  "id": "108128095",
+  "nick": "Uchiha xixixi",
+  "server": "2555",
+  "role": "midlaner",
+  "rank_current": "127",
+  "rank_highest": "127",
+  "statistic": {
+    "current_season": {
+      "matches_count": 480,
+      "win_rate": 56.46,
+      "kda": 3.24,
+      "team_participation": 46.0,
+      "gold_per_min": 576,
+      "dmg_per_min": 3471,
+      "deaths_per_match": 4.06,
+      "turret_dmg_per_match": 3507
+    },
+    "all_season": {
+      "matches_count": 10186,
+      "win_rate": 55.21,
+      "kda": 4.01,
+      "team_participation": 56.7,
+      "gold_per_min": 610,
+      "dmg_per_min": 3328,
+      "deaths_per_match": 3.89,
+      "turret_dmg_per_match": 3075
+    }
+  },
+  "hero_favorite": {
+    "current_season": [
+      {
+        "hero_name": "Xavier",
+        "matches": 611,
+        "win_rate": 64.0
+      },
+      {
+        "hero_name": "Luo Yi",
+        "matches": 496,
+        "win_rate": 62.1
+      },
+      {
+        "hero_name": "Cecilion",
+        "matches": 367,
+        "win_rate": 63.5
+      },
+      {
+        "hero_name": "Novaria",
+        "matches": 366,
+        "win_rate": 59.6
+      },
+      {
+        "hero_name": "Vexana",
+        "matches": 388,
+        "win_rate": 54.4
+      },
+      {
+        "hero_name": "Yve",
+        "matches": 310,
+        "win_rate": 61.3
+      }
+    ],
+    "all_season": [
+      {
+        "hero_name": "Julian",
+        "matches": 51,
+        "win_rate": 70.6
+      },
+      {
+        "hero_name": "Gord",
+        "matches": 39,
+        "win_rate": 71.8
+      },
+      {
+        "hero_name": "Suyou",
+        "matches": 69,
+        "win_rate": 50.7
+      },
+      {
+        "hero_name": "Zetian",
+        "matches": 21,
+        "win_rate": 66.7
+      },
+      {
+        "hero_name": "Harley",
+        "matches": 18,
+        "win_rate": 55.6
+      },
+      {
+        "hero_name": "Zhuxin",
+        "matches": 20,
+        "win_rate": 35.0
+      }
+    ]
+  }
+}
