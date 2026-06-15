@@ -1,0 +1,96 @@
+{
+  "id": "100576520",
+  "nick": "G4• Visalux",
+  "server": "2518",
+  "role": "explaner",
+  "rank_current": "78",
+  "rank_highest": "78",
+  "statistic": {
+    "current_season": {
+      "matches_count": 295,
+      "win_rate": 63.05,
+      "kda": 3.32,
+      "team_participation": 39.9,
+      "gold_per_min": 613,
+      "dmg_per_min": 3742,
+      "deaths_per_match": 3.65,
+      "turret_dmg_per_match": 5085
+    },
+    "all_season": {
+      "matches_count": 10538,
+      "win_rate": 57.49,
+      "kda": 3.62,
+      "team_participation": 47.4,
+      "gold_per_min": 646,
+      "dmg_per_min": 3145,
+      "deaths_per_match": 3.54,
+      "turret_dmg_per_match": 3980
+    }
+  },
+  "hero_favorite": {
+    "current_season": [
+      {
+        "hero_name": "Arlott",
+        "matches": 69,
+        "win_rate": 71.0
+      },
+      {
+        "hero_name": "Sora",
+        "matches": 53,
+        "win_rate": 66.0
+      },
+      {
+        "hero_name": "Hanabi",
+        "matches": 27,
+        "win_rate": 63.0
+      },
+      {
+        "hero_name": "Paquito",
+        "matches": 26,
+        "win_rate": 46.2
+      },
+      {
+        "hero_name": "Phoveus",
+        "matches": 21,
+        "win_rate": 57.1
+      },
+      {
+        "hero_name": "Silvanna",
+        "matches": 16,
+        "win_rate": 50.0
+      }
+    ],
+    "all_season": [
+      {
+        "hero_name": "Chou",
+        "matches": 1542,
+        "win_rate": 58.6
+      },
+      {
+        "hero_name": "Arlott",
+        "matches": 1223,
+        "win_rate": 62.8
+      },
+      {
+        "hero_name": "Paquito",
+        "matches": 1181,
+        "win_rate": 61.7
+      },
+      {
+        "hero_name": "Hayabusa",
+        "matches": 1115,
+        "win_rate": 56.9
+      },
+      {
+        "hero_name": "Yu Zhong",
+        "matches": 1050,
+        "win_rate": 58.2
+      },
+      {
+        "hero_name": "Benedetta",
+        "matches": 664,
+        "win_rate": 55.4
+      }
+    ]
+  }
+}
