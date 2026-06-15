@@ -1,43 +1,48 @@
 {
   "id": "165591440",
   "nick": "Shinzuki",
-  "zone_id": "2835",
+  "server": "2835",
   "role": "roamer",
-  "rank_current": "94",
+  "rank_current": "113",
   "rank_highest": "130",
   "statistic": {
     "current_season": {
-      "matches_count": 191,
-      "win_rate": 73.30,
-      "kda": 2.54,
-      "team_participation": 47.1,
-      "gold_per_min": 616,
-      "dmg_per_min": 3635,
-      "deaths_per_match": 5.23,
-      "turret_dmg_per_match": 5193
+      "matches_count": 214,
+      "win_rate": 74.3,
+      "kda": 2.43,
+      "team_participation": 46.0,
+      "gold_per_min": 606,
+      "dmg_per_min": 3563,
+      "deaths_per_match": 5.29,
+      "turret_dmg_per_match": 4869
     },
     "all_season": {
-      "matches_count": 6807,
-      "win_rate": 65.01,
+      "matches_count": 6830,
+      "win_rate": 65.07,
       "kda": 3.13,
-      "team_participation": 57.9,
+      "team_participation": 57.8,
       "gold_per_min": 631,
-      "dmg_per_min": 3484,
+      "dmg_per_min": 3483,
       "deaths_per_match": 5.40,
-      "turret_dmg_per_match": 3632
+      "turret_dmg_per_match": 3627
     }
   },
   "hero_favorite": {
     "current_season": [
+      {
+        "hero_name": "Badang",
+        "matches": 398,
+        "win_rate": 77.1
+      },
       {
         "hero_name": "Hanabi",
         "matches": 23,
         "win_rate": 69.6
       },
       {
-        "hero_name": "Belerick",
-        "matches": 17,
-        "win_rate": 70.6
+        "hero_name": "Phoveus",
+        "matches": 15,
+        "win_rate": 86.7
       },
       {
         "hero_name": "Marcel",
@@ -50,25 +55,15 @@
         "win_rate": 76.9
       },
       {
-        "hero_name": "Phoveus",
-        "matches": 12,
-        "win_rate": 91.7
-      },
-      {
-        "hero_name": "Minsitthar",
-        "matches": 9,
-        "win_rate": 88.9
+        "hero_name": "Guinevere",
+        "matches": 13,
+        "win_rate": 76.9
       }
     ],
     "all_season": [
       {
-        "hero_name": "Badang",
-        "matches": 398,
-        "win_rate": 77.1
-      },
-      {
         "hero_name": "Minsitthar",
-        "matches": 379,
+        "matches": 380,
         "win_rate": 68.9
       },
       {
@@ -88,8 +83,8 @@
       },
       {
         "hero_name": "Guinevere",
-        "matches": 181,
-        "win_rate": 62.4
+        "matches": 185,
+        "win_rate": 62.7
       }
     ]
   }
