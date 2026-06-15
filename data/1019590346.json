@@ -1,0 +1,96 @@
+{
+  "id": "1019590346",
+  "nick": "Adky-88",
+  "server": "13092",
+  "role": "jungler",
+  "rank_current": "170",
+  "rank_highest": "333",
+  "statistic": {
+    "current_season": {
+      "matches_count": 734,
+      "win_rate": 57.22,
+      "kda": 1.43,
+      "team_participation": 35.9,
+      "gold_per_min": 566,
+      "dmg_per_min": 3431,
+      "deaths_per_match": 5.04,
+      "turret_dmg_per_match": 4881
+    },
+    "all_season": {
+      "matches_count": 6333,
+      "win_rate": 60.52,
+      "kda": 3.91,
+      "team_participation": 54.3,
+      "gold_per_min": 735,
+      "dmg_per_min": 3683,
+      "deaths_per_match": 4.29,
+      "turret_dmg_per_match": 5357
+    }
+  },
+  "hero_favorite": {
+    "current_season": [
+      {
+        "hero_name": "Suyou",
+        "matches": 111,
+        "win_rate": 63.1
+      },
+      {
+        "hero_name": "Leomord",
+        "matches": 70,
+        "win_rate": 70.0
+      },
+      {
+        "hero_name": "Badang",
+        "matches": 45,
+        "win_rate": 57.8
+      },
+      {
+        "hero_name": "Arlott",
+        "matches": 43,
+        "win_rate": 53.5
+      },
+      {
+        "hero_name": "Harith",
+        "matches": 43,
+        "win_rate": 51.2
+      },
+      {
+        "hero_name": "Guinevere",
+        "matches": 43,
+        "win_rate": 51.2
+      }
+    ],
+    "all_season": [
+      {
+        "hero_name": "Lancelot",
+        "matches": 905,
+        "win_rate": 70.5
+      },
+      {
+        "hero_name": "Ling",
+        "matches": 500,
+        "win_rate": 65.8
+      },
+      {
+        "hero_name": "Yi Sun-shin",
+        "matches": 464,
+        "win_rate": 75.9
+      },
+      {
+        "hero_name": "Fanny",
+        "matches": 394,
+        "win_rate": 62.4
+      },
+      {
+        "hero_name": "Hayabusa",
+        "matches": 312,
+        "win_rate": 62.8
+      },
+      {
+        "hero_name": "Granger",
+        "matches": 261,
+        "win_rate": 67.4
+      }
+    ]
+  }
+}
