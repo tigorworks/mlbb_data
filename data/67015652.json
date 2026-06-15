@@ -1,0 +1,96 @@
+{
+  "id": "67015652",
+  "nick": "Goldyn",
+  "server": "2119",
+  "role": "goldlaner",
+  "rank_current": "93",
+  "rank_highest": "100",
+  "statistic": {
+    "current_season": {
+      "matches_count": 496,
+      "win_rate": 54.44,
+      "kda": 2.0,
+      "team_participation": 42.9,
+      "gold_per_min": 639,
+      "dmg_per_min": 4220,
+      "deaths_per_match": 4.91,
+      "turret_dmg_per_match": 10344
+    },
+    "all_season": {
+      "matches_count": 8142,
+      "win_rate": 56.76,
+      "kda": 3.47,
+      "team_participation": 56.0,
+      "gold_per_min": 675,
+      "dmg_per_min": 3797,
+      "deaths_per_match": 4.55,
+      "turret_dmg_per_match": 8317
+    }
+  },
+  "hero_favorite": {
+    "current_season": [
+      {
+        "hero_name": "Obsidia",
+        "matches": 106,
+        "win_rate": 54.7
+      },
+      {
+        "hero_name": "Yi Sun-shin",
+        "matches": 70,
+        "win_rate": 50.0
+      },
+      {
+        "hero_name": "Karrie",
+        "matches": 61,
+        "win_rate": 60.7
+      },
+      {
+        "hero_name": "Hanabi",
+        "matches": 35,
+        "win_rate": 62.9
+      },
+      {
+        "hero_name": "Gord",
+        "matches": 31,
+        "win_rate": 58.1
+      },
+      {
+        "hero_name": "Moskov",
+        "matches": 29,
+        "win_rate": 55.2
+      }
+    ],
+    "all_season": [
+      {
+        "hero_name": "Irithel",
+        "matches": 901,
+        "win_rate": 61.6
+      },
+      {
+        "hero_name": "Karrie",
+        "matches": 709,
+        "win_rate": 57.7
+      },
+      {
+        "hero_name": "Moskov",
+        "matches": 661,
+        "win_rate": 55.1
+      },
+      {
+        "hero_name": "Natan",
+        "matches": 573,
+        "win_rate": 55.0
+      },
+      {
+        "hero_name": "Brody",
+        "matches": 556,
+        "win_rate": 60.8
+      },
+      {
+        "hero_name": "Granger",
+        "matches": 427,
+        "win_rate": 49.6
+      }
+    ]
+  }
+}
