@@ -1,0 +1,96 @@
+{
+  "id": "17710375",
+  "nick": "Prodigies",
+  "server": "2020",
+  "role": "roamer",
+  "rank_current": "133",
+  "rank_highest": "134",
+  "statistic": {
+    "current_season": {
+      "matches_count": 353,
+      "win_rate": 60.91,
+      "kda": 3.7,
+      "team_participation": 51.0,
+      "gold_per_min": 617,
+      "dmg_per_min": 3224,
+      "deaths_per_match": 4.14,
+      "turret_dmg_per_match": 3884
+    },
+    "all_season": {
+      "matches_count": 11320,
+      "win_rate": 56.10,
+      "kda": 3.91,
+      "team_participation": 55.2,
+      "gold_per_min": 655,
+      "dmg_per_min": 3210,
+      "deaths_per_match": 3.79,
+      "turret_dmg_per_match": 5332
+    }
+  },
+  "hero_favorite": {
+    "current_season": [
+      {
+        "hero_name": "Brody",
+        "matches": 613,
+        "win_rate": 59.7
+      },
+      {
+        "hero_name": "Kaja",
+        "matches": 378,
+        "win_rate": 61.6
+      },
+      {
+        "hero_name": "X.Borg",
+        "matches": 364,
+        "win_rate": 56.0
+      },
+      {
+        "hero_name": "Clint",
+        "matches": 361,
+        "win_rate": 57.9
+      },
+      {
+        "hero_name": "Franco",
+        "matches": 195,
+        "win_rate": 55.8
+      },
+      {
+        "hero_name": "Karrie",
+        "matches": 149,
+        "win_rate": 53.9
+      }
+    ],
+    "all_season": [
+      {
+        "hero_name": "Franco",
+        "matches": 27,
+        "win_rate": 55.6
+      },
+      {
+        "hero_name": "Lapu-Lapu",
+        "matches": 26,
+        "win_rate": 61.5
+      },
+      {
+        "hero_name": "Karrie",
+        "matches": 21,
+        "win_rate": 76.2
+      },
+      {
+        "hero_name": "Badang",
+        "matches": 20,
+        "win_rate": 45.0
+      },
+      {
+        "hero_name": "Zhuxin",
+        "matches": 19,
+        "win_rate": 57.9
+      },
+      {
+        "hero_name": "Harley",
+        "matches": 17,
+        "win_rate": 82.4
+      }
+    ]
+  }
+}
