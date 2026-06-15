@@ -1,0 +1,96 @@
+{
+  "id": "60429363",
+  "nick": "Chapeau!",
+  "server": "2215",
+  "role": "goldlaner",
+  "rank_current": "100",
+  "rank_highest": "112",
+  "statistic": {
+    "current_season": {
+      "matches_count": 454,
+      "win_rate": 56.61,
+      "kda": 2.7,
+      "team_participation": 41.8,
+      "gold_per_min": 627,
+      "dmg_per_min": 3887,
+      "deaths_per_match": 4.35,
+      "turret_dmg_per_match": 6013
+    },
+    "all_season": {
+      "matches_count": 13866,
+      "win_rate": 55.49,
+      "kda": 3.45,
+      "team_participation": 54.0,
+      "gold_per_min": 666,
+      "dmg_per_min": 3827,
+      "deaths_per_match": 4.14,
+      "turret_dmg_per_match": 6199
+    }
+  },
+  "hero_favorite": {
+    "current_season": [
+      {
+        "hero_name": "Lesley",
+        "matches": 1556,
+        "win_rate": 56.3
+      },
+      {
+        "hero_name": "Irithel",
+        "matches": 1369,
+        "win_rate": 60.8
+      },
+      {
+        "hero_name": "Gord",
+        "matches": 1195,
+        "win_rate": 59.7
+      },
+      {
+        "hero_name": "Zilong",
+        "matches": 994,
+        "win_rate": 53.7
+      },
+      {
+        "hero_name": "Granger",
+        "matches": 960,
+        "win_rate": 57.4
+      },
+      {
+        "hero_name": "Wanwan",
+        "matches": 715,
+        "win_rate": 60.0
+      }
+    ],
+    "all_season": [
+      {
+        "hero_name": "Harley",
+        "matches": 94,
+        "win_rate": 59.6
+      },
+      {
+        "hero_name": "Gord",
+        "matches": 55,
+        "win_rate": 56.4
+      },
+      {
+        "hero_name": "Hanabi",
+        "matches": 40,
+        "win_rate": 60.0
+      },
+      {
+        "hero_name": "Irithel",
+        "matches": 26,
+        "win_rate": 57.7
+      },
+      {
+        "hero_name": "Karrie",
+        "matches": 23,
+        "win_rate": 60.9
+      },
+      {
+        "hero_name": "Yi Sun-shin",
+        "matches": 23,
+        "win_rate": 43.5
+      }
+    ]
+  }
+}
