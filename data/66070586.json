@@ -1,0 +1,96 @@
+{
+  "id": "66070586",
+  "nick": "Super Beck",
+  "server": "2117",
+  "role": "jungler",
+  "rank_current": "200",
+  "rank_highest": "202",
+  "statistic": {
+    "current_season": {
+      "matches_count": 1026,
+      "win_rate": 53.51,
+      "kda": 1.82,
+      "team_participation": 44.3,
+      "gold_per_min": 564,
+      "dmg_per_min": 3882,
+      "deaths_per_match": 4.21,
+      "turret_dmg_per_match": 3700
+    },
+    "all_season": {
+      "matches_count": 14236,
+      "win_rate": 59.77,
+      "kda": 4.5,
+      "team_participation": 62.0,
+      "gold_per_min": 681,
+      "dmg_per_min": 4003,
+      "deaths_per_match": 3.80,
+      "turret_dmg_per_match": 4634
+    }
+  },
+  "hero_favorite": {
+    "current_season": [
+      {
+        "hero_name": "Suyou",
+        "matches": 203,
+        "win_rate": 54.2
+      },
+      {
+        "hero_name": "Yi Sun-shin",
+        "matches": 128,
+        "win_rate": 47.7
+      },
+      {
+        "hero_name": "Lukas",
+        "matches": 97,
+        "win_rate": 56.7
+      },
+      {
+        "hero_name": "Alice",
+        "matches": 64,
+        "win_rate": 62.5
+      },
+      {
+        "hero_name": "Harley",
+        "matches": 63,
+        "win_rate": 52.4
+      },
+      {
+        "hero_name": "Gusion",
+        "matches": 55,
+        "win_rate": 65.5
+      }
+    ],
+    "all_season": [
+      {
+        "hero_name": "Selena",
+        "matches": 1111,
+        "win_rate": 69.9
+      },
+      {
+        "hero_name": "Gusion",
+        "matches": 1001,
+        "win_rate": 65.4
+      },
+      {
+        "hero_name": "Yi Sun-shin",
+        "matches": 959,
+        "win_rate": 59.9
+      },
+      {
+        "hero_name": "Ling",
+        "matches": 763,
+        "win_rate": 64.1
+      },
+      {
+        "hero_name": "Lancelot",
+        "matches": 658,
+        "win_rate": 60.3
+      },
+      {
+        "hero_name": "Granger",
+        "matches": 605,
+        "win_rate": 69.1
+      }
+    ]
+  }
+}
