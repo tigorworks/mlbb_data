@@ -1,0 +1,96 @@
+{
+  "id": "178391757",
+  "nick": "Met-88",
+  "server": "2909",
+  "role": "midlaner",
+  "rank_current": "129",
+  "rank_highest": "129",
+  "statistic": {
+    "current_season": {
+      "matches_count": 768,
+      "win_rate": 57.81,
+      "kda": 1.75,
+      "team_participation": 41.8,
+      "gold_per_min": 577,
+      "dmg_per_min": 4370,
+      "deaths_per_match": 5.04,
+      "turret_dmg_per_match": 4915
+    },
+    "all_season": {
+      "matches_count": 13851,
+      "win_rate": 58.54,
+      "kda": 3.71,
+      "team_participation": 57.6,
+      "gold_per_min": 721,
+      "dmg_per_min": 4167,
+      "deaths_per_match": 4.52,
+      "turret_dmg_per_match": 5187
+    }
+  },
+  "hero_favorite": {
+    "current_season": [
+      {
+        "hero_name": "Kadita",
+        "matches": 54,
+        "win_rate": 68.5
+      },
+      {
+        "hero_name": "Granger",
+        "matches": 54,
+        "win_rate": 61.1
+      },
+      {
+        "hero_name": "Gord",
+        "matches": 51,
+        "win_rate": 74.5
+      },
+      {
+        "hero_name": "Zetian",
+        "matches": 35,
+        "win_rate": 65.7
+      },
+      {
+        "hero_name": "Yi Sun-shin",
+        "matches": 30,
+        "win_rate": 56.7
+      },
+      {
+        "hero_name": "Harith",
+        "matches": 25,
+        "win_rate": 60.0
+      }
+    ],
+    "all_season": [
+      {
+        "hero_name": "Ling",
+        "matches": 974,
+        "win_rate": 65.8
+      },
+      {
+        "hero_name": "Granger",
+        "matches": 812,
+        "win_rate": 60.7
+      },
+      {
+        "hero_name": "Lancelot",
+        "matches": 706,
+        "win_rate": 58.5
+      },
+      {
+        "hero_name": "Yi Sun-shin",
+        "matches": 568,
+        "win_rate": 68.7
+      },
+      {
+        "hero_name": "Hayabusa",
+        "matches": 495,
+        "win_rate": 59.8
+      },
+      {
+        "hero_name": "Harith",
+        "matches": 409,
+        "win_rate": 61.1
+      }
+    ]
+  }
+}
