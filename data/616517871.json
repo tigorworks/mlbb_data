@@ -1,63 +1,63 @@
 {
   "id": "616517871",
   "nick": "MarSkiee.",
-  "zone_id": "8465",
-  "role": "goldlaner",
-  "rank_current": "109",
-  "rank_highest": "140",
+  "server": "8465",
+  "role": "jungler",
+  "rank_current": "167",
+  "rank_highest": "167",
   "statistic": {
     "current_season": {
-      "matches_count": 416,
-      "win_rate": 58.41,
-      "kda": 2.74,
-      "team_participation": 46.2,
-      "gold_per_min": 698,
-      "dmg_per_min": 4745,
-      "deaths_per_match": 4.73,
-      "turret_dmg_per_match": 10828
+      "matches_count": 610,
+      "win_rate": 58.52,
+      "kda": 2.18,
+      "team_participation": 42.5,
+      "gold_per_min": 659,
+      "dmg_per_min": 4426,
+      "deaths_per_match": 4.63,
+      "turret_dmg_per_match": 9927
     },
     "all_season": {
-      "matches_count": 9596,
-      "win_rate": 53.37,
-      "kda": 3.1,
+      "matches_count": 9790,
+      "win_rate": 53.47,
+      "kda": 3.11,
       "team_participation": 54.7,
-      "gold_per_min": 683,
-      "dmg_per_min": 3562,
-      "deaths_per_match": 4.80,
-      "turret_dmg_per_match": 5077
+      "gold_per_min": 684,
+      "dmg_per_min": 3571,
+      "deaths_per_match": 4.79,
+      "turret_dmg_per_match": 5139
     }
   },
   "hero_favorite": {
     "current_season": [
       {
         "hero_name": "Moskov",
-        "matches": 82,
-        "win_rate": 73.2
-      },
-      {
-        "hero_name": "Harith",
-        "matches": 44,
-        "win_rate": 65.9
+        "matches": 92,
+        "win_rate": 73.9
       },
       {
         "hero_name": "Yi Sun-shin",
-        "matches": 42,
-        "win_rate": 76.2
+        "matches": 79,
+        "win_rate": 72.2
       },
       {
-        "hero_name": "Granger",
-        "matches": 32,
-        "win_rate": 59.4
+        "hero_name": "Harith",
+        "matches": 57,
+        "win_rate": 59.6
+      },
+      {
+        "hero_name": "Suyou",
+        "matches": 43,
+        "win_rate": 41.9
       },
       {
         "hero_name": "Beatrix",
-        "matches": 32,
-        "win_rate": 50.0
+        "matches": 39,
+        "win_rate": 51.3
       },
       {
-        "hero_name": "Freya",
-        "matches": 19,
-        "win_rate": 63.2
+        "hero_name": "Granger",
+        "matches": 36,
+        "win_rate": 58.3
       }
     ],
     "all_season": [
@@ -68,8 +68,8 @@
       },
       {
         "hero_name": "Fanny",
-        "matches": 880,
-        "win_rate": 55.3
+        "matches": 901,
+        "win_rate": 55.4
       },
       {
         "hero_name": "Tigreal",
@@ -78,13 +78,13 @@
       },
       {
         "hero_name": "Harley",
-        "matches": 526,
-        "win_rate": 55.3
+        "matches": 531,
+        "win_rate": 55.2
       },
       {
         "hero_name": "Yi Sun-shin",
-        "matches": 491,
-        "win_rate": 61.1
+        "matches": 528,
+        "win_rate": 61.6
       },
       {
         "hero_name": "Hayabusa",
