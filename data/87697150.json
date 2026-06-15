@@ -1,0 +1,96 @@
+{
+  "id": "87697150",
+  "nick": "Hr-88",
+  "server": "2222",
+  "role": "midlaner",
+  "rank_current": "98",
+  "rank_highest": "111",
+  "statistic": {
+    "current_season": {
+      "matches_count": 430,
+      "win_rate": 57.21,
+      "kda": 2.34,
+      "team_participation": 46.3,
+      "gold_per_min": 534,
+      "dmg_per_min": 2762,
+      "deaths_per_match": 5.25,
+      "turret_dmg_per_match": 1153
+    },
+    "all_season": {
+      "matches_count": 8047,
+      "win_rate": 53.19,
+      "kda": 3.28,
+      "team_participation": 52.0,
+      "gold_per_min": 580,
+      "dmg_per_min": 2950,
+      "deaths_per_match": 4.58,
+      "turret_dmg_per_match": 2102
+    }
+  },
+  "hero_favorite": {
+    "current_season": [
+      {
+        "hero_name": "Marcel",
+        "matches": 89,
+        "win_rate": 70.8
+      },
+      {
+        "hero_name": "Kadita",
+        "matches": 43,
+        "win_rate": 60.5
+      },
+      {
+        "hero_name": "Akai",
+        "matches": 26,
+        "win_rate": 65.4
+      },
+      {
+        "hero_name": "Zhuxin",
+        "matches": 20,
+        "win_rate": 45.0
+      },
+      {
+        "hero_name": "Xavier",
+        "matches": 16,
+        "win_rate": 56.2
+      },
+      {
+        "hero_name": "Lylia",
+        "matches": 13,
+        "win_rate": 61.5
+      }
+    ],
+    "all_season": [
+      {
+        "hero_name": "Hilda",
+        "matches": 394,
+        "win_rate": 55.3
+      },
+      {
+        "hero_name": "Kadita",
+        "matches": 383,
+        "win_rate": 52.0
+      },
+      {
+        "hero_name": "Lesley",
+        "matches": 348,
+        "win_rate": 52.6
+      },
+      {
+        "hero_name": "Mathilda",
+        "matches": 334,
+        "win_rate": 54.8
+      },
+      {
+        "hero_name": "Karina",
+        "matches": 334,
+        "win_rate": 48.8
+      },
+      {
+        "hero_name": "Xavier",
+        "matches": 330,
+        "win_rate": 57.6
+      }
+    ]
+  }
+}
