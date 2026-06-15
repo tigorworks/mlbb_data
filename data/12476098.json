@@ -1,0 +1,96 @@
+{
+  "id": "12476098",
+  "nick": "KING ARES",
+  "server": "2014",
+  "role": "midlaner",
+  "rank_current": "55",
+  "rank_highest": "66",
+  "statistic": {
+    "current_season": {
+      "matches_count": 230,
+      "win_rate": 62.17,
+      "kda": 2.5,
+      "team_participation": 47.8,
+      "gold_per_min": 578,
+      "dmg_per_min": 3646,
+      "deaths_per_match": 6.10,
+      "turret_dmg_per_match": 3258
+    },
+    "all_season": {
+      "matches_count": 11804,
+      "win_rate": 54.48,
+      "kda": 2.76,
+      "team_participation": 51.9,
+      "gold_per_min": 567,
+      "dmg_per_min": 2892,
+      "deaths_per_match": 5.25,
+      "turret_dmg_per_match": 3324
+    }
+  },
+  "hero_favorite": {
+    "current_season": [
+      {
+        "hero_name": "Clint",
+        "matches": 674,
+        "win_rate": 58.5
+      },
+      {
+        "hero_name": "Aurora",
+        "matches": 581,
+        "win_rate": 56.8
+      },
+      {
+        "hero_name": "Khufra",
+        "matches": 482,
+        "win_rate": 60.2
+      },
+      {
+        "hero_name": "Karrie",
+        "matches": 398,
+        "win_rate": 52.8
+      },
+      {
+        "hero_name": "Esmeralda",
+        "matches": 385,
+        "win_rate": 52.5
+      },
+      {
+        "hero_name": "Miya",
+        "matches": 368,
+        "win_rate": 56.8
+      }
+    ],
+    "all_season": [
+      {
+        "hero_name": "Miya",
+        "matches": 18,
+        "win_rate": 72.2
+      },
+      {
+        "hero_name": "Zetian",
+        "matches": 16,
+        "win_rate": 56.2
+      },
+      {
+        "hero_name": "Paquito",
+        "matches": 11,
+        "win_rate": 36.4
+      },
+      {
+        "hero_name": "Belerick",
+        "matches": 10,
+        "win_rate": 60.0
+      },
+      {
+        "hero_name": "Yve",
+        "matches": 9,
+        "win_rate": 88.9
+      },
+      {
+        "hero_name": "Kadita",
+        "matches": 0,
+        "win_rate": 66.7
+      }
+    ]
+  }
+}
