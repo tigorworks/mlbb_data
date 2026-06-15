@@ -1,70 +1,70 @@
 {
   "id": "101852469",
   "nick": "Anvine.",
-  "zone_id": "2531",
+  "server": "2531",
   "role": "goldlaner",
-  "rank_current": "129",
+  "rank_current": "169",
   "rank_highest": "200",
   "statistic": {
     "current_season": {
-      "matches_count": 323,
-      "win_rate": 65.94,
-      "kda": 3.34,
-      "team_participation": 46.2,
-      "gold_per_min": 733,
-      "dmg_per_min": 4665,
-      "deaths_per_match": 3.66,
-      "turret_dmg_per_match": 13081
+      "matches_count": 384,
+      "win_rate": 66.93,
+      "kda": 3.27,
+      "team_participation": 44.7,
+      "gold_per_min": 718,
+      "dmg_per_min": 4649,
+      "deaths_per_match": 3.64,
+      "turret_dmg_per_match": 13078
     },
     "all_season": {
-      "matches_count": 9636,
-      "win_rate": 62.95,
+      "matches_count": 9697,
+      "win_rate": 63.01,
       "kda": 3.97,
       "team_participation": 55.1,
       "gold_per_min": 739,
-      "dmg_per_min": 3999,
+      "dmg_per_min": 4003,
       "deaths_per_match": 3.92,
-      "turret_dmg_per_match": 6749
+      "turret_dmg_per_match": 6790
     }
   },
   "hero_favorite": {
     "current_season": [
       {
         "hero_name": "Claude",
-        "matches": 65,
-        "win_rate": 70.8
+        "matches": 79,
+        "win_rate": 70.9
       },
       {
         "hero_name": "Harith",
-        "matches": 61,
-        "win_rate": 57.4
+        "matches": 76,
+        "win_rate": 61.8
       },
       {
         "hero_name": "Moskov",
-        "matches": 41,
-        "win_rate": 63.4
+        "matches": 50,
+        "win_rate": 64.0
       },
       {
         "hero_name": "Obsidia",
-        "matches": 33,
-        "win_rate": 75.8
+        "matches": 34,
+        "win_rate": 73.5
       },
       {
         "hero_name": "Granger",
-        "matches": 30,
-        "win_rate": 60.0
+        "matches": 33,
+        "win_rate": 57.6
       },
       {
         "hero_name": "Karrie",
-        "matches": 25,
-        "win_rate": 84.0
+        "matches": 26,
+        "win_rate": 84.6
       }
     ],
     "all_season": [
       {
         "hero_name": "Claude",
-        "matches": 1241,
-        "win_rate": 68.3
+        "matches": 1255,
+        "win_rate": 68.4
       },
       {
         "hero_name": "Ling",
@@ -73,18 +73,18 @@
       },
       {
         "hero_name": "Granger",
-        "matches": 880,
-        "win_rate": 65.2
+        "matches": 883,
+        "win_rate": 65.1
       },
       {
         "hero_name": "Harith",
-        "matches": 755,
-        "win_rate": 65.4
+        "matches": 770,
+        "win_rate": 65.7
       },
       {
         "hero_name": "Karrie",
-        "matches": 592,
-        "win_rate": 65.2
+        "matches": 593,
+        "win_rate": 65.3
       },
       {
         "hero_name": "Wanwan",
