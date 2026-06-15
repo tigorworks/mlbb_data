@@ -1,0 +1,96 @@
+{
+  "id": "15245279",
+  "nick": "Okkotsu Arko.",
+  "server": "2018",
+  "role": "goldlaner",
+  "rank_current": "101",
+  "rank_highest": "127",
+  "statistic": {
+    "current_season": {
+      "matches_count": 751,
+      "win_rate": 53.0,
+      "kda": 0.9,
+      "team_participation": 29.8,
+      "gold_per_min": 585,
+      "dmg_per_min": 3426,
+      "deaths_per_match": 4.88,
+      "turret_dmg_per_match": 7266
+    },
+    "all_season": {
+      "matches_count": 16568,
+      "win_rate": 58.21,
+      "kda": 3.36,
+      "team_participation": 52.7,
+      "gold_per_min": 624,
+      "dmg_per_min": 3119,
+      "deaths_per_match": 4.36,
+      "turret_dmg_per_match": 4866
+    }
+  },
+  "hero_favorite": {
+    "current_season": [
+      {
+        "hero_name": "Harith",
+        "matches": 100,
+        "win_rate": 44.0
+      },
+      {
+        "hero_name": "Granger",
+        "matches": 85,
+        "win_rate": 63.5
+      },
+      {
+        "hero_name": "Beatrix",
+        "matches": 63,
+        "win_rate": 52.4
+      },
+      {
+        "hero_name": "Hanabi",
+        "matches": 62,
+        "win_rate": 66.1
+      },
+      {
+        "hero_name": "Obsidia",
+        "matches": 52,
+        "win_rate": 40.4
+      },
+      {
+        "hero_name": "Xavier",
+        "matches": 49,
+        "win_rate": 61.2
+      }
+    ],
+    "all_season": [
+      {
+        "hero_name": "Selena",
+        "matches": 1770,
+        "win_rate": 73.1
+      },
+      {
+        "hero_name": "Chou",
+        "matches": 1540,
+        "win_rate": 63.7
+      },
+      {
+        "hero_name": "Granger",
+        "matches": 1323,
+        "win_rate": 55.0
+      },
+      {
+        "hero_name": "Grock",
+        "matches": 925,
+        "win_rate": 71.9
+      },
+      {
+        "hero_name": "Moskow",
+        "matches": 779,
+        "win_rate": 56.6
+      },
+      {
+        "hero_name": "Harith",
+        "matches": 720,
+        "win_rate": 55.1
+      }
+    ]
+  }
+}
