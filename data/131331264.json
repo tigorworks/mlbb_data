@@ -1,0 +1,96 @@
+{
+  "id": "131331264",
+  "nick": "NDEN AGAIN",
+  "server": "2671",
+  "role": "goldlaner",
+  "rank_current": "153",
+  "rank_highest": "142",
+  "statistic": {
+    "current_season": {
+      "matches_count": 461,
+      "win_rate": 58.13,
+      "kda": 2.79,
+      "team_participation": 47.8,
+      "gold_per_min": 582,
+      "dmg_per_min": 3104,
+      "deaths_per_match": 4.63,
+      "turret_dmg_per_match": 3984
+    },
+    "all_season": {
+      "matches_count": 16313,
+      "win_rate": 57.53,
+      "kda": 3.41,
+      "team_participation": 53.7,
+      "gold_per_min": 622,
+      "dmg_per_min": 3067,
+      "deaths_per_match": 4.19,
+      "turret_dmg_per_match": 3614
+    }
+  },
+  "hero_favorite": {
+    "current_season": [
+      {
+        "hero_name": "Franco",
+        "matches": 103,
+        "win_rate": 64.1
+      },
+      {
+        "hero_name": "Selena",
+        "matches": 46,
+        "win_rate": 54.3
+      },
+      {
+        "hero_name": "Sun",
+        "matches": 35,
+        "win_rate": 62.9
+      },
+      {
+        "hero_name": "Obsidian",
+        "matches": 18,
+        "win_rate": 55.6
+      },
+      {
+        "hero_name": "Grock",
+        "matches": 17,
+        "win_rate": 47.1
+      },
+      {
+        "hero_name": "Estes",
+        "matches": 16,
+        "win_rate": 68.8
+      }
+    ],
+    "all_season": [
+      {
+        "hero_name": "Claude",
+        "matches": 1450,
+        "win_rate": 72.1
+      },
+      {
+        "hero_name": "Franco",
+        "matches": 1105,
+        "win_rate": 56.1
+      },
+      {
+        "hero_name": "Chou",
+        "matches": 758,
+        "win_rate": 59.2
+      },
+      {
+        "hero_name": "Jawhead",
+        "matches": 718,
+        "win_rate": 69.1
+      },
+      {
+        "hero_name": "Selena",
+        "matches": 639,
+        "win_rate": 59.2
+      },
+      {
+        "hero_name": "Hayabusa",
+        "matches": 537,
+        "win_rate": 56.1
+      }
+    ]
+  }
+}
