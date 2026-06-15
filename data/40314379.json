@@ -1,0 +1,96 @@
+{
+  "id": "40314379",
+  "nick": "REMAJA MASJID",
+  "server": "2060",
+  "role": "roamer",
+  "rank_current": "124",
+  "rank_highest": "165",
+  "statistic": {
+    "current_season": {
+      "matches_count": 319,
+      "win_rate": 64.58,
+      "kda": 2.18,
+      "team_participation": 53.0,
+      "gold_per_min": 622,
+      "dmg_per_min": 3337,
+      "deaths_per_match": 6.75,
+      "turret_dmg_per_match": 1204
+    },
+    "all_season": {
+      "matches_count": 12086,
+      "win_rate": 59.95,
+      "kda": 2.69,
+      "team_participation": 54.4,
+      "gold_per_min": 535,
+      "dmg_per_min": 2761,
+      "deaths_per_match": 5.24,
+      "turret_dmg_per_match": 3620
+    }
+  },
+  "hero_favorite": {
+    "current_season": [
+      {
+        "hero_name": "Gloo",
+        "matches": 109,
+        "win_rate": 67.9
+      },
+      {
+        "hero_name": "Akai",
+        "matches": 107,
+        "win_rate": 70.1
+      },
+      {
+        "hero_name": "Angela",
+        "matches": 31,
+        "win_rate": 64.5
+      },
+      {
+        "hero_name": "X.Borg",
+        "matches": 14,
+        "win_rate": 71.4
+      },
+      {
+        "hero_name": "Chou",
+        "matches": 11,
+        "win_rate": 27.3
+      },
+      {
+        "hero_name": "Hilda",
+        "matches": 9,
+        "win_rate": 66.7
+      }
+    ],
+    "all_season": [
+      {
+        "hero_name": "Akai",
+        "matches": 1358,
+        "win_rate": 61.0
+      },
+      {
+        "hero_name": "Grock",
+        "matches": 1352,
+        "win_rate": 68.7
+      },
+      {
+        "hero_name": "Chou",
+        "matches": 1145,
+        "win_rate": 58.3
+      },
+      {
+        "hero_name": "Zilong",
+        "matches": 987,
+        "win_rate": 63.5
+      },
+      {
+        "hero_name": "Aurora",
+        "matches": 890,
+        "win_rate": 59.6
+      },
+      {
+        "hero_name": "Bruno",
+        "matches": 844,
+        "win_rate": 63.7
+      }
+    ]
+  }
+}
