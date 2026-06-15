@@ -1,0 +1,96 @@
+{
+  "id": "90686455",
+  "nick": "Dev×Khamal",
+  "server": "2182",
+  "role": "jungler",
+  "rank_current": "143",
+  "rank_highest": "147",
+  "statistic": {
+    "current_season": {
+      "matches_count": 664,
+      "win_rate": 57.53,
+      "kda": 0.88,
+      "team_participation": 40.0,
+      "gold_per_min": 609,
+      "dmg_per_min": 4684,
+      "deaths_per_match": 6.41,
+      "turret_dmg_per_match": 5978
+    },
+    "all_season": {
+      "matches_count": 12978,
+      "win_rate": 55.29,
+      "kda": 2.6,
+      "team_participation": 53.2,
+      "gold_per_min": 679,
+      "dmg_per_min": 4053,
+      "deaths_per_match": 5.65,
+      "turret_dmg_per_match": 6084
+    }
+  },
+  "hero_favorite": {
+    "current_season": [
+      {
+        "hero_name": "Valir",
+        "matches": 281,
+        "win_rate": 62.3
+      },
+      {
+        "hero_name": "X.Borg",
+        "matches": 69,
+        "win_rate": 56.5
+      },
+      {
+        "hero_name": "Natan",
+        "matches": 51,
+        "win_rate": 62.7
+      },
+      {
+        "hero_name": "Bruno",
+        "matches": 38,
+        "win_rate": 52.6
+      },
+      {
+        "hero_name": "Saber",
+        "matches": 34,
+        "win_rate": 52.9
+      },
+      {
+        "hero_name": "Harley",
+        "matches": 29,
+        "win_rate": 58.6
+      }
+    ],
+    "all_season": [
+      {
+        "hero_name": "Bruno",
+        "matches": 1806,
+        "win_rate": 60.8
+      },
+      {
+        "hero_name": "Yin",
+        "matches": 1223,
+        "win_rate": 59.0
+      },
+      {
+        "hero_name": "Valir",
+        "matches": 948,
+        "win_rate": 59.2
+      },
+      {
+        "hero_name": "Lesley",
+        "matches": 914,
+        "win_rate": 53.9
+      },
+      {
+        "hero_name": "Chang'e",
+        "matches": 657,
+        "win_rate": 62.9
+      },
+      {
+        "hero_name": "Harley",
+        "matches": 377,
+        "win_rate": 54.8
+      }
+    ]
+  }
+}
