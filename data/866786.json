@@ -1,30 +1,30 @@
 {
   "id": "866786",
   "nick": "AceCross",
-  "zone_id": "2001",
-  "role": "midlaner",
-  "rank_current": "35",
+  "server": "2001",
+  "role": "roamer",
+  "rank_current": "36",
   "rank_highest": "58",
   "statistic": {
     "current_season": {
-      "matches_count": 154,
-      "win_rate": 60.39,
-      "kda": 4.79,
-      "team_participation": 56.7,
+      "matches_count": 155,
+      "win_rate": 60.65,
+      "kda": 4.8,
+      "team_participation": 56.6,
       "gold_per_min": 618,
       "dmg_per_min": 3044,
-      "deaths_per_match": 3.99,
-      "turret_dmg_per_match": 2279
+      "deaths_per_match": 3.96,
+      "turret_dmg_per_match": 2348
     },
     "all_season": {
-      "matches_count": 4520,
-      "win_rate": 65.82,
+      "matches_count": 4521,
+      "win_rate": 65.83,
       "kda": 4.57,
       "team_participation": 57.8,
       "gold_per_min": 589,
       "dmg_per_min": 3004,
       "deaths_per_match": 3.31,
-      "turret_dmg_per_match": 3154
+      "turret_dmg_per_match": 3156
     }
   },
   "hero_favorite": {
@@ -78,8 +78,8 @@
       },
       {
         "hero_name": "Granger",
-        "matches": 194,
-        "win_rate": 70.1
+        "matches": 195,
+        "win_rate": 70.3
       },
       {
         "hero_name": "Clint",
