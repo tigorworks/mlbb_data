@@ -1,0 +1,96 @@
+{
+  "id": "915699397",
+  "nick": "Fyemaa",
+  "server": "12635",
+  "role": "jungler",
+  "rank_current": "144",
+  "rank_highest": "144",
+  "statistic": {
+    "current_season": {
+      "matches_count": 390,
+      "win_rate": 63.59,
+      "kda": 3.05,
+      "team_participation": 51.3,
+      "gold_per_min": 671,
+      "dmg_per_min": 4385,
+      "deaths_per_match": 4.97,
+      "turret_dmg_per_match": 6263
+    },
+    "all_season": {
+      "matches_count": 4846,
+      "win_rate": 59.68,
+      "kda": 3.35,
+      "team_participation": 54.3,
+      "gold_per_min": 738,
+      "dmg_per_min": 4421,
+      "deaths_per_match": 5.31,
+      "turret_dmg_per_match": 5340
+    }
+  },
+  "hero_favorite": {
+    "current_season": [
+      {
+        "hero_name": "Aamon",
+        "matches": 800,
+        "win_rate": 69.2
+      },
+      {
+        "hero_name": "Joy",
+        "matches": 399,
+        "win_rate": 66.2
+      },
+      {
+        "hero_name": "Guinevere",
+        "matches": 332,
+        "win_rate": 64.8
+      },
+      {
+        "hero_name": "Yi Sun-shin",
+        "matches": 292,
+        "win_rate": 59.2
+      },
+      {
+        "hero_name": "Fredrinn",
+        "matches": 237,
+        "win_rate": 69.2
+      },
+      {
+        "hero_name": "Benedetta",
+        "matches": 170,
+        "win_rate": 61.2
+      }
+    ],
+    "all_season": [
+      {
+        "hero_name": "Yi Sun-shin",
+        "matches": 101,
+        "win_rate": 63.4
+      },
+      {
+        "hero_name": "Suyou",
+        "matches": 48,
+        "win_rate": 54.2
+      },
+      {
+        "hero_name": "Hayabusa",
+        "matches": 46,
+        "win_rate": 56.5
+      },
+      {
+        "hero_name": "Fredrinn",
+        "matches": 44,
+        "win_rate": 81.8
+      },
+      {
+        "hero_name": "Joy",
+        "matches": 30,
+        "win_rate": 80.0
+      },
+      {
+        "hero_name": "Leomord",
+        "matches": 30,
+        "win_rate": 71.4
+      }
+    ]
+  }
+}
