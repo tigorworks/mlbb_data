@@ -1,0 +1,96 @@
+{
+  "id": "54221900",
+  "nick": "Kentt Yoichi. (Day After Dark)",
+  "server": "2653",
+  "role": "goldlaner",
+  "rank_current": "115",
+  "rank_highest": "115",
+  "statistic": {
+    "current_season": {
+      "matches_count": 1078,
+      "win_rate": 70.04,
+      "kda": 1.99,
+      "team_participation": 38.7,
+      "gold_per_min": 712,
+      "dmg_per_min": 5479,
+      "deaths_per_match": 3.87,
+      "turret_dmg_per_match": 13951
+    },
+    "all_season": {
+      "matches_count": 11138,
+      "win_rate": 65.28,
+      "kda": 4.06,
+      "team_participation": 56.1,
+      "gold_per_min": 810,
+      "dmg_per_min": 4607,
+      "deaths_per_match": 3.64,
+      "turret_dmg_per_match": 11058
+    }
+  },
+  "hero_favorite": {
+    "current_season": [
+      {
+        "hero_name": "Beatrix",
+        "matches": 2198,
+        "win_rate": 71.7
+      },
+      {
+        "hero_name": "Granger",
+        "matches": 867,
+        "win_rate": 67.0
+      },
+      {
+        "hero_name": "Claude",
+        "matches": 830,
+        "win_rate": 70.5
+      },
+      {
+        "hero_name": "Bruno",
+        "matches": 665,
+        "win_rate": 70.1
+      },
+      {
+        "hero_name": "Harith",
+        "matches": 408,
+        "win_rate": 63.0
+      },
+      {
+        "hero_name": "Fanny",
+        "matches": 397,
+        "win_rate": 63.2
+      }
+    ],
+    "all_season": [
+      {
+        "hero_name": "Beatrix",
+        "matches": 574,
+        "win_rate": 78.7
+      },
+      {
+        "hero_name": "Obsidian",
+        "matches": 89,
+        "win_rate": 64.0
+      },
+      {
+        "hero_name": "Freya",
+        "matches": 88,
+        "win_rate": 68.2
+      },
+      {
+        "hero_name": "Granger",
+        "matches": 53,
+        "win_rate": 58.5
+      },
+      {
+        "hero_name": "Yi Sun-shin",
+        "matches": 52,
+        "win_rate": 53.8
+      },
+      {
+        "hero_name": "Harley",
+        "matches": 28,
+        "win_rate": 64.3
+      }
+    ]
+  }
+}
