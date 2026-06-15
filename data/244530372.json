@@ -1,0 +1,96 @@
+{
+  "id": "244530372",
+  "nick": "Rungs-88",
+  "server": "9271",
+  "role": "goldlaner",
+  "rank_current": "126",
+  "rank_highest": "222",
+  "statistic": {
+    "current_season": {
+      "matches_count": 514,
+      "win_rate": 55.45,
+      "kda": 1.93,
+      "team_participation": 45.5,
+      "gold_per_min": 621,
+      "dmg_per_min": 4586,
+      "deaths_per_match": 5.51,
+      "turret_dmg_per_match": 6734
+    },
+    "all_season": {
+      "matches_count": 14165,
+      "win_rate": 58.89,
+      "kda": 3.35,
+      "team_participation": 54.3,
+      "gold_per_min": 675,
+      "dmg_per_min": 3636,
+      "deaths_per_match": 4.54,
+      "turret_dmg_per_match": 4275
+    }
+  },
+  "hero_favorite": {
+    "current_season": [
+      {
+        "hero_name": "Yi Sun-shin",
+        "matches": 72,
+        "win_rate": 43.1
+      },
+      {
+        "hero_name": "Moskov",
+        "matches": 54,
+        "win_rate": 70.4
+      },
+      {
+        "hero_name": "Suyou",
+        "matches": 35,
+        "win_rate": 37.1
+      },
+      {
+        "hero_name": "Karrie",
+        "matches": 26,
+        "win_rate": 65.4
+      },
+      {
+        "hero_name": "Leomord",
+        "matches": 25,
+        "win_rate": 68.0
+      },
+      {
+        "hero_name": "Obsidia",
+        "matches": 17,
+        "win_rate": 52.9
+      }
+    ],
+    "all_season": [
+      {
+        "hero_name": "Karrie",
+        "matches": 1238,
+        "win_rate": 67.3
+      },
+      {
+        "hero_name": "Chou",
+        "matches": 1001,
+        "win_rate": 57.6
+      },
+      {
+        "hero_name": "Fanny",
+        "matches": 752,
+        "win_rate": 52.9
+      },
+      {
+        "hero_name": "Lancelot",
+        "matches": 513,
+        "win_rate": 53.2
+      },
+      {
+        "hero_name": "Hayabusa",
+        "matches": 477,
+        "win_rate": 58.3
+      },
+      {
+        "hero_name": "Franco",
+        "matches": 450,
+        "win_rate": 54.9
+      }
+    ]
+  }
+}
