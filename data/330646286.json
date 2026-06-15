@@ -1,0 +1,96 @@
+{
+  "id": "330646286",
+  "nick": "e11.",
+  "server": "9213",
+  "role": "midlaner",
+  "rank_current": "80",
+  "rank_highest": "80",
+  "statistic": {
+    "current_season": {
+      "matches_count": 363,
+      "win_rate": 57.30,
+      "kda": 3.91,
+      "team_participation": 45.1,
+      "gold_per_min": 582,
+      "dmg_per_min": 4013,
+      "deaths_per_match": 3.64,
+      "turret_dmg_per_match": 3055
+    },
+    "all_season": {
+      "matches_count": 7521,
+      "win_rate": 53.40,
+      "kda": 3.32,
+      "team_participation": 49.2,
+      "gold_per_min": 623,
+      "dmg_per_min": 3232,
+      "deaths_per_match": 4.36,
+      "turret_dmg_per_match": 3340
+    }
+  },
+  "hero_favorite": {
+    "current_season": [
+      {
+        "hero_name": "Chang'e",
+        "matches": 142,
+        "win_rate": 60.6
+      },
+      {
+        "hero_name": "Zetian",
+        "matches": 55,
+        "win_rate": 54.5
+      },
+      {
+        "hero_name": "Cecilion",
+        "matches": 39,
+        "win_rate": 51.3
+      },
+      {
+        "hero_name": "Hanabi",
+        "matches": 26,
+        "win_rate": 53.8
+      },
+      {
+        "hero_name": "Thamuz",
+        "matches": 21,
+        "win_rate": 57.1
+      },
+      {
+        "hero_name": "Nana",
+        "matches": 14,
+        "win_rate": 57.1
+      }
+    ],
+    "all_season": [
+      {
+        "hero_name": "Thamuz",
+        "matches": 2523,
+        "win_rate": 57.4
+      },
+      {
+        "hero_name": "Eudora",
+        "matches": 686,
+        "win_rate": 49.3
+      },
+      {
+        "hero_name": "Aurora",
+        "matches": 511,
+        "win_rate": 49.3
+      },
+      {
+        "hero_name": "Nana",
+        "matches": 380,
+        "win_rate": 51.6
+      },
+      {
+        "hero_name": "Tigreal",
+        "matches": 350,
+        "win_rate": 51.4
+      },
+      {
+        "hero_name": "Chang'e",
+        "matches": 339,
+        "win_rate": 59.3
+      }
+    ]
+  }
+}
