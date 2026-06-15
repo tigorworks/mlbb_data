@@ -1,0 +1,96 @@
+{
+  "id": "141041573",
+  "nick": "T.O.P",
+  "server": "2239",
+  "role": "jungler",
+  "rank_current": "173",
+  "rank_highest": "174",
+  "statistic": {
+    "current_season": {
+      "matches_count": 780,
+      "win_rate": 55.64,
+      "kda": 2.03,
+      "team_participation": 41.3,
+      "gold_per_min": 562,
+      "dmg_per_min": 3145,
+      "deaths_per_match": 4.51,
+      "turret_dmg_per_match": 2675
+    },
+    "all_season": {
+      "matches_count": 19155,
+      "win_rate": 51.80,
+      "kda": 3.29,
+      "team_participation": 51.3,
+      "gold_per_min": 613,
+      "dmg_per_min": 2537,
+      "deaths_per_match": 4.24,
+      "turret_dmg_per_match": 2902
+    }
+  },
+  "hero_favorite": {
+    "current_season": [
+      {
+        "hero_name": "Suyou",
+        "matches": 218,
+        "win_rate": 63.3
+      },
+      {
+        "hero_name": "Leomord",
+        "matches": 101,
+        "win_rate": 49.5
+      },
+      {
+        "hero_name": "Yi Sun-shin",
+        "matches": 84,
+        "win_rate": 58.3
+      },
+      {
+        "hero_name": "Hayabusa",
+        "matches": 44,
+        "win_rate": 52.3
+      },
+      {
+        "hero_name": "Chou",
+        "matches": 31,
+        "win_rate": 41.9
+      },
+      {
+        "hero_name": "Marcel",
+        "matches": 30,
+        "win_rate": 63.3
+      }
+    ],
+    "all_season": [
+      {
+        "hero_name": "Chou",
+        "matches": 3058,
+        "win_rate": 51.6
+      },
+      {
+        "hero_name": "Hayabusa",
+        "matches": 1510,
+        "win_rate": 54.4
+      },
+      {
+        "hero_name": "Lolita",
+        "matches": 742,
+        "win_rate": 56.9
+      },
+      {
+        "hero_name": "Suyou",
+        "matches": 737,
+        "win_rate": 60.5
+      },
+      {
+        "hero_name": "Hilda",
+        "matches": 648,
+        "win_rate": 54.6
+      },
+      {
+        "hero_name": "Yi Sun-shin",
+        "matches": 512,
+        "win_rate": 56.4
+      }
+    ]
+  }
+}
