@@ -1,0 +1,96 @@
+{
+  "id": "259662262",
+  "nick": "Near",
+  "server": "9081",
+  "role": "jungler",
+  "rank_current": "113",
+  "rank_highest": "113",
+  "statistic": {
+    "current_season": {
+      "matches_count": 299,
+      "win_rate": 61.54,
+      "kda": 4.71,
+      "team_participation": 49.8,
+      "gold_per_min": 674,
+      "dmg_per_min": 3079,
+      "deaths_per_match": 3.22,
+      "turret_dmg_per_match": 3689
+    },
+    "all_season": {
+      "matches_count": 12323,
+      "win_rate": 57.47,
+      "kda": 4.59,
+      "team_participation": 55.2,
+      "gold_per_min": 691,
+      "dmg_per_min": 3188,
+      "deaths_per_match": 3.31,
+      "turret_dmg_per_match": 4303
+    }
+  },
+  "hero_favorite": {
+    "current_season": [
+      {
+        "hero_name": "Leomord",
+        "matches": 66,
+        "win_rate": 68.2
+      },
+      {
+        "hero_name": "Suyou",
+        "matches": 53,
+        "win_rate": 62.3
+      },
+      {
+        "hero_name": "Yi Sun-shin",
+        "matches": 39,
+        "win_rate": 56.4
+      },
+      {
+        "hero_name": "Benedetta",
+        "matches": 21,
+        "win_rate": 76.2
+      },
+      {
+        "hero_name": "Helcurt",
+        "matches": 19,
+        "win_rate": 47.4
+      },
+      {
+        "hero_name": "Hanzo",
+        "matches": 16,
+        "win_rate": 81.2
+      }
+    ],
+    "all_season": [
+      {
+        "hero_name": "Hayabusa",
+        "matches": 1274,
+        "win_rate": 61.9
+      },
+      {
+        "hero_name": "Claude",
+        "matches": 1274,
+        "win_rate": 60.1
+      },
+      {
+        "hero_name": "Yi Sun-shin",
+        "matches": 690,
+        "win_rate": 58.8
+      },
+      {
+        "hero_name": "Leomord",
+        "matches": 658,
+        "win_rate": 57.0
+      },
+      {
+        "hero_name": "Karrie",
+        "matches": 554,
+        "win_rate": 54.5
+      },
+      {
+        "hero_name": "Selena",
+        "matches": 535,
+        "win_rate": 60.0
+      }
+    ]
+  }
+}
