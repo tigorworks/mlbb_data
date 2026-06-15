@@ -1,43 +1,43 @@
 {
   "id": "55910554",
   "nick": "Exaltation",
-  "zone_id": "2093",
+  "server": "2093",
   "role": "jungler",
-  "rank_current": "138",
+  "rank_current": "163",
   "rank_highest": "200",
   "statistic": {
     "current_season": {
-      "matches_count": 308,
-      "win_rate": 69.16,
-      "kda": 3.97,
-      "team_participation": 49.8,
-      "gold_per_min": 691,
-      "dmg_per_min": 3701,
-      "deaths_per_match": 3.65,
-      "turret_dmg_per_match": 4725
+      "matches_count": 342,
+      "win_rate": 70.18,
+      "kda": 3.94,
+      "team_participation": 48.4,
+      "gold_per_min": 684,
+      "dmg_per_min": 3662,
+      "deaths_per_match": 3.62,
+      "turret_dmg_per_match": 4672
     },
     "all_season": {
-      "matches_count": 9727,
-      "win_rate": 65.97,
+      "matches_count": 9761,
+      "win_rate": 66.02,
       "kda": 4.29,
       "team_participation": 56.9,
       "gold_per_min": 708,
       "dmg_per_min": 3542,
       "deaths_per_match": 3.58,
-      "turret_dmg_per_match": 4744
+      "turret_dmg_per_match": 4743
     }
   },
   "hero_favorite": {
     "current_season": [
       {
         "hero_name": "Fanny",
-        "matches": 59,
-        "win_rate": 71.2
+        "matches": 63,
+        "win_rate": 71.4
       },
       {
         "hero_name": "Suyou",
-        "matches": 27,
-        "win_rate": 81.5
+        "matches": 29,
+        "win_rate": 79.3
       },
       {
         "hero_name": "Leomord",
@@ -45,46 +45,46 @@
         "win_rate": 65.0
       },
       {
+        "hero_name": "Fredrinn",
+        "matches": 19,
+        "win_rate": 68.4
+      },
+      {
         "hero_name": "Harley",
         "matches": 16,
         "win_rate": 75.0
       },
       {
-        "hero_name": "Fredrinn",
-        "matches": 16,
-        "win_rate": 62.5
-      },
-      {
         "hero_name": "Lancelot",
-        "matches": 11,
-        "win_rate": 72.7
+        "matches": 12,
+        "win_rate": 75.0
       }
     ],
     "all_season": [
       {
         "hero_name": "Fanny",
-        "matches": 1410,
+        "matches": 1414,
         "win_rate": 66.4
       },
       {
         "hero_name": "Chou",
-        "matches": 753,
-        "win_rate": 70.1
+        "matches": 754,
+        "win_rate": 70.2
       },
       {
         "hero_name": "Hayabusa",
-        "matches": 540,
+        "matches": 546,
         "win_rate": 72.2
       },
       {
         "hero_name": "Lancelot",
-        "matches": 531,
+        "matches": 532,
         "win_rate": 74.8
       },
       {
         "hero_name": "Ling",
-        "matches": 523,
-        "win_rate": 74.2
+        "matches": 526,
+        "win_rate": 74.3
       },
       {
         "hero_name": "Gusion",
