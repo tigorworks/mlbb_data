@@ -1,0 +1,96 @@
+{
+  "id": "34213359",
+  "nick": "zNong.GG",
+  "server": "2049",
+  "role": "explaner",
+  "rank_current": "151",
+  "rank_highest": "162",
+  "statistic": {
+    "current_season": {
+      "matches_count": 459,
+      "win_rate": 58.82,
+      "kda": 3.37,
+      "team_participation": 48.1,
+      "gold_per_min": 665,
+      "dmg_per_min": 4466,
+      "deaths_per_match": 3.90,
+      "turret_dmg_per_match": 5027
+    },
+    "all_season": {
+      "matches_count": 7311,
+      "win_rate": 61.65,
+      "kda": 4.69,
+      "team_participation": 57.6,
+      "gold_per_min": 708,
+      "dmg_per_min": 3755,
+      "deaths_per_match": 3.39,
+      "turret_dmg_per_match": 4411
+    }
+  },
+  "hero_favorite": {
+    "current_season": [
+      {
+        "hero_name": "Sora",
+        "matches": 29,
+        "win_rate": 69.0
+      },
+      {
+        "hero_name": "Yi Sun-shin",
+        "matches": 29,
+        "win_rate": 65.5
+      },
+      {
+        "hero_name": "Harley",
+        "matches": 29,
+        "win_rate": 55.2
+      },
+      {
+        "hero_name": "Paquito",
+        "matches": 18,
+        "win_rate": 50.0
+      },
+      {
+        "hero_name": "Phoveus",
+        "matches": 16,
+        "win_rate": 75.0
+      },
+      {
+        "hero_name": "Gusion",
+        "matches": 16,
+        "win_rate": 50.0
+      }
+    ],
+    "all_season": [
+      {
+        "hero_name": "Yi Sun-shin",
+        "matches": 360,
+        "win_rate": 66.9
+      },
+      {
+        "hero_name": "Suyou",
+        "matches": 291,
+        "win_rate": 63.9
+      },
+      {
+        "hero_name": "Joy",
+        "matches": 323,
+        "win_rate": 71.8
+      },
+      {
+        "hero_name": "Hayabusa",
+        "matches": 280,
+        "win_rate": 67.9
+      },
+      {
+        "hero_name": "Ling",
+        "matches": 296,
+        "win_rate": 53.7
+      },
+      {
+        "hero_name": "Fanny",
+        "matches": 218,
+        "win_rate": 52.8
+      }
+    ]
+  }
+}
