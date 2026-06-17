@@ -1,0 +1,96 @@
+{
+  "id": "49574670",
+  "nick": "hurufkecil",
+  "server": "2001",
+  "role": "jungler",
+  "rank_current": "27",
+  "rank_highest": "63",
+  "statistic": {
+    "current_season": {
+      "matches_count": 715,
+      "win_rate": 47.69,
+      "kda": 1.72,
+      "team_participation": 36.2,
+      "gold_per_min": 570,
+      "dmg_per_min": 3133,
+      "deaths_per_match": 4.01,
+      "turret_dmg_per_match": 1921
+    },
+    "all_season": {
+      "matches_count": 12257,
+      "win_rate": 51.35,
+      "kda": 3.54,
+      "team_participation": 52.6,
+      "gold_per_min": 582,
+      "dmg_per_min": 2916,
+      "deaths_per_match": 3.78,
+      "turret_dmg_per_match": 3470
+    }
+  },
+  "hero_favorite": {
+    "current_season": [
+      {
+        "hero_name": "Gusion",
+        "matches": 285,
+        "win_rate": 55.4
+      },
+      {
+        "hero_name": "Jawhead",
+        "matches": 65,
+        "win_rate": 58.5
+      },
+      {
+        "hero_name": "Lancelot",
+        "matches": 61,
+        "win_rate": 42.6
+      },
+      {
+        "hero_name": "Sora",
+        "matches": 53,
+        "win_rate": 50.9
+      },
+      {
+        "hero_name": "Hayabusa",
+        "matches": 31,
+        "win_rate": 45.2
+      },
+      {
+        "hero_name": "Nolan",
+        "matches": 30,
+        "win_rate": 33.3
+      }
+    ],
+    "all_season": [
+      {
+        "hero_name": "Fanny",
+        "matches": 2249,
+        "win_rate": 47.8
+      },
+      {
+        "hero_name": "Gusion",
+        "matches": 1238,
+        "win_rate": 56.5
+      },
+      {
+        "hero_name": "Saber",
+        "matches": 993,
+        "win_rate": 56.1
+      },
+      {
+        "hero_name": "Lancelot",
+        "matches": 752,
+        "win_rate": 46.7
+      },
+      {
+        "hero_name": "Moskov",
+        "matches": 640,
+        "win_rate": 55.6
+      },
+      {
+        "hero_name": "Cyclops",
+        "matches": 530,
+        "win_rate": 54.3
+      }
+    ]
+  }
+}
