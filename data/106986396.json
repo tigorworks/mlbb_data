@@ -1,0 +1,96 @@
+{
+  "id": "106986396",
+  "nick": "BangProw",
+  "server": "2553",
+  "role": "goldlaner",
+  "rank_current": "102",
+  "rank_highest": "114",
+  "statistic": {
+    "current_season": {
+      "matches_count": 708,
+      "win_rate": 53.25,
+      "kda": 1.52,
+      "team_participation": 36.9,
+      "gold_per_min": 640,
+      "dmg_per_min": 4593,
+      "deaths_per_match": 4.67,
+      "turret_dmg_per_match": 8308
+    },
+    "all_season": {
+      "matches_count": 12378,
+      "win_rate": 54.91,
+      "kda": 3.43,
+      "team_participation": 53.1,
+      "gold_per_min": 650,
+      "dmg_per_min": 3761,
+      "deaths_per_match": 4.46,
+      "turret_dmg_per_match": 4817
+    }
+  },
+  "hero_favorite": {
+    "current_season": [
+      {
+        "hero_name": "Irithel",
+        "matches": 233,
+        "win_rate": 63.5
+      },
+      {
+        "hero_name": "Karrie",
+        "matches": 161,
+        "win_rate": 53.4
+      },
+      {
+        "hero_name": "Hanabi",
+        "matches": 51,
+        "win_rate": 51.0
+      },
+      {
+        "hero_name": "Zetian",
+        "matches": 50,
+        "win_rate": 52.0
+      },
+      {
+        "hero_name": "Nana",
+        "matches": 35,
+        "win_rate": 57.1
+      },
+      {
+        "hero_name": "Kimmy",
+        "matches": 33,
+        "win_rate": 39.4
+      }
+    ],
+    "all_season": [
+      {
+        "hero_name": "Nana",
+        "matches": 2091,
+        "win_rate": 57.1
+      },
+      {
+        "hero_name": "Silvanna",
+        "matches": 1506,
+        "win_rate": 61.8
+      },
+      {
+        "hero_name": "Lesley",
+        "matches": 1081,
+        "win_rate": 54.5
+      },
+      {
+        "hero_name": "Vexana",
+        "matches": 712,
+        "win_rate": 57.9
+      },
+      {
+        "hero_name": "Irithel",
+        "matches": 625,
+        "win_rate": 59.5
+      },
+      {
+        "hero_name": "Cici",
+        "matches": 603,
+        "win_rate": 53.2
+      }
+    ]
+  }
+}
