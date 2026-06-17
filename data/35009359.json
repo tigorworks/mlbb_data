@@ -1,0 +1,96 @@
+{
+  "id": "35009359",
+  "nick": "Zikmund",
+  "server": "2055",
+  "role": "roamer",
+  "rank_current": "66",
+  "rank_highest": "67",
+  "statistic": {
+    "current_season": {
+      "matches_count": 218,
+      "win_rate": 60.55,
+      "kda": 3.31,
+      "team_participation": 53.7,
+      "gold_per_min": 606,
+      "dmg_per_min": 3174,
+      "deaths_per_match": 4.91,
+      "turret_dmg_per_match": 3677
+    },
+    "all_season": {
+      "matches_count": 6094,
+      "win_rate": 58.12,
+      "kda": 3.15,
+      "team_participation": 54.6,
+      "gold_per_min": 554,
+      "dmg_per_min": 2417,
+      "deaths_per_match": 4.80,
+      "turret_dmg_per_match": 4083
+    }
+  },
+  "hero_favorite": {
+    "current_season": [
+      {
+        "hero_name": "Belerick",
+        "matches": 48,
+        "win_rate": 72.9
+      },
+      {
+        "hero_name": "Edith",
+        "matches": 41,
+        "win_rate": 63.4
+      },
+      {
+        "hero_name": "Masha",
+        "matches": 25,
+        "win_rate": 64.0
+      },
+      {
+        "hero_name": "Terizla",
+        "matches": 23,
+        "win_rate": 69.6
+      },
+      {
+        "hero_name": "Hilda",
+        "matches": 11,
+        "win_rate": 54.5
+      },
+      {
+        "hero_name": "Guinevere",
+        "matches": 9,
+        "win_rate": 66.7
+      }
+    ],
+    "all_season": [
+      {
+        "hero_name": "Masha",
+        "matches": 682,
+        "win_rate": 69.2
+      },
+      {
+        "hero_name": "Edith",
+        "matches": 642,
+        "win_rate": 68.4
+      },
+      {
+        "hero_name": "Belerick",
+        "matches": 570,
+        "win_rate": 64.0
+      },
+      {
+        "hero_name": "Lolita",
+        "matches": 532,
+        "win_rate": 60.0
+      },
+      {
+        "hero_name": "Hylos",
+        "matches": 498,
+        "win_rate": 58.0
+      },
+      {
+        "hero_name": "Johnson",
+        "matches": 405,
+        "win_rate": 60.7
+      }
+    ]
+  }
+}
