@@ -1,0 +1,96 @@
+{
+  "id": "95114137",
+  "nick": "DC | Jo",
+  "server": "2198",
+  "role": "roamer",
+  "rank_current": "32",
+  "rank_highest": "35",
+  "statistic": {
+    "current_season": {
+      "matches_count": 236,
+      "win_rate": 54.24,
+      "kda": 4.61,
+      "team_participation": 54.2,
+      "gold_per_min": 612,
+      "dmg_per_min": 2846,
+      "deaths_per_match": 3.91,
+      "turret_dmg_per_match": 2843
+    },
+    "all_season": {
+      "matches_count": 714,
+      "win_rate": 60.50,
+      "kda": 4.79,
+      "team_participation": 52.9,
+      "gold_per_min": 669,
+      "dmg_per_min": 3025,
+      "deaths_per_match": 3.37,
+      "turret_dmg_per_match": 5162
+    }
+  },
+  "hero_favorite": {
+    "current_season": [
+      {
+        "hero_name": "Belerick",
+        "matches": 95,
+        "win_rate": 51.6
+      },
+      {
+        "hero_name": "Melissa",
+        "matches": 33,
+        "win_rate": 69.7
+      },
+      {
+        "hero_name": "Hylos",
+        "matches": 30,
+        "win_rate": 50.0
+      },
+      {
+        "hero_name": "Hilda",
+        "matches": 17,
+        "win_rate": 41.2
+      },
+      {
+        "hero_name": "Irithel",
+        "matches": 11,
+        "win_rate": 54.5
+      },
+      {
+        "hero_name": "Saber",
+        "matches": 10,
+        "win_rate": 80.0
+      }
+    ],
+    "all_season": [
+      {
+        "hero_name": "Lesley",
+        "matches": 190,
+        "win_rate": 74.2
+      },
+      {
+        "hero_name": "Belerick",
+        "matches": 95,
+        "win_rate": 51.6
+      },
+      {
+        "hero_name": "Miya",
+        "matches": 50,
+        "win_rate": 66.0
+      },
+      {
+        "hero_name": "Freya",
+        "matches": 49,
+        "win_rate": 71.4
+      },
+      {
+        "hero_name": "Irithel",
+        "matches": 47,
+        "win_rate": 72.3
+      },
+      {
+        "hero_name": "Melissa",
+        "matches": 45,
+        "win_rate": 66.7
+      }
+    ]
+  }
+}
