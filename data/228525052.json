@@ -1,0 +1,96 @@
+{
+  "id": "228525052",
+  "nick": "Azure Lights",
+  "server": "9214",
+  "role": "jungler",
+  "rank_current": "42",
+  "rank_highest": "42",
+  "statistic": {
+    "current_season": {
+      "matches_count": 48,
+      "win_rate": 72.92,
+      "kda": 3.77,
+      "team_participation": 54.4,
+      "gold_per_min": 665,
+      "dmg_per_min": 3692,
+      "deaths_per_match": 4.81,
+      "turret_dmg_per_match": 2687
+    },
+    "all_season": {
+      "matches_count": 1964,
+      "win_rate": 63.03,
+      "kda": 3.87,
+      "team_participation": 54.5,
+      "gold_per_min": 659,
+      "dmg_per_min": 3286,
+      "deaths_per_match": 4.23,
+      "turret_dmg_per_match": 3812
+    }
+  },
+  "hero_favorite": {
+    "current_season": [
+      {
+        "hero_name": "Yu Zhong",
+        "matches": 10,
+        "win_rate": 70.0
+      },
+      {
+        "hero_name": "Gloo",
+        "matches": 9,
+        "win_rate": 88.9
+      },
+      {
+        "hero_name": "Leomord",
+        "matches": 5,
+        "win_rate": 80.0
+      },
+      {
+        "hero_name": "Gusion",
+        "matches": 4,
+        "win_rate": 75.0
+      },
+      {
+        "hero_name": "Zhuxin",
+        "matches": 2,
+        "win_rate": 100.0
+      },
+      {
+        "hero_name": "Lunox",
+        "matches": 2,
+        "win_rate": 50.0
+      }
+    ],
+    "all_season": [
+      {
+        "hero_name": "Atlas",
+        "matches": 183,
+        "win_rate": 66.7
+      },
+      {
+        "hero_name": "Paquito",
+        "matches": 109,
+        "win_rate": 65.1
+      },
+      {
+        "hero_name": "Brody",
+        "matches": 108,
+        "win_rate": 65.7
+      },
+      {
+        "hero_name": "Hayabusa",
+        "matches": 103,
+        "win_rate": 62.1
+      },
+      {
+        "hero_name": "Claude",
+        "matches": 99,
+        "win_rate": 51.5
+      },
+      {
+        "hero_name": "Mathilda",
+        "matches": 82,
+        "win_rate": 64.6
+      }
+    ]
+  }
+}
