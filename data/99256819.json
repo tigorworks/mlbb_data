@@ -1,0 +1,96 @@
+{
+  "id": "99256819",
+  "nick": "AaCoy",
+  "server": "2512",
+  "role": "explaner",
+  "rank_current": "6",
+  "rank_highest": "6",
+  "statistic": {
+    "current_season": {
+      "matches_count": 434,
+      "win_rate": 50.92,
+      "kda": 1.21,
+      "team_participation": 35.4,
+      "gold_per_min": 579,
+      "dmg_per_min": 3981,
+      "deaths_per_match": 5.66,
+      "turret_dmg_per_match": 6242
+    },
+    "all_season": {
+      "matches_count": 2444,
+      "win_rate": 52.37,
+      "kda": 2.23,
+      "team_participation": 45.7,
+      "gold_per_min": 587,
+      "dmg_per_min": 3064,
+      "deaths_per_match": 5.62,
+      "turret_dmg_per_match": 4876
+    }
+  },
+  "hero_favorite": {
+    "current_season": [
+      {
+        "hero_name": "Thamuz",
+        "matches": 194,
+        "win_rate": 53.6
+      },
+      {
+        "hero_name": "Dyrroth",
+        "matches": 63,
+        "win_rate": 42.9
+      },
+      {
+        "hero_name": "Clint",
+        "matches": 57,
+        "win_rate": 47.4
+      },
+      {
+        "hero_name": "Hanabi",
+        "matches": 33,
+        "win_rate": 54.5
+      },
+      {
+        "hero_name": "Cecilion",
+        "matches": 22,
+        "win_rate": 72.7
+      },
+      {
+        "hero_name": "Uranus",
+        "matches": 20,
+        "win_rate": 45.0
+      }
+    ],
+    "all_season": [
+      {
+        "hero_name": "Lancelot",
+        "matches": 492,
+        "win_rate": 47.6
+      },
+      {
+        "hero_name": "Clint",
+        "matches": 410,
+        "win_rate": 57.1
+      },
+      {
+        "hero_name": "Gutotkaca",
+        "matches": 254,
+        "win_rate": 61.8
+      },
+      {
+        "hero_name": "Balmond",
+        "matches": 213,
+        "win_rate": 54.0
+      },
+      {
+        "hero_name": "Thamuz",
+        "matches": 197,
+        "win_rate": 53.3
+      },
+      {
+        "hero_name": "Saber",
+        "matches": 183,
+        "win_rate": 48.1
+      }
+    ]
+  }
+}
