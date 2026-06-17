@@ -1,0 +1,96 @@
+{
+  "id": "57960831",
+  "nick": "Xerneas",
+  "server": "2098",
+  "role": "midlaner",
+  "rank_current": "25",
+  "rank_highest": "26",
+  "statistic": {
+    "current_season": {
+      "matches_count": 158,
+      "win_rate": 61.39,
+      "kda": 3.72,
+      "team_participation": 50.2,
+      "gold_per_min": 627,
+      "dmg_per_min": 3619,
+      "deaths_per_match": 4.41,
+      "turret_dmg_per_match": 3375
+    },
+    "all_season": {
+      "matches_count": 2899,
+      "win_rate": 56.33,
+      "kda": 3.46,
+      "team_participation": 53.0,
+      "gold_per_min": 548,
+      "dmg_per_min": 2880,
+      "deaths_per_match": 4.09,
+      "turret_dmg_per_match": 3149
+    }
+  },
+  "hero_favorite": {
+    "current_season": [
+      {
+        "hero_name": "Ruby",
+        "matches": 39,
+        "win_rate": 66.7
+      },
+      {
+        "hero_name": "Odette",
+        "matches": 25,
+        "win_rate": 72.0
+      },
+      {
+        "hero_name": "Kagura",
+        "matches": 14,
+        "win_rate": 64.3
+      },
+      {
+        "hero_name": "Clint",
+        "matches": 14,
+        "win_rate": 64.3
+      },
+      {
+        "hero_name": "Hanabi",
+        "matches": 11,
+        "win_rate": 72.7
+      },
+      {
+        "hero_name": "Lesley",
+        "matches": 10,
+        "win_rate": 60.0
+      }
+    ],
+    "all_season": [
+      {
+        "hero_name": "Ruby",
+        "matches": 508,
+        "win_rate": 61.0
+      },
+      {
+        "hero_name": "Lesley",
+        "matches": 370,
+        "win_rate": 55.7
+      },
+      {
+        "hero_name": "Wanwan",
+        "matches": 259,
+        "win_rate": 61.8
+      },
+      {
+        "hero_name": "Aldous",
+        "matches": 193,
+        "win_rate": 57.0
+      },
+      {
+        "hero_name": "Karina",
+        "matches": 161,
+        "win_rate": 50.9
+      },
+      {
+        "hero_name": "Selena",
+        "matches": 143,
+        "win_rate": 60.8
+      }
+    ]
+  }
+}
