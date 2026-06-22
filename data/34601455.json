@@ -1,0 +1,96 @@
+{
+  "id": "34601455",
+  "nick": "fsocietyID",
+  "server": "2049",
+  "role": "roamer",
+  "rank_current": "L1",
+  "rank_highest": "126",
+  "statistic": {
+    "current_season": {
+      "matches_count": 41,
+      "win_rate": 73.17,
+      "kda": 6.25,
+      "team_participation": 64.6,
+      "gold_per_min": 658,
+      "dmg_per_min": 2583,
+      "deaths_per_match": 3.46,
+      "turret_dmg_per_match": 1488
+    },
+    "all_season": {
+      "matches_count": 14158,
+      "win_rate": 53.74,
+      "kda": 3.22,
+      "team_participation": 50.7,
+      "gold_per_min": 573,
+      "dmg_per_min": 2674,
+      "deaths_per_match": 4.35,
+      "turret_dmg_per_match": 2375
+    }
+  },
+  "hero_favorite": {
+    "current_season": [
+      {
+        "hero_name": "Marcel",
+        "matches": 15,
+        "win_rate": 80.0
+      },
+      {
+        "hero_name": "Atlas",
+        "matches": 8,
+        "win_rate": 75.0
+      },
+      {
+        "hero_name": "Helcurt",
+        "matches": 6,
+        "win_rate": 33.3
+      },
+      {
+        "hero_name": "Mathilda",
+        "matches": 4,
+        "win_rate": 75.0
+      },
+      {
+        "hero_name": "Floryn",
+        "matches": 2,
+        "win_rate": 100.0
+      },
+      {
+        "hero_name": "Sun",
+        "matches": 2,
+        "win_rate": 100.0
+      }
+    ],
+    "all_season": [
+      {
+        "hero_name": "Terizla",
+        "matches": 1258,
+        "win_rate": 59.6
+      },
+      {
+        "hero_name": "Franco",
+        "matches": 587,
+        "win_rate": 53.8
+      },
+      {
+        "hero_name": "Chou",
+        "matches": 567,
+        "win_rate": 54.9
+      },
+      {
+        "hero_name": "Nana",
+        "matches": 478,
+        "win_rate": 54.8
+      },
+      {
+        "hero_name": "Eudora",
+        "matches": 421,
+        "win_rate": 54.6
+      },
+      {
+        "hero_name": "Gatotkaca",
+        "matches": 368,
+        "win_rate": 60.1
+      }
+    ]
+  }
+}
