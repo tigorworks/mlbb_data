@@ -1,0 +1,96 @@
+{
+  "id": "46488907",
+  "nick": "FROZ0NED",
+  "server": "2076",
+  "role": "goldlaner",
+  "rank_current": "L5",
+  "rank_highest": "135",
+  "statistic": {
+    "current_season": {
+      "matches_count": 33,
+      "win_rate": 60.61,
+      "kda": 2.71,
+      "team_participation": 50.6,
+      "gold_per_min": 666,
+      "dmg_per_min": 3553,
+      "deaths_per_match": 5.33,
+      "turret_dmg_per_match": 5356
+    },
+    "all_season": {
+      "matches_count": 16722,
+      "win_rate": 53.85,
+      "kda": 3.02,
+      "team_participation": 52.2,
+      "gold_per_min": 588,
+      "dmg_per_min": 3140,
+      "deaths_per_match": 4.80,
+      "turret_dmg_per_match": 3899
+    }
+  },
+  "hero_favorite": {
+    "current_season": [
+      {
+        "hero_name": "Moskov",
+        "matches": 4,
+        "win_rate": 75.0
+      },
+      {
+        "hero_name": "Guinevere",
+        "matches": 4,
+        "win_rate": 50.0
+      },
+      {
+        "hero_name": "Baxia",
+        "matches": 3,
+        "win_rate": 100.0
+      },
+      {
+        "hero_name": "Grock",
+        "matches": 2,
+        "win_rate": 50.0
+      },
+      {
+        "hero_name": "Alice",
+        "matches": 2,
+        "win_rate": 50.0
+      },
+      {
+        "hero_name": "Kimmy",
+        "matches": 2,
+        "win_rate": 50.0
+      }
+    ],
+    "all_season": [
+      {
+        "hero_name": "Moskov",
+        "matches": 1652,
+        "win_rate": 59.3
+      },
+      {
+        "hero_name": "Claude",
+        "matches": 642,
+        "win_rate": 53.9
+      },
+      {
+        "hero_name": "Natalia",
+        "matches": 435,
+        "win_rate": 51.7
+      },
+      {
+        "hero_name": "Selena",
+        "matches": 307,
+        "win_rate": 50.5
+      },
+      {
+        "hero_name": "Zilong",
+        "matches": 304,
+        "win_rate": 56.6
+      },
+      {
+        "hero_name": "Franco",
+        "matches": 290,
+        "win_rate": 53.4
+      }
+    ]
+  }
+}
