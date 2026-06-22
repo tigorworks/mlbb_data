@@ -1,0 +1,96 @@
+{
+  "id": "43359435",
+  "nick": "Mayyy",
+  "server": "2067",
+  "role": "jungler",
+  "rank_current": "L2",
+  "rank_highest": "123",
+  "statistic": {
+    "current_season": {
+      "matches_count": 54,
+      "win_rate": 70.37,
+      "kda": 5.50,
+      "team_participation": 51.0,
+      "gold_per_min": 716,
+      "dmg_per_min": 3050,
+      "deaths_per_match": 2.80,
+      "turret_dmg_per_match": 2848
+    },
+    "all_season": {
+      "matches_count": 9336,
+      "win_rate": 61.70,
+      "kda": 3.69,
+      "team_participation": 58.8,
+      "gold_per_min": 757,
+      "dmg_per_min": 3657,
+      "deaths_per_match": 3.97,
+      "turret_dmg_per_match": 4045
+    }
+  },
+  "hero_favorite": {
+    "current_season": [
+      {
+        "hero_name": "Ling",
+        "matches": 11,
+        "win_rate": 90.9
+      },
+      {
+        "hero_name": "Akai",
+        "matches": 8,
+        "win_rate": 100.0
+      },
+      {
+        "hero_name": "Fredrinn",
+        "matches": 7,
+        "win_rate": 71.4
+      },
+      {
+        "hero_name": "Lukas",
+        "matches": 6,
+        "win_rate": 66.7
+      },
+      {
+        "hero_name": "Harley",
+        "matches": 4,
+        "win_rate": 75.0
+      },
+      {
+        "hero_name": "Hanzo",
+        "matches": 4,
+        "win_rate": 75.0
+      }
+    ],
+    "all_season": [
+      {
+        "hero_name": "Fanny",
+        "matches": 1806,
+        "win_rate": 67.0
+      },
+      {
+        "hero_name": "Yi Sun-shin",
+        "matches": 910,
+        "win_rate": 64.9
+      },
+      {
+        "hero_name": "Lancelot",
+        "matches": 901,
+        "win_rate": 60.8
+      },
+      {
+        "hero_name": "Hayabusa",
+        "matches": 804,
+        "win_rate": 65.0
+      },
+      {
+        "hero_name": "Ling",
+        "matches": 770,
+        "win_rate": 64.7
+      },
+      {
+        "hero_name": "Gusion",
+        "matches": 409,
+        "win_rate": 67.0
+      }
+    ]
+  }
+}
