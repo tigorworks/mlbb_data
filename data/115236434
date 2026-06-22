@@ -1,0 +1,96 @@
+{
+  "id": "115236434",
+  "nick": "LEMSA",
+  "server": "2587",
+  "role": "midlaner",
+  "rank_current": "1",
+  "rank_highest": "157",
+  "statistic": {
+    "current_season": {
+      "matches_count": 90,
+      "win_rate": 61.11,
+      "kda": 3.62,
+      "team_participation": 53.5,
+      "gold_per_min": 638,
+      "dmg_per_min": 4380,
+      "deaths_per_match": 4.04,
+      "turret_dmg_per_match": 3025
+    },
+    "all_season": {
+      "matches_count": 14202,
+      "win_rate": 54.43,
+      "kda": 3.13,
+      "team_participation": 52.1,
+      "gold_per_min": 615,
+      "dmg_per_min": 3370,
+      "deaths_per_match": 4.27,
+      "turret_dmg_per_match": 3692
+    }
+  },
+  "hero_favorite": {
+    "current_season": [
+      {
+        "hero_name": "Eudora",
+        "matches": 30,
+        "win_rate": 70.0
+      },
+      {
+        "hero_name": "Vale",
+        "matches": 9,
+        "win_rate": 77.8
+      },
+      {
+        "hero_name": "Xavier",
+        "matches": 8,
+        "win_rate": 87.5
+      },
+      {
+        "hero_name": "Vexana",
+        "matches": 7,
+        "win_rate": 71.4
+      },
+      {
+        "hero_name": "Cyclops",
+        "matches": 4,
+        "win_rate": 50.0
+      },
+      {
+        "hero_name": "Kimmy",
+        "matches": 3,
+        "win_rate": 33.3
+      }
+    ],
+    "all_season": [
+      {
+        "hero_name": "Zhask",
+        "matches": 1030,
+        "win_rate": 57.7
+      },
+      {
+        "hero_name": "Vexana",
+        "matches": 746,
+        "win_rate": 59.0
+      },
+      {
+        "hero_name": "Valir",
+        "matches": 666,
+        "win_rate": 60.8
+      },
+      {
+        "hero_name": "Cyclops",
+        "matches": 576,
+        "win_rate": 59.2
+      },
+      {
+        "hero_name": "Minsitthar",
+        "matches": 418,
+        "win_rate": 54.3
+      },
+      {
+        "hero_name": "Pharsa",
+        "matches": 409,
+        "win_rate": 62.3
+      }
+    ]
+  }
+}
