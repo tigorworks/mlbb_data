@@ -3,72 +3,72 @@
   "nick": "Saintess Lidia.",
   "server": "8100",
   "role": "roamer",
-  "rank_current": "201",
+  "rank_current": "L3",
   "rank_highest": "1010",
   "statistic": {
     "current_season": {
-      "matches_count": 427,
-      "win_rate": 69.79,
-      "kda": 3.81,
-      "team_participation": 53.1,
-      "gold_per_min": 533,
-      "dmg_per_min": 1648,
-      "deaths_per_match": 3.77,
-      "turret_dmg_per_match": 595
+      "matches_count": 32,
+      "win_rate": 65.62,
+      "kda": 5.13,
+      "team_participation": 70.6,
+      "gold_per_min": 610,
+      "dmg_per_min": 1865,
+      "deaths_per_match": 3.56,
+      "turret_dmg_per_match": 629
     },
     "all_season": {
-      "matches_count": 9265,
+      "matches_count": 10107,
       "win_rate": 71.75,
       "kda": 4.47,
-      "team_participation": 58.9,
-      "gold_per_min": 622,
-      "dmg_per_min": 2347,
-      "deaths_per_match": 3.60,
-      "turret_dmg_per_match": 2372
+      "team_participation": 58.2,
+      "gold_per_min": 624,
+      "dmg_per_min": 2381,
+      "deaths_per_match": 3.51,
+      "turret_dmg_per_match": 2451
     }
   },
   "hero_favorite": {
     "current_season": [
       {
-        "hero_name": "Minotaur",
-        "matches": 113,
-        "win_rate": 69.0
+        "hero_name": "Atlas",
+        "matches": 11,
+        "win_rate": 81.8
       },
       {
-        "hero_name": "Chip",
-        "matches": 48,
-        "win_rate": 77.1
+        "hero_name": "Mathilda",
+        "matches": 7,
+        "win_rate": 71.4
       },
       {
         "hero_name": "Gloo",
-        "matches": 42,
-        "win_rate": 76.2
+        "matches": 5,
+        "win_rate": 40.0
       },
       {
-        "hero_name": "Grock",
-        "matches": 38,
-        "win_rate": 63.2
+        "hero_name": "Belerick",
+        "matches": 3,
+        "win_rate": 0.0
       },
       {
-        "hero_name": "Hilda",
-        "matches": 28,
-        "win_rate": 64.3
+        "hero_name": "Minotaur",
+        "matches": 2,
+        "win_rate": 50.0
       },
       {
         "hero_name": "Tigreal",
-        "matches": 22,
-        "win_rate": 72.7
+        "matches": 1,
+        "win_rate": 100.0
       }
     ],
     "all_season": [
       {
         "hero_name": "Minotaur",
-        "matches": 1218,
+        "matches": 1220,
         "win_rate": 79.6
       },
       {
         "hero_name": "Chou",
-        "matches": 925,
+        "matches": 926,
         "win_rate": 71.4
       },
       {
@@ -78,8 +78,8 @@
       },
       {
         "hero_name": "Mathilda",
-        "matches": 655,
-        "win_rate": 77.3
+        "matches": 662,
+        "win_rate": 77.2
       },
       {
         "hero_name": "Grock",
