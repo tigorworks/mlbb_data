@@ -3,61 +3,61 @@
   "nick": "kael:3",
   "server": "2556",
   "role": "roamer",
-  "rank_current": "162",
-  "rank_highest": "162",
+  "rank_current": "10",
+  "rank_highest": "171",
   "statistic": {
     "current_season": {
-      "matches_count": 476,
-      "win_rate": 63.03,
-      "kda": 2.93,
-      "team_participation": 52.3,
-      "gold_per_min": 554,
-      "dmg_per_min": 2712,
-      "deaths_per_match": 4.51,
-      "turret_dmg_per_match": 2257
+      "matches_count": 59,
+      "win_rate": 71.19,
+      "kda": 4.33,
+      "team_participation": 59.1,
+      "gold_per_min": 671,
+      "dmg_per_min": 3111,
+      "deaths_per_match": 3.88,
+      "turret_dmg_per_match": 5161
     },
     "all_season": {
-      "matches_count": 15357,
-      "win_rate": 57.13,
-      "kda": 3.24,
-      "team_participation": 54.2,
-      "gold_per_min": 598,
-      "dmg_per_min": 2864,
-      "deaths_per_match": 4.38,
-      "turret_dmg_per_match": 3801
+      "matches_count": 18422,
+      "win_rate": 58.48,
+      "kda": 3.25,
+      "team_participation": 54.1,
+      "gold_per_min": 600,
+      "dmg_per_min": 2839,
+      "deaths_per_match": 4.19,
+      "turret_dmg_per_match": 3894
     }
   },
   "hero_favorite": {
     "current_season": [
       {
-        "hero_name": "Khufra",
-        "matches": 111,
-        "win_rate": 71.2
-      },
-      {
-        "hero_name": "Grock",
-        "matches": 52,
-        "win_rate": 59.6
-      },
-      {
-        "hero_name": "Helcurt",
-        "matches": 44,
-        "win_rate": 72.7
-      },
-      {
         "hero_name": "Belerick",
-        "matches": 33,
-        "win_rate": 66.7
+        "matches": 16,
+        "win_rate": 75.0
+      },
+      {
+        "hero_name": "Atlas",
+        "matches": 12,
+        "win_rate": 75.0
       },
       {
         "hero_name": "Beatrix",
-        "matches": 33,
+        "matches": 6,
         "win_rate": 66.7
       },
       {
-        "hero_name": "Khaleed",
-        "matches": 25,
-        "win_rate": 56.0
+        "hero_name": "Khufra",
+        "matches": 3,
+        "win_rate": 33.3
+      },
+      {
+        "hero_name": "Claude",
+        "matches": 2,
+        "win_rate": 100.0
+      },
+      {
+        "hero_name": "Moskov",
+        "matches": 2,
+        "win_rate": 100.0
       }
     ],
     "all_season": [
@@ -73,12 +73,12 @@
       },
       {
         "hero_name": "Khufra",
-        "matches": 941,
-        "win_rate": 67.5
+        "matches": 944,
+        "win_rate": 67.4
       },
       {
         "hero_name": "Beatrix",
-        "matches": 907,
+        "matches": 913,
         "win_rate": 61.0
       },
       {
