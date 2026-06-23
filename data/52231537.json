@@ -3,46 +3,83 @@
   "nick": "monsta",
   "server": "2213",
   "role": "midlaner",
-  "rank_current": "73",
+  "rank_current": "L4",
   "rank_highest": "73",
   "statistic": {
     "current_season": {
-      "matches_count": 307,
-      "win_rate": 57.33,
-      "kda": 3.8,
-      "team_participation": 52.5,
-      "gold_per_min": 637,
-      "dmg_per_min": 4160,
-      "deaths_per_match": 4.09,
-      "turret_dmg_per_match": 4080
+      "matches_count": 39,
+      "win_rate": 64.10,
+      "kda": 6.3,
+      "team_participation": 60.8,
+      "gold_per_min": 688,
+      "dmg_per_min": 4313,
+      "deaths_per_match": 3.26,
+      "turret_dmg_per_match": 3852
     },
     "all_season": {
-      "matches_count": 8153,
-      "win_rate": 57.75,
-      "kda": 4.3,
-      "team_participation": 54.7,
-      "gold_per_min": 660,
-      "dmg_per_min": 3638,
-      "deaths_per_match": 3.55,
-      "turret_dmg_per_match": 6278
+      "matches_count": 12743,
+      "win_rate": 56.73,
+      "kda": 4.07,
+      "team_participation": 53.0,
+      "gold_per_min": 615,
+      "dmg_per_min": 3366,
+      "deaths_per_match": 3.28,
+      "turret_dmg_per_match": 5707
     }
   },
   "hero_favorite": {
     "current_season": [
       {
-        "hero_name": "Brody",
-        "matches": 817,
-        "win_rate": 62.5
+        "hero_name": "Gord",
+        "matches": 16,
+        "win_rate": 75.0
+      },
+      {
+        "hero_name": "Zhuxin",
+        "matches": 7,
+        "win_rate": 71.4
       },
       {
         "hero_name": "Kimmy",
-        "matches": 600,
-        "win_rate": 67.3
+        "matches": 3,
+        "win_rate": 33.3
+      },
+      {
+        "hero_name": "Aurora",
+        "matches": 3,
+        "win_rate": 0.0
       },
       {
         "hero_name": "Clint",
-        "matches": 533,
-        "win_rate": 59.1
+        "matches": 2,
+        "win_rate": 100.0
+      },
+      {
+        "hero_name": "Brody",
+        "matches": 2,
+        "win_rate": 0.0
+      }
+    ],
+    "all_season": [
+      {
+        "hero_name": "Brody",
+        "matches": 819,
+        "win_rate": 62.4
+      },
+      {
+        "hero_name": "Kimmy",
+        "matches": 603,
+        "win_rate": 67.2
+      },
+      {
+        "hero_name": "Lesley",
+        "matches": 589,
+        "win_rate": 54.5
+      },
+      {
+        "hero_name": "Clint",
+        "matches": 535,
+        "win_rate": 59.3
       },
       {
         "hero_name": "Ixia",
@@ -53,43 +90,6 @@
         "hero_name": "Franco",
         "matches": 387,
         "win_rate": 53.5
-      },
-      {
-        "hero_name": "Lesley",
-        "matches": 0,
-        "win_rate": 54.5
-      }
-    ],
-    "all_season": [
-      {
-        "hero_name": "Gord",
-        "matches": 130,
-        "win_rate": 61.5
-      },
-      {
-        "hero_name": "Zhuyin",
-        "matches": 26,
-        "win_rate": 57.7
-      },
-      {
-        "hero_name": "Brody",
-        "matches": 28,
-        "win_rate": 50.0
-      },
-      {
-        "hero_name": "Kimmy",
-        "matches": 22,
-        "win_rate": 72.7
-      },
-      {
-        "hero_name": "Zetian",
-        "matches": 19,
-        "win_rate": 68.4
-      },
-      {
-        "hero_name": "Valir",
-        "matches": 14,
-        "win_rate": 50.0
       }
     ]
   }
