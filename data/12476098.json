@@ -2,36 +2,68 @@
   "id": "12476098",
   "nick": "KING ARES",
   "server": "2014",
-  "role": "midlaner",
-  "rank_current": "55",
+  "role": "jungler",
+  "rank_current": "E1",
   "rank_highest": "66",
   "statistic": {
     "current_season": {
-      "matches_count": 230,
-      "win_rate": 62.17,
-      "kda": 2.5,
-      "team_participation": 47.8,
-      "gold_per_min": 578,
-      "dmg_per_min": 3646,
-      "deaths_per_match": 6.10,
-      "turret_dmg_per_match": 3258
+      "matches_count": 21,
+      "win_rate": 57.14,
+      "kda": 4.52,
+      "team_participation": 54.1,
+      "gold_per_min": 688,
+      "dmg_per_min": 3818,
+      "deaths_per_match": 5.00,
+      "turret_dmg_per_match": 3998
     },
     "all_season": {
-      "matches_count": 11804,
-      "win_rate": 54.48,
-      "kda": 2.76,
-      "team_participation": 51.9,
-      "gold_per_min": 567,
-      "dmg_per_min": 2892,
-      "deaths_per_match": 5.25,
-      "turret_dmg_per_match": 3324
+      "matches_count": 15255,
+      "win_rate": 53.79,
+      "kda": 2.66,
+      "team_participation": 50.4,
+      "gold_per_min": 543,
+      "dmg_per_min": 2804,
+      "deaths_per_match": 5.02,
+      "turret_dmg_per_match": 3156
     }
   },
   "hero_favorite": {
     "current_season": [
       {
+        "hero_name": "Alice",
+        "matches": 2,
+        "win_rate": 50.0
+      },
+      {
+        "hero_name": "Fredrinn",
+        "matches": 2,
+        "win_rate": 0.0
+      },
+      {
+        "hero_name": "Hanabi",
+        "matches": 2,
+        "win_rate": 0.0
+      },
+      {
+        "hero_name": "Kaja",
+        "matches": 1,
+        "win_rate": 100.0
+      },
+      {
+        "hero_name": "Minotaur",
+        "matches": 1,
+        "win_rate": 100.0
+      },
+      {
+        "hero_name": "Lesley",
+        "matches": 1,
+        "win_rate": 100.0
+      }
+    ],
+    "all_season": [
+      {
         "hero_name": "Clint",
-        "matches": 674,
+        "matches": 675,
         "win_rate": 58.5
       },
       {
@@ -56,40 +88,8 @@
       },
       {
         "hero_name": "Miya",
-        "matches": 368,
-        "win_rate": 56.8
-      }
-    ],
-    "all_season": [
-      {
-        "hero_name": "Miya",
-        "matches": 18,
-        "win_rate": 72.2
-      },
-      {
-        "hero_name": "Zetian",
-        "matches": 16,
-        "win_rate": 56.2
-      },
-      {
-        "hero_name": "Paquito",
-        "matches": 11,
-        "win_rate": 36.4
-      },
-      {
-        "hero_name": "Belerick",
-        "matches": 10,
-        "win_rate": 60.0
-      },
-      {
-        "hero_name": "Yve",
-        "matches": 9,
-        "win_rate": 88.9
-      },
-      {
-        "hero_name": "Kadita",
-        "matches": 0,
-        "win_rate": 66.7
+        "matches": 369,
+        "win_rate": 56.6
       }
     ]
   }
