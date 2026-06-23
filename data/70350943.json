@@ -3,67 +3,67 @@
   "nick": "Mirzz.",
   "server": "2125",
   "role": "jungler",
-  "rank_current": "146",
-  "rank_highest": "160",
+  "rank_current": "1",
+  "rank_highest": "153",
   "statistic": {
     "current_season": {
-      "matches_count": 318,
-      "win_rate": 70.75,
-      "kda": 5.86,
-      "team_participation": 54.2,
-      "gold_per_min": 678,
-      "dmg_per_min": 4201,
-      "deaths_per_match": 3.05,
-      "turret_dmg_per_match": 4606
+      "matches_count": 57,
+      "win_rate": 66.67,
+      "kda": 8.45,
+      "team_participation": 60.6,
+      "gold_per_min": 731,
+      "dmg_per_min": 3901,
+      "deaths_per_match": 2.32,
+      "turret_dmg_per_match": 2872
     },
     "all_season": {
-      "matches_count": 9550,
-      "win_rate": 61.24,
-      "kda": 4.21,
-      "team_participation": 53.8,
+      "matches_count": 12821,
+      "win_rate": 62.31,
+      "kda": 4.28,
+      "team_participation": 53.3,
       "gold_per_min": 676,
-      "dmg_per_min": 3325,
-      "deaths_per_match": 3.42,
-      "turret_dmg_per_match": 4243
+      "dmg_per_min": 3348,
+      "deaths_per_match": 3.35,
+      "turret_dmg_per_match": 4178
     }
   },
   "hero_favorite": {
     "current_season": [
       {
-        "hero_name": "Suyou",
-        "matches": 89,
-        "win_rate": 82.0
-      },
-      {
         "hero_name": "Guinevere",
-        "matches": 51,
-        "win_rate": 70.6
+        "matches": 19,
+        "win_rate": 63.2
       },
       {
-        "hero_name": "Leomord",
-        "matches": 38,
-        "win_rate": 76.3
+        "hero_name": "Balmond",
+        "matches": 10,
+        "win_rate": 50.0
+      },
+      {
+        "hero_name": "Akai",
+        "matches": 7,
+        "win_rate": 85.7
+      },
+      {
+        "hero_name": "Baxia",
+        "matches": 7,
+        "win_rate": 71.4
       },
       {
         "hero_name": "Fredrinn",
-        "matches": 34,
-        "win_rate": 70.6
+        "matches": 4,
+        "win_rate": 100.0
       },
       {
-        "hero_name": "Yi Sun-shin",
-        "matches": 25,
-        "win_rate": 64.0
-      },
-      {
-        "hero_name": "Harley",
-        "matches": 17,
-        "win_rate": 47.1
+        "hero_name": "Esmeralda",
+        "matches": 2,
+        "win_rate": 100.0
       }
     ],
     "all_season": [
       {
         "hero_name": "Hayabusa",
-        "matches": 1168,
+        "matches": 1171,
         "win_rate": 70.7
       },
       {
@@ -73,8 +73,8 @@
       },
       {
         "hero_name": "Lancelot",
-        "matches": 818,
-        "win_rate": 66.3
+        "matches": 820,
+        "win_rate": 66.2
       },
       {
         "hero_name": "Badang",
@@ -88,8 +88,8 @@
       },
       {
         "hero_name": "Guinevere",
-        "matches": 449,
-        "win_rate": 59.9
+        "matches": 471,
+        "win_rate": 60.1
       }
     ]
   }
