@@ -3,32 +3,64 @@
   "nick": "Shikigami",
   "server": "2219",
   "role": "explaner",
-  "rank_current": "123",
-  "rank_highest": "124",
+  "rank_current": "L3",
+  "rank_highest": "126",
   "statistic": {
     "current_season": {
-      "matches_count": 481,
-      "win_rate": 59.04,
-      "kda": 3.19,
-      "team_participation": 44.5,
-      "gold_per_min": 585,
-      "dmg_per_min": 3662,
-      "deaths_per_match": 3.90,
-      "turret_dmg_per_match": 2853
+      "matches_count": 59,
+      "win_rate": 62.71,
+      "kda": 4.57,
+      "team_participation": 55.5,
+      "gold_per_min": 647,
+      "dmg_per_min": 3685,
+      "deaths_per_match": 3.76,
+      "turret_dmg_per_match": 1434
     },
     "all_season": {
-      "matches_count": 5608,
-      "win_rate": 57.74,
-      "kda": 3.97,
-      "team_participation": 54.1,
+      "matches_count": 7471,
+      "win_rate": 57.50,
+      "kda": 3.87,
+      "team_participation": 52.8,
       "gold_per_min": 513,
-      "dmg_per_min": 3085,
-      "deaths_per_match": 3.44,
-      "turret_dmg_per_match": 2224
+      "dmg_per_min": 3048,
+      "deaths_per_match": 3.49,
+      "turret_dmg_per_match": 2243
     }
   },
   "hero_favorite": {
     "current_season": [
+      {
+        "hero_name": "Phoveus",
+        "matches": 15,
+        "win_rate": 46.7
+      },
+      {
+        "hero_name": "Sora",
+        "matches": 8,
+        "win_rate": 50.0
+      },
+      {
+        "hero_name": "Lapu-Lapu",
+        "matches": 6,
+        "win_rate": 50.0
+      },
+      {
+        "hero_name": "Ruby",
+        "matches": 3,
+        "win_rate": 100.0
+      },
+      {
+        "hero_name": "Uranus",
+        "matches": 3,
+        "win_rate": 100.0
+      },
+      {
+        "hero_name": "Vexana",
+        "matches": 3,
+        "win_rate": 100.0
+      }
+    ],
+    "all_season": [
       {
         "hero_name": "Kagura",
         "matches": 952,
@@ -41,13 +73,8 @@
       },
       {
         "hero_name": "Ruby",
-        "matches": 455,
-        "win_rate": 47.9
-      },
-      {
-        "hero_name": "Gusion",
-        "matches": 379,
-        "win_rate": 59.1
+        "matches": 458,
+        "win_rate": 48.3
       },
       {
         "hero_name": "Fanny",
@@ -55,41 +82,14 @@
         "win_rate": 45.5
       },
       {
+        "hero_name": "Gusion",
+        "matches": 379,
+        "win_rate": 59.1
+      },
+      {
         "hero_name": "Grock",
         "matches": 333,
         "win_rate": 53.2
-      }
-    ],
-    "all_season": [
-      {
-        "hero_name": "Phoveus",
-        "matches": 52,
-        "win_rate": 67.3
-      },
-      {
-        "hero_name": "Hanabi",
-        "matches": 55,
-        "win_rate": 61.8
-      },
-      {
-        "hero_name": "X.Borg",
-        "matches": 31,
-        "win_rate": 71.0
-      },
-      {
-        "hero_name": "Franco",
-        "matches": 26,
-        "win_rate": 50.0
-      },
-      {
-        "hero_name": "Gloo",
-        "matches": 23,
-        "win_rate": 56.5
-      },
-      {
-        "hero_name": "Lapu-Lapu",
-        "matches": 20,
-        "win_rate": 50.0
       }
     ]
   }
