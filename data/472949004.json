@@ -3,67 +3,67 @@
   "nick": "Tumpal God",
   "server": "2426",
   "role": "roamer",
-  "rank_current": "168",
+  "rank_current": "12",
   "rank_highest": "232",
   "statistic": {
     "current_season": {
-      "matches_count": 582,
-      "win_rate": 57.39,
-      "kda": 2.71,
-      "team_participation": 54.5,
-      "gold_per_min": 522,
-      "dmg_per_min": 2165,
-      "deaths_per_match": 4.55,
-      "turret_dmg_per_match": 893
+      "matches_count": 55,
+      "win_rate": 67.27,
+      "kda": 5.81,
+      "team_participation": 66.7,
+      "gold_per_min": 618,
+      "dmg_per_min": 2594,
+      "deaths_per_match": 3.84,
+      "turret_dmg_per_match": 461
     },
     "all_season": {
-      "matches_count": 11335,
-      "win_rate": 59.49,
-      "kda": 3.92,
-      "team_participation": 60.4,
-      "gold_per_min": 590,
-      "dmg_per_min": 2341,
-      "deaths_per_match": 4.22,
-      "turret_dmg_per_match": 1842
+      "matches_count": 12382,
+      "win_rate": 59.39,
+      "kda": 3.89,
+      "team_participation": 59.8,
+      "gold_per_min": 592,
+      "dmg_per_min": 2385,
+      "deaths_per_match": 4.16,
+      "turret_dmg_per_match": 1930
     }
   },
   "hero_favorite": {
     "current_season": [
       {
+        "hero_name": "Marcel",
+        "matches": 14,
+        "win_rate": 85.7
+      },
+      {
+        "hero_name": "Atlas",
+        "matches": 13,
+        "win_rate": 84.6
+      },
+      {
         "hero_name": "Gloo",
-        "matches": 70,
-        "win_rate": 65.7
+        "matches": 7,
+        "win_rate": 57.1
+      },
+      {
+        "hero_name": "Mathilda",
+        "matches": 7,
+        "win_rate": 28.6
       },
       {
         "hero_name": "Minotaur",
-        "matches": 65,
-        "win_rate": 58.5
+        "matches": 4,
+        "win_rate": 75.0
       },
       {
-        "hero_name": "Marcel",
-        "matches": 64,
-        "win_rate": 71.9
-      },
-      {
-        "hero_name": "Kalea",
-        "matches": 60,
-        "win_rate": 61.7
-      },
-      {
-        "hero_name": "Grock",
-        "matches": 51,
-        "win_rate": 62.7
-      },
-      {
-        "hero_name": "Chou",
-        "matches": 33,
-        "win_rate": 54.5
+        "hero_name": "Belerick",
+        "matches": 4,
+        "win_rate": 25.0
       }
     ],
     "all_season": [
       {
         "hero_name": "Khufra",
-        "matches": 846,
+        "matches": 848,
         "win_rate": 61.3
       },
       {
@@ -73,8 +73,8 @@
       },
       {
         "hero_name": "Mathilda",
-        "matches": 597,
-        "win_rate": 62.3
+        "matches": 604,
+        "win_rate": 61.9
       },
       {
         "hero_name": "Chou",
