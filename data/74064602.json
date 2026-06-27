@@ -3,61 +3,61 @@
   "nick": "DiboYy x Papskuy",
   "server": "2135",
   "role": "midlaner",
-  "rank_current": "134",
+  "rank_current": "1234",
   "rank_highest": "184",
   "statistic": {
     "current_season": {
-      "matches_count": 518,
-      "win_rate": 57.92,
-      "kda": 1.56,
-      "team_participation": 43.1,
-      "gold_per_min": 620,
-      "dmg_per_min": 4379,
-      "deaths_per_match": 5.80,
-      "turret_dmg_per_match": 3279
+      "matches_count": 62,
+      "win_rate": 62.90,
+      "kda": 3.43,
+      "team_participation": 55.9,
+      "gold_per_min": 714,
+      "dmg_per_min": 4556,
+      "deaths_per_match": 3.06,
+      "turret_dmg_per_match": 3083
     },
     "all_season": {
-      "matches_count": 17866,
-      "win_rate": 56.95,
-      "kda": 3.45,
-      "team_participation": 53.7,
-      "gold_per_min": 595,
-      "dmg_per_min": 3181,
-      "deaths_per_match": 4.22,
-      "turret_dmg_per_match": 3938
+      "matches_count": 20383,
+      "win_rate": 57.76,
+      "kda": 3.49,
+      "team_participation": 53.6,
+      "gold_per_min": 592,
+      "dmg_per_min": 3189,
+      "deaths_per_match": 4.06,
+      "turret_dmg_per_match": 3820
     }
   },
   "hero_favorite": {
     "current_season": [
       {
-        "hero_name": "Suyou",
-        "matches": 75,
-        "win_rate": 57.3
-      },
-      {
-        "hero_name": "Fanny",
-        "matches": 44,
-        "win_rate": 56.8
-      },
-      {
         "hero_name": "Kadita",
-        "matches": 41,
-        "win_rate": 63.4
-      },
-      {
-        "hero_name": "Guinevere",
-        "matches": 39,
+        "matches": 6,
         "win_rate": 66.7
       },
       {
-        "hero_name": "Chou",
-        "matches": 33,
-        "win_rate": 63.6
+        "hero_name": "Ruby",
+        "matches": 6,
+        "win_rate": 66.7
+      },
+      {
+        "hero_name": "Gloo",
+        "matches": 4,
+        "win_rate": 100.0
+      },
+      {
+        "hero_name": "Gord",
+        "matches": 4,
+        "win_rate": 75.0
+      },
+      {
+        "hero_name": "Beatrix",
+        "matches": 4,
+        "win_rate": 50.0
       },
       {
         "hero_name": "Novaria",
-        "matches": 28,
-        "win_rate": 64.3
+        "matches": 4,
+        "win_rate": 25.0
       }
     ],
     "all_season": [
