@@ -3,78 +3,78 @@
   "nick": "GigasEY",
   "server": "3178",
   "role": "jungler",
-  "rank_current": "88",
+  "rank_current": "63",
   "rank_highest": "163",
   "statistic": {
     "current_season": {
-      "matches_count": 325,
-      "win_rate": 60.00,
-      "kda": 3.23,
-      "team_participation": 51.9,
-      "gold_per_min": 610,
-      "dmg_per_min": 3663,
-      "deaths_per_match": 4.42,
-      "turret_dmg_per_match": 3702
+      "matches_count": 27,
+      "win_rate": 59.26,
+      "kda": 4.57,
+      "team_participation": 61.4,
+      "gold_per_min": 694,
+      "dmg_per_min": 3413,
+      "deaths_per_match": 3.85,
+      "turret_dmg_per_match": 4442
     },
     "all_season": {
-      "matches_count": 13456,
-      "win_rate": 55.61,
-      "kda": 3.37,
-      "team_participation": 55.1,
-      "gold_per_min": 628,
-      "dmg_per_min": 3181,
-      "deaths_per_match": 4.43,
-      "turret_dmg_per_match": 3626
+      "matches_count": 15105,
+      "win_rate": 55.46,
+      "kda": 3.31,
+      "team_participation": 54.4,
+      "gold_per_min": 623,
+      "dmg_per_min": 3155,
+      "deaths_per_match": 4.37,
+      "turret_dmg_per_match": 3566
     }
   },
   "hero_favorite": {
     "current_season": [
       {
-        "hero_name": "Suyou",
-        "matches": 67,
-        "win_rate": 62.7
+        "hero_name": "Akai",
+        "matches": 6,
+        "win_rate": 66.7
       },
       {
-        "hero_name": "Leomord",
-        "matches": 66,
-        "win_rate": 71.2
+        "hero_name": "Balmond",
+        "matches": 5,
+        "win_rate": 40.0
       },
       {
         "hero_name": "Harley",
-        "matches": 23,
-        "win_rate": 47.8
+        "matches": 3,
+        "win_rate": 66.7
+      },
+      {
+        "hero_name": "Fredrinn",
+        "matches": 3,
+        "win_rate": 33.3
       },
       {
         "hero_name": "Yi Sun-shin",
-        "matches": 20,
-        "win_rate": 45.0
+        "matches": 2,
+        "win_rate": 100.0
       },
       {
-        "hero_name": "Baxia",
-        "matches": 15,
-        "win_rate": 53.3
-      },
-      {
-        "hero_name": "Hayabusa",
-        "matches": 12,
-        "win_rate": 33.3
+        "hero_name": "Suyou",
+        "matches": 2,
+        "win_rate": 50.0
       }
     ],
     "all_season": [
       {
         "hero_name": "Claude",
-        "matches": 512,
-        "win_rate": 49.2
+        "matches": 513,
+        "win_rate": 49.1
       },
       {
         "hero_name": "Bane",
-        "matches": 360,
-        "win_rate": 63.3
+        "matches": 361,
+        "win_rate": 63.4
       },
       {
         "hero_name": "Yi Sun-shin",
-        "matches": 353,
-        "win_rate": 62.3
+        "matches": 355,
+        "win_rate": 62.5
       },
       {
         "hero_name": "Chou",
@@ -82,12 +82,12 @@
         "win_rate": 48.2
       },
       {
-        "hero_name": "Granger",
-        "matches": 284,
-        "win_rate": 51.1
+        "hero_name": "Ling",
+        "matches": 285,
+        "win_rate": 51.2
       },
       {
-        "hero_name": "Ling",
+        "hero_name": "Granger",
         "matches": 284,
         "win_rate": 51.1
       }
