@@ -3,72 +3,72 @@
   "nick": "NDEN AGAIN",
   "server": "2671",
   "role": "goldlaner",
-  "rank_current": "153",
-  "rank_highest": "142",
+  "rank_current": "27",
+  "rank_highest": "212",
   "statistic": {
     "current_season": {
-      "matches_count": 461,
-      "win_rate": 58.13,
-      "kda": 2.79,
-      "team_participation": 47.8,
-      "gold_per_min": 582,
-      "dmg_per_min": 3104,
-      "deaths_per_match": 4.63,
-      "turret_dmg_per_match": 3984
+      "matches_count": 101,
+      "win_rate": 70.30,
+      "kda": 3.13,
+      "team_participation": 47.1,
+      "gold_per_min": 731,
+      "dmg_per_min": 4154,
+      "deaths_per_match": 4.46,
+      "turret_dmg_per_match": 11233
     },
     "all_season": {
-      "matches_count": 16313,
-      "win_rate": 57.53,
-      "kda": 3.41,
-      "team_participation": 53.7,
-      "gold_per_min": 622,
-      "dmg_per_min": 3067,
-      "deaths_per_match": 4.19,
-      "turret_dmg_per_match": 3614
+      "matches_count": 23071,
+      "win_rate": 59.53,
+      "kda": 3.56,
+      "team_participation": 52.4,
+      "gold_per_min": 625,
+      "dmg_per_min": 3090,
+      "deaths_per_match": 3.96,
+      "turret_dmg_per_match": 3791
     }
   },
   "hero_favorite": {
     "current_season": [
       {
-        "hero_name": "Franco",
-        "matches": 103,
-        "win_rate": 64.1
+        "hero_name": "Moskov",
+        "matches": 19,
+        "win_rate": 73.7
       },
       {
-        "hero_name": "Selena",
-        "matches": 46,
-        "win_rate": 54.3
+        "hero_name": "Claude",
+        "matches": 14,
+        "win_rate": 64.3
       },
       {
-        "hero_name": "Sun",
-        "matches": 35,
-        "win_rate": 62.9
+        "hero_name": "Obsidia",
+        "matches": 11,
+        "win_rate": 90.9
       },
       {
-        "hero_name": "Obsidian",
-        "matches": 18,
-        "win_rate": 55.6
+        "hero_name": "Karrie",
+        "matches": 9,
+        "win_rate": 77.8
       },
       {
-        "hero_name": "Grock",
-        "matches": 17,
-        "win_rate": 47.1
+        "hero_name": "Guinevere",
+        "matches": 8,
+        "win_rate": 50.0
       },
       {
-        "hero_name": "Estes",
-        "matches": 16,
-        "win_rate": 68.8
+        "hero_name": "Ruby",
+        "matches": 6,
+        "win_rate": 100.0
       }
     ],
     "all_season": [
       {
         "hero_name": "Claude",
-        "matches": 1450,
-        "win_rate": 72.1
+        "matches": 1465,
+        "win_rate": 72.0
       },
       {
         "hero_name": "Franco",
-        "matches": 1105,
+        "matches": 1106,
         "win_rate": 56.1
       },
       {
