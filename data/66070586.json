@@ -3,61 +3,61 @@
   "nick": "Super Beck",
   "server": "2117",
   "role": "jungler",
-  "rank_current": "200",
-  "rank_highest": "202",
+  "rank_current": "28",
+  "rank_highest": "203",
   "statistic": {
     "current_season": {
-      "matches_count": 1026,
-      "win_rate": 53.51,
-      "kda": 1.82,
-      "team_participation": 44.3,
-      "gold_per_min": 564,
-      "dmg_per_min": 3882,
-      "deaths_per_match": 4.21,
-      "turret_dmg_per_match": 3700
+      "matches_count": 114,
+      "win_rate": 62.28,
+      "kda": 5.69,
+      "team_participation": 60.8,
+      "gold_per_min": 714,
+      "dmg_per_min": 3826,
+      "deaths_per_match": 3.57,
+      "turret_dmg_per_match": 3899
     },
     "all_season": {
-      "matches_count": 14236,
-      "win_rate": 59.77,
-      "kda": 4.5,
-      "team_participation": 62.0,
-      "gold_per_min": 681,
-      "dmg_per_min": 4003,
-      "deaths_per_match": 3.80,
-      "turret_dmg_per_match": 4634
+      "matches_count": 25613,
+      "win_rate": 64.29,
+      "kda": 4.54,
+      "team_participation": 60.3,
+      "gold_per_min": 665,
+      "dmg_per_min": 3987,
+      "deaths_per_match": 3.76,
+      "turret_dmg_per_match": 4706
     }
   },
   "hero_favorite": {
     "current_season": [
       {
-        "hero_name": "Suyou",
-        "matches": 203,
-        "win_rate": 54.2
+        "hero_name": "Yi Sun-shin",
+        "matches": 16,
+        "win_rate": 56.2
       },
       {
-        "hero_name": "Yi Sun-shin",
-        "matches": 128,
-        "win_rate": 47.7
+        "hero_name": "Akai",
+        "matches": 15,
+        "win_rate": 73.3
+      },
+      {
+        "hero_name": "Ling",
+        "matches": 10,
+        "win_rate": 70.0
       },
       {
         "hero_name": "Lukas",
-        "matches": 97,
-        "win_rate": 56.7
+        "matches": 10,
+        "win_rate": 50.0
       },
       {
-        "hero_name": "Alice",
-        "matches": 64,
+        "hero_name": "Beatrix",
+        "matches": 8,
         "win_rate": 62.5
       },
       {
-        "hero_name": "Harley",
-        "matches": 63,
-        "win_rate": 52.4
-      },
-      {
-        "hero_name": "Gusion",
-        "matches": 55,
-        "win_rate": 65.5
+        "hero_name": "Balmond",
+        "matches": 7,
+        "win_rate": 42.9
       }
     ],
     "all_season": [
@@ -68,18 +68,18 @@
       },
       {
         "hero_name": "Gusion",
-        "matches": 1001,
+        "matches": 1002,
         "win_rate": 65.4
       },
       {
         "hero_name": "Yi Sun-shin",
-        "matches": 959,
-        "win_rate": 59.9
+        "matches": 976,
+        "win_rate": 59.7
       },
       {
         "hero_name": "Ling",
-        "matches": 763,
-        "win_rate": 64.1
+        "matches": 773,
+        "win_rate": 64.2
       },
       {
         "hero_name": "Lancelot",
@@ -88,7 +88,7 @@
       },
       {
         "hero_name": "Granger",
-        "matches": 605,
+        "matches": 606,
         "win_rate": 69.1
       }
     ]
