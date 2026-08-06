@@ -1,0 +1,96 @@
+{
+  "id": "203694765",
+  "nick": "Pohh.",
+  "server": "9038",
+  "role": "goldlaner",
+  "rank_current": "37",
+  "rank_highest": "92",
+  "statistic": {
+    "current_season": {
+      "matches_count": 235,
+      "win_rate": 57.02,
+      "kda": 2.91,
+      "team_participation": 46.0,
+      "gold_per_min": 675,
+      "dmg_per_min": 3872,
+      "deaths_per_match": 4.49,
+      "turret_dmg_per_match": 5577
+    },
+    "all_season": {
+      "matches_count": 5905,
+      "win_rate": 57.70,
+      "kda": 3.96,
+      "team_participation": 53.8,
+      "gold_per_min": 728,
+      "dmg_per_min": 3649,
+      "deaths_per_match": 4.07,
+      "turret_dmg_per_match": 5391
+    }
+  },
+  "hero_favorite": {
+    "current_season": [
+      {
+        "hero_name": "Clint",
+        "matches": 61,
+        "win_rate": 55.7
+      },
+      {
+        "hero_name": "Fredrinn",
+        "matches": 26,
+        "win_rate": 65.4
+      },
+      {
+        "hero_name": "Chou",
+        "matches": 25,
+        "win_rate": 52.0
+      },
+      {
+        "hero_name": "Valir",
+        "matches": 22,
+        "win_rate": 72.7
+      },
+      {
+        "hero_name": "Balmond",
+        "matches": 14,
+        "win_rate": 78.6
+      },
+      {
+        "hero_name": "Suyou",
+        "matches": 11,
+        "win_rate": 63.6
+      }
+    ],
+    "all_season": [
+      {
+        "hero_name": "Lancelot",
+        "matches": 760,
+        "win_rate": 60.5
+      },
+      {
+        "hero_name": "Roger",
+        "matches": 604,
+        "win_rate": 66.4
+      },
+      {
+        "hero_name": "Kimmy",
+        "matches": 354,
+        "win_rate": 68.1
+      },
+      {
+        "hero_name": "Yu Zhong",
+        "matches": 350,
+        "win_rate": 60.3
+      },
+      {
+        "hero_name": "Benedetta",
+        "matches": 229,
+        "win_rate": 60.7
+      },
+      {
+        "hero_name": "Granger",
+        "matches": 219,
+        "win_rate": 57.5
+      }
+    ]
+  }
+}
