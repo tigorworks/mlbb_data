@@ -1,0 +1,96 @@
+{
+  "id": "1343412769",
+  "nick": "dwikimaus",
+  "server": "15394",
+  "role": "roamer",
+  "rank_current": "43",
+  "rank_highest": "82",
+  "statistic": {
+    "current_season": {
+      "matches_count": 129,
+      "win_rate": 63.57,
+      "kda": 3.09,
+      "team_participation": 53.8,
+      "gold_per_min": 625,
+      "dmg_per_min": 3022,
+      "deaths_per_match": 5.32,
+      "turret_dmg_per_match": 2370
+    },
+    "all_season": {
+      "matches_count": 3326,
+      "win_rate": 59.59,
+      "kda": 4.10,
+      "team_participation": 63.0,
+      "gold_per_min": 598,
+      "dmg_per_min": 2057,
+      "deaths_per_match": 4.62,
+      "turret_dmg_per_match": 1570
+    }
+  },
+  "hero_favorite": {
+    "current_season": [
+      {
+        "hero_name": "Minotaur",
+        "matches": 44,
+        "win_rate": 63.6
+      },
+      {
+        "hero_name": "Clint",
+        "matches": 21,
+        "win_rate": 61.9
+      },
+      {
+        "hero_name": "Belerick",
+        "matches": 16,
+        "win_rate": 68.8
+      },
+      {
+        "hero_name": "Edith",
+        "matches": 7,
+        "win_rate": 57.1
+      },
+      {
+        "hero_name": "Estes",
+        "matches": 5,
+        "win_rate": 100.0
+      },
+      {
+        "hero_name": "Rafaela",
+        "matches": 5,
+        "win_rate": 60.0
+      }
+    ],
+    "all_season": [
+      {
+        "hero_name": "Minotaur",
+        "matches": 1770,
+        "win_rate": 60.3
+      },
+      {
+        "hero_name": "Estes",
+        "matches": 359,
+        "win_rate": 57.9
+      },
+      {
+        "hero_name": "Floryn",
+        "matches": 214,
+        "win_rate": 64.5
+      },
+      {
+        "hero_name": "Clint",
+        "matches": 206,
+        "win_rate": 63.1
+      },
+      {
+        "hero_name": "Belerick",
+        "matches": 145,
+        "win_rate": 60.0
+      },
+      {
+        "hero_name": "Edith",
+        "matches": 78,
+        "win_rate": 64.1
+      }
+    ]
+  }
+}
