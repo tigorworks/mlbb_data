@@ -1,0 +1,817 @@
+{
+  "event_name": "APD CUP 2026",
+  "lastupdate": "2026-08-06 13:26:06",
+  "teams": [
+    {
+      "team_name": "SME KULI",
+      "captain_name": "Lukas Awan",
+      "captain_whatsapp": "082137780052",
+      "captain_email": "c110226002@bankmandiri.co.id",
+      "logo": false,
+      "idcard": false,
+      "members": [
+        {
+          "full_name": "Lukas Awan",
+          "nip": "2604865006",
+          "join_from": null,
+          "game_id": "35086943 (2057)",
+          "game_nick": "Clouds"
+        },
+        {
+          "full_name": "Fajar Sakti Sanubari",
+          "nip": "2401815972",
+          "join_from": null,
+          "game_id": "44190389 (2210)",
+          "game_nick": "Aisengard"
+        },
+        {
+          "full_name": "JASSEN",
+          "nip": "C110226002",
+          "join_from": null,
+          "game_id": "890789(2001)",
+          "game_nick": "Grapples"
+        },
+        {
+          "full_name": "Petra",
+          "nip": "C150625009",
+          "join_from": null,
+          "game_id": "28421271(2038)",
+          "game_nick": "N0tail"
+        },
+        {
+          "full_name": "Yohanes",
+          "nip": "C040722003",
+          "join_from": null,
+          "game_id": "63047723 (2027)",
+          "game_nick": "CoffeemixP0wer"
+        },
+        {
+          "full_name": "Daniel",
+          "nip": "2096730148",
+          "join_from": null,
+          "game_id": "55190466(2090)",
+          "game_nick": "Kilua48"
+        }
+      ]
+    },
+    {
+      "team_name": "Bakwan Kingdom",
+      "captain_name": "Wahyu Aji Nugroho",
+      "captain_whatsapp": "",
+      "captain_email": "wahyu.n@bankmandiri.co.id",
+      "logo": false,
+      "idcard": false,
+      "members": [
+        {
+          "full_name": "Wahyu Aji Nugroho",
+          "nip": "2299766592",
+          "join_from": null,
+          "game_id": "101317910 (2518)",
+          "game_nick": "W i z a r d ã"
+        },
+        {
+          "full_name": "Jorgi Taufan Ajy",
+          "nip": "2296766827",
+          "join_from": null,
+          "game_id": "1120995739 (13519)",
+          "game_nick": "Gus Iman"
+        },
+        {
+          "full_name": "Ilham Nugroho",
+          "nip": "2297762734",
+          "join_from": null,
+          "game_id": "76631545 (2145)",
+          "game_nick": "yuujin"
+        },
+        {
+          "full_name": "Dimas Aldi Kartika",
+          "nip": "2299772087",
+          "join_from": null,
+          "game_id": "56366082 (2091)",
+          "game_nick": "âÎ±ÏÑÑÐ¸Â¢Ñ"
+        },
+        {
+          "full_name": "Abdul Adzib Budihartono Nugroho",
+          "nip": "CR",
+          "join_from": null,
+          "game_id": "41809065 (2064)",
+          "game_nick": "Moluscartz"
+        },
+        {
+          "full_name": "Mohammad Andiez Satria Permana",
+          "nip": "2499808582",
+          "join_from": null,
+          "game_id": "665367417 (8643)",
+          "game_nick": "VerzettA"
+        }
+      ]
+    },
+    {
+      "team_name": "LuizCNT",
+      "captain_name": "Luiz Adam Rifaldi",
+      "captain_whatsapp": "",
+      "captain_email": "angger.elegant1@bankmandiri.co.id",
+      "logo": false,
+      "idcard": false,
+      "members": [
+        {
+          "full_name": "Luiz Adam Rifaldi",
+          "nip": "lawencon.luiz",
+          "join_from": null,
+          "game_id": "35842808 (2053)",
+          "game_nick": "Whizz"
+        },
+        {
+          "full_name": "Muhammad Iqbal R",
+          "nip": "2299766717",
+          "join_from": null,
+          "game_id": "39077726(2208)",
+          "game_nick": "Sonio"
+        },
+        {
+          "full_name": "Angger Muhammad Elegant",
+          "nip": "2500841085",
+          "join_from": null,
+          "game_id": "62847513 (2024)",
+          "game_nick": "Ka'Gura"
+        },
+        {
+          "full_name": "Ari Setiawan",
+          "nip": "1997718226",
+          "join_from": null,
+          "game_id": "47666556 (2075)",
+          "game_nick": "Allyriane"
+        },
+        {
+          "full_name": "Exsayudy Manalu",
+          "nip": "2201772662",
+          "join_from": null,
+          "game_id": "201807144 (9044)",
+          "game_nick": "MOORDENAAR"
+        },
+        {
+          "full_name": "Jumadi H D",
+          "nip": "2200772689",
+          "join_from": null,
+          "game_id": "1028882880 (13114)",
+          "game_nick": "Ashura."
+        }
+      ]
+    },
+    {
+      "team_name": "ctrl x",
+      "captain_name": "Gomgom",
+      "captain_whatsapp": "081519219396",
+      "captain_email": "gomgom.alexander@bankmandiri.co.id",
+      "logo": false,
+      "idcard": false,
+      "members": [
+        {
+          "full_name": "Gomgom",
+          "nip": "1987726114",
+          "join_from": null,
+          "game_id": "239488468 (9255)",
+          "game_nick": "Krak Krak_27"
+        },
+        {
+          "full_name": "Gomgom",
+          "nip": "1987726114",
+          "join_from": null,
+          "game_id": "239488468 (9255)",
+          "game_nick": "Krak Krak_27"
+        },
+        {
+          "full_name": "Gomgom",
+          "nip": "1987726114",
+          "join_from": null,
+          "game_id": "239488468 (9255)",
+          "game_nick": "Krak Krak_27"
+        },
+        {
+          "full_name": "Gomgom",
+          "nip": "1987726114",
+          "join_from": null,
+          "game_id": "239488468 (9255)",
+          "game_nick": "Krak Krak_27"
+        },
+        {
+          "full_name": "Gomgom",
+          "nip": "1987726114",
+          "join_from": null,
+          "game_id": "239488468 (9255)",
+          "game_nick": "Krak Krak_27"
+        },
+        {
+          "full_name": "Gomgom",
+          "nip": "1987726114",
+          "join_from": null,
+          "game_id": "239488468 (9255)",
+          "game_nick": "Krak Krak_27"
+        }
+      ]
+    },
+    {
+      "team_name": "ctrl x",
+      "captain_name": "William",
+      "captain_whatsapp": "081385201629",
+      "captain_email": "C201022001@bankmandiri.co.id",
+      "logo": false,
+      "idcard": false,
+      "members": [
+        {
+          "full_name": "William",
+          "nip": "CR",
+          "join_from": null,
+          "game_id": "231274636",
+          "game_nick": "AdaBADAKKK"
+        },
+        {
+          "full_name": "Gomgom",
+          "nip": "1987726114",
+          "join_from": null,
+          "game_id": "239488468 (9255)",
+          "game_nick": "Krak Krak_27"
+        },
+        {
+          "full_name": "Helmi",
+          "nip": "1880699632",
+          "join_from": null,
+          "game_id": "118688944(2603)",
+          "game_nick": "HeavenknightZ"
+        },
+        {
+          "full_name": "Glenn",
+          "nip": "CR",
+          "join_from": null,
+          "game_id": "19399739 (2023)",
+          "game_nick": "LaPucelle"
+        },
+        {
+          "full_name": "Asido",
+          "nip": "CR",
+          "join_from": null,
+          "game_id": "2202023625 (2806)",
+          "game_nick": "Destiny"
+        },
+        {
+          "full_name": "Mora",
+          "nip": "1990xxxxxx",
+          "join_from": null,
+          "game_id": "085273918273",
+          "game_nick": "182906278 (2246)- Doltuk"
+        }
+      ]
+    },
+    {
+      "team_name": "DSD - 1",
+      "captain_name": "Arif Yoga Pratama",
+      "captain_whatsapp": "0822 4622 1810",
+      "captain_email": "arif.pratama@bankmandiri.co.id",
+      "logo": false,
+      "idcard": false,
+      "members": [
+        {
+          "full_name": "Arif Yoga Pratama",
+          "nip": "C180422004",
+          "join_from": null,
+          "game_id": "23914668(2029)",
+          "game_nick": "DrakenShikii969"
+        },
+        {
+          "full_name": "Arif Yoga Pratama",
+          "nip": "C180422004",
+          "join_from": null,
+          "game_id": "23914668(2029)",
+          "game_nick": "DrakenShikii969"
+        },
+        {
+          "full_name": "Arif Yoga Pratama",
+          "nip": "C180422004",
+          "join_from": null,
+          "game_id": "23914668(2029)",
+          "game_nick": "DrakenShikii969"
+        },
+        {
+          "full_name": "Arif Yoga Pratama",
+          "nip": "C180422004",
+          "join_from": null,
+          "game_id": "23914668(2029)",
+          "game_nick": "DrakenShikii969"
+        },
+        {
+          "full_name": "Arif Yoga Pratama",
+          "nip": "C180422004",
+          "join_from": null,
+          "game_id": "23914668(2029)",
+          "game_nick": "DrakenShikii969"
+        },
+        {
+          "full_name": "Arif Yoga Pratama",
+          "nip": "C180422004",
+          "join_from": null,
+          "game_id": "23914668(2029)",
+          "game_nick": "DrakenShikii969"
+        }
+      ]
+    },
+    {
+      "team_name": "ChandraKP",
+      "captain_name": "Chandra Kirana Poetra",
+      "captain_whatsapp": "087890391369",
+      "captain_email": "musa.wdc@bankmandiri.co.id",
+      "logo": false,
+      "idcard": false,
+      "members": [
+        {
+          "full_name": "Chandra Kirana Poetra",
+          "nip": "OTSC.11.22.766",
+          "join_from": null,
+          "game_id": "115005624 (2586)",
+          "game_nick": "ErzaScarlet"
+        },
+        {
+          "full_name": "Musa",
+          "nip": "1988718607",
+          "join_from": null,
+          "game_id": "566738475 (8277)",
+          "game_nick": "Nothing"
+        },
+        {
+          "full_name": "Jeffri Alimin",
+          "nip": "C040325001",
+          "join_from": null,
+          "game_id": "83821791(2162)",
+          "game_nick": "RAVERRR"
+        },
+        {
+          "full_name": "Clinten Rendy Hendy Sulu",
+          "nip": "C150625008",
+          "join_from": null,
+          "game_id": "899470192(12571)",
+          "game_nick": "@Joker"
+        },
+        {
+          "full_name": "Andre",
+          "nip": "1891693533",
+          "join_from": null,
+          "game_id": "677468060 (8696)",
+          "game_nick": "Archmage"
+        },
+        {
+          "full_name": "Wisnu Agung Laksono",
+          "nip": "C100522004",
+          "join_from": null,
+          "game_id": "74329264(2140)",
+          "game_nick": "Renatha"
+        }
+      ]
+    },
+    {
+      "team_name": "SKYZ",
+      "captain_name": "Arif Yoga Pratama (Capt)",
+      "captain_whatsapp": "0822 4622 1810",
+      "captain_email": "hamzah.mega@bankmandiri.co.id",
+      "logo": false,
+      "idcard": false,
+      "members": [
+        {
+          "full_name": "Arif Yoga Pratama (Capt)",
+          "nip": "C180422004",
+          "join_from": null,
+          "game_id": "23914668 (2029)",
+          "game_nick": "DrakenShikii969"
+        },
+        {
+          "full_name": "2. Fakhrur Rozie",
+          "nip": "C050123002",
+          "join_from": null,
+          "game_id": "30961426 (2207)",
+          "game_nick": "Bank Mandiri"
+        },
+        {
+          "full_name": "3. Dimas Octafiyan",
+          "nip": "081297218851 -36400625 (2053)",
+          "join_from": null,
+          "game_id": "",
+          "game_nick": ""
+        },
+        {
+          "full_name": "4. Friedrich",
+          "nip": "1992717025",
+          "join_from": null,
+          "game_id": "26554075 (2037)",
+          "game_nick": "wine"
+        },
+        {
+          "full_name": "5. Kunadi",
+          "nip": "C160922001",
+          "join_from": null,
+          "game_id": "10947308 (2013)",
+          "game_nick": "[BDG squad] Kunex"
+        },
+        {
+          "full_name": "6.  Aditya Pratamaatmadja",
+          "nip": "2602870677",
+          "join_from": null,
+          "game_id": "31508706 (2047)",
+          "game_nick": "Æ¦ÎµÇ«uÎ¹ÆÏÊ`í"
+        }
+      ]
+    },
+    {
+      "team_name": "CTRL + C",
+      "captain_name": "Reyzaldy",
+      "captain_whatsapp": "08112955418",
+      "captain_email": "c260126005@bankmandiri.co.id",
+      "logo": false,
+      "idcard": false,
+      "members": [
+        {
+          "full_name": "Reyzaldy",
+          "nip": "2198743817",
+          "join_from": null,
+          "game_id": "756436337 (12038)",
+          "game_nick": "Llevarse"
+        },
+        {
+          "full_name": "Aloysius",
+          "nip": "2693862369",
+          "join_from": null,
+          "game_id": "8955636(2010)",
+          "game_nick": "~Vee"
+        },
+        {
+          "full_name": "Rizaldi",
+          "nip": "2604869636",
+          "join_from": null,
+          "game_id": "53263805 (2212)",
+          "game_nick": "YuckDot"
+        },
+        {
+          "full_name": "Noufal",
+          "nip": "2403809569",
+          "join_from": null,
+          "game_id": "130494441(2667)",
+          "game_nick": "C I M O L"
+        },
+        {
+          "full_name": "Anggoro",
+          "nip": "C260126005",
+          "join_from": null,
+          "game_id": "7489527 (2008)",
+          "game_nick": "duckness"
+        }
+      ]
+    },
+    {
+      "team_name": "ALABAZTA",
+      "captain_name": "Arfian Zaky Raihan",
+      "captain_whatsapp": "082244160118",
+      "captain_email": "prakoso.eko@bankmandiri.co.id",
+      "logo": false,
+      "idcard": false,
+      "members": [
+        {
+          "full_name": "Arfian Zaky Raihan",
+          "nip": "C070922016",
+          "join_from": null,
+          "game_id": "147871835 (2739)",
+          "game_nick": "itsJekk"
+        },
+        {
+          "full_name": "MUHAMMAD FADEL (Kapten)",
+          "nip": "2297772436",
+          "join_from": null,
+          "game_id": "46194281 (2211)",
+          "game_nick": "Floroxix"
+        },
+        {
+          "full_name": "Nugroho Aji Pangestu",
+          "nip": "2697883122",
+          "join_from": null,
+          "game_id": "1377513735 (15670)",
+          "game_nick": "SwishSwishBish"
+        },
+        {
+          "full_name": "Eko prakoso",
+          "nip": "085773668447",
+          "join_from": null,
+          "game_id": "39954552(2036)",
+          "game_nick": "ALABAZTA"
+        },
+        {
+          "full_name": "Nurahmad Sabil -C070922020 -081213599008 -40094202 (2208)",
+          "nip": "FressiaAngelica",
+          "join_from": null,
+          "game_id": "",
+          "game_nick": ""
+        },
+        {
+          "full_name": "Hamzah Mega",
+          "nip": "C150824002",
+          "join_from": null,
+          "game_id": "107373059 (2230)",
+          "game_nick": "Super vinnn"
+        }
+      ]
+    },
+    {
+      "team_name": "DPR MoLe",
+      "captain_name": "Muhammmad Daffa' Aflah Syarif",
+      "captain_whatsapp": "083115930206",
+      "captain_email": "muhammmad.syarif@bankmandiri.co.id",
+      "logo": false,
+      "idcard": false,
+      "members": [
+        {
+          "full_name": "Muhammmad Daffa' Aflah Syarif",
+          "nip": "2499809200",
+          "join_from": null,
+          "game_id": "425932764 (9961)",
+          "game_nick": "df(o_6)"
+        },
+        {
+          "full_name": "Rafi Ulleta G.",
+          "nip": "0",
+          "join_from": null,
+          "game_id": "73895824 (2218)",
+          "game_nick": "E S C O B R A"
+        },
+        {
+          "full_name": "Putra P. Sitorus",
+          "nip": "0",
+          "join_from": null,
+          "game_id": "66867511(2119)",
+          "game_nick": "zzzz"
+        },
+        {
+          "full_name": "Dede Saepul R.",
+          "nip": "0",
+          "join_from": null,
+          "game_id": "28263388 (5009)",
+          "game_nick": "hileud cau"
+        },
+        {
+          "full_name": "Ridho Purnama",
+          "nip": "1995715141",
+          "join_from": null,
+          "game_id": "67679704 (2121)",
+          "game_nick": "BlueFire"
+        }
+      ]
+    },
+    {
+      "team_name": "9PM",
+      "captain_name": "Tigor M Manurung",
+      "captain_whatsapp": "",
+      "captain_email": "muhamadalfarizi@bankmandiri.co.id",
+      "logo": false,
+      "idcard": false,
+      "members": [
+        {
+          "full_name": "Tigor M Manurung",
+          "nip": "2187748801",
+          "join_from": null,
+          "game_id": "08128136678",
+          "game_nick": "262466608 (9393) -Wisdom x queen"
+        },
+        {
+          "full_name": "Timotius Wirawan",
+          "nip": "2400810321",
+          "join_from": null,
+          "game_id": "1222012486 (8723)",
+          "game_nick": "Sakura@7600"
+        },
+        {
+          "full_name": "Kharista Saputra Intan",
+          "nip": "2698863420",
+          "join_from": null,
+          "game_id": "21847383 (2027)",
+          "game_nick": "Shiba"
+        },
+        {
+          "full_name": "Pokki Mario Jeremi",
+          "nip": "2401813720",
+          "join_from": null,
+          "game_id": "47598864 (2076)",
+          "game_nick": "killorder"
+        },
+        {
+          "full_name": "Muhamad Salman Alfarizi",
+          "nip": "2401809520",
+          "join_from": null,
+          "game_id": "3674666 (2004)",
+          "game_nick": "Nanami Mannn."
+        },
+        {
+          "full_name": "Agustinus Banjarnahor",
+          "nip": "2401810874",
+          "join_from": null,
+          "game_id": "138137591 (2694)",
+          "game_nick": "Megumi Marbun"
+        }
+      ]
+    },
+    {
+      "team_name": "Jono Joni",
+      "captain_name": "Amalia Hari Iskania",
+      "captain_whatsapp": "",
+      "captain_email": "muchammad.supriyanto@bankmandiri.co.id",
+      "logo": false,
+      "idcard": false,
+      "members": [
+        {
+          "full_name": "Amalia Hari Iskania",
+          "nip": "",
+          "join_from": null,
+          "game_id": "",
+          "game_nick": ""
+        },
+        {
+          "full_name": "Pepi",
+          "nip": "",
+          "join_from": null,
+          "game_id": "",
+          "game_nick": ""
+        },
+        {
+          "full_name": "Bagas",
+          "nip": "",
+          "join_from": null,
+          "game_id": "",
+          "game_nick": ""
+        },
+        {
+          "full_name": "kaka Frans",
+          "nip": "",
+          "join_from": null,
+          "game_id": "",
+          "game_nick": ""
+        },
+        {
+          "full_name": "Sukma",
+          "nip": "",
+          "join_from": null,
+          "game_id": "",
+          "game_nick": ""
+        },
+        {
+          "full_name": "SUPRI",
+          "nip": "",
+          "join_from": null,
+          "game_id": "",
+          "game_nick": ""
+        }
+      ]
+    },
+    {
+      "team_name": "CIHUYYY",
+      "captain_name": "Muhammad Raihan Arrasyid",
+      "captain_whatsapp": "085167891310",
+      "captain_email": "rachel.gracia@bankmandiri.co.id",
+      "logo": false,
+      "idcard": false,
+      "members": [
+        {
+          "full_name": "Muhammad Raihan Arrasyid",
+          "nip": "2604869628",
+          "join_from": null,
+          "game_id": "116359062 (2597)",
+          "game_nick": "I'an"
+        },
+        {
+          "full_name": "Muhamad Faiz Gifari",
+          "nip": "2603875139",
+          "join_from": null,
+          "game_id": "19244320(2024)",
+          "game_nick": "REDOKN"
+        },
+        {
+          "full_name": "Rachel Sola Gracia",
+          "nip": "2603859620",
+          "join_from": null,
+          "game_id": "129747483 (2653)",
+          "game_nick": "Grac04"
+        },
+        {
+          "full_name": "Martin Timoteus Siagian",
+          "nip": "2603870403",
+          "join_from": null,
+          "game_id": "143183124(2718)",
+          "game_nick": "+SCOOBld00+"
+        },
+        {
+          "full_name": "Frans Aldi Gurning",
+          "nip": "2602869604",
+          "join_from": null,
+          "game_id": "121170748 (2615)",
+          "game_nick": "Jessie|áµâ±Ê³Ë¡â¡"
+        }
+      ]
+    },
+    {
+      "team_name": "AW* Int",
+      "captain_name": "ARIEL PRIMA NUGRAHA",
+      "captain_whatsapp": "081345535517",
+      "captain_email": "muh.djamal@bankmandiri.co.id",
+      "logo": false,
+      "idcard": false,
+      "members": [
+        {
+          "full_name": "ARIEL PRIMA NUGRAHA",
+          "nip": "2401808423",
+          "join_from": null,
+          "game_id": "39993161 (2059)",
+          "game_nick": "Leira"
+        },
+        {
+          "full_name": "MUHAMMAD HAEKAL",
+          "nip": "C080825002",
+          "join_from": null,
+          "game_id": "101297854 (2525)",
+          "game_nick": "Kevin Wong"
+        },
+        {
+          "full_name": "MUH IQBAL ISWANTO",
+          "nip": "2500839089",
+          "join_from": null,
+          "game_id": "37807038 (2056)",
+          "game_nick": "KKKK"
+        },
+        {
+          "full_name": "NOVAL MUHAMMAD",
+          "nip": "2697865970",
+          "join_from": null,
+          "game_id": "18236262 (2020)",
+          "game_nick": "ELnanika-"
+        },
+        {
+          "full_name": "KENZO FATHUR RAMA",
+          "nip": "C290525001",
+          "join_from": null,
+          "game_id": "(2003)",
+          "game_nick": "Akai"
+        },
+        {
+          "full_name": "ALFATH QAMARA",
+          "nip": "C270323003",
+          "join_from": null,
+          "game_id": "1080222321 (13336)",
+          "game_nick": "Hayang Cabok"
+        }
+      ]
+    },
+    {
+      "team_name": "PAPA KALA",
+      "captain_name": "Johannes Pagar Manurung",
+      "captain_whatsapp": "082288791720",
+      "captain_email": "andrew.saragih@bankmandiri.co.id",
+      "logo": false,
+      "idcard": false,
+      "members": [
+        {
+          "full_name": "Johannes Pagar Manurung",
+          "nip": "2201773751",
+          "join_from": null,
+          "game_id": "92641203 (2192)",
+          "game_nick": "17'millie"
+        },
+        {
+          "full_name": "Dwiki Yansuryo Kusumo",
+          "nip": "18995728672",
+          "join_from": null,
+          "game_id": "1343412769 (15394)",
+          "game_nick": "dwikimaus"
+        },
+        {
+          "full_name": "Lamhot Sion H Pardede",
+          "nip": "2200773778",
+          "join_from": null,
+          "game_id": "1782221826 (2908)",
+          "game_nick": "Gadong Incir"
+        },
+        {
+          "full_name": "Andrew Saragih",
+          "nip": "2200774628",
+          "join_from": null,
+          "game_id": "203694765 (9038)",
+          "game_nick": "Pohh."
+        },
+        {
+          "full_name": "David Basa",
+          "nip": "2200773802",
+          "join_from": null,
+          "game_id": "60037451 (2103)",
+          "game_nick": "G E N E S I S"
+        },
+        {
+          "full_name": "Christopher Hutabarat",
+          "nip": "2200772556",
+          "join_from": null,
+          "game_id": "187166441 (2956)",
+          "game_nick": "Ar1ze-"
+        }
+      ]
+    }
+  ]
+}
