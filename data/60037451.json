@@ -1,0 +1,96 @@
+{
+  "id": "60037451",
+  "nick": "GENESIS",
+  "server": "2103",
+  "role": "explaner",
+  "rank_current": "28",
+  "rank_highest": "60",
+  "statistic": {
+    "current_season": {
+      "matches_count": 170,
+      "win_rate": 60.59,
+      "kda": 2.49,
+      "team_participation": 47.8,
+      "gold_per_min": 673,
+      "dmg_per_min": 3753,
+      "deaths_per_match": 5.68,
+      "turret_dmg_per_match": 6736
+    },
+    "all_season": {
+      "matches_count": 5778,
+      "win_rate": 57.22,
+      "kda": 3.12,
+      "team_participation": 49.8,
+      "gold_per_min": 663,
+      "dmg_per_min": 3235,
+      "deaths_per_match": 4.80,
+      "turret_dmg_per_match": 5199
+    }
+  },
+  "hero_favorite": {
+    "current_season": [
+      {
+        "hero_name": "Dyrroth",
+        "matches": 22,
+        "win_rate": 77.3
+      },
+      {
+        "hero_name": "Roger",
+        "matches": 13,
+        "win_rate": 76.9
+      },
+      {
+        "hero_name": "Floryn",
+        "matches": 13,
+        "win_rate": 69.2
+      },
+      {
+        "hero_name": "Natan",
+        "matches": 13,
+        "win_rate": 53.8
+      },
+      {
+        "hero_name": "Belerick",
+        "matches": 11,
+        "win_rate": 72.7
+      },
+      {
+        "hero_name": "Brody",
+        "matches": 8,
+        "win_rate": 62.5
+      }
+    ],
+    "all_season": [
+      {
+        "hero_name": "Brody",
+        "matches": 279,
+        "win_rate": 55.9
+      },
+      {
+        "hero_name": "Chou",
+        "matches": 261,
+        "win_rate": 59.4
+      },
+      {
+        "hero_name": "Roger",
+        "matches": 245,
+        "win_rate": 60.0
+      },
+      {
+        "hero_name": "Karrie",
+        "matches": 201,
+        "win_rate": 51.7
+      },
+      {
+        "hero_name": "Fredrinn",
+        "matches": 200,
+        "win_rate": 58.0
+      },
+      {
+        "hero_name": "Dyrroth",
+        "matches": 177,
+        "win_rate": 54.2
+      }
+    ]
+  }
+}
