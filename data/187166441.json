@@ -1,0 +1,91 @@
+{
+  "id": "187166441",
+  "nick": "Ar1ze-",
+  "server": "2956",
+  "role": "roamer",
+  "rank_current": "45",
+  "rank_highest": "57",
+  "statistic": {
+    "current_season": {
+      "matches_count": 248,
+      "win_rate": 57.66,
+      "kda": 2.49,
+      "team_participation": 55.5,
+      "gold_per_min": 561,
+      "dmg_per_min": 1511,
+      "deaths_per_match": 5.94,
+      "turret_dmg_per_match": 121
+    },
+    "all_season": {
+      "matches_count": 3651,
+      "win_rate": 56.92,
+      "kda": 2.60,
+      "team_participation": 53.5,
+      "gold_per_min": 533,
+      "dmg_per_min": 1368,
+      "deaths_per_match": 5.79,
+      "turret_dmg_per_match": 597
+    }
+  },
+  "hero_favorite": {
+    "current_season": [
+      {
+        "hero_name": "Tigreal",
+        "matches": 242,
+        "win_rate": 58.3
+      },
+      {
+        "hero_name": "Hylos",
+        "matches": 2,
+        "win_rate": 50.0
+      },
+      {
+        "hero_name": "Franco",
+        "matches": 2,
+        "win_rate": 0.0
+      },
+      {
+        "hero_name": "Atlas",
+        "matches": 1,
+        "win_rate": 100.0
+      },
+      {
+        "hero_name": "Miya",
+        "matches": 1,
+        "win_rate": 0.0
+      }
+    ],
+    "all_season": [
+      {
+        "hero_name": "Tigreal",
+        "matches": 3429,
+        "win_rate": 58.0
+      },
+      {
+        "hero_name": "Franco",
+        "matches": 248,
+        "win_rate": 58.9
+      },
+      {
+        "hero_name": "Aurora",
+        "matches": 151,
+        "win_rate": 43.0
+      },
+      {
+        "hero_name": "Hylos",
+        "matches": 126,
+        "win_rate": 54.0
+      },
+      {
+        "hero_name": "Vexana",
+        "matches": 55,
+        "win_rate": 56.4
+      },
+      {
+        "hero_name": "Johnson",
+        "matches": 36,
+        "win_rate": 50.0
+      }
+    ]
+  }
+}
