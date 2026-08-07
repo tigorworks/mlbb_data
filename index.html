@@ -10,7 +10,8 @@
 
 <script src="https://code.jquery.com/jquery-3.7.0.min.js"></script>
 <script src="https://cdn.datatables.net/1.13.6/js/jquery.dataTables.min.js"></script>
-<script src="https://unpkg.com/html2canvas@1.4.1/dist/html2canvas.min.js"></script>
+<!-- html2canvas dimuat dari salinan lokal; CDN dipakai hanya sebagai cadangan (lihat ensureHtml2Canvas) -->
+<script src="vendor/html2canvas.min.js"></script>
 
 <style>
 
@@ -2161,8 +2162,81 @@ _dlStatRow('Deaths',as.deaths_per_match)+
 '</div>';
 }
 
+/* html2canvas dimuat lokal. Kalau file lokal gagal (mis. hosting belum sync),
+   coba beberapa CDN sebagai cadangan supaya tombol download tidak mati total. */
+var _h2cSources=[
+'vendor/html2canvas.min.js',
+'https://cdn.jsdelivr.net/npm/html2canvas@1.4.1/dist/html2canvas.min.js',
+'https://unpkg.com/html2canvas@1.4.1/dist/html2canvas.min.js',
+'https://cdnjs.cloudflare.com/ajax/libs/html2canvas/1.4.1/html2canvas.min.js'
+];
+
+function _loadScript(src){
+return new Promise(function(resolve,reject){
+var s=document.createElement('script');
+s.src=src;
+s.async=true;
+s.onload=function(){resolve();};
+s.onerror=function(){s.remove();reject(new Error('Gagal memuat '+src));};
+document.head.appendChild(s);
+});
+}
+
+async function ensureHtml2Canvas(){
+if(typeof window.html2canvas==='function') return window.html2canvas;
+for(var i=0;i<_h2cSources.length;i++){
+try{ await _loadScript(_h2cSources[i]); }catch(e){ continue; }
+if(typeof window.html2canvas==='function') return window.html2canvas;
+}
+throw new Error('Library html2canvas tidak dapat dimuat. Periksa koneksi internet lalu coba lagi.');
+}
+
+/* Batasi ukuran canvas: Safari/iOS menolak canvas di atas ~16 juta piksel
+   dan semua browser punya batas dimensi, hasilnya canvas kosong. */
+function _dlSafeScale(w,h,preferred){
+var MAX_PIXELS=16000000;
+var MAX_SIDE=16384;
+var scale=preferred;
+if(w*h>0) scale=Math.min(scale,Math.sqrt(MAX_PIXELS/(w*h)));
+var side=Math.max(w,h);
+if(side>0) scale=Math.min(scale,MAX_SIDE/side);
+return Math.max(1,Math.min(preferred,scale));
+}
+
+function _dlSaveCanvas(canvas,fileName){
+return new Promise(function(resolve,reject){
+function trigger(href,revoke){
+var link=document.createElement('a');
+link.download=fileName;
+link.href=href;
+link.rel='noopener';
+link.style.display='none';
+/* Anchor harus ada di DOM: Firefox mengabaikan click() pada node lepas. */
+document.body.appendChild(link);
+link.click();
+setTimeout(function(){
+link.remove();
+if(revoke) URL.revokeObjectURL(href);
+},1000);
+resolve();
+}
+/* Blob URL, bukan data URL: data URL berukuran besar ditolak Safari/iOS
+   dan atribut download tidak jalan di sana. */
+if(canvas.toBlob){
+canvas.toBlob(function(blob){
+if(blob) return trigger(URL.createObjectURL(blob),true);
+try{ trigger(canvas.toDataURL('image/png'),false); }catch(e){ reject(e); }
+},'image/png');
+}else{
+try{ trigger(canvas.toDataURL('image/png'),false); }catch(e){ reject(e); }
+}
+});
+}
+
 async function downloadScoutPNG(){
 var btn=document.getElementById('downloadBtn');
+var btnLabel=btn.textContent;
+var wrap=null;
 btn.disabled=true;
 btn.textContent='Generating...';
 
@@ -2176,8 +2250,17 @@ var targetPlayers=hasSelection
 ? selectedRows.map(function(tr){return renderedPlayers[parseInt(tr.dataset.pid)];}).filter(Boolean)
 : [...renderedPlayers];
 
-var wrap=document.createElement('div');
-wrap.style.cssText='position:fixed;left:-9999px;top:0;width:1100px;background:#0b0e17;padding:32px;font-family:Inter,sans-serif;color:#e5e7eb;box-sizing:border-box;';
+if(targetPlayers.length===0){
+alert('Tidak ada data player untuk di-download.');
+return;
+}
+
+await ensureHtml2Canvas();
+
+wrap=document.createElement('div');
+/* position:absolute (bukan fixed): html2canvas menghitung posisi elemen fixed
+   relatif ke viewport kloning, hasilnya bisa kosong/terpotong. */
+wrap.style.cssText='position:absolute;left:-10000px;top:0;width:1100px;background:#0b0e17;padding:32px;font-family:Inter,sans-serif;color:#e5e7eb;box-sizing:border-box;';
 
 var dateStr=new Date().toLocaleDateString('id-ID',{day:'numeric',month:'long',year:'numeric'});
 wrap.innerHTML='<div style="margin-bottom:24px;padding-bottom:16px;border-bottom:2px solid #2b3142;display:flex;align-items:center;justify-content:space-between;">'+
@@ -2209,25 +2292,40 @@ wrap.appendChild(aWrap);
 
 document.body.appendChild(wrap);
 
+if(document.fonts&&document.fonts.ready){
+try{ await document.fonts.ready; }catch(e){}
+}
+
+var wrapW=wrap.offsetWidth;
+var wrapH=wrap.offsetHeight;
+
 var canvas=await html2canvas(wrap,{
 backgroundColor:'#0b0e17',
-scale:2,
+scale:_dlSafeScale(wrapW,wrapH,2),
 useCORS:true,
 logging:false,
 allowTaint:true,
+width:wrapW,
+height:wrapH,
+windowWidth:wrapW,
+windowHeight:wrapH,
+scrollX:0,
+scrollY:0,
 });
 
-document.body.removeChild(wrap);
+if(!canvas||!canvas.width||!canvas.height){
+throw new Error('Canvas kosong — laporan terlalu besar untuk dirender browser ini.');
+}
 
-var link=document.createElement('a');
-link.download=teamName.replace(/[^a-zA-Z0-9]/g,'_')+'_scout.png';
-link.href=canvas.toDataURL('image/png');
-link.click();
+var safeName=(teamName||'scout').trim().replace(/[^a-zA-Z0-9]+/g,'_').replace(/^_+|_+$/g,'')||'scout';
+await _dlSaveCanvas(canvas,safeName+'_scout.png');
 }catch(err){
 console.error(err);
+alert('Gagal membuat PNG: '+(err&&err.message?err.message:err));
 }finally{
+if(wrap&&wrap.parentNode) wrap.parentNode.removeChild(wrap);
 btn.disabled=false;
-btn.textContent='↓ Download PNG';
+btn.textContent=btnLabel;
 }
 }
 
