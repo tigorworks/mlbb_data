@@ -1,0 +1,96 @@
+{
+  "id": "66867511",
+  "nick": "zzzZ",
+  "server": "2119",
+  "role": "roamer",
+  "rank_current": "1",
+  "rank_highest": "61",
+  "statistic": {
+    "current_season": {
+      "matches_count": 94,
+      "win_rate": 58.51,
+      "kda": 3.72,
+      "team_participation": 64.7,
+      "gold_per_min": 632,
+      "dmg_per_min": 2345,
+      "deaths_per_match": 5.64,
+      "turret_dmg_per_match": 1138
+    },
+    "all_season": {
+      "matches_count": 5535,
+      "win_rate": 56.08,
+      "kda": 2.69,
+      "team_participation": 52.2,
+      "gold_per_min": 558,
+      "dmg_per_min": 2366,
+      "deaths_per_match": 5.57,
+      "turret_dmg_per_match": 2561
+    }
+  },
+  "hero_favorite": {
+    "current_season": [
+      {
+        "hero_name": "Kalea",
+        "matches": 18,
+        "win_rate": 50.0
+      },
+      {
+        "hero_name": "Khufra",
+        "matches": 16,
+        "win_rate": 56.2
+      },
+      {
+        "hero_name": "Chou",
+        "matches": 13,
+        "win_rate": 38.5
+      },
+      {
+        "hero_name": "Atlas",
+        "matches": 8,
+        "win_rate": 87.5
+      },
+      {
+        "hero_name": "Gloo",
+        "matches": 8,
+        "win_rate": 62.5
+      },
+      {
+        "hero_name": "Tigreal",
+        "matches": 6,
+        "win_rate": 50.0
+      }
+    ],
+    "all_season": [
+      {
+        "hero_name": "Khufra",
+        "matches": 602,
+        "win_rate": 57.6
+      },
+      {
+        "hero_name": "Martis",
+        "matches": 233,
+        "win_rate": 53.2
+      },
+      {
+        "hero_name": "Minotaur",
+        "matches": 211,
+        "win_rate": 60.7
+      },
+      {
+        "hero_name": "Tigreal",
+        "matches": 210,
+        "win_rate": 61.4
+      },
+      {
+        "hero_name": "Zhask",
+        "matches": 203,
+        "win_rate": 51.7
+      },
+      {
+        "hero_name": "Franco",
+        "matches": 201,
+        "win_rate": 47.3
+      }
+    ]
+  }
+}
