@@ -1,0 +1,96 @@
+{
+  "id": "73895824",
+  "nick": "E S C O B R A",
+  "server": "2218",
+  "role": "jungler",
+  "rank_current": "2",
+  "rank_highest": "50",
+  "statistic": {
+    "current_season": {
+      "matches_count": 39,
+      "win_rate": 66.67,
+      "kda": 5.79,
+      "team_participation": 55.3,
+      "gold_per_min": 762,
+      "dmg_per_min": 3875,
+      "deaths_per_match": 3.54,
+      "turret_dmg_per_match": 3563
+    },
+    "all_season": {
+      "matches_count": 9557,
+      "win_rate": 55.67,
+      "kda": 3.97,
+      "team_participation": 54.7,
+      "gold_per_min": 613,
+      "dmg_per_min": 3265,
+      "deaths_per_match": 3.71,
+      "turret_dmg_per_match": 2982
+    }
+  },
+  "hero_favorite": {
+    "current_season": [
+      {
+        "hero_name": "Leomord",
+        "matches": 7,
+        "win_rate": 85.7
+      },
+      {
+        "hero_name": "Lancelot",
+        "matches": 5,
+        "win_rate": 60.0
+      },
+      {
+        "hero_name": "Fanny",
+        "matches": 5,
+        "win_rate": 60.0
+      },
+      {
+        "hero_name": "Yi Sun-shin",
+        "matches": 3,
+        "win_rate": 100.0
+      },
+      {
+        "hero_name": "Tigreal",
+        "matches": 2,
+        "win_rate": 50.0
+      },
+      {
+        "hero_name": "Minsitthar",
+        "matches": 2,
+        "win_rate": 50.0
+      }
+    ],
+    "all_season": [
+      {
+        "hero_name": "Fanny",
+        "matches": 1032,
+        "win_rate": 54.6
+      },
+      {
+        "hero_name": "Franco",
+        "matches": 567,
+        "win_rate": 50.6
+      },
+      {
+        "hero_name": "Lancelot",
+        "matches": 543,
+        "win_rate": 54.1
+      },
+      {
+        "hero_name": "Chou",
+        "matches": 501,
+        "win_rate": 52.9
+      },
+      {
+        "hero_name": "Grock",
+        "matches": 390,
+        "win_rate": 54.6
+      },
+      {
+        "hero_name": "Kagura",
+        "matches": 385,
+        "win_rate": 64.7
+      }
+    ]
+  }
+}
