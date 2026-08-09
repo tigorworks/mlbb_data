@@ -1,0 +1,96 @@
+{
+  "id": "28263388",
+  "nick": "hileud cau",
+  "server": "5009",
+  "role": "goldlaner",
+  "rank_current": "0",
+  "rank_highest": "44",
+  "statistic": {
+    "current_season": {
+      "matches_count": 79,
+      "win_rate": 60.76,
+      "kda": 2.56,
+      "team_participation": 45.8,
+      "gold_per_min": 657,
+      "dmg_per_min": 3795,
+      "deaths_per_match": 5.94,
+      "turret_dmg_per_match": 4650
+    },
+    "all_season": {
+      "matches_count": 6050,
+      "win_rate": 53.16,
+      "kda": 2.27,
+      "team_participation": 51.3,
+      "gold_per_min": 576,
+      "dmg_per_min": 2812,
+      "deaths_per_match": 6.02,
+      "turret_dmg_per_match": 2580
+    }
+  },
+  "hero_favorite": {
+    "current_season": [
+      {
+        "hero_name": "Clint",
+        "matches": 35,
+        "win_rate": 68.6
+      },
+      {
+        "hero_name": "Minsitthar",
+        "matches": 5,
+        "win_rate": 60.0
+      },
+      {
+        "hero_name": "Ruby",
+        "matches": 4,
+        "win_rate": 75.0
+      },
+      {
+        "hero_name": "Popol and Kupa",
+        "matches": 3,
+        "win_rate": 100.0
+      },
+      {
+        "hero_name": "Minotaur",
+        "matches": 3,
+        "win_rate": 66.7
+      },
+      {
+        "hero_name": "Layla",
+        "matches": 3,
+        "win_rate": 33.3
+      }
+    ],
+    "all_season": [
+      {
+        "hero_name": "Diggie",
+        "matches": 430,
+        "win_rate": 59.8
+      },
+      {
+        "hero_name": "Belerick",
+        "matches": 352,
+        "win_rate": 53.4
+      },
+      {
+        "hero_name": "Minotaur",
+        "matches": 319,
+        "win_rate": 48.9
+      },
+      {
+        "hero_name": "Hayabusa",
+        "matches": 314,
+        "win_rate": 49.0
+      },
+      {
+        "hero_name": "Jawhead",
+        "matches": 313,
+        "win_rate": 51.1
+      },
+      {
+        "hero_name": "Saber",
+        "matches": 303,
+        "win_rate": 53.5
+      }
+    ]
+  }
+}
