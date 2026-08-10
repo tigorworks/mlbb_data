@@ -1,0 +1,96 @@
+{
+  "id": "37807038",
+  "nick": "KKKK",
+  "server": "2056",
+  "role": "goldlaner",
+  "rank_current": "33",
+  "rank_highest": "52",
+  "statistic": {
+    "current_season": {
+      "matches_count": 165,
+      "win_rate": 61.21,
+      "kda": 2.49,
+      "team_participation": 52.8,
+      "gold_per_min": 662,
+      "dmg_per_min": 3637,
+      "deaths_per_match": 6.68,
+      "turret_dmg_per_match": 4402
+    },
+    "all_season": {
+      "matches_count": 5116,
+      "win_rate": 60.28,
+      "kda": 2.9,
+      "team_participation": 55.1,
+      "gold_per_min": 622,
+      "dmg_per_min": 3901,
+      "deaths_per_match": 5.27,
+      "turret_dmg_per_match": 5492
+    }
+  },
+  "hero_favorite": {
+    "current_season": [
+      {
+        "hero_name": "Helcurt",
+        "matches": 39,
+        "win_rate": 61.5
+      },
+      {
+        "hero_name": "Wanwan",
+        "matches": 28,
+        "win_rate": 64.3
+      },
+      {
+        "hero_name": "Kalea",
+        "matches": 16,
+        "win_rate": 62.5
+      },
+      {
+        "hero_name": "Dyrroth",
+        "matches": 15,
+        "win_rate": 40.0
+      },
+      {
+        "hero_name": "Khufra",
+        "matches": 10,
+        "win_rate": 80.0
+      },
+      {
+        "hero_name": "Atlas",
+        "matches": 7,
+        "win_rate": 100.0
+      }
+    ],
+    "all_season": [
+      {
+        "hero_name": "Claude",
+        "matches": 697,
+        "win_rate": 68.6
+      },
+      {
+        "hero_name": "Irithel",
+        "matches": 515,
+        "win_rate": 60.8
+      },
+      {
+        "hero_name": "Wanwan",
+        "matches": 485,
+        "win_rate": 65.4
+      },
+      {
+        "hero_name": "Guinevere",
+        "matches": 299,
+        "win_rate": 58.5
+      },
+      {
+        "hero_name": "Freya",
+        "matches": 247,
+        "win_rate": 55.9
+      },
+      {
+        "hero_name": "Melissa",
+        "matches": 225,
+        "win_rate": 65.3
+      }
+    ]
+  }
+}
