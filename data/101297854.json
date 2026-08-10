@@ -1,0 +1,96 @@
+{
+  "id": "101297854",
+  "nick": "Kevin Wong",
+  "server": "2525",
+  "role": "goldlaner",
+  "rank_current": "29",
+  "rank_highest": "26",
+  "statistic": {
+    "current_season": {
+      "matches_count": 114,
+      "win_rate": 64.04,
+      "kda": 3.87,
+      "team_participation": 53.3,
+      "gold_per_min": 714,
+      "dmg_per_min": 4699,
+      "deaths_per_match": 4.96,
+      "turret_dmg_per_match": 6159
+    },
+    "all_season": {
+      "matches_count": 14444,
+      "win_rate": 57.30,
+      "kda": 3.47,
+      "team_participation": 56.5,
+      "gold_per_min": 677,
+      "dmg_per_min": 3945,
+      "deaths_per_match": 4.63,
+      "turret_dmg_per_match": 4387
+    }
+  },
+  "hero_favorite": {
+    "current_season": [
+      {
+        "hero_name": "Gusion",
+        "matches": 18,
+        "win_rate": 66.7
+      },
+      {
+        "hero_name": "Alice",
+        "matches": 14,
+        "win_rate": 57.1
+      },
+      {
+        "hero_name": "Obsidia",
+        "matches": 9,
+        "win_rate": 44.4
+      },
+      {
+        "hero_name": "Ixia",
+        "matches": 7,
+        "win_rate": 71.4
+      },
+      {
+        "hero_name": "Harley",
+        "matches": 6,
+        "win_rate": 33.3
+      },
+      {
+        "hero_name": "Selena",
+        "matches": 5,
+        "win_rate": 40.0
+      }
+    ],
+    "all_season": [
+      {
+        "hero_name": "Hayabusa",
+        "matches": 927,
+        "win_rate": 62.9
+      },
+      {
+        "hero_name": "Lancelot",
+        "matches": 833,
+        "win_rate": 52.5
+      },
+      {
+        "hero_name": "Granger",
+        "matches": 637,
+        "win_rate": 57.5
+      },
+      {
+        "hero_name": "Chou",
+        "matches": 636,
+        "win_rate": 50.5
+      },
+      {
+        "hero_name": "Harley",
+        "matches": 607,
+        "win_rate": 64.6
+      },
+      {
+        "hero_name": "Ling",
+        "matches": 603,
+        "win_rate": 57.7
+      }
+    ]
+  }
+}
