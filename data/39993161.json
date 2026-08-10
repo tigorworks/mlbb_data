@@ -1,0 +1,96 @@
+{
+  "id": "39993161",
+  "nick": "Leira.",
+  "server": "2059",
+  "role": "jungler",
+  "rank_current": "28",
+  "rank_highest": "99",
+  "statistic": {
+    "current_season": {
+      "matches_count": 148,
+      "win_rate": 62.84,
+      "kda": 4.47,
+      "team_participation": 50.6,
+      "gold_per_min": 743,
+      "dmg_per_min": 3867,
+      "deaths_per_match": 4.31,
+      "turret_dmg_per_match": 4541
+    },
+    "all_season": {
+      "matches_count": 9549,
+      "win_rate": 57.38,
+      "kda": 3.6,
+      "team_participation": 55.0,
+      "gold_per_min": 616,
+      "dmg_per_min": 3314,
+      "deaths_per_match": 4.01,
+      "turret_dmg_per_match": 5653
+    }
+  },
+  "hero_favorite": {
+    "current_season": [
+      {
+        "hero_name": "Lancelot",
+        "matches": 564,
+        "win_rate": 61.2
+      },
+      {
+        "hero_name": "Claude",
+        "matches": 445,
+        "win_rate": 62.2
+      },
+      {
+        "hero_name": "Hayabusa",
+        "matches": 376,
+        "win_rate": 62.8
+      },
+      {
+        "hero_name": "Beatrix",
+        "matches": 373,
+        "win_rate": 59.0
+      },
+      {
+        "hero_name": "Chou",
+        "matches": 358,
+        "win_rate": 51.4
+      },
+      {
+        "hero_name": "Yi Sun-shin",
+        "matches": 269,
+        "win_rate": 63.9
+      }
+    ],
+    "all_season": [
+      {
+        "hero_name": "Hirara",
+        "matches": 58,
+        "win_rate": 69.0
+      },
+      {
+        "hero_name": "Claude",
+        "matches": 7,
+        "win_rate": 42.9
+      },
+      {
+        "hero_name": "Harley",
+        "matches": 6,
+        "win_rate": 66.7
+      },
+      {
+        "hero_name": "Ling",
+        "matches": 6,
+        "win_rate": 66.7
+      },
+      {
+        "hero_name": "Suyou",
+        "matches": 5,
+        "win_rate": 40.0
+      },
+      {
+        "hero_name": "Obsidia",
+        "matches": 4,
+        "win_rate": 100.0
+      }
+    ]
+  }
+}
