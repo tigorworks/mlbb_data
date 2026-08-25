@@ -1,0 +1,96 @@
+{
+  "id": "116359062",
+  "nick": "i'an",
+  "zone_id": "2597",
+  "role": "roamer",
+  "rank_current": "70",
+  "rank_highest": "78",
+  "statistic": {
+    "current_season": {
+      "matches_count": 263,
+      "win_rate": 58.94,
+      "kda": 3.62,
+      "team_participation": 54.7,
+      "gold_per_min": 603,
+      "dmg_per_min": 3531,
+      "deaths_per_match": 4.94,
+      "turret_dmg_per_match": 1796
+    },
+    "all_season": {
+      "matches_count": 7037,
+      "win_rate": 57.35,
+      "kda": 3.74,
+      "team_participation": 53.7,
+      "gold_per_min": 650,
+      "dmg_per_min": 3536,
+      "deaths_per_match": 4.45,
+      "turret_dmg_per_match": 3017
+    }
+  },
+  "hero_favorite": {
+    "current_season": [
+      {
+        "hero_name": "Gloo",
+        "matches": 64,
+        "win_rate": 73.4
+      },
+      {
+        "hero_name": "Atlas",
+        "matches": 26,
+        "win_rate": 61.5
+      },
+      {
+        "hero_name": "Cici",
+        "matches": 18,
+        "win_rate": 44.4
+      },
+      {
+        "hero_name": "Hilda",
+        "matches": 16,
+        "win_rate": 50.0
+      },
+      {
+        "hero_name": "Fredrinn",
+        "matches": 12,
+        "win_rate": 75.0
+      },
+      {
+        "hero_name": "Vexana",
+        "matches": 12,
+        "win_rate": 66.7
+      }
+    ],
+    "all_season": [
+      {
+        "hero_name": "Leomord",
+        "matches": 664,
+        "win_rate": 61.4
+      },
+      {
+        "hero_name": "Thamuz",
+        "matches": 423,
+        "win_rate": 66.4
+      },
+      {
+        "hero_name": "Jawhead",
+        "matches": 247,
+        "win_rate": 56.3
+      },
+      {
+        "hero_name": "Suyou",
+        "matches": 222,
+        "win_rate": 62.6
+      },
+      {
+        "hero_name": "Gloo",
+        "matches": 220,
+        "win_rate": 67.7
+      },
+      {
+        "hero_name": "Fanny",
+        "matches": 214,
+        "win_rate": 44.4
+      }
+    ]
+  }
+}
