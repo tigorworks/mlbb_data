@@ -1,0 +1,138 @@
+{
+  "id": "480953085",
+  "nick": "Stray",
+  "zone_id": "2453",
+  "role": "roamer",
+  "rank_current": "52",
+  "rank_highest": "111",
+  "region": "Indonesia",
+  "guild": "Lowokwaru No.57 Atlas",
+  "organization": "Ve Voltage™",
+  "statistic": {
+    "current_season": {
+      "matches_count": 188,
+      "win_rate": 60.64,
+      "kda": 3.06,
+      "team_participation": 61.1,
+      "gold_per_min": 604,
+      "dmg_per_min": 2677,
+      "deaths_per_match": 6.09,
+      "turret_dmg_per_match": 679,
+      "mvp_count": 19,
+      "legendary": 2,
+      "maniac": 0,
+      "double_kill": 19,
+      "most_kills": 11,
+      "longest_win_streak": 10,
+      "highest_dmg_per_min": 5518,
+      "highest_gold_per_min": 868,
+      "savage": 0,
+      "triple_kill": 0,
+      "mvp_loss": 21,
+      "most_assists": 38,
+      "first_blood": 24,
+      "highest_dmg_taken_per_min": 22396
+    },
+    "all_season": {
+      "matches_count": 10100,
+      "win_rate": 55.07,
+      "kda": 3.0,
+      "team_participation": 57.7,
+      "gold_per_min": 569,
+      "dmg_per_min": 2303,
+      "deaths_per_match": 5.47,
+      "turret_dmg_per_match": 1103,
+      "mvp_count": 605,
+      "legendary": 94,
+      "maniac": 6,
+      "double_kill": 1151,
+      "most_kills": 20,
+      "longest_win_streak": 15,
+      "highest_dmg_per_min": 10008,
+      "highest_gold_per_min": 1055,
+      "savage": 1,
+      "triple_kill": 65,
+      "mvp_loss": 516,
+      "most_assists": 42,
+      "first_blood": 839,
+      "highest_dmg_taken_per_min": 23722
+    }
+  },
+  "hero_favorite": {
+    "current_season": [
+      {
+        "hero_name": "Khufra",
+        "matches": 1365,
+        "win_rate": 52.7
+      },
+      {
+        "hero_name": "Mathilda",
+        "matches": 1224,
+        "win_rate": 58.6
+      },
+      {
+        "hero_name": "Hilda",
+        "matches": 764,
+        "win_rate": 59.0
+      },
+      {
+        "hero_name": "Hylos",
+        "matches": 712,
+        "win_rate": 53.7
+      },
+      {
+        "hero_name": "Atlas",
+        "matches": 689,
+        "win_rate": 59.8
+      },
+      {
+        "hero_name": "Jawhead",
+        "matches": 520,
+        "win_rate": 52.9
+      }
+    ],
+    "all_season": [
+      {
+        "hero_name": "Atlas",
+        "matches": 66,
+        "win_rate": 69.7
+      },
+      {
+        "hero_name": "Belerick",
+        "matches": 27,
+        "win_rate": 63.0
+      },
+      {
+        "hero_name": "Kaja",
+        "matches": 20,
+        "win_rate": 70.0
+      },
+      {
+        "hero_name": "Hilda",
+        "matches": 17,
+        "win_rate": 52.9
+      },
+      {
+        "hero_name": "Badang",
+        "matches": 12,
+        "win_rate": 58.3
+      },
+      {
+        "hero_name": "Hylos",
+        "matches": 10,
+        "win_rate": 50.0
+      }
+    ]
+  },
+  "achievements": {
+    "total_matches": 19000,
+    "total_likes": 4100,
+    "current_rank": "Master",
+    "highest_rank": 111,
+    "weekly_champion": 2,
+    "leader_of_men": true,
+    "best_teammate": true,
+    "guardian_level": 5,
+    "renowned_collector": "IV"
+  }
+}
