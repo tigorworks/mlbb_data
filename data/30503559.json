@@ -1,0 +1,96 @@
+{
+  "id": "30503559",
+  "nick": "IT*Adori",
+  "zone_id": "2044",
+  "role": "jungler",
+  "rank_current": "65",
+  "rank_highest": "98",
+  "statistic": {
+    "current_season": {
+      "matches_count": 238,
+      "win_rate": 61.34,
+      "kda": 5.13,
+      "team_participation": 53.8,
+      "gold_per_min": 704,
+      "dmg_per_min": 4348,
+      "deaths_per_match": 3.61,
+      "turret_dmg_per_match": 3908
+    },
+    "all_season": {
+      "matches_count": 4971,
+      "win_rate": 62.38,
+      "kda": 4.66,
+      "team_participation": 57.4,
+      "gold_per_min": 700,
+      "dmg_per_min": 3902,
+      "deaths_per_match": 3.85,
+      "turret_dmg_per_match": 6483
+    }
+  },
+  "hero_favorite": {
+    "current_season": [
+      {
+        "hero_name": "Hanzo",
+        "matches": 91,
+        "win_rate": 67.0
+      },
+      {
+        "hero_name": "Balmond",
+        "matches": 32,
+        "win_rate": 71.9
+      },
+      {
+        "hero_name": "Paquito",
+        "matches": 10,
+        "win_rate": 70.0
+      },
+      {
+        "hero_name": "Julian",
+        "matches": 10,
+        "win_rate": 70.0
+      },
+      {
+        "hero_name": "Lukas",
+        "matches": 9,
+        "win_rate": 55.6
+      },
+      {
+        "hero_name": "Mathilda",
+        "matches": 8,
+        "win_rate": 62.5
+      }
+    ],
+    "all_season": [
+      {
+        "hero_name": "Alpha",
+        "matches": 637,
+        "win_rate": 71.7
+      },
+      {
+        "hero_name": "Beatrix",
+        "matches": 593,
+        "win_rate": 66.6
+      },
+      {
+        "hero_name": "Yi Sun-shin",
+        "matches": 256,
+        "win_rate": 66.0
+      },
+      {
+        "hero_name": "Layla",
+        "matches": 250,
+        "win_rate": 68.0
+      },
+      {
+        "hero_name": "Bane",
+        "matches": 220,
+        "win_rate": 70.9
+      },
+      {
+        "hero_name": "Hanzo",
+        "matches": 189,
+        "win_rate": 63.5
+      }
+    ]
+  }
+}
