@@ -1,0 +1,91 @@
+{
+  "id": "64999412",
+  "nick": "SariDewa",
+  "zone_id": "2111",
+  "role": "midlaner",
+  "rank_current": "57",
+  "rank_highest": "61",
+  "region": "Indonesia/Jawa Barat",
+  "squad_status": "Not in a squad",
+  "statistic": {
+    "current_season": {
+      "matches_count": 2,
+      "win_rate": 50.0,
+      "kda": 4.39,
+      "team_participation": 69.0,
+      "gold_per_min": 650,
+      "dmg_per_min": 2056,
+      "deaths_per_match": 4.0,
+      "turret_dmg_per_match": 589,
+      "mvp_count": 0
+    },
+    "all_season": {
+      "matches_count": 3119,
+      "win_rate": 59.76,
+      "kda": 4.76,
+      "team_participation": 58.3,
+      "gold_per_min": 597,
+      "dmg_per_min": 3379,
+      "deaths_per_match": 3.57,
+      "turret_dmg_per_match": 2102,
+      "mvp_count": 592
+    }
+  },
+  "hero_favorite": {
+    "current_season": [
+      {
+        "hero_name": "Akai",
+        "matches": 1,
+        "win_rate": 100.0
+      },
+      {
+        "hero_name": "Khufra",
+        "matches": 1,
+        "win_rate": 0.0
+      }
+    ],
+    "all_season": [
+      {
+        "hero_name": "Lylia",
+        "matches": 297,
+        "win_rate": 60.9
+      },
+      {
+        "hero_name": "Gord",
+        "matches": 235,
+        "win_rate": 63.8
+      },
+      {
+        "hero_name": "Akai",
+        "matches": 228,
+        "win_rate": 63.2
+      },
+      {
+        "hero_name": "Franco",
+        "matches": 183,
+        "win_rate": 58.5
+      },
+      {
+        "hero_name": "Grock",
+        "matches": 174,
+        "win_rate": 60.9
+      },
+      {
+        "hero_name": "Cyclops",
+        "matches": 166,
+        "win_rate": 68.1
+      }
+    ]
+  },
+  "achievements": {
+    "total_matches": 4019,
+    "total_likes": 1643,
+    "current_rank": "Legend",
+    "highest_rank": 61,
+    "mythical_glory_medal": true,
+    "mvp_achievement": true,
+    "legend_of_war": true,
+    "best_overall": true,
+    "expert_collector": "III"
+  }
+}
