@@ -1,0 +1,96 @@
+{
+  "id": "101449619",
+  "nick": "IT. Monarch",
+  "zone_id": "2528",
+  "role": "explaner",
+  "rank_current": "48",
+  "rank_highest": "133",
+  "statistic": {
+    "current_season": {
+      "matches_count": 190,
+      "win_rate": 61.05,
+      "kda": 3.36,
+      "team_participation": 54.1,
+      "gold_per_min": 687,
+      "dmg_per_min": 4304,
+      "deaths_per_match": 4.59,
+      "turret_dmg_per_match": 5620
+    },
+    "all_season": {
+      "matches_count": 12703,
+      "win_rate": 57.58,
+      "kda": 3.35,
+      "team_participation": 54.8,
+      "gold_per_min": 646,
+      "dmg_per_min": 3629,
+      "deaths_per_match": 4.46,
+      "turret_dmg_per_match": 5374
+    }
+  },
+  "hero_favorite": {
+    "current_season": [
+      {
+        "hero_name": "Harley",
+        "matches": 24,
+        "win_rate": 70.8
+      },
+      {
+        "hero_name": "Gord",
+        "matches": 23,
+        "win_rate": 65.2
+      },
+      {
+        "hero_name": "Paquito",
+        "matches": 16,
+        "win_rate": 50.0
+      },
+      {
+        "hero_name": "Claude",
+        "matches": 10,
+        "win_rate": 50.0
+      },
+      {
+        "hero_name": "Kadita",
+        "matches": 9,
+        "win_rate": 66.7
+      },
+      {
+        "hero_name": "Guinevere",
+        "matches": 8,
+        "win_rate": 75.0
+      }
+    ],
+    "all_season": [
+      {
+        "hero_name": "Hayabusa",
+        "matches": 526,
+        "win_rate": 55.7
+      },
+      {
+        "hero_name": "Moskov",
+        "matches": 332,
+        "win_rate": 62.7
+      },
+      {
+        "hero_name": "Claude",
+        "matches": 329,
+        "win_rate": 56.2
+      },
+      {
+        "hero_name": "Kadita",
+        "matches": 323,
+        "win_rate": 58.2
+      },
+      {
+        "hero_name": "Harley",
+        "matches": 319,
+        "win_rate": 57.1
+      },
+      {
+        "hero_name": "Brody",
+        "matches": 310,
+        "win_rate": 67.4
+      }
+    ]
+  }
+}
