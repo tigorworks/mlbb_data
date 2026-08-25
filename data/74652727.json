@@ -1,0 +1,110 @@
+{
+  "id": "74652727",
+  "nick": "KAEL",
+  "zone_id": "2140",
+  "role": "explainer",
+  "rank_current": "103",
+  "rank_highest": "125",
+  "region": "Indonesia/Jakarta Raya",
+  "guild": "LUCKY SEVEN",
+  "statistic": {
+    "current_season": {
+      "matches_count": 43,
+      "win_rate": 67.44,
+      "kda": 4.25,
+      "team_participation": 59.4,
+      "gold_per_min": 680,
+      "dmg_per_min": 4020,
+      "deaths_per_match": 4.77,
+      "turret_dmg_per_match": 4110,
+      "mvp_count": 9
+    },
+    "all_season": {
+      "matches_count": 9400,
+      "win_rate": 57.23,
+      "kda": 3.2,
+      "team_participation": 57.6,
+      "gold_per_min": 547,
+      "dmg_per_min": 2747,
+      "deaths_per_match": 4.79,
+      "turret_dmg_per_match": 2364,
+      "mvp_count": 1026
+    }
+  },
+  "hero_favorite": {
+    "current_season": [
+      {
+        "hero_name": "Lylia",
+        "matches": 12,
+        "win_rate": 75.0
+      },
+      {
+        "hero_name": "Akai",
+        "matches": 8,
+        "win_rate": 50.0
+      },
+      {
+        "hero_name": "Ruby",
+        "matches": 7,
+        "win_rate": 85.7
+      },
+      {
+        "hero_name": "Kaja",
+        "matches": 3,
+        "win_rate": 33.3
+      },
+      {
+        "hero_name": "Eudora",
+        "matches": 2,
+        "win_rate": 100.0
+      },
+      {
+        "hero_name": "Hilda",
+        "matches": 2,
+        "win_rate": 100.0
+      }
+    ],
+    "all_season": [
+      {
+        "hero_name": "Lylia",
+        "matches": 1417,
+        "win_rate": 66.5
+      },
+      {
+        "hero_name": "Lolita",
+        "matches": 1238,
+        "win_rate": 61.4
+      },
+      {
+        "hero_name": "Kaja",
+        "matches": 618,
+        "win_rate": 59.2
+      },
+      {
+        "hero_name": "Popol and Kupa",
+        "matches": 518,
+        "win_rate": 55.4
+      },
+      {
+        "hero_name": "Angela",
+        "matches": 501,
+        "win_rate": 62.7
+      },
+      {
+        "hero_name": "Karina",
+        "matches": 499,
+        "win_rate": 53.9
+      }
+    ]
+  },
+  "achievements": {
+    "total_matches": 14880,
+    "total_likes": 8044,
+    "heroes_collected": 133,
+    "skins_collected": 317,
+    "weekly_champion": 6,
+    "esports_player": 5,
+    "endless_variety": true,
+    "mythical_glory_medal": true
+  }
+}
