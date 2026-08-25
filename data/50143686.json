@@ -1,0 +1,94 @@
+{
+	"id": "50143686",
+	"nick": "Suzumashi",
+	"zone_id": "2081",
+	"role": "midlaner",
+	"statistic": {
+		"current_season": {
+			"matches_count": 263,
+			"win_rate": 55.13,
+			"kda": 5.15,
+			"team_participation": 57.8,
+			"gold_per_min": 635,
+			"dmg_per_min": 4643,
+			"deaths_per_match": 3.70,
+			"turret_dmg_per_match": 2421
+		},
+		"all_season": {
+			"matches_count": 5157,
+			"win_rate": 60.87,
+			"kda": 4.9,
+			"team_participation": 58.6,
+			"gold_per_min": 666,
+			"dmg_per_min": 4016,
+			"deaths_per_match": 3.63,
+			"turret_dmg_per_match": 3170
+		}
+	},
+	"hero_favorite": {
+		"current_season": [
+			{
+				"hero_name": "Gord",
+				"matches": 60,
+				"win_rate": 65.0
+			},
+			{
+				"hero_name": "Kimmy",
+				"matches": 18,
+				"win_rate": 55.6
+			},
+			{
+				"hero_name": "Zhuxin",
+				"matches": 16,
+				"win_rate": 62.5
+			},
+			{
+				"hero_name": "Zetian",
+				"matches": 16,
+				"win_rate": 50.0
+			},
+			{
+				"hero_name": "Vexana",
+				"matches": 14,
+				"win_rate": 50.0
+			},
+			{
+				"hero_name": "Eudora",
+				"matches": 12,
+				"win_rate": 75.0
+			}
+		],
+		"all_season": [
+			{
+				"hero_name": "Chang'e",
+				"matches": 557,
+				"win_rate": 66.8
+			},
+			{
+				"hero_name": "Gord",
+				"matches": 374,
+				"win_rate": 59.6
+			},
+			{
+				"hero_name": "Yve",
+				"matches": 325,
+				"win_rate": 67.1
+			},
+			{
+				"hero_name": "Balmond",
+				"matches": 316,
+				"win_rate": 62.3
+			},
+			{
+				"hero_name": "Hanabi",
+				"matches": 220,
+				"win_rate": 67.7
+			},
+			{
+				"hero_name": "Vexana",
+				"matches": 211,
+				"win_rate": 62.6
+			}
+		]
+	}
+}
