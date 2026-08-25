@@ -1,0 +1,141 @@
+{
+  "id": "99773017",
+  "nick": "Luke Atmey",
+  "zone_id": "2513",
+  "role": "jungler",
+  "rank_current": "37",
+  "rank_highest": "106",
+  "region": "Indonesia",
+  "guild": [
+    "Bekasi Timur No.48 Hanzo",
+    "RKO Wanjung Squad"
+  ],
+  "statistic": {
+    "current_season": {
+      "matches_count": 140,
+      "win_rate": 65.71,
+      "kda": 4.29,
+      "team_participation": 53.6,
+      "gold_per_min": 682,
+      "dmg_per_min": 3920,
+      "deaths_per_match": 4.29,
+      "turret_dmg_per_match": 2813,
+      "mvp_count": 25,
+      "legendary": 17,
+      "maniac": 1,
+      "double_kill": 79,
+      "most_kills": 19,
+      "longest_win_streak": 9,
+      "highest_dmg_per_min": 9613,
+      "highest_gold_per_min": 953,
+      "savage": 0,
+      "triple_kill": 8,
+      "mvp_loss": 12,
+      "most_assists": 29,
+      "first_blood": 13,
+      "highest_dmg_taken_per_min": 18429
+    },
+    "all_season": {
+      "matches_count": 10199,
+      "win_rate": 59.44,
+      "kda": 3.19,
+      "team_participation": 55.0,
+      "gold_per_min": 634,
+      "dmg_per_min": 3273,
+      "deaths_per_match": 4.89,
+      "turret_dmg_per_match": 3757,
+      "mvp_count": 1346,
+      "legendary": 805,
+      "maniac": 130,
+      "double_kill": 5292,
+      "most_kills": 28,
+      "longest_win_streak": 35,
+      "highest_dmg_per_min": 14856,
+      "highest_gold_per_min": 1270,
+      "savage": 22,
+      "triple_kill": 862,
+      "mvp_loss": 711,
+      "most_assists": 37,
+      "first_blood": 1172,
+      "highest_dmg_taken_per_min": 18429
+    }
+  },
+  "hero_favorite": {
+    "current_season": [
+      {
+        "hero_name": "Hanzo",
+        "matches": 30,
+        "win_rate": 70.0
+      },
+      {
+        "hero_name": "Carmilla",
+        "matches": 10,
+        "win_rate": 80.0
+      },
+      {
+        "hero_name": "Novaria",
+        "matches": 10,
+        "win_rate": 60.0
+      },
+      {
+        "hero_name": "Bruno",
+        "matches": 9,
+        "win_rate": 77.8
+      },
+      {
+        "hero_name": "Balmond",
+        "matches": 9,
+        "win_rate": 100.0
+      },
+      {
+        "hero_name": "Kaja",
+        "matches": 7,
+        "win_rate": 85.7
+      }
+    ],
+    "all_season": [
+      {
+        "hero_name": "Chou",
+        "matches": 578,
+        "win_rate": 53.6
+      },
+      {
+        "hero_name": "Gatotkaca",
+        "matches": 480,
+        "win_rate": 58.1
+      },
+      {
+        "hero_name": "Franco",
+        "matches": 472,
+        "win_rate": 54.9
+      },
+      {
+        "hero_name": "Beatrix",
+        "matches": 351,
+        "win_rate": 63.0
+      },
+      {
+        "hero_name": "Akai",
+        "matches": 313,
+        "win_rate": 68.7
+      },
+      {
+        "hero_name": "Jawhead",
+        "matches": 288,
+        "win_rate": 63.5
+      }
+    ]
+  },
+  "achievements": {
+    "total_matches": 10691,
+    "total_likes": 4840,
+    "current_rank": "Master",
+    "highest_rank": 106,
+    "mythical_glory_medal": true,
+    "weekly_champion": 9,
+    "king_of_kings": true,
+    "mvp_achievement": true,
+    "archmage_level": 1,
+    "renowned_collector": "II"
+  }
+}
