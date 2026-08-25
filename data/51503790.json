@@ -1,0 +1,96 @@
+{
+  "id": "51503790",
+  "nick": "BibubZ",
+  "zone_id": "2083",
+  "role": "goldlaner",
+  "rank_current": "19",
+  "rank_highest": "108",
+  "statistic": {
+    "current_season": {
+      "matches_count": 89,
+      "win_rate": 68.54,
+      "kda": 3.5,
+      "team_participation": 47.0,
+      "gold_per_min": 747,
+      "dmg_per_min": 4159,
+      "deaths_per_match": 4.58,
+      "turret_dmg_per_match": 9029
+    },
+    "all_season": {
+      "matches_count": 7155,
+      "win_rate": 57.71,
+      "kda": 2.85,
+      "team_participation": 48.8,
+      "gold_per_min": 680,
+      "dmg_per_min": 3400,
+      "deaths_per_match": 4.8,
+      "turret_dmg_per_match": 5505
+    }
+  },
+  "hero_favorite": {
+    "current_season": [
+      {
+        "hero_name": "Claude",
+        "matches": 20,
+        "win_rate": 75.0
+      },
+      {
+        "hero_name": "Paquito",
+        "matches": 5,
+        "win_rate": 60.0
+      },
+      {
+        "hero_name": "Granger",
+        "matches": 5,
+        "win_rate": 60.0
+      },
+      {
+        "hero_name": "Brody",
+        "matches": 4,
+        "win_rate": 75.0
+      },
+      {
+        "hero_name": "Irithel",
+        "matches": 3,
+        "win_rate": 100.0
+      },
+      {
+        "hero_name": "Gord",
+        "matches": 3,
+        "win_rate": 66.7
+      }
+    ],
+    "all_season": [
+      {
+        "hero_name": "Kimmy",
+        "matches": 507,
+        "win_rate": 61.3
+      },
+      {
+        "hero_name": "Moskov",
+        "matches": 276,
+        "win_rate": 58.3
+      },
+      {
+        "hero_name": "Kagura",
+        "matches": 232,
+        "win_rate": 57.3
+      },
+      {
+        "hero_name": "Claude",
+        "matches": 231,
+        "win_rate": 55.8
+      },
+      {
+        "hero_name": "Argus",
+        "matches": 211,
+        "win_rate": 64.5
+      },
+      {
+        "hero_name": "Beatrix",
+        "matches": 204,
+        "win_rate": 56.4
+      }
+    ]
+  }
+}
