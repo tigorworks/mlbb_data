@@ -1,0 +1,136 @@
+{
+  "id": "722465341",
+  "nick": "Jexl",
+  "zone_id": "13100",
+  "role": "midlaner",
+  "rank_current": "67",
+  "rank_highest": "123",
+  "region": "No data",
+  "guild": "NT_Ngegas Terus",
+  "statistic": {
+    "current_season": {
+      "matches_count": 179,
+      "win_rate": 67.04,
+      "kda": 5.46,
+      "team_participation": 60.7,
+      "gold_per_min": 636,
+      "dmg_per_min": 3496,
+      "deaths_per_match": 3.55,
+      "turret_dmg_per_match": 1746,
+      "mvp_count": 27,
+      "legendary": 49,
+      "maniac": 3,
+      "double_kill": 190,
+      "most_kills": 22,
+      "longest_win_streak": 10,
+      "highest_dmg_per_min": 7810,
+      "highest_gold_per_min": 958,
+      "savage": 0,
+      "triple_kill": 39,
+      "mvp_loss": 9,
+      "most_assists": 28,
+      "first_blood": 23,
+      "highest_dmg_taken_per_min": 7660
+    },
+    "all_season": {
+      "matches_count": 4709,
+      "win_rate": 62.94,
+      "kda": 4.76,
+      "team_participation": 58.6,
+      "gold_per_min": 688,
+      "dmg_per_min": 4256,
+      "deaths_per_match": 4.26,
+      "turret_dmg_per_match": 3347,
+      "mvp_count": 1023,
+      "legendary": 842,
+      "maniac": 86,
+      "double_kill": 3636,
+      "most_kills": 32,
+      "longest_win_streak": 33,
+      "highest_dmg_per_min": 14517,
+      "highest_gold_per_min": 1366,
+      "savage": 10,
+      "triple_kill": 614,
+      "mvp_loss": 522,
+      "most_assists": 37,
+      "first_blood": 586,
+      "highest_dmg_taken_per_min": 15814
+    }
+  },
+  "hero_favorite": {
+    "current_season": [
+      {
+        "hero_name": "Zhuxin",
+        "matches": 94,
+        "win_rate": 63.8
+      },
+      {
+        "hero_name": "Luo Yi",
+        "matches": 37,
+        "win_rate": 70.3
+      },
+      {
+        "hero_name": "Yve",
+        "matches": 26,
+        "win_rate": 65.4
+      },
+      {
+        "hero_name": "Angela",
+        "matches": 5,
+        "win_rate": 80.0
+      },
+      {
+        "hero_name": "Vexana",
+        "matches": 3,
+        "win_rate": 100.0
+      },
+      {
+        "hero_name": "Kadita",
+        "matches": 2,
+        "win_rate": 100.0
+      }
+    ],
+    "all_season": [
+      {
+        "hero_name": "Yve",
+        "matches": 701,
+        "win_rate": 67.9
+      },
+      {
+        "hero_name": "Luo Yi",
+        "matches": 439,
+        "win_rate": 63.8
+      },
+      {
+        "hero_name": "Zhuxin",
+        "matches": 325,
+        "win_rate": 65.5
+      },
+      {
+        "hero_name": "Faramis",
+        "matches": 195,
+        "win_rate": 63.6
+      },
+      {
+        "hero_name": "Xavier",
+        "matches": 190,
+        "win_rate": 65.8
+      },
+      {
+        "hero_name": "Valentina",
+        "matches": 163,
+        "win_rate": 62.6
+      }
+    ]
+  },
+  "achievements": {
+    "total_matches": 6075,
+    "total_likes": 3464,
+    "mythical_glory_medal": true,
+    "man_of_steel": true,
+    "epic_comeback": true,
+    "leader_of_men": true,
+    "archmage_level": 7,
+    "renowned_collector": "I"
+  }
+}
