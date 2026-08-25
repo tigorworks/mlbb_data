@@ -1,0 +1,136 @@
+{
+  "id": "165278682",
+  "nick": "FuckBoiii ツ",
+  "zone_id": "2848",
+  "role": "explainer",
+  "rank_current": "24",
+  "rank_highest": "56",
+  "region": "Indonesia/Jakarta Raya",
+  "guild": "BM Low Level",
+  "statistic": {
+    "current_season": {
+      "matches_count": 102,
+      "win_rate": 67.65,
+      "kda": 3.48,
+      "team_participation": 51.4,
+      "gold_per_min": 716,
+      "dmg_per_min": 4856,
+      "deaths_per_match": 4.98,
+      "turret_dmg_per_match": 8964,
+      "mvp_count": 16,
+      "legendary": 20,
+      "maniac": 3,
+      "double_kill": 109,
+      "most_kills": 22,
+      "longest_win_streak": 8,
+      "highest_dmg_per_min": 10405,
+      "highest_gold_per_min": 1144,
+      "savage": 0,
+      "triple_kill": 19,
+      "mvp_loss": 8,
+      "most_assists": 19,
+      "first_blood": 14,
+      "highest_dmg_taken_per_min": 14736
+    },
+    "all_season": {
+      "matches_count": 8136,
+      "win_rate": 56.03,
+      "kda": 3.32,
+      "team_participation": 53.1,
+      "gold_per_min": 596,
+      "dmg_per_min": 3242,
+      "deaths_per_match": 4.49,
+      "turret_dmg_per_match": 3952,
+      "mvp_count": 1121,
+      "legendary": 723,
+      "maniac": 109,
+      "double_kill": 3940,
+      "most_kills": 30,
+      "longest_win_streak": 14,
+      "highest_dmg_per_min": 11769,
+      "highest_gold_per_min": 1218,
+      "savage": 20,
+      "triple_kill": 641,
+      "mvp_loss": 701,
+      "most_assists": 33,
+      "first_blood": 726,
+      "highest_dmg_taken_per_min": 25014
+    }
+  },
+  "hero_favorite": {
+    "current_season": [
+      {
+        "hero_name": "Clint",
+        "matches": 13,
+        "win_rate": 84.6
+      },
+      {
+        "hero_name": "Yu Zhong",
+        "matches": 8,
+        "win_rate": 75.0
+      },
+      {
+        "hero_name": "Paquito",
+        "matches": 7,
+        "win_rate": 57.1
+      },
+      {
+        "hero_name": "Xavier",
+        "matches": 6,
+        "win_rate": 66.7
+      },
+      {
+        "hero_name": "Hanabi",
+        "matches": 5,
+        "win_rate": 100.0
+      },
+      {
+        "hero_name": "Dyrroth",
+        "matches": 5,
+        "win_rate": 80.0
+      }
+    ],
+    "all_season": [
+      {
+        "hero_name": "Franco",
+        "matches": 1109,
+        "win_rate": 55.0
+      },
+      {
+        "hero_name": "Harley",
+        "matches": 385,
+        "win_rate": 57.1
+      },
+      {
+        "hero_name": "X.Borg",
+        "matches": 292,
+        "win_rate": 63.7
+      },
+      {
+        "hero_name": "Johnson",
+        "matches": 275,
+        "win_rate": 57.5
+      },
+      {
+        "hero_name": "Freya",
+        "matches": 266,
+        "win_rate": 56.0
+      },
+      {
+        "hero_name": "Gusion",
+        "matches": 265,
+        "win_rate": 51.3
+      }
+    ]
+  },
+  "achievements": {
+    "total_matches": 11517,
+    "total_likes": 3831,
+    "mythical_glory_medal": true,
+    "weekly_champion": 2,
+    "best_overall": true,
+    "legend_of_war": true,
+    "archmage_level": 1,
+    "mega_collector": "I"
+  }
+}
