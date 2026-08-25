@@ -1,0 +1,164 @@
+{
+  "id": "131384536",
+  "nick": "Neptune.",
+  "zone_id": "2672",
+  "role": "goldlaner",
+  "rank_current": "68",
+  "rank_highest": "132",
+  "region": "Salto Neighborhood Champion",
+  "guild": "ITB ITB Réswita",
+  "statistic": {
+    "current_season": {
+      "matches_count": 217,
+      "win_rate": 64.52,
+      "kda": 3.92,
+      "team_participation": 48.6,
+      "gold_per_min": 712,
+      "dmg_per_min": 4331,
+      "deaths_per_match": 3.82,
+      "turret_dmg_per_match": 8163,
+      "mvp_count": 32,
+      "legendary": 39,
+      "maniac": 8,
+      "double_kill": 193,
+      "most_kills": 27,
+      "longest_win_streak": 11,
+      "highest_dmg_per_min": 11287,
+      "highest_gold_per_min": 1034,
+      "savage": 1,
+      "triple_kill": 37,
+      "mvp_loss": 12,
+      "most_assists": 32,
+      "first_blood": 22,
+      "highest_dmg_taken_per_min": 10748
+    },
+    "all_season": {
+      "matches_count": 15243,
+      "win_rate": 54.39,
+      "kda": 4.11,
+      "team_participation": 53.6,
+      "gold_per_min": 630,
+      "dmg_per_min": 3238,
+      "deaths_per_match": 3.58,
+      "turret_dmg_per_match": 3357,
+      "mvp_count": 1958,
+      "legendary": 1600,
+      "maniac": 222,
+      "double_kill": 7924,
+      "most_kills": 30,
+      "longest_win_streak": 38,
+      "highest_dmg_per_min": 12493,
+      "highest_gold_per_min": 1251,
+      "savage": 35,
+      "triple_kill": 1278,
+      "mvp_loss": 1463,
+      "most_assists": 36,
+      "first_blood": 1327,
+      "highest_dmg_taken_per_min": 16443
+    }
+  },
+  "hero_favorite": {
+    "current_season": [
+      {
+        "hero_name": "Gord",
+        "matches": 1803,
+        "win_rate": 62.5
+      },
+      {
+        "hero_name": "Selena",
+        "matches": 805,
+        "win_rate": 57.8
+      },
+      {
+        "hero_name": "Wanwan",
+        "matches": 749,
+        "win_rate": 55.9
+      },
+      {
+        "hero_name": "Minsithar",
+        "matches": 541,
+        "win_rate": 52.7
+      },
+      {
+        "hero_name": "Franco",
+        "matches": 481,
+        "win_rate": 50.9
+      },
+      {
+        "hero_name": "Chou",
+        "matches": 470,
+        "win_rate": 50.4
+      },
+      {
+        "hero_name": "Obsidia",
+        "matches": 58,
+        "win_rate": 67.2
+      },
+      {
+        "hero_name": "Melissa",
+        "matches": 24,
+        "win_rate": 66.7
+      },
+      {
+        "hero_name": "Brody",
+        "matches": 12,
+        "win_rate": 83.3
+      },
+      {
+        "hero_name": "Ixia",
+        "matches": 10,
+        "win_rate": 60.0
+      }
+    ],
+    "all_season": [
+      {
+        "hero_name": "Gord",
+        "hero_power": 2704,
+        "matches": 1803,
+        "win_rate": 62.5
+      },
+      {
+        "hero_name": "Selena",
+        "hero_power": 3872,
+        "matches": 805,
+        "win_rate": 57.8
+      },
+      {
+        "hero_name": "Wanwan",
+        "hero_power": 4700,
+        "matches": 749,
+        "win_rate": 55.9
+      },
+      {
+        "hero_name": "Minsithar",
+        "hero_power": 2747,
+        "matches": 541,
+        "win_rate": 52.7
+      },
+      {
+        "hero_name": "Franco",
+        "hero_power": 2522,
+        "matches": 481,
+        "win_rate": 50.9
+      },
+      {
+        "hero_name": "Chou",
+        "hero_power": 3128,
+        "matches": 470,
+        "win_rate": 50.4
+      }
+    ]
+  },
+  "achievements": {
+    "total_matches": 16397,
+    "total_likes": 11473,
+    "current_rank": "Master",
+    "highest_rank": 132,
+    "mythical_glory_medal": true,
+    "m2_battle_night": true,
+    "m3_battle_night": true,
+    "m4_battle_night": true,
+    "deadeye_level": 4,
+    "mega_collector": "I"
+  }
+}
