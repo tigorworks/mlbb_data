@@ -1,0 +1,96 @@
+{
+  "id": "126894239",
+  "nick": "IT. Ganzz",
+  "zone_id": "2644",
+  "role": "explaner",
+  "rank_current": "21",
+  "rank_highest": "59",
+  "statistic": {
+    "current_season": {
+      "matches_count": 93,
+      "win_rate": 67.74,
+      "kda": 3.46,
+      "team_participation": 54.0,
+      "gold_per_min": 639,
+      "dmg_per_min": 3596,
+      "deaths_per_match": 4.63,
+      "turret_dmg_per_match": 3377
+    },
+    "all_season": {
+      "matches_count": 4388,
+      "win_rate": 60.82,
+      "kda": 3.84,
+      "team_participation": 53.6,
+      "gold_per_min": 612,
+      "dmg_per_min": 2904,
+      "deaths_per_match": 3.96,
+      "turret_dmg_per_match": 2925
+    }
+  },
+  "hero_favorite": {
+    "current_season": [
+      {
+        "hero_name": "Gloo",
+        "matches": 20,
+        "win_rate": 85.0
+      },
+      {
+        "hero_name": "Freya",
+        "matches": 9,
+        "win_rate": 55.6
+      },
+      {
+        "hero_name": "Badang",
+        "matches": 7,
+        "win_rate": 57.1
+      },
+      {
+        "hero_name": "Dyrroth",
+        "matches": 6,
+        "win_rate": 66.7
+      },
+      {
+        "hero_name": "Barats",
+        "matches": 5,
+        "win_rate": 80.0
+      },
+      {
+        "hero_name": "Zhuxin",
+        "matches": 3,
+        "win_rate": 100.0
+      }
+    ],
+    "all_season": [
+      {
+        "hero_name": "Franco",
+        "matches": 236,
+        "win_rate": 59.7
+      },
+      {
+        "hero_name": "X.Borg",
+        "matches": 199,
+        "win_rate": 67.8
+      },
+      {
+        "hero_name": "Phoveus",
+        "matches": 174,
+        "win_rate": 66.1
+      },
+      {
+        "hero_name": "Angela",
+        "matches": 141,
+        "win_rate": 66.0
+      },
+      {
+        "hero_name": "Terizla",
+        "matches": 137,
+        "win_rate": 68.6
+      },
+      {
+        "hero_name": "Grock",
+        "matches": 128,
+        "win_rate": 64.8
+      }
+    ]
+  }
+}
