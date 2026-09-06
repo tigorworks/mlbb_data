@@ -1,0 +1,126 @@
+{
+  "id": "226397982",
+  "nick": "CMB.BernacleBoy",
+  "zone_id": "9185",
+  "role": "goldlaner",
+  "rank_current": "26",
+  "rank_highest": "53",
+  "organization": "CMB COMMERCIAL BMRI",
+  "guild": "Bengkulu No.54 Bane",
+  "statistic": {
+    "current_season": {
+      "matches_count": 683,
+      "win_rate": 48.02,
+      "kda": 0.79,
+      "team_participation": 29.0,
+      "gold_per_min": 576,
+      "dmg_per_min": 3314,
+      "deaths_per_match": 5.42,
+      "turret_dmg_per_match": 7534,
+      "mvp_count": 54,
+      "legendary": 69,
+      "maniac": 10,
+      "double_kill": 361,
+      "triple_kill": 57,
+      "most_kills": 19,
+      "most_assists": 22,
+      "first_blood": 85,
+      "longest_win_streak": 10,
+      "highest_dmg_per_min": 9998,
+      "highest_gold_per_min": 1062,
+      "highest_dmg_taken_per_min": 19114,
+      "savage": 3,
+      "mvp_loss": 53
+    },
+    "all_season": {
+      "matches_count": 5404,
+      "win_rate": 54.02,
+      "kda": 2.86,
+      "team_participation": 47.2,
+      "gold_per_min": 688,
+      "dmg_per_min": 3407,
+      "deaths_per_match": 5.10,
+      "turret_dmg_per_match": 4965,
+      "mvp_count": 713,
+      "legendary": 689,
+      "maniac": 125,
+      "double_kill": 3878,
+      "triple_kill": 688,
+      "most_kills": 37,
+      "most_assists": 35,
+      "first_blood": 548,
+      "longest_win_streak": 13,
+      "highest_dmg_per_min": 11309,
+      "highest_gold_per_min": 1167,
+      "highest_dmg_taken_per_min": 23738,
+      "savage": 18,
+      "mvp_loss": 462
+    }
+  },
+  "hero_favorite": {
+    "current_season": [
+      {
+        "hero_name": "Paquito",
+        "matches": 118,
+        "win_rate": 51.7
+      },
+      {
+        "hero_name": "Brody",
+        "matches": 210,
+        "win_rate": 56.8
+      },
+      {
+        "hero_name": "Hayabusa",
+        "matches": 95,
+        "win_rate": 54.7
+      },
+      {
+        "hero_name": "Claude",
+        "matches": 87,
+        "win_rate": 50.6
+      },
+      {
+        "hero_name": "Minsitthar",
+        "matches": 35,
+        "win_rate": 60.0
+      },
+      {
+        "hero_name": "Clint",
+        "matches": 28,
+        "win_rate": 46.4
+      }
+    ],
+    "all_season": [
+      {
+        "hero_name": "Hayabusa",
+        "matches": 615,
+        "win_rate": 59.8
+      },
+      {
+        "hero_name": "Claude",
+        "matches": 263,
+        "win_rate": 55.5
+      },
+      {
+        "hero_name": "Granger",
+        "matches": 237,
+        "win_rate": 62.4
+      },
+      {
+        "hero_name": "Esmeralda",
+        "matches": 226,
+        "win_rate": 53.5
+      },
+      {
+        "hero_name": "Lancelot",
+        "matches": 212,
+        "win_rate": 50.9
+      },
+      {
+        "hero_name": "Clint",
+        "matches": 200,
+        "win_rate": 51.0
+      }
+    ]
+  }
+}
