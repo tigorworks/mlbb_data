@@ -1,0 +1,121 @@
+{
+  "id": "72948564",
+  "nick": "Yokke.Quixotic",
+  "zone_id": "2114",
+  "role": "explaner",
+  "rank_current": "21",
+  "rank_highest": "33",
+  "statistic": {
+    "current_season": {
+      "matches_count": 104,
+      "win_rate": 61.54,
+      "kda": 3.6,
+      "team_participation": 54.0,
+      "gold_per_min": 650,
+      "dmg_per_min": 3712,
+      "deaths_per_match": 4.38,
+      "turret_dmg_per_match": 3069,
+      "legendary": 11,
+      "maniac": 0,
+      "savage": 0,
+      "double_kill": 51,
+      "triple_kill": 6,
+      "most_kills": 21,
+      "most_assists": 26,
+      "longest_win_streak": 9,
+      "first_blood": 18,
+      "highest_dmg_per_min": 6750,
+      "highest_gold_per_min": 881,
+      "highest_dmg_taken_per_min": 18738
+    },
+    "all_season": {
+      "matches_count": 2376,
+      "win_rate": 65.40,
+      "kda": 4.12,
+      "team_participation": 54.5,
+      "gold_per_min": 653,
+      "dmg_per_min": 3650,
+      "deaths_per_match": 4.40,
+      "turret_dmg_per_match": 3331,
+      "mvp_count": 355,
+      "legendary": 293,
+      "maniac": 44,
+      "savage": 7,
+      "double_kill": 1586,
+      "triple_kill": 259,
+      "most_kills": 29,
+      "most_assists": 35,
+      "longest_win_streak": 13,
+      "first_blood": 291,
+      "highest_dmg_per_min": 12128,
+      "highest_gold_per_min": 1151,
+      "highest_dmg_taken_per_min": 19015
+    }
+  },
+  "hero_favorite": {
+    "current_season": [
+      {
+        "hero_name": "Alice",
+        "matches": 10,
+        "win_rate": 60.0
+      },
+      {
+        "hero_name": "Helcurt",
+        "matches": 7,
+        "win_rate": 42.9
+      },
+      {
+        "hero_name": "Yve",
+        "matches": 6,
+        "win_rate": 83.3
+      },
+      {
+        "hero_name": "Esmeralda",
+        "matches": 6,
+        "win_rate": 66.7
+      },
+      {
+        "hero_name": "Lolita",
+        "matches": 4,
+        "win_rate": 50.0
+      },
+      {
+        "hero_name": "Vale",
+        "matches": 3,
+        "win_rate": 100.0
+      }
+    ],
+    "all_season": [
+      {
+        "hero_name": "Selena",
+        "matches": 134,
+        "win_rate": 63.4
+      },
+      {
+        "hero_name": "Freya",
+        "matches": 119,
+        "win_rate": 73.1
+      },
+      {
+        "hero_name": "Guinevere",
+        "matches": 113,
+        "win_rate": 69.9
+      },
+      {
+        "hero_name": "Xavier",
+        "matches": 104,
+        "win_rate": 71.2
+      },
+      {
+        "hero_name": "Lesley",
+        "matches": 102,
+        "win_rate": 63.7
+      },
+      {
+        "hero_name": "Kagura",
+        "matches": 99,
+        "win_rate": 67.7
+      }
+    ]
+  }
+}
