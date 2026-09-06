@@ -1,0 +1,70 @@
+{
+  "id": "54097842",
+  "nick": "Reg5.Mashamichi",
+  "zone_id": "2086",
+  "role": "explaner",
+  "rank_current": "63",
+  "rank_highest": "95",
+  "guild": "10 Years Together",
+  "organization": "S BH S BrotherhoodJr",
+  "statistic": {
+    "current_season": {
+      "matches_count": 213,
+      "win_rate": 60.09,
+      "kda": 2.49,
+      "team_participation": 49.0,
+      "gold_per_min": 648,
+      "dmg_per_min": 4124,
+      "deaths_per_match": 5.59,
+      "turret_dmg_per_match": 4614,
+      "legendary": 31,
+      "maniac": 2,
+      "savage": 0,
+      "double_kill": 162,
+      "triple_kill": 22,
+      "most_kills": 18,
+      "most_assists": 25,
+      "longest_win_streak": 7,
+      "first_blood": 39,
+      "highest_dmg_per_min": 8146,
+      "highest_gold_per_min": 917,
+      "highest_dmg_taken_per_min": 15156,
+      "mvp_count": 31
+    },
+    "all_season": {
+      "matches_count": 22943,
+      "win_rate": 51.78,
+      "kda": 3.07,
+      "team_participation": 51.3,
+      "gold_per_min": 486,
+      "dmg_per_min": 2531,
+      "deaths_per_match": 4.12,
+      "turret_dmg_per_match": 3213,
+      "mvp_count": 2702,
+      "legendary": 1802,
+      "maniac": 274,
+      "savage": 33,
+      "double_kill": 11241,
+      "triple_kill": 1813,
+      "most_kills": 31,
+      "most_assists": 34,
+      "longest_win_streak": 15,
+      "first_blood": 2213,
+      "highest_dmg_per_min": 10610,
+      "highest_gold_per_min": 1258,
+      "highest_dmg_taken_per_min": 19798
+    }
+  },
+  "hero_favorite": {
+    "current_season": [
+      {"hero_name": "Julian", "matches": 863, "win_rate": 59.8},
+      {"hero_name": "Alucard", "matches": 643, "win_rate": 47.3},
+      {"hero_name": "Paquito", "matches": 554, "win_rate": 54.7}
+    ],
+    "all_season": [
+      {"hero_name": "Saber", "matches": 528, "win_rate": 52.5},
+      {"hero_name": "Zilong", "matches": 521, "win_rate": 51.8},
+      {"hero_name": "Valentina", "matches": 499, "win_rate": 55.9}
+    ]
+  }
+}
