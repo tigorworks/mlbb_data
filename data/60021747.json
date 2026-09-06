@@ -1,0 +1,72 @@
+{
+  "id": "60021747",
+  "nick": "DIA. Mamangkesbor",
+  "zone_id": "2101",
+  "role": "midlaner",
+  "rank_current": "34",
+  "rank_highest": "20",
+  "guild": "RKZC RUKOZ CREW",
+  "organization": "Jatiasih No.76 Terizia",
+  "statistic": {
+    "current_season": {
+      "matches_count": 149,
+      "win_rate": 53.02,
+      "kda": 2.48,
+      "team_participation": 40.8,
+      "gold_per_min": 621,
+      "dmg_per_min": 3409,
+      "deaths_per_match": 4.66,
+      "turret_dmg_per_match": 7334,
+      "legendary": 6,
+      "maniac": 2,
+      "savage": 0,
+      "double_kill": 59,
+      "triple_kill": 10,
+      "most_kills": 18,
+      "most_assists": 26,
+      "first_blood": 15,
+      "longest_win_streak": 6,
+      "mvp_count": 13,
+      "mvp_loss": 7
+    },
+    "all_season": {
+      "matches_count": 1355,
+      "win_rate": 54.76,
+      "kda": 3.15,
+      "team_participation": 45.6,
+      "gold_per_min": 625,
+      "dmg_per_min": 2613,
+      "deaths_per_match": 4.46,
+      "turret_dmg_per_match": 4890,
+      "legendary": 53,
+      "maniac": 3,
+      "savage": 0,
+      "double_kill": 372,
+      "triple_kill": 42,
+      "most_kills": 23,
+      "most_assists": 29,
+      "first_blood": 126,
+      "longest_win_streak": 13,
+      "mvp_count": 100,
+      "mvp_loss": 77
+    }
+  },
+  "hero_favorite": {
+    "current_season": [
+      { "hero_name": "Terizia", "matches": 43, "win_rate": 58.1 },
+      { "hero_name": "Minsithar", "matches": 36, "win_rate": 61.1 },
+      { "hero_name": "Melissa", "matches": 29, "win_rate": 65.5 }
+    ],
+    "all_season": [
+      { "hero_name": "Khaleed", "matches": 311, "win_rate": 55.6 },
+      { "hero_name": "Akai", "matches": 214, "win_rate": 56.1 },
+      { "hero_name": "Minsithar", "matches": 147, "win_rate": 59.2 }
+    ]
+  },
+  "achievements": {
+    "total_matches": 1640,
+    "total_likes": 848,
+    "current_rank": "34",
+    "highest_rank": 20
+  }
+}
