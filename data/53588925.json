@@ -3,8 +3,8 @@
   "nick": "CMB . Garryyy",
   "zone_id": "2012",
   "role": "goldlaner",
-  "rank_current": "129",
-  "rank_highest": "98",
+  "rank_current": "98",
+  "rank_highest": "113",
   "organization": "CMB COMMERCIAL BMRI",
   "guild": "Trenggalek No.19 Harith",
   "statistic": {
@@ -60,53 +60,38 @@
   "hero_favorite": {
     "current_season": [
       {
-        "hero_name": "Hayabusa",
-        "matches": 458,
-        "win_rate": 60.5
-      },
-      {
-        "hero_name": "Chou",
-        "matches": 399,
-        "win_rate": 55.9
-      },
-      {
-        "hero_name": "Lancelot",
-        "matches": 308,
-        "win_rate": 64.9
-      },
-      {
-        "hero_name": "Roger",
-        "matches": 285,
-        "win_rate": 63.9
+        "hero_name": "Claude",
+        "matches": 41,
+        "win_rate": 63.4
       },
       {
         "hero_name": "Harith",
-        "matches": 280,
-        "win_rate": 68.2
+        "matches": 27,
+        "win_rate": 74.1
       },
       {
-        "hero_name": "Franco",
-        "matches": 270,
-        "win_rate": 61.1
+        "hero_name": "Hirara",
+        "matches": 25,
+        "win_rate": 64.0
+      },
+      {
+        "hero_name": "Bruno",
+        "matches": 16,
+        "win_rate": 75.0
+      },
+      {
+        "hero_name": "Moskov",
+        "matches": 15,
+        "win_rate": 66.7
+      },
+      {
+        "hero_name": "Brody",
+        "matches": 15,
+        "win_rate": 66.7
       }
     ],
     "all_season": [
       {
-        "hero_name": "Roger",
-        "matches": 285,
-        "win_rate": 63.9
-      },
-      {
-        "hero_name": "Harith",
-        "matches": 280,
-        "win_rate": 68.2
-      },
-      {
-        "hero_name": "Franco",
-        "matches": 270,
-        "win_rate": 61.1
-      },
-      {
         "hero_name": "Hayabusa",
         "matches": 458,
         "win_rate": 60.5
@@ -120,6 +105,21 @@
         "hero_name": "Lancelot",
         "matches": 308,
         "win_rate": 64.9
+      },
+      {
+        "hero_name": "Roger",
+        "matches": 285,
+        "win_rate": 63.9
+      },
+      {
+        "hero_name": "Harith",
+        "matches": 280,
+        "win_rate": 68.2
+      },
+      {
+        "hero_name": "Franco",
+        "matches": 270,
+        "win_rate": 61.1
       }
     ]
   }
