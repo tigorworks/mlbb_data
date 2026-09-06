@@ -1,0 +1,72 @@
+{
+  "id": "157188082",
+  "nick": "DIA.Zyberion",
+  "zone_id": "2243",
+  "role": "goldlaner",
+  "rank_current": "55",
+  "rank_highest": "36",
+  "region": "Indonesia/Banten",
+  "guild": "APG APG Squad",
+  "statistic": {
+    "current_season": {
+      "matches_count": 296,
+      "win_rate": 54.39,
+      "kda": 1.84,
+      "team_participation": 38.6,
+      "gold_per_min": 585,
+      "dmg_per_min": 2912,
+      "deaths_per_match": 5.63,
+      "turret_dmg_per_match": 5872,
+      "legendary": 11,
+      "maniac": 1,
+      "savage": 1,
+      "double_kill": 124,
+      "triple_kill": 18,
+      "most_kills": 16,
+      "most_assists": 27,
+      "first_blood": 23,
+      "longest_win_streak": 7,
+      "mvp_count": 13,
+      "mvp_loss": 3
+    },
+    "all_season": {
+      "matches_count": 4024,
+      "win_rate": 55.32,
+      "kda": 2.64,
+      "team_participation": 46.6,
+      "gold_per_min": 590,
+      "dmg_per_min": 2455,
+      "deaths_per_match": 5.41,
+      "turret_dmg_per_match": 3672,
+      "legendary": 221,
+      "maniac": 34,
+      "savage": 4,
+      "double_kill": 1643,
+      "triple_kill": 236,
+      "most_kills": 27,
+      "most_assists": 36,
+      "first_blood": 327,
+      "longest_win_streak": 15,
+      "mvp_count": 214,
+      "mvp_loss": 126
+    }
+  },
+  "hero_favorite": {
+    "current_season": [
+      { "hero_name": "Kimmy", "matches": 31, "win_rate": 61.3 },
+      { "hero_name": "Vexana", "matches": 26, "win_rate": 57.7 },
+      { "hero_name": "Melissa", "matches": 18, "win_rate": 55.6 }
+    ],
+    "all_season": [
+      { "hero_name": "Grock", "matches": 424, "win_rate": 55.2 },
+      { "hero_name": "Tigreal", "matches": 322, "win_rate": 58.1 },
+      { "hero_name": "Karrie", "matches": 217, "win_rate": 57.6 }
+    ]
+  },
+  "achievements": {
+    "total_matches": 4604,
+    "total_likes": 3590,
+    "current_rank": "55",
+    "highest_rank": 36
+  }
+}
