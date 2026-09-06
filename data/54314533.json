@@ -1,0 +1,73 @@
+{
+  "id": "54314533",
+  "nick": "Reg8.Kitib",
+  "zone_id": "2214",
+  "role": "midlaner",
+  "rank_current": "127",
+  "rank_highest": "100",
+  "region": "Indonesia/Jawa Timur",
+  "guild": "AM AM ESPORT JEMBER",
+  "statistic": {
+    "current_season": {
+      "matches_count": 269,
+      "win_rate": 58.74,
+      "kda": 2.66,
+      "team_participation": 47.4,
+      "gold_per_min": 604,
+      "dmg_per_min": 3128,
+      "deaths_per_match": 4.88,
+      "turret_dmg_per_match": 3386,
+      "legendary": 14,
+      "maniac": 0,
+      "savage": 0,
+      "double_kill": 111,
+      "triple_kill": 10,
+      "most_kills": 19,
+      "most_assists": 29,
+      "longest_win_streak": 7,
+      "first_blood": 21,
+      "highest_dmg_per_min": 8018,
+      "highest_gold_per_min": 974,
+      "highest_dmg_taken_per_min": 13873,
+      "mvp_count": 23
+    },
+    "all_season": {
+      "matches_count": 17520,
+      "win_rate": 52.91,
+      "kda": 3.23,
+      "team_participation": 55.7,
+      "gold_per_min": 619,
+      "dmg_per_min": 3479,
+      "deaths_per_match": 4.63,
+      "turret_dmg_per_match": 4383,
+      "legendary": 1786,
+      "maniac": 335,
+      "savage": 47,
+      "double_kill": 11107,
+      "triple_kill": 1976,
+      "most_kills": 32,
+      "most_assists": 32,
+      "longest_win_streak": 15,
+      "first_blood": 1753,
+      "highest_dmg_per_min": 14501,
+      "highest_gold_per_min": 1307,
+      "highest_dmg_taken_per_min": 21380,
+      "mvp_count": 2727
+    }
+  },
+  "hero_favorite": {
+    "current_season": [
+      {"hero_name": "Estes", "matches": 21, "win_rate": 66.7},
+      {"hero_name": "Badang", "matches": 14, "win_rate": 64.3},
+      {"hero_name": "Kagura", "matches": 13, "win_rate": 92.3}
+    ],
+    "all_season": [
+      {"hero_name": "Moskov", "matches": 731, "win_rate": 58.0},
+      {"hero_name": "Claude", "matches": 731, "win_rate": 57.7},
+      {"hero_name": "Hayabusa", "matches": 729, "win_rate": 55.0},
+      {"hero_name": "Lancelot", "matches": 648, "win_rate": 51.4},
+      {"hero_name": "Saber", "matches": 626, "win_rate": 57.5},
+      {"hero_name": "Harley", "matches": 580, "win_rate": 58.3}
+    ]
+  }
+}
