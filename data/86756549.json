@@ -1,0 +1,85 @@
+{
+  "id": "86756549",
+  "nick": "NRF.mamat_bec3ng",
+  "zone_id": "2168",
+  "role": "explaner",
+  "rank_current": "52",
+  "rank_highest": "65",
+  "region": "Indonesia",
+  "guild": "Japan No.33 Uranus",
+  "organization": "SB_Sug4rBab1eZ",
+  "statistic": {
+    "current_season": {
+      "matches_count": 168,
+      "win_rate": 66.67,
+      "kda": 3.73,
+      "team_participation": 46.9,
+      "gold_per_min": 664,
+      "dmg_per_min": 3887,
+      "deaths_per_match": 3.99,
+      "turret_dmg_per_match": 4457,
+      "legendary": 8,
+      "maniac": 1,
+      "double_kill": 62,
+      "triple_kill": 3,
+      "most_kills": 13,
+      "most_assists": 26,
+      "first_blood": 21,
+      "longest_win_streak": 14,
+      "highest_dmg_per_min": 7522,
+      "highest_gold_per_min": 1132,
+      "highest_dmg_taken_per_min": 24983
+    },
+    "all_season": {
+      "matches_count": 7825,
+      "win_rate": 59.97,
+      "kda": 3.66,
+      "team_participation": 55.3,
+      "gold_per_min": 573,
+      "dmg_per_min": 2879,
+      "deaths_per_match": 4.28,
+      "turret_dmg_per_match": 3354,
+      "mvp_count": 938,
+      "legendary": 459,
+      "maniac": 63,
+      "double_kill": 2960,
+      "triple_kill": 451,
+      "most_kills": 28,
+      "most_assists": 36,
+      "first_blood": 725,
+      "longest_win_streak": 21,
+      "highest_dmg_per_min": 12247,
+      "highest_gold_per_min": 1256,
+      "highest_dmg_taken_per_min": 24983
+    }
+  },
+  "hero_favorite": {
+    "current_season": [
+      { "hero_name": "Uranus", "matches": 124, "win_rate": 70.2 },
+      { "hero_name": "Valir", "matches": 5, "win_rate": 57.1 },
+      { "hero_name": "Belerick", "matches": 4, "win_rate": 60.0 },
+      { "hero_name": "Esmeralda", "matches": 5, "win_rate": 20.0 },
+      { "hero_name": "Gord", "matches": 4, "win_rate": 100.0 },
+      { "hero_name": "Hanabi", "matches": 4, "win_rate": 50.0 }
+    ],
+    "all_season": [
+      { "hero_name": "Khufra", "matches": 647, "win_rate": 60.3 },
+      { "hero_name": "Valir", "matches": 405, "win_rate": 65.4 },
+      { "hero_name": "Irithel", "matches": 382, "win_rate": 63.1 },
+      { "hero_name": "Chou", "matches": 351, "win_rate": 60.1 },
+      { "hero_name": "Leomord", "matches": 330, "win_rate": 61.5 },
+      { "hero_name": "Cecilion", "matches": 305, "win_rate": 64.6 }
+    ]
+  },
+  "achievements": {
+    "total_matches": 8777,
+    "total_likes": 5796,
+    "current_rank": "Mythic",
+    "highest_rank": 65,
+    "weekly_champion": 4,
+    "leader_of_men": true,
+    "best_teammate": false,
+    "guardian_level": 5,
+    "renowned_collector": "V"
+  }
+}
