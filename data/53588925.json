@@ -1,85 +1,105 @@
 {
   "id": "53588925",
-  "nick": "Dragon Karubi",
+  "nick": "Garryyyy",
   "zone_id": "2012",
-  "role": "jungler",
-  "rank_current": "62",
-  "rank_highest": "113",
+  "role": "goldlaner",
+  "rank_current": "129",
+  "rank_highest": "98",
+  "organization": "CMB COMMERCIAL BMRI",
+  "guild": "Trenggalek No.19 Harith",
   "statistic": {
     "current_season": {
-      "matches_count": 265,
-      "win_rate": 57.36,
-      "kda": 3.54,
-      "team_participation": 49.4,
-      "gold_per_min": 667,
-      "dmg_per_min": 3597,
-      "deaths_per_match": 3.76,
-      "turret_dmg_per_match": 3354
+      "matches_count": 273,
+      "win_rate": 63.00,
+      "kda": 3.7,
+      "team_participation": 44.6,
+      "gold_per_min": 711,
+      "dmg_per_min": 4018,
+      "deaths_per_match": 3.42,
+      "turret_dmg_per_match": 8003,
+      "mvp_count": 39,
+      "legendary": 44,
+      "maniac": 7,
+      "double_kill": 234,
+      "triple_kill": 40,
+      "most_kills": 26,
+      "most_assists": 23,
+      "first_blood": 25,
+      "longest_win_streak": 8,
+      "highest_dmg_per_min": 9299,
+      "highest_gold_per_min": 1138,
+      "highest_dmg_taken_per_min": 14987,
+      "savage": 1,
+      "mvp_loss": 18
     },
     "all_season": {
-      "matches_count": 5862,
-      "win_rate": 62.67,
+      "matches_count": 6235,
+      "win_rate": 62.53,
       "kda": 4.15,
-      "team_participation": 54.8,
-      "gold_per_min": 655,
-      "dmg_per_min": 3246,
+      "team_participation": 54.7,
+      "gold_per_min": 661,
+      "dmg_per_min": 3289,
       "deaths_per_match": 3.64,
-      "turret_dmg_per_match": 3619
+      "turret_dmg_per_match": 3820,
+      "mvp_count": 1102,
+      "legendary": 803,
+      "maniac": 83,
+      "double_kill": 3598,
+      "triple_kill": 529,
+      "most_kills": 26,
+      "most_assists": 31,
+      "first_blood": 603,
+      "longest_win_streak": 21,
+      "highest_dmg_per_min": 9829,
+      "highest_gold_per_min": 1216,
+      "highest_dmg_taken_per_min": 23585,
+      "savage": 12,
+      "mvp_loss": 555
     }
   },
   "hero_favorite": {
     "current_season": [
       {
-        "hero_name": "Suyou",
-        "matches": 45,
-        "win_rate": 73.3
-      },
-      {
-        "hero_name": "Leomord",
-        "matches": 34,
-        "win_rate": 58.8
-      },
-      {
-        "hero_name": "Harley",
-        "matches": 24,
-        "win_rate": 66.7
-      },
-      {
         "hero_name": "Hayabusa",
-        "matches": 18,
-        "win_rate": 38.9
-      },
-      {
-        "hero_name": "Alice",
-        "matches": 14,
-        "win_rate": 35.7
-      },
-      {
-        "hero_name": "Freya",
-        "matches": 12,
-        "win_rate": 50.0
-      }
-    ],
-    "all_season": [
-      {
-        "hero_name": "Hayabusa",
-        "matches": 450,
-        "win_rate": 60.4
+        "matches": 458,
+        "win_rate": 60.5
       },
       {
         "hero_name": "Chou",
-        "matches": 397,
+        "matches": 399,
         "win_rate": 55.9
       },
       {
         "hero_name": "Lancelot",
-        "matches": 306,
-        "win_rate": 65.0
+        "matches": 308,
+        "win_rate": 64.9
       },
       {
         "hero_name": "Roger",
-        "matches": 284,
-        "win_rate": 64.1
+        "matches": 285,
+        "win_rate": 63.9
+      },
+      {
+        "hero_name": "Harith",
+        "matches": 280,
+        "win_rate": 68.2
+      },
+      {
+        "hero_name": "Franco",
+        "matches": 270,
+        "win_rate": 61.1
+      }
+    ],
+    "all_season": [
+      {
+        "hero_name": "Roger",
+        "matches": 285,
+        "win_rate": 63.9
+      },
+      {
+        "hero_name": "Harith",
+        "matches": 280,
+        "win_rate": 68.2
       },
       {
         "hero_name": "Franco",
@@ -87,9 +107,19 @@
         "win_rate": 61.1
       },
       {
-        "hero_name": "Selena",
-        "matches": 270,
-        "win_rate": 60.7
+        "hero_name": "Hayabusa",
+        "matches": 458,
+        "win_rate": 60.5
+      },
+      {
+        "hero_name": "Chou",
+        "matches": 399,
+        "win_rate": 55.9
+      },
+      {
+        "hero_name": "Lancelot",
+        "matches": 308,
+        "win_rate": 64.9
       }
     ]
   }
