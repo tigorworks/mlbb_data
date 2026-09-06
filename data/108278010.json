@@ -1,0 +1,75 @@
+{
+  "id": "108278010",
+  "nick": "Reg8.Zaanun",
+  "zone_id": "2550",
+  "role": "roamer",
+  "rank_current": "54",
+  "rank_highest": "103",
+  "guild": "AM AM ESPORT JEMBER",
+  "statistic": {
+    "current_season": {
+      "matches_count": 263,
+      "win_rate": 55.89,
+      "kda": 2.49,
+      "team_participation": 45.8,
+      "gold_per_min": 588,
+      "dmg_per_min": 2785,
+      "deaths_per_match": 4.87,
+      "turret_dmg_per_match": 2920,
+      "legendary": 10,
+      "maniac": 0,
+      "savage": 0,
+      "double_kill": 78,
+      "triple_kill": 8,
+      "most_kills": 17,
+      "most_assists": 31,
+      "longest_win_streak": 8,
+      "first_blood": 19,
+      "highest_dmg_per_min": 7594,
+      "highest_gold_per_min": 899,
+      "highest_dmg_taken_per_min": 16119,
+      "mvp_count": 21
+    },
+    "all_season": {
+      "matches_count": 13383,
+      "win_rate": 51.26,
+      "kda": 3,
+      "team_participation": 53.2,
+      "gold_per_min": 555,
+      "dmg_per_min": 2133,
+      "deaths_per_match": 4.67,
+      "turret_dmg_per_match": 1955,
+      "legendary": 273,
+      "maniac": 33,
+      "savage": 5,
+      "double_kill": 2864,
+      "triple_kill": 322,
+      "most_kills": 24,
+      "most_assists": 41,
+      "longest_win_streak": 15,
+      "first_blood": 846,
+      "highest_dmg_per_min": 10348,
+      "highest_gold_per_min": 1038,
+      "highest_dmg_taken_per_min": 18152,
+      "mvp_count": 604
+    }
+  },
+  "hero_favorite": {
+    "current_season": [
+      {"hero_name": "Minotaur", "matches": 33, "win_rate": 78.8},
+      {"hero_name": "Granger", "matches": 22, "win_rate": 54.5},
+      {"hero_name": "Dyrroth", "matches": 18, "win_rate": 44.4},
+      {"hero_name": "Belerick", "matches": 16, "win_rate": 43.8},
+      {"hero_name": "Zetian", "matches": 14, "win_rate": 57.1},
+      {"hero_name": "Terizla", "matches": 14, "win_rate": 35.7}
+    ],
+    "all_season": [
+      {"hero_name": "Hilda", "matches": 1468, "win_rate": 52.5},
+      {"hero_name": "Johnson", "matches": 865, "win_rate": 55.3},
+      {"hero_name": "Minotaur", "matches": 611, "win_rate": 65.0},
+      {"hero_name": "Angela", "matches": 589, "win_rate": 53.8},
+      {"hero_name": "Hylos", "matches": 541, "win_rate": 52.5},
+      {"hero_name": "Lolita", "matches": 497, "win_rate": 57.9}
+    ]
+  }
+}
