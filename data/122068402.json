@@ -2,7 +2,7 @@
   "id": "122068402",
   "nick": "CMB . Sandy Tatum",
   "zone_id": "2626",
-  "role": "jungler",
+  "role": "jungler / goldlaner",
   "rank_current": "108",
   "rank_highest": "162",
   "organization": "CMB COMMERCIAL BMRI",
@@ -60,34 +60,34 @@
   "hero_favorite": {
     "current_season": [
       {
-        "hero_name": "Claude",
-        "matches": 98,
-        "win_rate": 62.2
-      },
-      {
-        "hero_name": "Harith",
-        "matches": 87,
-        "win_rate": 58.6
-      },
-      {
-        "hero_name": "Yi Sun-shin",
+        "hero_name": "Suyou",
         "matches": 76,
-        "win_rate": 63.2
+        "win_rate": 64.5
       },
       {
-        "hero_name": "Harley",
-        "matches": 64,
+        "hero_name": "Gloo",
+        "matches": 59,
+        "win_rate": 67.8
+      },
+      {
+        "hero_name": "Lukas",
+        "matches": 40,
+        "win_rate": 57.5
+      },
+      {
+        "hero_name": "Khaleed",
+        "matches": 32,
         "win_rate": 59.4
       },
       {
-        "hero_name": "Gusion",
-        "matches": 58,
-        "win_rate": 60.3
+        "hero_name": "Marcel",
+        "matches": 28,
+        "win_rate": 60.7
       },
       {
-        "hero_name": "Granger",
-        "matches": 52,
-        "win_rate": 55.8
+        "hero_name": "Harley",
+        "matches": 19,
+        "win_rate": 63.2
       }
     ],
     "all_season": [
