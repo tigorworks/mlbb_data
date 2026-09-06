@@ -1,0 +1,70 @@
+{
+  "id": "155388422",
+  "nick": "Yokke.Ryuma 流魔",
+  "zone_id": "2789",
+  "role": "jungler",
+  "rank_current": "69",
+  "rank_highest": "98",
+  "guild": "Jamblang No.1 Fanny",
+  "organization": "AC Anti Climax",
+  "statistic": {
+    "current_season": {
+      "matches_count": 386,
+      "win_rate": 54.92,
+      "kda": 2.0,
+      "team_participation": 43.3,
+      "gold_per_min": 643,
+      "dmg_per_min": 3915,
+      "deaths_per_match": 5.31,
+      "turret_dmg_per_match": 2667,
+      "legendary": 60,
+      "maniac": 10,
+      "savage": 0,
+      "double_kill": 307,
+      "triple_kill": 52,
+      "most_kills": 26,
+      "most_assists": 26,
+      "longest_win_streak": 8,
+      "first_blood": 51,
+      "highest_dmg_per_min": 11565,
+      "highest_gold_per_min": 1151,
+      "highest_dmg_taken_per_min": 19328,
+      "mvp_count": 42
+    },
+    "all_season": {
+      "matches_count": 17455,
+      "win_rate": 51.13,
+      "kda": 2.69,
+      "team_participation": 50.0,
+      "gold_per_min": 589,
+      "dmg_per_min": 2945,
+      "deaths_per_match": 4.87,
+      "turret_dmg_per_match": 2543,
+      "mvp_count": 1804,
+      "legendary": 1418,
+      "maniac": 310,
+      "savage": 43,
+      "double_kill": 9259,
+      "triple_kill": 1527,
+      "most_kills": 32,
+      "most_assists": 36,
+      "longest_win_streak": 14,
+      "first_blood": 1868,
+      "highest_dmg_per_min": 11565,
+      "highest_gold_per_min": 1290,
+      "highest_dmg_taken_per_min": 26334
+    }
+  },
+  "hero_favorite": {
+    "current_season": [
+      {"hero_name": "Fanny", "matches": 74, "win_rate": 54.1},
+      {"hero_name": "Ling", "matches": 36, "win_rate": 52.8},
+      {"hero_name": "Gord", "matches": 34, "win_rate": 61.8}
+    ],
+    "all_season": [
+      {"hero_name": "Lancelot", "matches": 552, "win_rate": 46.7},
+      {"hero_name": "Lesley", "matches": 636, "win_rate": 49.2},
+      {"hero_name": "Franco", "matches": 488, "win_rate": 52.3}
+    ]
+  }
+}
