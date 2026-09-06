@@ -1,0 +1,48 @@
+{
+  "id": "42578392",
+  "nick": "DirOps_Hangyaku",
+  "zone_id": "2065",
+  "role": "roamer",
+  "rank_current": "127",
+  "rank_highest": "134",
+  "statistic": {
+    "current_season": {
+      "matches_count": 377,
+      "win_rate": 60.21,
+      "kda": 3.65,
+      "team_participation": 52.8,
+      "gold_per_min": 596,
+      "dmg_per_min": 2475,
+      "deaths_per_match": 3.97,
+      "turret_dmg_per_match": 2542
+    },
+    "all_season": {
+      "matches_count": 19112,
+      "win_rate": 55.25,
+      "kda": 3.48,
+      "team_participation": 52.4,
+      "gold_per_min": 576,
+      "dmg_per_min": 2502,
+      "deaths_per_match": 3.97,
+      "turret_dmg_per_match": 3524
+    }
+  },
+  "hero_favorite": {
+    "current_season": [
+      { "hero_name": "Carmilla", "matches": 123, "win_rate": 71.5 },
+      { "hero_name": "Badang", "matches": 70, "win_rate": 58.6 },
+      { "hero_name": "Minotaur", "matches": 22, "win_rate": 50.0 },
+      { "hero_name": "Beatrix", "matches": 16, "win_rate": 81.2 },
+      { "hero_name": "Floryn", "matches": 13, "win_rate": 61.5 },
+      { "hero_name": "Eudora", "matches": 13, "win_rate": 46.2 }
+    ],
+    "all_season": [
+      { "hero_name": "Grock", "matches": 1535, "win_rate": 62.0 },
+      { "hero_name": "Roger", "matches": 737, "win_rate": 52.0 },
+      { "hero_name": "Khufra", "matches": 728, "win_rate": 56.2 },
+      { "hero_name": "Esmeralda", "matches": 688, "win_rate": 59.2 },
+      { "hero_name": "Akai", "matches": 648, "win_rate": 53.5 },
+      { "hero_name": "Zilong", "matches": 632, "win_rate": 56.8 }
+    ]
+  }
+}
