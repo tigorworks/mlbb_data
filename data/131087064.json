@@ -1,0 +1,75 @@
+{
+  "id": "131087064",
+  "nick": "Reg8.slayer.",
+  "zone_id": "2656",
+  "role": "goldlaner",
+  "rank_current": "55",
+  "rank_highest": "100",
+  "region": "Indonesia",
+  "statistic": {
+    "current_season": {
+      "matches_count": 171,
+      "win_rate": 66.67,
+      "kda": 3.32,
+      "team_participation": 48.8,
+      "gold_per_min": 739,
+      "dmg_per_min": 4488,
+      "deaths_per_match": 4.29,
+      "turret_dmg_per_match": 12408,
+      "legendary": 32,
+      "maniac": 6,
+      "savage": 0,
+      "double_kill": 155,
+      "triple_kill": 32,
+      "most_kills": 22,
+      "most_assists": 19,
+      "longest_win_streak": 13,
+      "first_blood": 13,
+      "highest_dmg_per_min": 11361,
+      "highest_gold_per_min": 1141,
+      "highest_dmg_taken_per_min": 8790,
+      "mvp_count": 34
+    },
+    "all_season": {
+      "matches_count": 5964,
+      "win_rate": 58.32,
+      "kda": 3.86,
+      "team_participation": 54.3,
+      "gold_per_min": 686,
+      "dmg_per_min": 3649,
+      "deaths_per_match": 3.77,
+      "turret_dmg_per_match": 6578,
+      "legendary": 956,
+      "maniac": 174,
+      "savage": 17,
+      "double_kill": 4797,
+      "triple_kill": 949,
+      "most_kills": 38,
+      "most_assists": 35,
+      "longest_win_streak": 20,
+      "first_blood": 594,
+      "highest_dmg_per_min": 12677,
+      "highest_gold_per_min": 1254,
+      "highest_dmg_taken_per_min": 21102,
+      "mvp_count": 1208
+    }
+  },
+  "hero_favorite": {
+    "current_season": [
+      {"hero_name": "Claude", "matches": 36, "win_rate": 61.1},
+      {"hero_name": "Sun", "matches": 24, "win_rate": 83.3},
+      {"hero_name": "Moskov", "matches": 20, "win_rate": 60.0},
+      {"hero_name": "Melissa", "matches": 13, "win_rate": 69.2},
+      {"hero_name": "Miya", "matches": 12, "win_rate": 75.0},
+      {"hero_name": "Arlott", "matches": 11, "win_rate": 72.7}
+    ],
+    "all_season": [
+      {"hero_name": "Claude", "matches": 358, "win_rate": 58.1},
+      {"hero_name": "Moskov", "matches": 306, "win_rate": 64.7},
+      {"hero_name": "Gusion", "matches": 301, "win_rate": 59.5},
+      {"hero_name": "Irithel", "matches": 259, "win_rate": 66.4},
+      {"hero_name": "Natan", "matches": 254, "win_rate": 63.4},
+      {"hero_name": "Brody", "matches": 244, "win_rate": 62.3}
+    ]
+  }
+}
