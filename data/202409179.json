@@ -1,0 +1,52 @@
+{
+  "id": "202409179",
+  "nick": "NRF.Kenalin Gua TNGL",
+  "zone_id": "9050",
+  "role": "explaner",
+  "rank_current": "50",
+  "rank_highest": "84",
+  "region": "Indonesia",
+  "guild": "9 Years Together",
+  "organization": "iSLE",
+  "statistic": {
+    "current_season": {
+      "matches_count": 192,
+      "win_rate": 63.54,
+      "kda": 3.06,
+      "mvp_count": 15
+    },
+    "all_season": {
+      "matches_count": 11286,
+      "win_rate": 53.54,
+      "kda": 3.16,
+      "mvp_count": 915
+    }
+  },
+  "hero_favorite": {
+    "current_season": [
+      { "hero_name": "Vale", "matches": 59, "win_rate": 62.7 },
+      { "hero_name": "Guinevere", "matches": 42, "win_rate": 71.4 },
+      { "hero_name": "Silvanna", "matches": 25, "win_rate": 72.0 },
+      { "hero_name": "Novaria", "matches": 15, "win_rate": 40.0 },
+      { "hero_name": "Lesley", "matches": 13, "win_rate": 76.9 },
+      { "hero_name": "Carmilla", "matches": 11, "win_rate": 63.6 }
+    ],
+    "all_season": [
+      { "hero_name": "Vale", "matches": 1009, "win_rate": 55.5 },
+      { "hero_name": "Aurora", "matches": 666, "win_rate": 53.5 },
+      { "hero_name": "Jawhead", "matches": 581, "win_rate": 54.2 },
+      { "hero_name": "Franco", "matches": 484, "win_rate": 52.7 },
+      { "hero_name": "Guinevere", "matches": 470, "win_rate": 55.7 },
+      { "hero_name": "Balmond", "matches": 358, "win_rate": 51.4 }
+    ]
+  },
+  "achievements": {
+    "total_matches": 11818,
+    "total_likes": 9487,
+    "current_rank": "Mythic",
+    "highest_rank": 84,
+    "weekly_champion": 5,
+    "guardian_level": 3,
+    "renowned_collector": "IV"
+  }
+}
