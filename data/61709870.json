@@ -1,0 +1,85 @@
+{
+  "id": "61709870",
+  "nick": "RMN. Pattimura",
+  "zone_id": "2018",
+  "role": "midlaner",
+  "rank_current": "102",
+  "rank_highest": "104",
+  "region": "Indonesia",
+  "guild": "10 Years Together",
+  "organization": "SMT Simetri.",
+  "squad_status": "In a squad",
+  "statistic": {
+    "current_season": {
+      "matches_count": 311,
+      "win_rate": 62.70,
+      "kda": 3.78,
+      "team_participation": 55.9,
+      "gold_per_min": 650,
+      "dmg_per_min": 3907,
+      "deaths_per_match": 4.33,
+      "turret_dmg_per_match": 3218,
+      "mvp_count": 69,
+      "legendary": 57,
+      "maniac": 11,
+      "savage": 2,
+      "double_kill": 260,
+      "triple_kill": 45,
+      "most_kills": 25,
+      "most_assists": 27,
+      "first_blood": 48,
+      "longest_win_streak": 12,
+      "highest_dmg_per_min": 9493,
+      "highest_gold_per_min": 1071
+    },
+    "all_season": {
+      "matches_count": 9156,
+      "win_rate": 59.95,
+      "kda": 4.26,
+      "team_participation": 57.5,
+      "gold_per_min": 708,
+      "dmg_per_min": 3695,
+      "deaths_per_match": 3.71,
+      "turret_dmg_per_match": 4985,
+      "mvp_count": 2106,
+      "legendary": 1821,
+      "maniac": 320,
+      "savage": 54,
+      "double_kill": 8032,
+      "triple_kill": 1556,
+      "most_kills": 38,
+      "most_assists": 35,
+      "first_blood": 1151,
+      "longest_win_streak": 19,
+      "highest_dmg_per_min": 13046,
+      "highest_gold_per_min": 1305
+    }
+  },
+  "hero_favorite": {
+    "current_season": [
+      { "hero_name": "Lancelot", "matches": 831, "win_rate": 65.0 },
+      { "hero_name": "Ling", "matches": 668, "win_rate": 65.9 },
+      { "hero_name": "Hayabusa", "matches": 427, "win_rate": 57.1 },
+      { "hero_name": "Fanny", "matches": 381, "win_rate": 57.2 },
+      { "hero_name": "Gusion", "matches": 376, "win_rate": 65.4 },
+      { "hero_name": "Selena", "matches": 324, "win_rate": 55.6 }
+    ],
+    "all_season": [
+      { "hero_name": "Khufra", "matches": 2456, "win_rate": 75.9 },
+      { "hero_name": "Novaria", "matches": 3689, "win_rate": 75.0 },
+      { "hero_name": "Selena", "matches": 2329, "win_rate": 60.9 },
+      { "hero_name": "Gusion", "matches": 2114, "win_rate": 68.2 },
+      { "hero_name": "Lunox", "matches": 1725, "win_rate": 40.0 },
+      { "hero_name": "Ling", "matches": 2043, "win_rate": 83.33 }
+    ]
+  },
+  "achievements": {
+    "total_matches": 11907,
+    "total_likes": 5533,
+    "current_rank": "Mythical Glory",
+    "highest_rank": 104,
+    "weekly_champion": 5,
+    "guardian_level": 5,
+    "renowned_collector": "III"
+  }
+}
