@@ -1,63 +1,91 @@
 {
   "id": "20962262",
-  "nick": "Hakari.",
+  "nick": "Liz.",
   "server": "2025",
-  "role": "explaner",
-  "rank_current": "109",
+  "role": "goldlaner",
+  "rank_current": "124",
   "rank_highest": "126",
   "statistic": {
     "current_season": {
-      "matches_count": 372,
-      "win_rate": 61.02,
-      "kda": 2.91,
-      "team_participation": 46.6,
-      "gold_per_min": 583,
-      "dmg_per_min": 3626,
-      "deaths_per_match": 4.09,
-      "turret_dmg_per_match": 3469
+      "matches_count": 321,
+      "win_rate": 66.04,
+      "kda": 2.99,
+      "team_participation": 40.0,
+      "gold_per_min": 697,
+      "dmg_per_min": 3643,
+      "deaths_per_match": 3.04,
+      "turret_dmg_per_match": 1556,
+      "mvp_count": 22,
+      "legendary": 31,
+      "maniac": 1,
+      "double_kill": 179,
+      "most_kills": 17,
+      "longest_win_streak": 13,
+      "highest_dmg_per_min": 7450,
+      "highest_gold_per_min": 1067,
+      "savage": 0,
+      "triple_kill": 23,
+      "mvp_loss": 16,
+      "most_assists": 18,
+      "first_blood": 29,
+      "highest_dmg_taken_per_min": 12340
     },
     "all_season": {
-      "matches_count": 10187,
-      "win_rate": 58.49,
-      "kda": 3.97,
-      "team_participation": 55.4,
-      "gold_per_min": 666,
-      "dmg_per_min": 3387,
-      "deaths_per_match": 3.85,
-      "turret_dmg_per_match": 4414
+      "matches_count": 10523,
+      "win_rate": 58.70,
+      "kda": 3.96,
+      "team_participation": 55.2,
+      "gold_per_min": 670,
+      "dmg_per_min": 3397,
+      "deaths_per_match": 3.82,
+      "turret_dmg_per_match": 4632,
+      "mvp_count": 1647,
+      "legendary": 1282,
+      "maniac": 189,
+      "double_kill": 6215,
+      "most_kills": 28,
+      "longest_win_streak": 25,
+      "highest_dmg_per_min": 12252,
+      "highest_gold_per_min": 1251,
+      "savage": 34,
+      "triple_kill": 1046,
+      "mvp_loss": 966,
+      "most_assists": 36,
+      "first_blood": 987,
+      "highest_dmg_taken_per_min": 25209
     }
   },
   "hero_favorite": {
     "current_season": [
       {
-        "hero_name": "Paquito",
-        "matches": 42,
-        "win_rate": 64.3
+        "hero_name": "Beatrix",
+        "matches": 177,
+        "win_rate": 68.9
       },
       {
-        "hero_name": "Alice",
-        "matches": 30,
-        "win_rate": 53.3
+        "hero_name": "Claude",
+        "matches": 54,
+        "win_rate": 50.0
       },
       {
-        "hero_name": "Badang",
-        "matches": 29,
-        "win_rate": 48.3
+        "hero_name": "Karrie",
+        "matches": 25,
+        "win_rate": 80.0
       },
       {
-        "hero_name": "Phoveus",
-        "matches": 23,
-        "win_rate": 78.3
-      },
-      {
-        "hero_name": "Gloo",
-        "matches": 20,
-        "win_rate": 55.0
+        "hero_name": "Irithel",
+        "matches": 13,
+        "win_rate": 61.5
       },
       {
         "hero_name": "Yu Zhong",
-        "matches": 19,
-        "win_rate": 63.2
+        "matches": 6,
+        "win_rate": 83.3
+      },
+      {
+        "hero_name": "Sora",
+        "matches": 5,
+        "win_rate": 80.0
       }
     ],
     "all_season": [
@@ -68,28 +96,28 @@
       },
       {
         "hero_name": "Karrie",
-        "matches": 491,
-        "win_rate": 56.0
+        "matches": 516,
+        "win_rate": 57.2
       },
       {
         "hero_name": "Lunox",
-        "matches": 457,
+        "matches": 2681,
         "win_rate": 61.9
       },
       {
         "hero_name": "Paquito",
-        "matches": 424,
-        "win_rate": 57.3
+        "matches": 427,
+        "win_rate": 57.4
+      },
+      {
+        "hero_name": "Claude",
+        "matches": 421,
+        "win_rate": 62.9
       },
       {
         "hero_name": "Beatrix",
         "matches": 405,
         "win_rate": 58.5
-      },
-      {
-        "hero_name": "Claude",
-        "matches": 366,
-        "win_rate": 64.8
       }
     ]
   }
