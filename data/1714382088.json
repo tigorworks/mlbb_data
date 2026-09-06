@@ -1,0 +1,72 @@
+{
+  "id": "1714382088",
+  "nick": "DIA. ◎YuRei◎",
+  "zone_id": "18280",
+  "role": "jungler",
+  "rank_current": "41",
+  "rank_highest": "27",
+  "guild": "RKZC RUKOZ CREW",
+  "organization": "Cipondoh No.73 Aamon",
+  "statistic": {
+    "current_season": {
+      "matches_count": 179,
+      "win_rate": 52.51,
+      "kda": 3.02,
+      "team_participation": 44.8,
+      "gold_per_min": 706,
+      "dmg_per_min": 3723,
+      "deaths_per_match": 4.54,
+      "turret_dmg_per_match": 2387,
+      "legendary": 35,
+      "maniac": 2,
+      "savage": 1,
+      "double_kill": 193,
+      "triple_kill": 29,
+      "most_kills": 30,
+      "most_assists": 16,
+      "first_blood": 22,
+      "longest_win_streak": 8,
+      "mvp_count": 16,
+      "mvp_loss": 12
+    },
+    "all_season": {
+      "matches_count": 1725,
+      "win_rate": 52.70,
+      "kda": 3.09,
+      "team_participation": 50.6,
+      "gold_per_min": 705,
+      "dmg_per_min": 3782,
+      "deaths_per_match": 5.51,
+      "turret_dmg_per_match": 2933,
+      "legendary": 351,
+      "maniac": 60,
+      "savage": 7,
+      "double_kill": 2021,
+      "triple_kill": 380,
+      "most_kills": 32,
+      "most_assists": 22,
+      "first_blood": 258,
+      "longest_win_streak": 9,
+      "mvp_count": 225,
+      "mvp_loss": 154
+    }
+  },
+  "hero_favorite": {
+    "current_season": [
+      { "hero_name": "Aamon", "matches": 118, "win_rate": 61.0 },
+      { "hero_name": "Esmeralda", "matches": 20, "win_rate": 50.0 },
+      { "hero_name": "Hirara", "matches": 13, "win_rate": 38.5 }
+    ],
+    "all_season": [
+      { "hero_name": "Aamon", "matches": 1418, "win_rate": 57.4 },
+      { "hero_name": "Alucard", "matches": 207, "win_rate": 54.1 },
+      { "hero_name": "Natalia", "matches": 129, "win_rate": 38.8 }
+    ]
+  },
+  "achievements": {
+    "total_matches": 2372,
+    "total_likes": 1365,
+    "current_rank": "41",
+    "highest_rank": 27
+  }
+}
