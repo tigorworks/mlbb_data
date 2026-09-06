@@ -1,0 +1,73 @@
+{
+  "id": "932541527",
+  "nick": "Reg5.Kanjeng Prabu",
+  "zone_id": "12972",
+  "role": "midlaner",
+  "rank_current": "30",
+  "rank_highest": "51",
+  "region": "Indonesia/Jakarta Raya",
+  "guild": "Keh Keluarga Tumapel",
+  "statistic": {
+    "current_season": {
+      "matches_count": 306,
+      "win_rate": 48.37,
+      "kda": 3.29,
+      "team_participation": 47.4,
+      "gold_per_min": 599,
+      "dmg_per_min": 3601,
+      "deaths_per_match": 4.61,
+      "turret_dmg_per_match": 3049,
+      "legendary": 63,
+      "maniac": 3,
+      "savage": 0,
+      "double_kill": 248,
+      "triple_kill": 45,
+      "most_kills": 25,
+      "most_assists": 26,
+      "longest_win_streak": 6,
+      "first_blood": 32,
+      "highest_dmg_per_min": 9277,
+      "highest_gold_per_min": 970,
+      "highest_dmg_taken_per_min": 12626,
+      "mvp_count": 38
+    },
+    "all_season": {
+      "matches_count": 3500,
+      "win_rate": 54.80,
+      "kda": 3.83,
+      "team_participation": 51.6,
+      "gold_per_min": 625,
+      "dmg_per_min": 2886,
+      "deaths_per_match": 4.41,
+      "turret_dmg_per_match": 2231,
+      "legendary": 409,
+      "maniac": 20,
+      "savage": 0,
+      "double_kill": 1609,
+      "triple_kill": 181,
+      "most_kills": 27,
+      "most_assists": 41,
+      "longest_win_streak": 10,
+      "first_blood": 410,
+      "highest_dmg_per_min": 9388,
+      "highest_gold_per_min": 1002,
+      "highest_dmg_taken_per_min": 19231,
+      "mvp_count": 386
+    }
+  },
+  "hero_favorite": {
+    "current_season": [
+      {"hero_name": "Kagura", "matches": 1155, "win_rate": 57.0},
+      {"hero_name": "Hayabusa", "matches": 203, "win_rate": 61.6},
+      {"hero_name": "Lancelot", "matches": 149, "win_rate": 58.4}
+    ],
+    "all_season": [
+      {"hero_name": "Franco", "matches": 505, "win_rate": 49.9},
+      {"hero_name": "Selena", "matches": 211, "win_rate": 59.7},
+      {"hero_name": "Tigreal", "matches": 210, "win_rate": 55.2},
+      {"hero_name": "Brody", "matches": 187, "win_rate": 63.9},
+      {"hero_name": "Fanny", "matches": 130, "win_rate": 46.9},
+      {"hero_name": "Leomord", "matches": 127, "win_rate": 59.1}
+    ]
+  }
+}
