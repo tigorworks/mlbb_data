@@ -1,63 +1,91 @@
 {
   "id": "666232599",
-  "nick": "Dezrakha",
+  "nick": "MSEK. Anggara",
   "server": "8657",
   "role": "midlaner",
-  "rank_current": "131",
-  "rank_highest": "136",
+  "rank_current": "100",
+  "rank_highest": "141",
   "statistic": {
     "current_season": {
-      "matches_count": 461,
-      "win_rate": 57.70,
-      "kda": 3.7,
-      "team_participation": 48.8,
+      "matches_count": 262,
+      "win_rate": 64.12,
+      "kda": 4.06,
+      "team_participation": 55.6,
       "gold_per_min": 575,
-      "dmg_per_min": 3601,
-      "deaths_per_match": 3.55,
-      "turret_dmg_per_match": 2038
+      "dmg_per_min": 3732,
+      "deaths_per_match": 3.21,
+      "turret_dmg_per_match": 1788,
+      "mvp_count": 19,
+      "legendary": 2,
+      "maniac": 1,
+      "double_kill": 53,
+      "most_kills": 11,
+      "longest_win_streak": 13,
+      "highest_dmg_per_min": 8244,
+      "highest_gold_per_min": 891,
+      "savage": 0,
+      "triple_kill": 5,
+      "mvp_loss": 12,
+      "most_assists": 26,
+      "first_blood": 40,
+      "highest_dmg_taken_per_min": 6763
     },
     "all_season": {
-      "matches_count": 4690,
-      "win_rate": 58.04,
-      "kda": 4.02,
-      "team_participation": 52.9,
+      "matches_count": 4967,
+      "win_rate": 58.39,
+      "kda": 4.07,
+      "team_participation": 53.4,
       "gold_per_min": 642,
-      "dmg_per_min": 3179,
-      "deaths_per_match": 3.71,
-      "turret_dmg_per_match": 2541
+      "dmg_per_min": 3214,
+      "deaths_per_match": 3.68,
+      "turret_dmg_per_match": 2505,
+      "mvp_count": 478,
+      "legendary": 393,
+      "maniac": 40,
+      "double_kill": 1919,
+      "most_kills": 27,
+      "longest_win_streak": 14,
+      "highest_dmg_per_min": 10427,
+      "highest_gold_per_min": 1216,
+      "savage": 7,
+      "triple_kill": 244,
+      "mvp_loss": 361,
+      "most_assists": 30,
+      "first_blood": 463,
+      "highest_dmg_taken_per_min": 19668
     }
   },
   "hero_favorite": {
     "current_season": [
       {
-        "hero_name": "Lylia",
-        "matches": 113,
-        "win_rate": 61.1
-      },
-      {
         "hero_name": "Zetian",
-        "matches": 94,
-        "win_rate": 53.2
+        "matches": 112,
+        "win_rate": 65.2
       },
       {
-        "hero_name": "Harley",
-        "matches": 74,
-        "win_rate": 62.2
+        "hero_name": "Valin",
+        "matches": 53,
+        "win_rate": 62.3
       },
       {
-        "hero_name": "Leomord",
-        "matches": 27,
-        "win_rate": 51.9
+        "hero_name": "Yve",
+        "matches": 45,
+        "win_rate": 73.3
       },
       {
-        "hero_name": "X.Borg",
-        "matches": 21,
-        "win_rate": 57.1
+        "hero_name": "Valentina",
+        "matches": 22,
+        "win_rate": 50.0
       },
       {
-        "hero_name": "Terizia",
-        "matches": 14,
-        "win_rate": 57.1
+        "hero_name": "Lylia",
+        "matches": 17,
+        "win_rate": 58.8
+      },
+      {
+        "hero_name": "Vexana",
+        "matches": 5,
+        "win_rate": 60.0
       }
     ],
     "all_season": [
@@ -87,9 +115,9 @@
         "win_rate": 59.1
       },
       {
-        "hero_name": "Esmeralda",
-        "matches": 207,
-        "win_rate": 53.6
+        "hero_name": "Zetian",
+        "matches": 213,
+        "win_rate": 59.6
       }
     ]
   }
