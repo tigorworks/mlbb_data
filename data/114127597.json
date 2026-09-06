@@ -1,0 +1,116 @@
+{
+  "id": "114127597",
+  "nick": "histerweeds",
+  "zone_id": "2576",
+  "role": "roamer",
+  "rank_current": "65",
+  "rank_highest": "65",
+  "region": "Indonesia/Jakarta Raya",
+  "guild": "LiF 'Let it Flow'",
+  "statistic": {
+    "current_season": {
+      "matches_count": 267,
+      "win_rate": 55.81,
+      "kda": 2.74,
+      "team_participation": 52.9,
+      "gold_per_min": 552,
+      "dmg_per_min": 1917,
+      "deaths_per_match": 5.60,
+      "turret_dmg_per_match": 1177,
+      "mvp_count": 25,
+      "legendary": 6,
+      "maniac": 0,
+      "double_kill": 42,
+      "most_kills": 18,
+      "longest_win_streak": 8,
+      "highest_dmg_per_min": 6803,
+      "highest_gold_per_min": 929,
+      "savage": 0,
+      "triple_kill": 4,
+      "mvp_loss": 13,
+      "most_assists": 34,
+      "first_blood": 10,
+      "highest_dmg_taken_per_min": 15052
+    },
+    "all_season": {
+      "matches_count": 3129,
+      "win_rate": 58.36,
+      "kda": 3.56,
+      "team_participation": 57.1,
+      "gold_per_min": 598,
+      "dmg_per_min": 2542,
+      "deaths_per_match": 4.97,
+      "turret_dmg_per_match": 1937,
+      "mvp_count": 294,
+      "legendary": 165,
+      "maniac": 18,
+      "double_kill": 1132,
+      "most_kills": 34,
+      "longest_win_streak": 12,
+      "highest_dmg_per_min": 9426,
+      "highest_gold_per_min": 1394,
+      "savage": 5,
+      "triple_kill": 147,
+      "mvp_loss": 172,
+      "most_assists": 42,
+      "first_blood": 219,
+      "highest_dmg_taken_per_min": 15784
+    }
+  },
+  "hero_favorite": {
+    "current_season": [
+      {
+        "hero_name": "Belerick",
+        "matches": 96,
+        "win_rate": 62.5
+      },
+      {
+        "hero_name": "Floryn",
+        "matches": 19,
+        "win_rate": 68.4
+      },
+      {
+        "hero_name": "Carmilla",
+        "matches": 10,
+        "win_rate": 40.0
+      },
+      {
+        "hero_name": "Angela",
+        "matches": 9,
+        "win_rate": 33.3
+      }
+    ],
+    "all_season": [
+      {
+        "hero_name": "Faramis",
+        "matches": 1184,
+        "win_rate": 55.1
+      },
+      {
+        "hero_name": "Tigreal",
+        "matches": 214,
+        "win_rate": 53.3
+      },
+      {
+        "hero_name": "Minotaur",
+        "matches": 162,
+        "win_rate": 63.0
+      },
+      {
+        "hero_name": "Carmilla",
+        "matches": 130,
+        "win_rate": 54.6
+      },
+      {
+        "hero_name": "Belerick",
+        "matches": 124,
+        "win_rate": 62.1
+      },
+      {
+        "hero_name": "Estes",
+        "matches": 117,
+        "win_rate": 44.4
+      }
+    ]
+  }
+}
