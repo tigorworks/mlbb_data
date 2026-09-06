@@ -1,0 +1,58 @@
+{
+  "id": "27941482",
+  "nick": "NRF.Timberwolves",
+  "zone_id": "2038",
+  "role": "roamer",
+  "rank_current": "52",
+  "rank_highest": "37",
+  "region": "Indonesia/Jakarta Raya",
+  "organization": "Pres Paspampresss",
+  "statistic": {
+    "current_season": {
+      "matches_count": 9,
+      "win_rate": 77.78,
+      "kda": 10.07,
+      "team_participation": 52.8,
+      "gold_per_min": 675,
+      "dmg_per_min": 1420,
+      "deaths_per_match": 1.67,
+      "turret_dmg_per_match": 2344
+    },
+    "all_season": {
+      "matches_count": 3474,
+      "win_rate": 53.45,
+      "kda": 3.55,
+      "team_participation": 53.9,
+      "gold_per_min": 548,
+      "dmg_per_min": 1798,
+      "deaths_per_match": 4.48,
+      "turret_dmg_per_match": 1973,
+      "mvp_count": 300,
+      "legendary": 126,
+      "maniac": 21,
+      "double_kill": 672,
+      "triple_kill": 100,
+      "most_kills": 31,
+      "most_assists": 41,
+      "first_blood": 235,
+      "longest_win_streak": 23,
+      "highest_dmg_per_min": 11172,
+      "highest_gold_per_min": 1200,
+      "highest_dmg_taken_per_min": 16590
+    }
+  },
+  "hero_favorite": {
+    "current_season": [
+      { "hero_name": "Franco", "matches": 8, "win_rate": 75.0 },
+      { "hero_name": "Nana", "matches": 1, "win_rate": 100.0 }
+    ],
+    "all_season": [
+      { "hero_name": "Franco", "matches": 2225, "win_rate": 52.4 },
+      { "hero_name": "Nana", "matches": 466, "win_rate": 51.5 },
+      { "hero_name": "Johnson", "matches": 324, "win_rate": 43.2 },
+      { "hero_name": "Jawhead", "matches": 48, "win_rate": 79.2 },
+      { "hero_name": "Natalia", "matches": 47, "win_rate": 87.2 },
+      { "hero_name": "Layla", "matches": 42, "win_rate": 40.5 }
+    ]
+  }
+}
