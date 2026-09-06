@@ -1,0 +1,70 @@
+{
+  "id": "1367196096",
+  "nick": "RMN. Yahuizz",
+  "zone_id": "15628",
+  "role": "midlaner",
+  "rank_current": "56",
+  "rank_highest": "64",
+  "region": "Indonesia/Jawa Barat",
+  "guild": "FTN Fevertone",
+  "organization": "FTN",
+  "statistic": {
+    "current_season": {
+      "matches_count": 237,
+      "win_rate": 61.60,
+      "kda": 3.54,
+      "team_participation": 48.7,
+      "gold_per_min": 600,
+      "dmg_per_min": 3850,
+      "deaths_per_match": 4.49,
+      "turret_dmg_per_match": 3500,
+      "mvp_count": 29,
+      "mvp_loss": 9,
+      "legendary": 21,
+      "maniac": 0,
+      "savage": 0,
+      "double_kill": 111,
+      "triple_kill": 14,
+      "most_kills": 21,
+      "most_assists": 25,
+      "first_blood": 29,
+      "longest_win_streak": 6,
+      "highest_dmg_per_min": 8325,
+      "highest_dmg_taken_per_min": 21029,
+      "highest_gold_per_min": 1054
+    },
+    "all_season": {
+      "matches_count": 3140,
+      "win_rate": 59.33,
+      "kda": 3.7,
+      "team_participation": 53.2,
+      "gold_per_min": 707,
+      "dmg_per_min": 4023,
+      "deaths_per_match": 4.74,
+      "turret_dmg_per_match": 5802,
+      "mvp_count": 522,
+      "mvp_loss": 227,
+      "legendary": 341,
+      "maniac": 63,
+      "savage": 9,
+      "double_kill": 1919,
+      "triple_kill": 311,
+      "most_kills": 26,
+      "most_assists": 34,
+      "first_blood": 295,
+      "longest_win_streak": 46,
+      "highest_dmg_per_min": 12491,
+      "highest_dmg_taken_per_min": 21029,
+      "highest_gold_per_min": 1295
+    }
+  },
+  "hero_favorite": {
+    "current_season": [],
+    "all_season": []
+  },
+  "achievements": {
+    "total_matches": 3639,
+    "total_likes": 1337,
+    "highest_rank": 64
+  }
+}
