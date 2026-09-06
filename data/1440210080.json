@@ -1,0 +1,84 @@
+{
+  "id": "1440210080",
+  "nick": "Nasaaa'",
+  "zone_id": "15979",
+  "role": "jungler",
+  "rank_current": "112",
+  "rank_highest": "203",
+  "region": "Indonesia/Jakarta Raya",
+  "organization": "CLSY CLASSY REBORN",
+  "statistic": {
+    "current_season": {
+      "matches_count": 244,
+      "win_rate": 72.54,
+      "kda": 3.55,
+      "team_participation": 51.0,
+      "gold_per_min": 741,
+      "dmg_per_min": 4443,
+      "deaths_per_match": 4.15,
+      "turret_dmg_per_match": 6825,
+      "legendary": 58,
+      "maniac": 13,
+      "double_kill": 298,
+      "triple_kill": 53,
+      "most_kills": 22,
+      "most_assists": 19,
+      "first_blood": 30,
+      "longest_win_streak": 10,
+      "highest_dmg_per_min": 10592,
+      "highest_gold_per_min": 1138,
+      "highest_dmg_taken_per_min": 10362
+    },
+    "all_season": {
+      "matches_count": 2833,
+      "win_rate": 70.49,
+      "kda": 4.79,
+      "team_participation": 59.2,
+      "gold_per_min": 770,
+      "dmg_per_min": 4479,
+      "deaths_per_match": 3.93,
+      "turret_dmg_per_match": 7011,
+      "mvp_count": 685,
+      "legendary": 697,
+      "maniac": 208,
+      "double_kill": 3444,
+      "triple_kill": 774,
+      "most_kills": 37,
+      "most_assists": 33,
+      "first_blood": 373,
+      "longest_win_streak": 54,
+      "highest_dmg_per_min": 11575,
+      "highest_gold_per_min": 1294,
+      "highest_dmg_taken_per_min": 16540
+    }
+  },
+  "hero_favorite": {
+    "current_season": [
+      { "hero_name": "Hirara", "matches": 60, "win_rate": 68.3 },
+      { "hero_name": "Karrie", "matches": 54, "win_rate": 70.4 },
+      { "hero_name": "Saber", "matches": 49, "win_rate": 89.8 },
+      { "hero_name": "Ruby", "matches": 13, "win_rate": 69.2 },
+      { "hero_name": "Silvanna", "matches": 10, "win_rate": 60.0 },
+      { "hero_name": "Nolan", "matches": 9, "win_rate": 88.9 }
+    ],
+    "all_season": [
+      { "hero_name": "Natan", "matches": 254, "win_rate": 78.7 },
+      { "hero_name": "Silvanna", "matches": 237, "win_rate": 70.5 },
+      { "hero_name": "Kadita", "matches": 214, "win_rate": 85.0 },
+      { "hero_name": "Ixia", "matches": 193, "win_rate": 73.1 },
+      { "hero_name": "Joy", "matches": 183, "win_rate": 74.9 },
+      { "hero_name": "Clint", "matches": 156, "win_rate": 77.6 }
+    ]
+  },
+  "achievements": {
+    "total_matches": 3243,
+    "total_likes": 2358,
+    "current_rank": "Mythic",
+    "highest_rank": 203,
+    "weekly_champion": 2,
+    "leader_of_men": false,
+    "best_teammate": false,
+    "guardian_level": 3,
+    "renowned_collector": "II"
+  }
+}
