@@ -1,0 +1,70 @@
+{
+  "id": "102010925",
+  "nick": "Yokke.MILE DRY",
+  "zone_id": "2225",
+  "role": "midlaner",
+  "rank_current": "86",
+  "rank_highest": "99",
+  "guild": "GGWP GudangGaramWP",
+  "organization": "Badung No.72 Vale",
+  "statistic": {
+    "current_season": {
+      "matches_count": 340,
+      "win_rate": 56.18,
+      "kda": 2.37,
+      "team_participation": 42.7,
+      "gold_per_min": 614,
+      "dmg_per_min": 3783,
+      "deaths_per_match": 5.14,
+      "turret_dmg_per_match": 3480,
+      "legendary": 28,
+      "maniac": 1,
+      "savage": 0,
+      "double_kill": 138,
+      "triple_kill": 21,
+      "most_kills": 22,
+      "most_assists": 31,
+      "longest_win_streak": 9,
+      "first_blood": 30,
+      "highest_dmg_per_min": 7806,
+      "highest_gold_per_min": 981,
+      "highest_dmg_taken_per_min": 20209,
+      "mvp_count": 27
+    },
+    "all_season": {
+      "matches_count": 8125,
+      "win_rate": 52.12,
+      "kda": 3.31,
+      "team_participation": 51.1,
+      "gold_per_min": 643,
+      "dmg_per_min": 3498,
+      "deaths_per_match": 4.92,
+      "turret_dmg_per_match": 3368,
+      "mvp_count": 912,
+      "legendary": 720,
+      "maniac": 68,
+      "savage": 11,
+      "double_kill": 3554,
+      "triple_kill": 527,
+      "most_kills": 29,
+      "most_assists": 37,
+      "longest_win_streak": 13,
+      "first_blood": 867,
+      "highest_dmg_per_min": 13977,
+      "highest_gold_per_min": 1319,
+      "highest_dmg_taken_per_min": 20209
+    }
+  },
+  "hero_favorite": {
+    "current_season": [
+      {"hero_name": "Gord", "matches": 52, "win_rate": 63.5},
+      {"hero_name": "Vale", "matches": 45, "win_rate": 64.4},
+      {"hero_name": "Sun", "matches": 38, "win_rate": 65.8}
+    ],
+    "all_season": [
+      {"hero_name": "Vale", "matches": 574, "win_rate": 60.1},
+      {"hero_name": "Eudora", "matches": 456, "win_rate": 44.7},
+      {"hero_name": "Hanabi", "matches": 334, "win_rate": 67.7}
+    ]
+  }
+}
