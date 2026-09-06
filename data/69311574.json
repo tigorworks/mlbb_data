@@ -1,75 +1,100 @@
 {
   "id": "69311574",
-  "nick": "TriXar",
+  "nick": "CMB.ManRay",
   "zone_id": "2129",
   "role": "goldlaner",
-  "rank_current": "55",
+  "rank_current": "78",
   "rank_highest": "109",
+  "organization": "CMB COMMERCIAL BMRI",
+  "guild": "10 Years Together",
   "statistic": {
     "current_season": {
-      "matches_count": 176,
-      "win_rate": 67.05,
-      "kda": 3.32,
-      "team_participation": 48.4,
-      "gold_per_min": 711,
-      "dmg_per_min": 4060,
-      "deaths_per_match": 4.38,
-      "turret_dmg_per_match": 8415
+      "matches_count": 208,
+      "win_rate": 68.27,
+      "kda": 2.83,
+      "team_participation": 42.7,
+      "gold_per_min": 715,
+      "dmg_per_min": 3980,
+      "deaths_per_match": 4.14,
+      "turret_dmg_per_match": 12008,
+      "mvp_count": 28,
+      "legendary": 23,
+      "maniac": 3,
+      "double_kill": 170,
+      "triple_kill": 31,
+      "most_kills": 20,
+      "most_assists": 28,
+      "first_blood": 14,
+      "longest_win_streak": 16,
+      "highest_dmg_per_min": 9281,
+      "highest_gold_per_min": 1042,
+      "highest_dmg_taken_per_min": 13635,
+      "savage": 0,
+      "mvp_loss": 10
     },
     "all_season": {
-      "matches_count": 9145,
-      "win_rate": 58.98,
-      "kda": 3.7,
-      "team_participation": 54.8,
-      "gold_per_min": 665,
-      "dmg_per_min": 3718,
+      "matches_count": 9416,
+      "win_rate": 59.23,
+      "kda": 3.69,
+      "team_participation": 54.6,
+      "gold_per_min": 668,
+      "dmg_per_min": 3726,
       "deaths_per_match": 4.03,
-      "turret_dmg_per_match": 5344
+      "turret_dmg_per_match": 5526,
+      "mvp_count": 1576,
+      "legendary": 1229,
+      "maniac": 197,
+      "double_kill": 6550,
+      "triple_kill": 1164,
+      "most_kills": 32,
+      "most_assists": 34,
+      "first_blood": 997,
+      "longest_win_streak": 16,
+      "highest_dmg_per_min": 11950,
+      "highest_gold_per_min": 1201,
+      "highest_dmg_taken_per_min": 15788,
+      "savage": 33,
+      "mvp_loss": 914
     }
   },
   "hero_favorite": {
     "current_season": [
       {
-        "hero_name": "Karrie",
-        "matches": 27,
-        "win_rate": 59.3
-      },
-      {
-        "hero_name": "Obsidia",
-        "matches": 23,
-        "win_rate": 56.5
+        "hero_name": "Irithel",
+        "matches": 52,
+        "win_rate": 65.4
       },
       {
         "hero_name": "Clint",
-        "matches": 19,
-        "win_rate": 73.7
-      },
-      {
-        "hero_name": "Zetian",
-        "matches": 17,
-        "win_rate": 76.5
-      },
-      {
-        "hero_name": "Granger",
-        "matches": 14,
-        "win_rate": 64.3
+        "matches": 38,
+        "win_rate": 68.4
       },
       {
         "hero_name": "Beatrix",
-        "matches": 12,
-        "win_rate": 66.7
+        "matches": 34,
+        "win_rate": 70.6
+      },
+      {
+        "hero_name": "Karrie",
+        "matches": 31,
+        "win_rate": 61.3
+      },
+      {
+        "hero_name": "X.Borg",
+        "matches": 28,
+        "win_rate": 57.1
+      },
+      {
+        "hero_name": "Silvanna",
+        "matches": 25,
+        "win_rate": 64.0
       }
     ],
     "all_season": [
       {
         "hero_name": "Irithel",
-        "matches": 759,
-        "win_rate": 63.4
-      },
-      {
-        "hero_name": "Karrie",
-        "matches": 652,
-        "win_rate": 55.2
+        "matches": 762,
+        "win_rate": 63.5
       },
       {
         "hero_name": "X.Borg",
@@ -77,14 +102,19 @@
         "win_rate": 55.4
       },
       {
-        "hero_name": "Beatrix",
-        "matches": 458,
-        "win_rate": 65.5
+        "hero_name": "Clint",
+        "matches": 445,
+        "win_rate": 62.9
       },
       {
-        "hero_name": "Clint",
-        "matches": 410,
-        "win_rate": 62.4
+        "hero_name": "Karrie",
+        "matches": 652,
+        "win_rate": 55.8
+      },
+      {
+        "hero_name": "Beatrix",
+        "matches": 475,
+        "win_rate": 65.9
       },
       {
         "hero_name": "Silvanna",
