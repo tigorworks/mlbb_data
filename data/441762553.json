@@ -1,0 +1,72 @@
+{
+  "id": "441762553",
+  "nick": "DIA. Oxydemore",
+  "zone_id": "2287",
+  "role": "roamer",
+  "rank_current": "44",
+  "rank_highest": "64",
+  "organization": "Depok No.57 Hilda",
+  "squad_status": "Not in a squad",
+  "statistic": {
+    "current_season": {
+      "matches_count": 188,
+      "win_rate": 60.11,
+      "kda": 4.01,
+      "team_participation": 57.6,
+      "gold_per_min": 635,
+      "dmg_per_min": 2123,
+      "deaths_per_match": 4.27,
+      "turret_dmg_per_match": 2334,
+      "legendary": 5,
+      "maniac": 0,
+      "savage": 0,
+      "double_kill": 39,
+      "triple_kill": 2,
+      "most_kills": 18,
+      "most_assists": 29,
+      "first_blood": 25,
+      "longest_win_streak": 9,
+      "mvp_count": 39,
+      "mvp_loss": 36
+    },
+    "all_season": {
+      "matches_count": 3264,
+      "win_rate": 53.25,
+      "kda": 3.96,
+      "team_participation": 56.7,
+      "gold_per_min": 581,
+      "dmg_per_min": 1603,
+      "deaths_per_match": 4.32,
+      "turret_dmg_per_match": 1354,
+      "legendary": 64,
+      "maniac": 1,
+      "savage": 0,
+      "double_kill": 379,
+      "triple_kill": 15,
+      "most_kills": 18,
+      "most_assists": 43,
+      "first_blood": 304,
+      "longest_win_streak": 9,
+      "mvp_count": 367,
+      "mvp_loss": 347
+    }
+  },
+  "hero_favorite": {
+    "current_season": [
+      { "hero_name": "Hilda", "matches": 155, "win_rate": 59.4 },
+      { "hero_name": "Tigreal", "matches": 21, "win_rate": 66.7 },
+      { "hero_name": "Gatotkaca", "matches": 9, "win_rate": 57.1 }
+    ],
+    "all_season": [
+      { "hero_name": "Franco", "matches": 2124, "win_rate": 54.1 },
+      { "hero_name": "Hilda", "matches": 538, "win_rate": 52.8 },
+      { "hero_name": "Gatotkaca", "matches": 402, "win_rate": 58.0 }
+    ]
+  },
+  "achievements": {
+    "total_matches": 3414,
+    "total_likes": 1540,
+    "current_rank": "44",
+    "highest_rank": 64
+  }
+}
