@@ -1,0 +1,90 @@
+{
+  "id": "30530183",
+  "nick": "DirOps_Eyele$$",
+  "zone_id": "2045",
+  "role": "jungler",
+  "rank_current": "76",
+  "rank_highest": "123",
+  "region": "Indonesia",
+  "guild": "10 Years Together",
+  "organization": "HVM HIVEMINE",
+  "statistic": {
+    "current_season": {
+      "matches_count": 252,
+      "win_rate": 62.3,
+      "kda": 3.55,
+      "team_participation": 53.4,
+      "gold_per_min": 742,
+      "dmg_per_min": 4377,
+      "deaths_per_match": 4.87,
+      "turret_dmg_per_match": 4377,
+      "legendary": 72,
+      "maniac": 8,
+      "double_kill": 306,
+      "savage": 1,
+      "triple_kill": 64,
+      "most_kills": 22,
+      "most_assists": 32,
+      "first_blood": 26,
+      "longest_win_streak": 8,
+      "highest_dmg_per_min": 8478,
+      "highest_gold_per_min": 1156,
+      "highest_dmg_taken_per_min": 25892,
+      "mvp_count": 59,
+      "mvp_loss": 25
+    },
+    "all_season": {
+      "matches_count": 15039,
+      "win_rate": 55.26,
+      "kda": 3.1,
+      "team_participation": 55.5,
+      "gold_per_min": 649,
+      "dmg_per_min": 3621,
+      "deaths_per_match": 4.85,
+      "turret_dmg_per_match": 4985,
+      "mvp_count": 2807,
+      "legendary": 2263,
+      "maniac": 525,
+      "double_kill": 12670,
+      "savage": 67,
+      "triple_kill": 2594,
+      "mvp_loss": 1686,
+      "most_kills": 31,
+      "most_assists": 34,
+      "first_blood": 1757,
+      "longest_win_streak": 16,
+      "highest_dmg_per_min": 11689,
+      "highest_gold_per_min": 1254,
+      "highest_dmg_taken_per_min": 25892
+    }
+  },
+  "hero_favorite": {
+    "current_season": [
+      { "hero_name": "Ling", "matches": 43, "win_rate": 69.8 },
+      { "hero_name": "Yi Sun-shin", "matches": 31, "win_rate": 61.3 },
+      { "hero_name": "Hayabusa", "matches": 27, "win_rate": 66.7 },
+      { "hero_name": "Lancelot", "matches": 25, "win_rate": 52.0 },
+      { "hero_name": "Suyou", "matches": 16, "win_rate": 68.8 },
+      { "hero_name": "Paquito", "matches": 12, "win_rate": 58.3 }
+    ],
+    "all_season": [
+      { "hero_name": "Hayabusa", "matches": 1009, "win_rate": 56.6 },
+      { "hero_name": "Gusion", "matches": 992, "win_rate": 54.2 },
+      { "hero_name": "Lancelot", "matches": 806, "win_rate": 51.1 },
+      { "hero_name": "Chou", "matches": 591, "win_rate": 53.6 },
+      { "hero_name": "Ling", "matches": 558, "win_rate": 53.2 },
+      { "hero_name": "Granger", "matches": 519, "win_rate": 53.9 }
+    ]
+  },
+  "achievements": {
+    "total_matches": 16492,
+    "total_likes": 4841,
+    "current_rank": "Mythical Glory",
+    "highest_rank": 123,
+    "weekly_champion": 3,
+    "world_shaker": true,
+    "mvp": true,
+    "slayer_level": 6,
+    "renowned_collector": "II"
+  }
+}
