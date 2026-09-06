@@ -1,0 +1,87 @@
+{
+  "id": "16467812",
+  "nick": "DirOps_King•AFU",
+  "zone_id": "2018",
+  "role": "midlaner",
+  "rank_current": "36",
+  "rank_highest": "55",
+  "region": "Indonesia",
+  "guild": "10 Years Together",
+  "organization": "BOSS BOSS ESPORTS",
+  "statistic": {
+    "current_season": {
+      "matches_count": 292,
+      "win_rate": 51.71,
+      "kda": 2.33,
+      "team_participation": 46.6,
+      "gold_per_min": 648,
+      "dmg_per_min": 4394,
+      "deaths_per_match": 5.91,
+      "turret_dmg_per_match": 5897,
+      "legendary": 31,
+      "maniac": 12,
+      "double_kill": 218,
+      "savage": 3,
+      "triple_kill": 45,
+      "most_kills": 21,
+      "most_assists": 31,
+      "first_blood": 32,
+      "longest_win_streak": 7,
+      "highest_dmg_per_min": 11143,
+      "highest_gold_per_min": 1115,
+      "highest_dmg_taken_per_min": 22126,
+      "mvp_count": 41
+    },
+    "all_season": {
+      "matches_count": 8191,
+      "win_rate": 55.18,
+      "kda": 3.04,
+      "team_participation": 50.1,
+      "gold_per_min": 597,
+      "dmg_per_min": 3322,
+      "deaths_per_match": 4.83,
+      "turret_dmg_per_match": 4209,
+      "legendary": 754,
+      "maniac": 108,
+      "double_kill": 4135,
+      "savage": 13,
+      "triple_kill": 638,
+      "mvp_count": 1163,
+      "mvp_loss": 666,
+      "most_kills": 29,
+      "most_assists": 31,
+      "first_blood": 880,
+      "longest_win_streak": 12,
+      "highest_dmg_per_min": 11847,
+      "highest_gold_per_min": 1146,
+      "highest_dmg_taken_per_min": 22755
+    }
+  },
+  "hero_favorite": {
+    "current_season": [
+      { "hero_name": "Hanabi", "matches": 37, "win_rate": 62.2 },
+      { "hero_name": "Lesley", "matches": 27, "win_rate": 63.0 },
+      { "hero_name": "Pharsa", "matches": 24, "win_rate": 41.7 },
+      { "hero_name": "Gord", "matches": 20, "win_rate": 46.2 },
+      { "hero_name": "Cici", "matches": 16, "win_rate": 62.5 },
+      { "hero_name": "Layla", "matches": 15, "win_rate": 66.7 }
+    ],
+    "all_season": [
+      { "hero_name": "Chang'e", "matches": 835, "win_rate": 67.8 },
+      { "hero_name": "Cyclops", "matches": 547, "win_rate": 63.1 },
+      { "hero_name": "Esmeralda", "matches": 407, "win_rate": 58.5 },
+      { "hero_name": "Aamon", "matches": 400, "win_rate": 67.2 }
+    ]
+  },
+  "achievements": {
+    "total_matches": 12927,
+    "total_likes": 5040,
+    "current_rank": "Mythical Glory",
+    "highest_rank": 55,
+    "weekly_champion": 7,
+    "neighborhood_champion": true,
+    "best_overall": true,
+    "guardian_level": 4,
+    "renowned_collector": "II"
+  }
+}
