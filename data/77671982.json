@@ -1,69 +1,96 @@
 {
   "id": "77671982",
-  "nick": "Keezchie.",
+  "nick": "MSEK. Elian",
   "server": "2142",
   "role": "jungler",
-  "rank_current": "187",
+  "rank_current": "154",
   "rank_highest": "260",
   "statistic": {
     "current_season": {
-      "matches_count": 458,
-      "win_rate": 64.19,
-      "kda": 5.41,
-      "team_participation": 54.3,
-      "gold_per_min": 701,
-      "dmg_per_min": 4406,
-      "deaths_per_match": 3.00,
-      "turret_dmg_per_match": 3861
+      "matches_count": 364,
+      "win_rate": 65.93,
+      "kda": 4.1,
+      "team_participation": 51.3,
+      "gold_per_min": 737,
+      "dmg_per_min": 4223,
+      "deaths_per_match": 3.44,
+      "turret_dmg_per_match": 5537,
+      "legendary": 114,
+      "maniac": 27,
+      "double_kill": 599,
+      "most_kills": 20,
+      "longest_win_streak": 13,
+      "highest_dmg_per_min": 9536,
+      "highest_gold_per_min": 1124,
+      "savage": 5,
+      "triple_kill": 137,
+      "mvp_loss": 35,
+      "most_assists": 15,
+      "first_blood": 43,
+      "highest_dmg_taken_per_min": 14652
     },
     "all_season": {
-      "matches_count": 10481,
-      "win_rate": 63.14,
-      "kda": 4.92,
+      "matches_count": 10859,
+      "win_rate": 63.24,
+      "kda": 4.93,
       "team_participation": 61.7,
-      "gold_per_min": 703,
-      "dmg_per_min": 4122,
-      "deaths_per_match": 3.75,
-      "turret_dmg_per_match": 3320
+      "gold_per_min": 707,
+      "dmg_per_min": 4129,
+      "deaths_per_match": 3.74,
+      "turret_dmg_per_match": 3397,
+      "mvp_count": 3265,
+      "legendary": 2827,
+      "maniac": 408,
+      "double_kill": 11398,
+      "most_kills": 30,
+      "longest_win_streak": 18,
+      "highest_dmg_per_min": 11967,
+      "highest_gold_per_min": 1279,
+      "savage": 50,
+      "triple_kill": 2148,
+      "mvp_loss": 1329,
+      "most_assists": 32,
+      "first_blood": 1612,
+      "highest_dmg_taken_per_min": 18639
     }
   },
   "hero_favorite": {
     "current_season": [
       {
+        "hero_name": "Lukas",
+        "matches": 271,
+        "win_rate": 66.1
+      },
+      {
         "hero_name": "Leomord",
-        "matches": 312,
-        "win_rate": 67.6
+        "matches": 67,
+        "win_rate": 70.1
       },
       {
         "hero_name": "Suyou",
-        "matches": 80,
-        "win_rate": 55.0
-      },
-      {
-        "hero_name": "Lukas",
-        "matches": 32,
-        "win_rate": 59.4
+        "matches": 11,
+        "win_rate": 72.7
       },
       {
         "hero_name": "Fredrinn",
-        "matches": 21,
-        "win_rate": 66.7
+        "matches": 8,
+        "win_rate": 37.5
       },
       {
-        "hero_name": "Julian",
+        "hero_name": "Nolan",
         "matches": 6,
-        "win_rate": 50.0
+        "win_rate": 33.3
       },
       {
-        "hero_name": "Harley",
-        "matches": 5,
-        "win_rate": 60.0
+        "hero_name": "Lunox",
+        "matches": 1,
+        "win_rate": 100.0
       }
     ],
     "all_season": [
       {
         "hero_name": "Lunox",
-        "matches": 2291,
+        "matches": 2222,
         "win_rate": 70.3
       },
       {
@@ -73,8 +100,8 @@
       },
       {
         "hero_name": "Leomord",
-        "matches": 976,
-        "win_rate": 64.0
+        "matches": 1002,
+        "win_rate": 64.5
       },
       {
         "hero_name": "Granger",
