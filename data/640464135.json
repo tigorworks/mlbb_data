@@ -1,0 +1,126 @@
+{
+  "id": "640464135",
+  "nick": "BABYflo",
+  "zone_id": "8558",
+  "role": "roamer",
+  "rank_current": "124",
+  "rank_highest": "124",
+  "region": "Indonesia/Jakarta Raya",
+  "organization": "CMB COMMERCIAL BMRI",
+  "statistic": {
+    "current_season": {
+      "matches_count": 748,
+      "win_rate": 51.87,
+      "kda": 2.65,
+      "team_participation": 68.0,
+      "gold_per_min": 587,
+      "dmg_per_min": 3005,
+      "deaths_per_match": 4.72,
+      "turret_dmg_per_match": 3512,
+      "mvp_count": 40,
+      "legendary": 17,
+      "maniac": 1,
+      "double_kill": 140,
+      "triple_kill": 16,
+      "most_kills": 23,
+      "most_assists": 35,
+      "first_blood": 38,
+      "longest_win_streak": 9,
+      "highest_dmg_per_min": 10163,
+      "highest_gold_per_min": 1233,
+      "highest_dmg_taken_per_min": 20937,
+      "savage": 1,
+      "mvp_loss": 39
+    },
+    "all_season": {
+      "matches_count": 10459,
+      "win_rate": 53.40,
+      "kda": 3.18,
+      "team_participation": 64.5,
+      "gold_per_min": 623,
+      "dmg_per_min": 3142,
+      "deaths_per_match": 4.32,
+      "turret_dmg_per_match": 4028,
+      "mvp_count": 972,
+      "legendary": 790,
+      "maniac": 132,
+      "double_kill": 4190,
+      "triple_kill": 665,
+      "most_kills": 33,
+      "most_assists": 37,
+      "first_blood": 894,
+      "longest_win_streak": 34,
+      "highest_dmg_per_min": 10617,
+      "highest_gold_per_min": 1254,
+      "highest_dmg_taken_per_min": 20937,
+      "savage": 26,
+      "mvp_loss": 818
+    }
+  },
+  "hero_favorite": {
+    "current_season": [
+      {
+        "hero_name": "Angela",
+        "matches": 173,
+        "win_rate": 49.1
+      },
+      {
+        "hero_name": "Floryn",
+        "matches": 149,
+        "win_rate": 60.4
+      },
+      {
+        "hero_name": "Zetian",
+        "matches": 55,
+        "win_rate": 43.6
+      },
+      {
+        "hero_name": "Belerick",
+        "matches": 46,
+        "win_rate": 47.8
+      },
+      {
+        "hero_name": "Vexana",
+        "matches": 40,
+        "win_rate": 47.5
+      },
+      {
+        "hero_name": "Valir",
+        "matches": 33,
+        "win_rate": 45.5
+      }
+    ],
+    "all_season": [
+      {
+        "hero_name": "Angela",
+        "matches": 2218,
+        "win_rate": 58.3
+      },
+      {
+        "hero_name": "Cecilion",
+        "matches": 848,
+        "win_rate": 51.5
+      },
+      {
+        "hero_name": "Lesley",
+        "matches": 761,
+        "win_rate": 49.7
+      },
+      {
+        "hero_name": "Odette",
+        "matches": 660,
+        "win_rate": 68.6
+      },
+      {
+        "hero_name": "Floryn",
+        "matches": 626,
+        "win_rate": 62.8
+      },
+      {
+        "hero_name": "Nana",
+        "matches": 577,
+        "win_rate": 49.6
+      }
+    ]
+  }
+}
