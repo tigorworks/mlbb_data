@@ -1,0 +1,85 @@
+{
+  "id": "101356359",
+  "nick": "RMN. Marajooo",
+  "zone_id": "2521",
+  "role": "roamer",
+  "rank_current": "74",
+  "rank_highest": "173",
+  "region": "Malaysia",
+  "guild": "Muara Enim No 97 Atlas",
+  "organization": "HD TEAM HANDAL",
+  "squad_status": "In a squad",
+  "statistic": {
+    "current_season": {
+      "matches_count": 174,
+      "win_rate": 65.52,
+      "kda": 4.4,
+      "team_participation": 70.3,
+      "gold_per_min": 611,
+      "dmg_per_min": 2879,
+      "deaths_per_match": 4.93,
+      "turret_dmg_per_match": 881,
+      "mvp_count": 36,
+      "legendary": 3,
+      "maniac": 1,
+      "savage": 1,
+      "double_kill": 32,
+      "triple_kill": 1,
+      "most_kills": 13,
+      "most_assists": 38,
+      "first_blood": 16,
+      "longest_win_streak": 8,
+      "highest_dmg_per_min": 8014,
+      "highest_gold_per_min": 1148
+    },
+    "all_season": {
+      "matches_count": 9904,
+      "win_rate": 57.95,
+      "kda": 3.99,
+      "team_participation": 58.5,
+      "gold_per_min": 641,
+      "dmg_per_min": 3218,
+      "deaths_per_match": 4.33,
+      "turret_dmg_per_match": 3096,
+      "mvp_count": 1451,
+      "legendary": 851,
+      "maniac": 126,
+      "savage": 22,
+      "double_kill": 4534,
+      "triple_kill": 700,
+      "most_kills": 27,
+      "most_assists": 40,
+      "first_blood": 1046,
+      "longest_win_streak": 18,
+      "highest_dmg_per_min": 12382,
+      "highest_gold_per_min": 1241
+    }
+  },
+  "hero_favorite": {
+    "current_season": [
+      { "hero_name": "Atlas", "matches": 48, "win_rate": 72.9 },
+      { "hero_name": "Belerick", "matches": 35, "win_rate": 65.7 },
+      { "hero_name": "Gloo", "matches": 13, "win_rate": 61.5 },
+      { "hero_name": "Marcel", "matches": 12, "win_rate": 58.3 },
+      { "hero_name": "Mathilda", "matches": 11, "win_rate": 63.6 },
+      { "hero_name": "Rafaela", "matches": 10, "win_rate": 80.0 }
+    ],
+    "all_season": [
+      { "hero_name": "Gatotkaca", "matches": 382, "win_rate": 62.3 },
+      { "hero_name": "Grock", "matches": 356, "win_rate": 60.7 },
+      { "hero_name": "Lesley", "matches": 339, "win_rate": 51.0 },
+      { "hero_name": "Gord", "matches": 312, "win_rate": 56.4 },
+      { "hero_name": "Hylos", "matches": 294, "win_rate": 56.8 },
+      { "hero_name": "Lancelot", "matches": 291, "win_rate": 59.8 }
+    ]
+  },
+  "achievements": {
+    "total_matches": 14988,
+    "total_likes": 10675,
+    "current_rank": "Mythical Glory",
+    "highest_rank": 173,
+    "weekly_champion": 9,
+    "guardian_level": 6,
+    "renowned_collector": "IV"
+  }
+}
