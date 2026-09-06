@@ -1,0 +1,84 @@
+{
+  "id": "94072655",
+  "nick": "RMN. Zyxo",
+  "zone_id": "2193",
+  "role": "jungler",
+  "rank_current": "48",
+  "rank_highest": "72",
+  "region": "United States",
+  "guild": "9 Years Together",
+  "organization": "DK D'Knight",
+  "squad_status": "In a squad",
+  "statistic": {
+    "current_season": {
+      "matches_count": 203,
+      "win_rate": 62.07,
+      "kda": 3.84,
+      "team_participation": 51.4,
+      "gold_per_min": 739,
+      "dmg_per_min": 3791,
+      "deaths_per_match": 3.90,
+      "turret_dmg_per_match": 3176,
+      "mvp_count": 37,
+      "legendary": 43,
+      "maniac": 11,
+      "savage": 1,
+      "double_kill": 198,
+      "triple_kill": 47,
+      "most_kills": 22,
+      "most_assists": 30,
+      "first_blood": 15,
+      "longest_win_streak": 11,
+      "highest_dmg_per_min": 10209,
+      "highest_gold_per_min": 1051
+    },
+    "all_season": {
+      "matches_count": 5411,
+      "win_rate": 59.47,
+      "kda": 3.85,
+      "team_participation": 54.5,
+      "gold_per_min": 673,
+      "dmg_per_min": 3511,
+      "deaths_per_match": 4.06,
+      "turret_dmg_per_match": 2965,
+      "mvp_count": 911,
+      "legendary": 812,
+      "maniac": 139,
+      "savage": 22,
+      "double_kill": 3939,
+      "triple_kill": 728,
+      "most_kills": 27,
+      "most_assists": 33,
+      "first_blood": 626,
+      "longest_win_streak": 14,
+      "highest_dmg_per_min": 11303,
+      "highest_gold_per_min": 1223
+    }
+  },
+  "hero_favorite": {
+    "current_season": [
+      { "hero_name": "Suyou", "matches": 47, "win_rate": 57.4 },
+      { "hero_name": "Baxia", "matches": 35, "win_rate": 54.3 },
+      { "hero_name": "Esmeralda", "matches": 25, "win_rate": 60.0 },
+      { "hero_name": "Irithel", "matches": 13, "win_rate": 92.3 },
+      { "hero_name": "Alpha", "matches": 13, "win_rate": 61.5 },
+      { "hero_name": "Fredrinn", "matches": 12, "win_rate": 58.3 }
+    ],
+    "all_season": [
+      { "hero_name": "Gusion", "matches": 727, "win_rate": 56.8 },
+      { "hero_name": "Lancelot", "matches": 624, "win_rate": 54.3 },
+      { "hero_name": "Esmeralda", "matches": 406, "win_rate": 61.8 },
+      { "hero_name": "Suyou", "matches": 389, "win_rate": 63.5 },
+      { "hero_name": "Alpha", "matches": 344, "win_rate": 66.0 },
+      { "hero_name": "Kagura", "matches": 289, "win_rate": 57.1 }
+    ]
+  },
+  "achievements": {
+    "total_matches": 7749,
+    "total_likes": 5234,
+    "current_rank": "Mythical Glory",
+    "highest_rank": 72,
+    "guardian_level": 5,
+    "renowned_collector": "III"
+  }
+}
