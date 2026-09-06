@@ -1,0 +1,123 @@
+{
+  "id": "99940812",
+  "nick": "Yokke. yami sukehiro",
+  "zone_id": "2520",
+  "role": "roamer",
+  "rank_current": "35",
+  "rank_highest": "78",
+  "region": "Indonesia",
+  "guild": "GGWPGudangGaramWP",
+  "statistic": {
+    "current_season": {
+      "matches_count": 239,
+      "win_rate": 51.88,
+      "kda": 2.61,
+      "team_participation": 45.5,
+      "gold_per_min": 606,
+      "dmg_per_min": 2836,
+      "deaths_per_match": 4.59,
+      "turret_dmg_per_match": 3180,
+      "legendary": 7,
+      "maniac": 1,
+      "savage": 1,
+      "double_kill": 59,
+      "triple_kill": 3,
+      "most_kills": 16,
+      "most_assists": 33,
+      "longest_win_streak": 7,
+      "first_blood": 25,
+      "highest_dmg_per_min": 6538,
+      "highest_gold_per_min": 927,
+      "highest_dmg_taken_per_min": 18026
+    },
+    "all_season": {
+      "matches_count": 8509,
+      "win_rate": 50.04,
+      "kda": 3.18,
+      "team_participation": 49.1,
+      "gold_per_min": 579,
+      "dmg_per_min": 2836,
+      "deaths_per_match": 4.36,
+      "turret_dmg_per_match": 3148,
+      "mvp_count": 848,
+      "legendary": 508,
+      "maniac": 67,
+      "savage": 4,
+      "double_kill": 2977,
+      "triple_kill": 443,
+      "most_kills": 34,
+      "most_assists": 34,
+      "longest_win_streak": 14,
+      "first_blood": 570,
+      "highest_dmg_per_min": 10885,
+      "highest_gold_per_min": 1248,
+      "highest_dmg_taken_per_min": 23352
+    }
+  },
+  "hero_favorite": {
+    "current_season": [
+      {
+        "hero_name": "Sun",
+        "matches": 19,
+        "win_rate": 68.4
+      },
+      {
+        "hero_name": "Tigreal",
+        "matches": 18,
+        "win_rate": 50.0
+      },
+      {
+        "hero_name": "Franco",
+        "matches": 12,
+        "win_rate": 50.0
+      },
+      {
+        "hero_name": "Gloo",
+        "matches": 10,
+        "win_rate": 50.0
+      },
+      {
+        "hero_name": "Ruby",
+        "matches": 9,
+        "win_rate": 66.7
+      },
+      {
+        "hero_name": "Brody",
+        "matches": 8,
+        "win_rate": 75.0
+      }
+    ],
+    "all_season": [
+      {
+        "hero_name": "Franco",
+        "matches": 2604,
+        "win_rate": 52.1
+      },
+      {
+        "hero_name": "Tigreal",
+        "matches": 2373,
+        "win_rate": 48.3
+      },
+      {
+        "hero_name": "Gatotkaca",
+        "matches": 2618,
+        "win_rate": 50.3
+      },
+      {
+        "hero_name": "Martis",
+        "matches": 2401,
+        "win_rate": 50.9
+      },
+      {
+        "hero_name": "Chang'e",
+        "matches": 2361,
+        "win_rate": 56.1
+      },
+      {
+        "hero_name": "Gloo",
+        "matches": 1315,
+        "win_rate": 50.0
+      }
+    ]
+  }
+}
