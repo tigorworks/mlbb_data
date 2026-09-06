@@ -1,0 +1,85 @@
+{
+  "id": "127475173",
+  "nick": "NRF. Ryan kang tempe",
+  "zone_id": "2646",
+  "role": "roamer",
+  "rank_current": "61",
+  "rank_highest": "80",
+  "region": "Indonesia",
+  "guild": "Lebak No.26 Lolita",
+  "organization": "BurmiDayaPlaza",
+  "statistic": {
+    "current_season": {
+      "matches_count": 415,
+      "win_rate": 52.05,
+      "kda": 1.65,
+      "team_participation": 43.0,
+      "gold_per_min": 533,
+      "dmg_per_min": 2214,
+      "deaths_per_match": 5.90,
+      "turret_dmg_per_match": 2066,
+      "legendary": 6,
+      "maniac": 0,
+      "double_kill": 62,
+      "triple_kill": 5,
+      "most_kills": 15,
+      "most_assists": 32,
+      "first_blood": 32,
+      "longest_win_streak": 8,
+      "highest_dmg_per_min": 7795,
+      "highest_gold_per_min": 863,
+      "highest_dmg_taken_per_min": 19536
+    },
+    "all_season": {
+      "matches_count": 8967,
+      "win_rate": 51.62,
+      "kda": 2.79,
+      "team_participation": 52.3,
+      "gold_per_min": 552,
+      "dmg_per_min": 2464,
+      "deaths_per_match": 5.19,
+      "turret_dmg_per_match": 2168,
+      "mvp_count": 554,
+      "legendary": 325,
+      "maniac": 35,
+      "double_kill": 2584,
+      "triple_kill": 321,
+      "most_kills": 32,
+      "most_assists": 35,
+      "first_blood": 612,
+      "longest_win_streak": 16,
+      "highest_dmg_per_min": 11595,
+      "highest_gold_per_min": 1106,
+      "highest_dmg_taken_per_min": 19536
+    }
+  },
+  "hero_favorite": {
+    "current_season": [
+      { "hero_name": "Grock", "matches": 54, "win_rate": 57.4 },
+      { "hero_name": "Floryn", "matches": 33, "win_rate": 54.5 },
+      { "hero_name": "Zilong", "matches": 28, "win_rate": 46.4 },
+      { "hero_name": "Franco", "matches": 27, "win_rate": 55.6 },
+      { "hero_name": "Esmeralda", "matches": 25, "win_rate": 48.0 },
+      { "hero_name": "Minsitthar", "matches": 25, "win_rate": 36.0 }
+    ],
+    "all_season": [
+      { "hero_name": "Cyclops", "matches": 468, "win_rate": 50.0 },
+      { "hero_name": "Akai", "matches": 393, "win_rate": 48.9 },
+      { "hero_name": "Vexana", "matches": 359, "win_rate": 59.3 },
+      { "hero_name": "Johnson", "matches": 353, "win_rate": 55.5 },
+      { "hero_name": "Jawhead", "matches": 335, "win_rate": 46.0 },
+      { "hero_name": "Diggie", "matches": 311, "win_rate": 62.4 }
+    ]
+  },
+  "achievements": {
+    "total_matches": 10375,
+    "total_likes": 3538,
+    "current_rank": "Mythic",
+    "highest_rank": 80,
+    "weekly_champion": 7,
+    "leader_of_men": false,
+    "best_teammate": false,
+    "guardian_level": 6,
+    "renowned_collector": "III"
+  }
+}
