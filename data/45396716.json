@@ -1,0 +1,73 @@
+{
+  "id": "45396716",
+  "nick": "DirOps_Tuan•Muda",
+  "zone_id": "2062",
+  "role": "midlaner",
+  "rank_current": "2",
+  "rank_highest": "54",
+  "region": "Indonesia/Jakarta Raya",
+  "guild": "RSSO Racing Special",
+  "statistic": {
+    "current_season": {
+      "matches_count": 16,
+      "win_rate": 81.25,
+      "kda": 3.18,
+      "team_participation": 54.7,
+      "gold_per_min": 763,
+      "dmg_per_min": 5011,
+      "deaths_per_match": 5.88,
+      "turret_dmg_per_match": 5126,
+      "legendary": 1,
+      "maniac": 0,
+      "savage": 0,
+      "triple_kill": 2,
+      "double_kill": 12,
+      "mvp_loss": 1,
+      "most_kills": 13,
+      "most_assists": 17,
+      "longest_win_streak": 7,
+      "first_blood": 1,
+      "highest_dmg_per_min": 7535,
+      "highest_dmg_taken_per_min": 6379,
+      "highest_gold_per_min": 906
+    },
+    "all_season": {
+      "matches_count": 2810,
+      "win_rate": 58.04,
+      "kda": 3.18,
+      "team_participation": 55.6,
+      "gold_per_min": 572,
+      "dmg_per_min": 3467,
+      "deaths_per_match": 4.85,
+      "turret_dmg_per_match": 2729,
+      "mvp_count": 360,
+      "legendary": 241,
+      "maniac": 39,
+      "savage": 0,
+      "triple_kill": 236,
+      "double_kill": 1341,
+      "mvp_loss": 253,
+      "most_kills": 23,
+      "most_assists": 30,
+      "longest_win_streak": 17,
+      "first_blood": 203,
+      "highest_dmg_per_min": 11754,
+      "highest_dmg_taken_per_min": 13174,
+      "highest_gold_per_min": 1036
+    }
+  },
+  "hero_favorite": {
+    "current_season": [
+      { "hero_name": "Cyclops", "matches": 15, "win_rate": 80.0 },
+      { "hero_name": "Layla", "matches": 1, "win_rate": 100.0 }
+    ],
+    "all_season": [
+      { "hero_name": "Cyclops", "matches": 1507, "win_rate": 66.2 },
+      { "hero_name": "Eudora", "matches": 609, "win_rate": 84.7 },
+      { "hero_name": "Tigreal", "matches": 495, "win_rate": 53.5 },
+      { "hero_name": "Karina", "matches": 421, "win_rate": 53.7 },
+      { "hero_name": "Odette", "matches": 355, "win_rate": 81.7 },
+      { "hero_name": "Layla", "matches": 306, "win_rate": 53.3 }
+    ]
+  }
+}
