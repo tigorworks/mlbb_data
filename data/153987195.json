@@ -1,0 +1,75 @@
+{
+  "id": "153987195",
+  "nick": "Reg8. AnselXavier",
+  "zone_id": "2775",
+  "role": "roamer",
+  "rank_current": "58",
+  "rank_highest": "105",
+  "guild": "AM AM ESPORT JEMBER",
+  "statistic": {
+    "current_season": {
+      "matches_count": 220,
+      "win_rate": 58.64,
+      "kda": 2.66,
+      "team_participation": 57.3,
+      "gold_per_min": 596,
+      "dmg_per_min": 2588,
+      "deaths_per_match": 5.87,
+      "turret_dmg_per_match": 1447,
+      "legendary": 11,
+      "maniac": 1,
+      "savage": 0,
+      "double_kill": 82,
+      "triple_kill": 13,
+      "most_kills": 19,
+      "most_assists": 36,
+      "longest_win_streak": 8,
+      "first_blood": 26,
+      "highest_dmg_per_min": 8350,
+      "highest_gold_per_min": 938,
+      "highest_dmg_taken_per_min": 20765,
+      "mvp_count": 31
+    },
+    "all_season": {
+      "matches_count": 8320,
+      "win_rate": 54.69,
+      "kda": 3.53,
+      "team_participation": 56.8,
+      "gold_per_min": 586,
+      "dmg_per_min": 2986,
+      "deaths_per_match": 4.52,
+      "turret_dmg_per_match": 2584,
+      "legendary": 628,
+      "maniac": 99,
+      "savage": 15,
+      "double_kill": 3805,
+      "triple_kill": 625,
+      "most_kills": 31,
+      "most_assists": 36,
+      "longest_win_streak": 15,
+      "first_blood": 784,
+      "highest_dmg_per_min": 11198,
+      "highest_gold_per_min": 1168,
+      "highest_dmg_taken_per_min": 20765,
+      "mvp_count": 991
+    }
+  },
+  "hero_favorite": {
+    "current_season": [
+      {"hero_name": "Atlas", "matches": 37, "win_rate": 67.6},
+      {"hero_name": "Chou", "matches": 36, "win_rate": 66.7},
+      {"hero_name": "Kaja", "matches": 14, "win_rate": 57.1},
+      {"hero_name": "Minotaur", "matches": 12, "win_rate": 58.3},
+      {"hero_name": "Badang", "matches": 12, "win_rate": 50.0},
+      {"hero_name": "Cyclops", "matches": 11, "win_rate": 81.8}
+    ],
+    "all_season": [
+      {"hero_name": "Cyclops", "matches": 1226, "win_rate": 61.3},
+      {"hero_name": "Grock", "matches": 309, "win_rate": 51.9},
+      {"hero_name": "Tigreal", "matches": 297, "win_rate": 52.5},
+      {"hero_name": "Chou", "matches": 281, "win_rate": 50.5},
+      {"hero_name": "Angela", "matches": 239, "win_rate": 56.1},
+      {"hero_name": "Minotaur", "matches": 234, "win_rate": 55.6}
+    ]
+  }
+}
