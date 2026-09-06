@@ -1,0 +1,88 @@
+{
+  "id": "113025209",
+  "nick": "DirOps_Azura",
+  "zone_id": "2566",
+  "role": "explaner",
+  "rank_current": "137",
+  "rank_highest": "168",
+  "region": "Indonesia/Jawa Barat",
+  "guild": "Mbah Grandma Esport",
+  "organization": "Mbah Grandma Esport",
+  "statistic": {
+    "current_season": {
+      "matches_count": 15,
+      "win_rate": 80.0,
+      "kda": 5.02,
+      "team_participation": 47.7,
+      "gold_per_min": 637,
+      "dmg_per_min": 3731,
+      "deaths_per_match": 4.4,
+      "turret_dmg_per_match": 1995,
+      "legendary": 2,
+      "maniac": 0,
+      "double_kill": 7,
+      "savage": 0,
+      "triple_kill": 0,
+      "most_kills": 14,
+      "most_assists": 20,
+      "first_blood": 3,
+      "longest_win_streak": 8,
+      "highest_dmg_per_min": 6172,
+      "highest_gold_per_min": 787,
+      "highest_dmg_taken_per_min": 12064,
+      "mvp_count": 1
+    },
+    "all_season": {
+      "matches_count": 10437,
+      "win_rate": 59.38,
+      "kda": 3.9,
+      "team_participation": 55.8,
+      "gold_per_min": 665,
+      "dmg_per_min": 3443,
+      "deaths_per_match": 4.01,
+      "turret_dmg_per_match": 4120,
+      "mvp_count": 1992,
+      "legendary": 1545,
+      "maniac": 225,
+      "double_kill": 7284,
+      "savage": 31,
+      "triple_kill": 1310,
+      "mvp_loss": 1039,
+      "most_kills": 33,
+      "most_assists": 35,
+      "first_blood": 1276,
+      "longest_win_streak": 21,
+      "highest_dmg_per_min": 12603,
+      "highest_gold_per_min": 1201,
+      "highest_dmg_taken_per_min": 19141
+    }
+  },
+  "hero_favorite": {
+    "current_season": [
+      { "hero_name": "Novaria", "matches": 5, "win_rate": 100.0 },
+      { "hero_name": "X.Borg", "matches": 3, "win_rate": 66.7 },
+      { "hero_name": "Sora", "matches": 2, "win_rate": 100.0 },
+      { "hero_name": "Barats", "matches": 1, "win_rate": 100.0 },
+      { "hero_name": "Sun", "matches": 1, "win_rate": 100.0 },
+      { "hero_name": "Julian", "matches": 1, "win_rate": 100.0 }
+    ],
+    "all_season": [
+      { "hero_name": "Lancelot", "matches": 755, "win_rate": 61.2 },
+      { "hero_name": "Saber", "matches": 755, "win_rate": 62.5 },
+      { "hero_name": "Gusion", "matches": 511, "win_rate": 58.5 },
+      { "hero_name": "Beatrix", "matches": 507, "win_rate": 70.8 },
+      { "hero_name": "Lunox", "matches": 496, "win_rate": 62.7 },
+      { "hero_name": "Ling", "matches": 496, "win_rate": 71.0 }
+    ]
+  },
+  "achievements": {
+    "total_matches": 14143,
+    "total_likes": 14569,
+    "current_rank": "Mythical Glory",
+    "highest_rank": 168,
+    "angelic_agent": true,
+    "galactic_starhawk": true,
+    "codename_storm": true,
+    "world_collector": true
+  }
+}
