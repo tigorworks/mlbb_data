@@ -1,6 +1,6 @@
 {
   "id": "13582766",
-  "nick": "DirtyBubble",
+  "nick": "CMB . DirtyBubble",
   "zone_id": "2016",
   "role": "explaner",
   "rank_current": "148",
@@ -60,34 +60,34 @@
   "hero_favorite": {
     "current_season": [
       {
-        "hero_name": "Grock",
-        "matches": 1027,
-        "win_rate": 65.7
+        "hero_name": "Paquito",
+        "matches": 75,
+        "win_rate": 54.7
       },
       {
-        "hero_name": "Chou",
-        "matches": 706,
-        "win_rate": 50.1
+        "hero_name": "Benedetta",
+        "matches": 49,
+        "win_rate": 61.2
       },
       {
-        "hero_name": "Esmeralda",
-        "matches": 637,
-        "win_rate": 63.7
+        "hero_name": "Sora",
+        "matches": 38,
+        "win_rate": 50.0
       },
       {
-        "hero_name": "Selena",
-        "matches": 897,
-        "win_rate": 57.5
+        "hero_name": "Freya",
+        "matches": 35,
+        "win_rate": 60.0
       },
       {
-        "hero_name": "Miya",
-        "matches": 708,
-        "win_rate": 56.6
+        "hero_name": "Cici",
+        "matches": 29,
+        "win_rate": 75.9
       },
       {
-        "hero_name": "Uranus",
-        "matches": 680,
-        "win_rate": 58.6
+        "hero_name": "Barats",
+        "matches": 27,
+        "win_rate": 48.1
       }
     ],
     "all_season": [
@@ -102,14 +102,14 @@
         "win_rate": 57.5
       },
       {
-        "hero_name": "Chou",
-        "matches": 706,
-        "win_rate": 50.1
-      },
-      {
         "hero_name": "Miya",
         "matches": 708,
         "win_rate": 56.6
+      },
+      {
+        "hero_name": "Chou",
+        "matches": 706,
+        "win_rate": 50.1
       },
       {
         "hero_name": "Esmeralda",
@@ -118,7 +118,7 @@
       },
       {
         "hero_name": "Uranus",
-        "matches": 680,
+        "matches": 580,
         "win_rate": 58.6
       }
     ]
