@@ -1,6 +1,6 @@
 {
   "id": "122068402",
-  "nick": "Spookeyjunkiezt",
+  "nick": "CMB . Sandy Tatum",
   "zone_id": "2626",
   "role": "jungler",
   "rank_current": "108",
@@ -18,19 +18,19 @@
       "deaths_per_match": 4.66,
       "turret_dmg_per_match": 2771,
       "mvp_count": 102,
-      "legendary": 86,
-      "maniac": 8,
-      "double_kill": 267,
-      "triple_kill": 34,
-      "most_kills": 24,
-      "most_assists": 29,
-      "first_blood": 51,
-      "longest_win_streak": 12,
-      "highest_dmg_per_min": 8156,
-      "highest_gold_per_min": 1087,
-      "highest_dmg_taken_per_min": 19834,
-      "savage": 2,
-      "mvp_loss": 41
+      "legendary": 56,
+      "maniac": 2,
+      "double_kill": 273,
+      "triple_kill": 40,
+      "most_kills": 20,
+      "most_assists": 37,
+      "first_blood": 58,
+      "longest_win_streak": 10,
+      "highest_dmg_per_min": 10906,
+      "highest_gold_per_min": 1010,
+      "highest_dmg_taken_per_min": 20195,
+      "savage": 0,
+      "mvp_loss": 59
     },
     "all_season": {
       "matches_count": 12448,
@@ -42,19 +42,19 @@
       "deaths_per_match": 4.59,
       "turret_dmg_per_match": 3605,
       "mvp_count": 1867,
-      "legendary": 1520,
-      "maniac": 312,
-      "double_kill": 7462,
-      "triple_kill": 1203,
-      "most_kills": 32,
-      "most_assists": 36,
-      "first_blood": 1876,
-      "longest_win_streak": 23,
-      "highest_dmg_per_min": 12847,
-      "highest_gold_per_min": 1198,
-      "highest_dmg_taken_per_min": 24128,
-      "savage": 55,
-      "mvp_loss": 1462
+      "legendary": 1242,
+      "maniac": 173,
+      "double_kill": 6962,
+      "triple_kill": 1138,
+      "most_kills": 29,
+      "most_assists": 37,
+      "first_blood": 1244,
+      "longest_win_streak": 14,
+      "highest_dmg_per_min": 12807,
+      "highest_gold_per_min": 1267,
+      "highest_dmg_taken_per_min": 26168,
+      "savage": 26,
+      "mvp_loss": 1118
     }
   },
   "hero_favorite": {
@@ -98,28 +98,28 @@
       },
       {
         "hero_name": "Harith",
-        "matches": 532,
-        "win_rate": 55.6
+        "matches": 535,
+        "win_rate": 55.7
       },
       {
         "hero_name": "Yi Sun-shin",
-        "matches": 494,
-        "win_rate": 62.6
+        "matches": 518,
+        "win_rate": 62.2
+      },
+      {
+        "hero_name": "Harley",
+        "matches": 415,
+        "win_rate": 61.0
       },
       {
         "hero_name": "Gusion",
-        "matches": 404,
+        "matches": 406,
         "win_rate": 59.4
       },
       {
         "hero_name": "Granger",
-        "matches": 401,
-        "win_rate": 55.6
-      },
-      {
-        "hero_name": "Harley",
-        "matches": 355,
-        "win_rate": 60.6
+        "matches": 406,
+        "win_rate": 55.2
       }
     ]
   }
