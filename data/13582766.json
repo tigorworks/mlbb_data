@@ -1,69 +1,99 @@
 {
   "id": "13582766",
-  "nick": "CMB . Lalalalala...",
+  "nick": "DirtyBubble",
   "zone_id": "2016",
   "role": "explaner",
-  "rank_current": "100",
+  "rank_current": "148",
   "rank_highest": "178",
+  "organization": "CMB COMMERCIAL BMRI",
+  "guild": "10 Years Together",
   "statistic": {
     "current_season": {
-      "matches_count": 466,
-      "win_rate": 56.22,
-      "kda": 2.0,
-      "team_participation": 34.7,
-      "gold_per_min": 580,
-      "dmg_per_min": 3949,
-      "deaths_per_match": 4.09,
-      "turret_dmg_per_match": 3631
+      "matches_count": 468,
+      "win_rate": 57.26,
+      "kda": 2.11,
+      "team_participation": 35.0,
+      "gold_per_min": 581,
+      "dmg_per_min": 3391,
+      "deaths_per_match": 3.95,
+      "turret_dmg_per_match": 4615,
+      "mvp_count": 37,
+      "legendary": 18,
+      "maniac": 2,
+      "double_kill": 146,
+      "triple_kill": 16,
+      "most_kills": 18,
+      "most_assists": 27,
+      "first_blood": 47,
+      "longest_win_streak": 10,
+      "highest_dmg_per_min": 8319,
+      "highest_gold_per_min": 1009,
+      "highest_dmg_taken_per_min": 19423,
+      "savage": 0,
+      "mvp_loss": 30
     },
     "all_season": {
-      "matches_count": 25709,
-      "win_rate": 54.86,
-      "kda": 3.43,
+      "matches_count": 26537,
+      "win_rate": 54.85,
+      "kda": 3.42,
       "team_participation": 48.5,
-      "gold_per_min": 596,
-      "dmg_per_min": 2967,
-      "deaths_per_match": 3.63,
-      "turret_dmg_per_match": 2941
+      "gold_per_min": 599,
+      "dmg_per_min": 2987,
+      "deaths_per_match": 3.64,
+      "turret_dmg_per_match": 2997,
+      "mvp_count": 2449,
+      "legendary": 1480,
+      "maniac": 165,
+      "double_kill": 8524,
+      "triple_kill": 1050,
+      "most_kills": 33,
+      "most_assists": 37,
+      "first_blood": 2124,
+      "longest_win_streak": 15,
+      "highest_dmg_per_min": 11392,
+      "highest_gold_per_min": 1234,
+      "highest_dmg_taken_per_min": 25746,
+      "savage": 22,
+      "mvp_loss": 2150
     }
   },
   "hero_favorite": {
     "current_season": [
       {
-        "hero_name": "Phoveus",
-        "matches": 65,
-        "win_rate": 67.7
+        "hero_name": "Grock",
+        "matches": 1027,
+        "win_rate": 65.7
       },
       {
-        "hero_name": "Arlott",
-        "matches": 56,
-        "win_rate": 41.1
+        "hero_name": "Chou",
+        "matches": 706,
+        "win_rate": 50.1
       },
       {
-        "hero_name": "Alice",
-        "matches": 52,
-        "win_rate": 65.4
+        "hero_name": "Esmeralda",
+        "matches": 637,
+        "win_rate": 63.7
       },
       {
-        "hero_name": "Suyou",
-        "matches": 28,
-        "win_rate": 60.7
+        "hero_name": "Selena",
+        "matches": 897,
+        "win_rate": 57.5
       },
       {
-        "hero_name": "Zhask",
-        "matches": 26,
-        "win_rate": 65.4
+        "hero_name": "Miya",
+        "matches": 708,
+        "win_rate": 56.6
       },
       {
-        "hero_name": "Lapu-Lapu",
-        "matches": 26,
-        "win_rate": 53.8
+        "hero_name": "Uranus",
+        "matches": 680,
+        "win_rate": 58.6
       }
     ],
     "all_season": [
       {
         "hero_name": "Grock",
-        "matches": 1026,
+        "matches": 1027,
         "win_rate": 65.7
       },
       {
@@ -78,18 +108,18 @@
       },
       {
         "hero_name": "Miya",
-        "matches": 703,
+        "matches": 708,
         "win_rate": 56.6
       },
       {
         "hero_name": "Esmeralda",
-        "matches": 615,
-        "win_rate": 64.1
+        "matches": 637,
+        "win_rate": 63.7
       },
       {
         "hero_name": "Uranus",
-        "matches": 553,
-        "win_rate": 58.2
+        "matches": 680,
+        "win_rate": 58.6
       }
     ]
   }
