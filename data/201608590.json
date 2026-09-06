@@ -1,0 +1,72 @@
+{
+  "id": "201608590",
+  "nick": "Yokke.Bumblebee",
+  "zone_id": "9058",
+  "role": "goldlaner",
+  "rank_current": "15",
+  "rank_highest": "54",
+  "guild": "HIKS HailTheKings",
+  "statistic": {
+    "current_season": {
+      "matches_count": 53,
+      "win_rate": 79.25,
+      "team_participation": 55.1,
+      "gold_per_min": 690,
+      "dmg_per_min": 4101,
+      "deaths_per_match": 3.76,
+      "turret_dmg_per_match": 5276,
+      "legendary": 10,
+      "mvp_count": 10,
+      "maniac": 2,
+      "savage": 0,
+      "double_kill": 25,
+      "triple_kill": 3,
+      "most_kills": 18,
+      "most_assists": 22,
+      "longest_win_streak": 9,
+      "first_blood": 12,
+      "highest_dmg_per_min": 7854,
+      "highest_gold_per_min": 1100,
+      "highest_dmg_taken_per_min": 16500
+    },
+    "all_season": {
+      "matches_count": 5883,
+      "win_rate": 60.90,
+      "kda": 4.27,
+      "team_participation": 53.4,
+      "gold_per_min": 668,
+      "dmg_per_min": 3850,
+      "deaths_per_match": 4.12,
+      "turret_dmg_per_match": 4920,
+      "mvp_count": 1398,
+      "legendary": 1117,
+      "maniac": 259,
+      "savage": 42,
+      "double_kill": 5028,
+      "triple_kill": 1096,
+      "most_kills": 28,
+      "most_assists": 30,
+      "longest_win_streak": 20,
+      "first_blood": 602,
+      "highest_dmg_per_min": 12705,
+      "highest_gold_per_min": 1286,
+      "highest_dmg_taken_per_min": 22100
+    }
+  },
+  "hero_favorite": {
+    "current_season": [
+      {"hero_name": "Melissa", "matches": 18, "win_rate": 83.3},
+      {"hero_name": "Vexana", "matches": 15, "win_rate": 80.0},
+      {"hero_name": "Ixia", "matches": 12, "win_rate": 75.0},
+      {"hero_name": "Cecilion", "matches": 8, "win_rate": 75.0}
+    ],
+    "all_season": [
+      {"hero_name": "Clint", "matches": 737, "win_rate": 66.2},
+      {"hero_name": "Hanabi", "matches": 620, "win_rate": 62.1},
+      {"hero_name": "Nana", "matches": 485, "win_rate": 58.8},
+      {"hero_name": "Melissa", "matches": 412, "win_rate": 67.3},
+      {"hero_name": "Vexana", "matches": 378, "win_rate": 61.9},
+      {"hero_name": "Ixia", "matches": 321, "win_rate": 63.5}
+    ]
+  }
+}
