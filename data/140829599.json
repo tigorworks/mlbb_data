@@ -1,0 +1,63 @@
+{
+  "id": "140829599",
+  "nick": "DIA. Vremm",
+  "zone_id": "2702",
+  "role": "jungler",
+  "rank_current": "88",
+  "rank_highest": "15",
+  "guild": "SMLS SHAMBLES HEAT",
+  "statistic": {
+    "current_season": {
+      "matches_count": 358,
+      "win_rate": 58.10,
+      "kda": 2.35,
+      "team_participation": 48.1,
+      "gold_per_min": 712,
+      "dmg_per_min": 4701,
+      "deaths_per_match": 5.32,
+      "turret_dmg_per_match": 8808,
+      "legendary": 62,
+      "maniac": 21,
+      "savage": 1,
+      "double_kill": 443,
+      "triple_kill": 100,
+      "most_kills": 24,
+      "most_assists": 20,
+      "first_blood": 52,
+      "longest_win_streak": 11,
+      "mvp_count": 80,
+      "mvp_loss": 42
+    },
+    "all_season": {
+      "matches_count": 2998,
+      "win_rate": 55.77,
+      "kda": 3.18,
+      "team_participation": 53.3,
+      "gold_per_min": 706,
+      "dmg_per_min": 4054,
+      "deaths_per_match": 5.15,
+      "turret_dmg_per_match": 6007,
+      "legendary": 297,
+      "maniac": 50,
+      "savage": 4,
+      "double_kill": 1952,
+      "triple_kill": 313,
+      "most_kills": 28,
+      "most_assists": 37,
+      "first_blood": 367,
+      "mvp_count": 445,
+      "mvp_loss": 289
+    }
+  },
+  "hero_favorite": {
+    "current_season": [],
+    "all_season": []
+  },
+  "achievements": {
+    "total_matches": 3725,
+    "total_likes": 2257,
+    "current_rank": "88",
+    "highest_rank": 15,
+    "renowned_collector": "I"
+  }
+}
