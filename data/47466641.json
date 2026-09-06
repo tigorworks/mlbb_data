@@ -1,6 +1,6 @@
 {
   "id": "47466641",
-  "nick": "Jellyfish",
+  "nick": "CMB . Jellyfish",
   "zone_id": "2076",
   "role": "midlaner",
   "rank_current": "122",
@@ -60,34 +60,34 @@
   "hero_favorite": {
     "current_season": [
       {
-        "hero_name": "Kagura",
-        "matches": 2824,
-        "win_rate": 63.7
+        "hero_name": "Saber",
+        "matches": 75,
+        "win_rate": 70.7
       },
       {
-        "hero_name": "Karina",
-        "matches": 2134,
-        "win_rate": 62.0
+        "hero_name": "Kadita",
+        "matches": 52,
+        "win_rate": 71.2
+      },
+      {
+        "hero_name": "Kagura",
+        "matches": 29,
+        "win_rate": 65.5
+      },
+      {
+        "hero_name": "Gord",
+        "matches": 27,
+        "win_rate": 66.7
       },
       {
         "hero_name": "Gusion",
-        "matches": 1470,
-        "win_rate": 57.7
-      },
-      {
-        "hero_name": "Franco",
-        "matches": 590,
-        "win_rate": 52.0
-      },
-      {
-        "hero_name": "Selena",
-        "matches": 539,
-        "win_rate": 54.5
+        "matches": 27,
+        "win_rate": 55.6
       },
       {
         "hero_name": "Harley",
-        "matches": 475,
-        "win_rate": 52.0
+        "matches": 16,
+        "win_rate": 56.2
       }
     ],
     "all_season": [
@@ -98,7 +98,7 @@
       },
       {
         "hero_name": "Karina",
-        "matches": 2134,
+        "matches": 2737,
         "win_rate": 62.0
       },
       {
