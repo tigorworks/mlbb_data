@@ -1,0 +1,70 @@
+{
+  "id": "117899506",
+  "nick": "Reg5.Farrumo",
+  "zone_id": "2591",
+  "role": "explaner",
+  "rank_current": "59",
+  "rank_highest": "36",
+  "region": "Indonesia/Jakarta Raya",
+  "guild": "RpTz RespectTorz",
+  "statistic": {
+    "current_season": {
+      "matches_count": 54,
+      "win_rate": 61.11,
+      "kda": 2.92,
+      "team_participation": 47.8,
+      "gold_per_min": 650,
+      "dmg_per_min": 3397,
+      "deaths_per_match": 4.98,
+      "turret_dmg_per_match": 3575,
+      "legendary": 2,
+      "maniac": 0,
+      "savage": 0,
+      "double_kill": 25,
+      "triple_kill": 4,
+      "most_kills": 15,
+      "most_assists": 18,
+      "longest_win_streak": 5,
+      "first_blood": 5,
+      "highest_dmg_per_min": 6303,
+      "highest_gold_per_min": 866,
+      "highest_dmg_taken_per_min": 12626,
+      "mvp_count": 5
+    },
+    "all_season": {
+      "matches_count": 3669,
+      "win_rate": 57.89,
+      "kda": 2.97,
+      "team_participation": 47.1,
+      "gold_per_min": 614,
+      "dmg_per_min": 2945,
+      "deaths_per_match": 4.56,
+      "turret_dmg_per_match": 4160,
+      "mvp_count": 289,
+      "legendary": 282,
+      "maniac": 38,
+      "savage": 6,
+      "double_kill": 1862,
+      "triple_kill": 253,
+      "most_kills": 27,
+      "most_assists": 39,
+      "longest_win_streak": 15,
+      "first_blood": 343,
+      "highest_dmg_per_min": 11296,
+      "highest_gold_per_min": 1129,
+      "highest_dmg_taken_per_min": 14335
+    }
+  },
+  "hero_favorite": {
+    "current_season": [
+      {"hero_name": "Gusion", "matches": 283, "win_rate": 55.1},
+      {"hero_name": "Hayabusa", "matches": 203, "win_rate": 61.6},
+      {"hero_name": "Lancelot", "matches": 149, "win_rate": 58.4}
+    ],
+    "all_season": [
+      {"hero_name": "Brody", "matches": 144, "win_rate": 63.9},
+      {"hero_name": "Fanny", "matches": 130, "win_rate": 46.9},
+      {"hero_name": "Leomord", "matches": 127, "win_rate": 59.1}
+    ]
+  }
+}
