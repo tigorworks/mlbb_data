@@ -1,0 +1,75 @@
+{
+  "id": "792201693",
+  "nick": "Reg8. Hand so Xee",
+  "zone_id": "12171",
+  "role": "midlaner",
+  "rank_current": "72",
+  "rank_highest": "124",
+  "guild": "ZWeS ZW eSPORT",
+  "statistic": {
+    "current_season": {
+      "matches_count": 404,
+      "win_rate": 55.45,
+      "kda": 3.67,
+      "team_participation": 46.7,
+      "gold_per_min": 620,
+      "dmg_per_min": 4249,
+      "deaths_per_match": 3.99,
+      "turret_dmg_per_match": 4239,
+      "legendary": 59,
+      "maniac": 8,
+      "savage": 0,
+      "double_kill": 282,
+      "triple_kill": 43,
+      "most_kills": 27,
+      "most_assists": 38,
+      "longest_win_streak": 10,
+      "first_blood": 48,
+      "highest_dmg_per_min": 10030,
+      "highest_gold_per_min": 993,
+      "highest_dmg_taken_per_min": 15010,
+      "mvp_count": 84
+    },
+    "all_season": {
+      "matches_count": 5264,
+      "win_rate": 56.76,
+      "kda": 4.34,
+      "team_participation": 56,
+      "gold_per_min": 682,
+      "dmg_per_min": 3900,
+      "deaths_per_match": 4.29,
+      "turret_dmg_per_match": 3722,
+      "legendary": 738,
+      "maniac": 69,
+      "savage": 9,
+      "double_kill": 3332,
+      "triple_kill": 465,
+      "most_kills": 27,
+      "most_assists": 38,
+      "longest_win_streak": 21,
+      "first_blood": 693,
+      "highest_dmg_per_min": 11266,
+      "highest_gold_per_min": 1141,
+      "highest_dmg_taken_per_min": 19183,
+      "mvp_count": 891
+    }
+  },
+  "hero_favorite": {
+    "current_season": [
+      {"hero_name": "Xavier", "matches": 49, "win_rate": 67.3},
+      {"hero_name": "Novaria", "matches": 43, "win_rate": 51.2},
+      {"hero_name": "Moskov", "matches": 40, "win_rate": 42.5},
+      {"hero_name": "Kagura", "matches": 27, "win_rate": 63.0},
+      {"hero_name": "Eudora", "matches": 23, "win_rate": 78.3},
+      {"hero_name": "Zetian", "matches": 20, "win_rate": 40.0}
+    ],
+    "all_season": [
+      {"hero_name": "Kagura", "matches": 660, "win_rate": 65.3},
+      {"hero_name": "Selena", "matches": 429, "win_rate": 61.5},
+      {"hero_name": "Novaria", "matches": 344, "win_rate": 58.7},
+      {"hero_name": "Lunox", "matches": 321, "win_rate": 67.0},
+      {"hero_name": "Xavier", "matches": 305, "win_rate": 66.9},
+      {"hero_name": "Lesley", "matches": 288, "win_rate": 63.2}
+    ]
+  }
+}
