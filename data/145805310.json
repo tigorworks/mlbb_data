@@ -1,0 +1,123 @@
+{
+  "id": "145805310",
+  "nick": "Yokke.14:45",
+  "zone_id": "2739",
+  "role": "goldlaner",
+  "rank_current": "44",
+  "rank_highest": "69",
+  "guild": "GGWPGudangGaramWP",
+  "organization": "Bekasi Timur No.86 Wanwan",
+  "statistic": {
+    "current_season": {
+      "matches_count": 405,
+      "win_rate": 49.88,
+      "kda": 1.87,
+      "team_participation": 45.9,
+      "gold_per_min": 587,
+      "dmg_per_min": 3993,
+      "deaths_per_match": 5.94,
+      "turret_dmg_per_match": 3329,
+      "legendary": 48,
+      "maniac": 18,
+      "savage": 1,
+      "double_kill": 328,
+      "triple_kill": 75,
+      "most_kills": 25,
+      "most_assists": 27,
+      "longest_win_streak": 7,
+      "first_blood": 65,
+      "highest_dmg_per_min": 8567,
+      "highest_gold_per_min": 1014,
+      "highest_dmg_taken_per_min": 18483
+    },
+    "all_season": {
+      "matches_count": 15792,
+      "win_rate": 50.46,
+      "kda": 2.66,
+      "team_participation": 51.0,
+      "gold_per_min": 568,
+      "dmg_per_min": 2906,
+      "deaths_per_match": 5.19,
+      "turret_dmg_per_match": 3331,
+      "mvp_count": 1501,
+      "legendary": 1086,
+      "maniac": 258,
+      "savage": 46,
+      "double_kill": 8038,
+      "triple_kill": 1359,
+      "most_kills": 31,
+      "most_assists": 36,
+      "longest_win_streak": 19,
+      "first_blood": 1633,
+      "highest_dmg_per_min": 11625,
+      "highest_gold_per_min": 1302,
+      "highest_dmg_taken_per_min": 21610
+    }
+  },
+  "hero_favorite": {
+    "current_season": [
+      {
+        "hero_name": "Obsidia",
+        "matches": 105,
+        "win_rate": 54.3
+      },
+      {
+        "hero_name": "Gord",
+        "matches": 83,
+        "win_rate": 49.1
+      },
+      {
+        "hero_name": "Novaria",
+        "matches": 36,
+        "win_rate": 47.2
+      },
+      {
+        "hero_name": "Zetian",
+        "matches": 29,
+        "win_rate": 41.4
+      },
+      {
+        "hero_name": "Melissa",
+        "matches": 27,
+        "win_rate": 59.3
+      },
+      {
+        "hero_name": "Silvanna",
+        "matches": 27,
+        "win_rate": 59.3
+      }
+    ],
+    "all_season": [
+      {
+        "hero_name": "Saber",
+        "matches": 1132,
+        "win_rate": 47.4
+      },
+      {
+        "hero_name": "Natalia",
+        "matches": 1083,
+        "win_rate": 55.3
+      },
+      {
+        "hero_name": "Cecilion",
+        "matches": 780,
+        "win_rate": 54.0
+      },
+      {
+        "hero_name": "Wanwan",
+        "matches": 750,
+        "win_rate": 56.5
+      },
+      {
+        "hero_name": "Franco",
+        "matches": 631,
+        "win_rate": 44.1
+      },
+      {
+        "hero_name": "Lesley",
+        "matches": 577,
+        "win_rate": 50.1
+      }
+    ]
+  }
+}
