@@ -1,0 +1,73 @@
+{
+  "id": "165209472",
+  "nick": "Reg8. Unyuk",
+  "zone_id": "2835",
+  "role": "goldlaner",
+  "rank_current": "109",
+  "rank_highest": "106",
+  "guild": "Porong No.25",
+  "organization": "BCA Alumni BCA baik",
+  "statistic": {
+    "current_season": {
+      "matches_count": 481,
+      "win_rate": 54.47,
+      "kda": 2.24,
+      "team_participation": 46.2,
+      "gold_per_min": 578,
+      "dmg_per_min": 3847,
+      "deaths_per_match": 5.01,
+      "turret_dmg_per_match": 3887,
+      "legendary": 59,
+      "maniac": 14,
+      "savage": 2,
+      "double_kill": 313,
+      "triple_kill": 47,
+      "most_kills": 28,
+      "most_assists": 28,
+      "longest_win_streak": 7,
+      "first_blood": 65,
+      "highest_dmg_per_min": 8861,
+      "highest_gold_per_min": 1042,
+      "highest_dmg_taken_per_min": 16615,
+      "mvp_count": 60
+    },
+    "all_season": {
+      "matches_count": 18083,
+      "win_rate": 51.49,
+      "kda": 2.82,
+      "team_participation": 52.4,
+      "gold_per_min": 579,
+      "dmg_per_min": 2764,
+      "deaths_per_match": 4.93,
+      "turret_dmg_per_match": 2511,
+      "legendary": 936,
+      "maniac": 175,
+      "savage": 14,
+      "double_kill": 6842,
+      "triple_kill": 969,
+      "most_kills": 31,
+      "most_assists": 35,
+      "longest_win_streak": 14,
+      "first_blood": 1422,
+      "highest_dmg_per_min": 11867,
+      "highest_gold_per_min": 1297,
+      "highest_dmg_taken_per_min": 21184,
+      "mvp_count": 1290
+    }
+  },
+  "hero_favorite": {
+    "current_season": [
+      {"hero_name": "Hayabusa", "matches": 42, "win_rate": 52.4},
+      {"hero_name": "Pharsa", "matches": 27, "win_rate": 66.7},
+      {"hero_name": "Brody", "matches": 25, "win_rate": 44.0}
+    ],
+    "all_season": [
+      {"hero_name": "Grock", "matches": 913, "win_rate": 56.6},
+      {"hero_name": "Khufra", "matches": 888, "win_rate": 59.3},
+      {"hero_name": "Akai", "matches": 869, "win_rate": 52.8},
+      {"hero_name": "Claude", "matches": 783, "win_rate": 43.0},
+      {"hero_name": "Chou", "matches": 738, "win_rate": 46.9},
+      {"hero_name": "Bruno", "matches": 604, "win_rate": 52.2}
+    ]
+  }
+}
