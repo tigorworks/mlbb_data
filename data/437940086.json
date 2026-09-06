@@ -1,0 +1,60 @@
+{
+  "id": "437940086",
+  "nick": "NRF. humblegod.",
+  "zone_id": "9997",
+  "role": "goldlaner",
+  "rank_current": "106",
+  "rank_highest": "106",
+  "region": "Philippines",
+  "organization": "BurmiDayaPlaza",
+  "statistic": {
+    "current_season": {
+      "matches_count": 33,
+      "win_rate": 81.82,
+      "kda": 4.16,
+      "team_participation": 53.9,
+      "gold_per_min": 805,
+      "dmg_per_min": 4965,
+      "deaths_per_match": 4.18,
+      "turret_dmg_per_match": 11864
+    },
+    "all_season": {
+      "matches_count": 11025,
+      "win_rate": 55.73,
+      "kda": 4.61,
+      "team_participation": 57.0,
+      "gold_per_min": 739,
+      "dmg_per_min": 4256,
+      "deaths_per_match": 3.54,
+      "turret_dmg_per_match": 6527,
+      "mvp_count": 2865,
+      "legendary": 2358,
+      "maniac": 443,
+      "savage": 79,
+      "double_kill": 10024,
+      "triple_kill": 2068,
+      "most_kills": 31,
+      "most_assists": 31,
+      "first_blood": 1319,
+      "longest_win_streak": 12,
+      "highest_dmg_per_min": 14129,
+      "highest_gold_per_min": 1339,
+      "highest_dmg_taken_per_min": 20063
+    }
+  },
+  "hero_favorite": {
+    "current_season": [
+      { "hero_name": "Miya", "matches": 6, "win_rate": 83.3 },
+      { "hero_name": "Yi Sun-shin", "matches": 6, "win_rate": 83.3 },
+      { "hero_name": "Moskov", "matches": 1, "win_rate": 100.0 }
+    ],
+    "all_season": [
+      { "hero_name": "Yi Sun-shin", "matches": 456, "win_rate": 61.2 },
+      { "hero_name": "Gusion", "matches": 456, "win_rate": 61.2 },
+      { "hero_name": "Granger", "matches": 445, "win_rate": 58.7 },
+      { "hero_name": "Brody", "matches": 441, "win_rate": 60.8 },
+      { "hero_name": "Lancelot", "matches": 420, "win_rate": 47.1 },
+      { "hero_name": "Moskov", "matches": 336, "win_rate": 59.8 }
+    ]
+  }
+}
