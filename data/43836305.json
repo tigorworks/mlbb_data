@@ -1,63 +1,92 @@
 {
   "id": "43836305",
-  "nick": "Shrewd-",
-  "server": "2066",
+  "nick": "MSEK. Chndr",
+  "zone_id": "2066",
   "role": "roamer",
-  "rank_current": "114",
-  "rank_highest": "115",
+  "rank_current": "39",
+  "rank_highest": "15",
+  "guild": "LiF 'Let it Flow'",
   "statistic": {
     "current_season": {
-      "matches_count": 376,
-      "win_rate": 59.31,
-      "kda": 3.02,
-      "team_participation": 49.4,
-      "gold_per_min": 532,
-      "dmg_per_min": 2040,
-      "deaths_per_match": 4.45,
-      "turret_dmg_per_match": 1302
+      "matches_count": 181,
+      "win_rate": 54.70,
+      "kda": 3.27,
+      "team_participation": 43.0,
+      "gold_per_min": 597,
+      "dmg_per_min": 2581,
+      "deaths_per_match": 4.09,
+      "turret_dmg_per_match": 3447,
+      "mvp_count": 14,
+      "legendary": 9,
+      "maniac": 2,
+      "double_kill": 57,
+      "most_kills": 17,
+      "longest_win_streak": 5,
+      "highest_dmg_per_min": 6987,
+      "highest_gold_per_min": 885,
+      "savage": 0,
+      "triple_kill": 8,
+      "mvp_loss": 7,
+      "most_assists": 33,
+      "first_blood": 14,
+      "highest_dmg_taken_per_min": 20498
     },
     "all_season": {
-      "matches_count": 1719,
-      "win_rate": 57.07,
-      "kda": 4.26,
-      "team_participation": 54.3,
-      "gold_per_min": 572,
-      "dmg_per_min": 2381,
-      "deaths_per_match": 3.87,
-      "turret_dmg_per_match": 3236
+      "matches_count": 1905,
+      "win_rate": 56.69,
+      "kda": 4.2,
+      "team_participation": 53.8,
+      "gold_per_min": 578,
+      "dmg_per_min": 2402,
+      "deaths_per_match": 3.90,
+      "turret_dmg_per_match": 3253,
+      "mvp_count": 214,
+      "legendary": 123,
+      "maniac": 13,
+      "double_kill": 566,
+      "most_kills": 24,
+      "longest_win_streak": 16,
+      "highest_dmg_per_min": 8681,
+      "highest_gold_per_min": 1082,
+      "savage": 3,
+      "triple_kill": 94,
+      "mvp_loss": 142,
+      "most_assists": 38,
+      "first_blood": 91,
+      "highest_dmg_taken_per_min": 20498
     }
   },
   "hero_favorite": {
     "current_season": [
       {
-        "hero_name": "Grock",
-        "matches": 71,
-        "win_rate": 62.0
+        "hero_name": "Guinevere",
+        "matches": 21,
+        "win_rate": 52.4
       },
       {
-        "hero_name": "Kalea",
-        "matches": 68,
-        "win_rate": 61.8
+        "hero_name": "Chip",
+        "matches": 16,
+        "win_rate": 68.8
       },
       {
-        "hero_name": "Uranus",
-        "matches": 36,
-        "win_rate": 77.8
+        "hero_name": "Sora",
+        "matches": 12,
+        "win_rate": 58.3
       },
       {
-        "hero_name": "Gatotkaca",
-        "matches": 31,
-        "win_rate": 74.2
+        "hero_name": "Badang",
+        "matches": 12,
+        "win_rate": 50.0
       },
       {
-        "hero_name": "Gloo",
-        "matches": 28,
-        "win_rate": 57.1
+        "hero_name": "Terizla",
+        "matches": 9,
+        "win_rate": 88.9
       },
       {
-        "hero_name": "Silvanna",
-        "matches": 19,
-        "win_rate": 57.9
+        "hero_name": "Lukas",
+        "matches": 9,
+        "win_rate": 66.7
       }
     ],
     "all_season": [
@@ -73,13 +102,13 @@
       },
       {
         "hero_name": "Kalea",
-        "matches": 115,
-        "win_rate": 55.7
+        "matches": 116,
+        "win_rate": 55.2
       },
       {
         "hero_name": "Minotaur",
-        "matches": 108,
-        "win_rate": 64.8
+        "matches": 109,
+        "win_rate": 64.2
       },
       {
         "hero_name": "Moskov",
