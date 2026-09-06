@@ -3,61 +3,91 @@
   "nick": "Spookeyjunkiezt",
   "zone_id": "2626",
   "role": "jungler",
-  "rank_current": "104",
-  "rank_highest": "134",
+  "rank_current": "108",
+  "rank_highest": "162",
+  "organization": "CMB COMMERCIAL BMRI",
+  "guild": "Kage",
   "statistic": {
     "current_season": {
-      "matches_count": 511,
-      "win_rate": 54.99,
-      "kda": 2.54,
-      "team_participation": 45.4,
-      "gold_per_min": 584,
-      "dmg_per_min": 3510,
-      "deaths_per_match": 4.45,
-      "turret_dmg_per_match": 3146
+      "matches_count": 527,
+      "win_rate": 59.77,
+      "kda": 2.8,
+      "team_participation": 47.7,
+      "gold_per_min": 603,
+      "dmg_per_min": 3428,
+      "deaths_per_match": 4.66,
+      "turret_dmg_per_match": 2771,
+      "mvp_count": 102,
+      "legendary": 86,
+      "maniac": 8,
+      "double_kill": 267,
+      "triple_kill": 34,
+      "most_kills": 24,
+      "most_assists": 29,
+      "first_blood": 51,
+      "longest_win_streak": 12,
+      "highest_dmg_per_min": 8156,
+      "highest_gold_per_min": 1087,
+      "highest_dmg_taken_per_min": 19834,
+      "savage": 2,
+      "mvp_loss": 41
     },
     "all_season": {
-      "matches_count": 11625,
+      "matches_count": 12448,
       "win_rate": 56.24,
-      "kda": 3.46,
-      "team_participation": 54.7,
-      "gold_per_min": 649,
-      "dmg_per_min": 3448,
-      "deaths_per_match": 4.57,
-      "turret_dmg_per_match": 3646
+      "kda": 3.49,
+      "team_participation": 55.0,
+      "gold_per_min": 653,
+      "dmg_per_min": 3454,
+      "deaths_per_match": 4.59,
+      "turret_dmg_per_match": 3605,
+      "mvp_count": 1867,
+      "legendary": 1520,
+      "maniac": 312,
+      "double_kill": 7462,
+      "triple_kill": 1203,
+      "most_kills": 32,
+      "most_assists": 36,
+      "first_blood": 1876,
+      "longest_win_streak": 23,
+      "highest_dmg_per_min": 12847,
+      "highest_gold_per_min": 1198,
+      "highest_dmg_taken_per_min": 24128,
+      "savage": 55,
+      "mvp_loss": 1462
     }
   },
   "hero_favorite": {
     "current_season": [
       {
-        "hero_name": "Granger",
-        "matches": 55,
-        "win_rate": 45.5
+        "hero_name": "Claude",
+        "matches": 98,
+        "win_rate": 62.2
       },
       {
-        "hero_name": "Suyou",
-        "matches": 54,
-        "win_rate": 50.0
-      },
-      {
-        "hero_name": "Cyclops",
-        "matches": 33,
-        "win_rate": 63.6
+        "hero_name": "Harith",
+        "matches": 87,
+        "win_rate": 58.6
       },
       {
         "hero_name": "Yi Sun-shin",
-        "matches": 24,
-        "win_rate": 70.8
+        "matches": 76,
+        "win_rate": 63.2
       },
       {
-        "hero_name": "Khaleed",
-        "matches": 24,
-        "win_rate": 58.3
+        "hero_name": "Harley",
+        "matches": 64,
+        "win_rate": 59.4
       },
       {
-        "hero_name": "Obsidia",
-        "matches": 21,
-        "win_rate": 61.9
+        "hero_name": "Gusion",
+        "matches": 58,
+        "win_rate": 60.3
+      },
+      {
+        "hero_name": "Granger",
+        "matches": 52,
+        "win_rate": 55.8
       }
     ],
     "all_season": [
