@@ -1,0 +1,122 @@
+{
+  "id": "1606464335",
+  "nick": "Yokke.Xenochrist",
+  "zone_id": "16788",
+  "role": "jungler",
+  "rank_current": "53",
+  "rank_highest": "93",
+  "guild": "GGWPGudangGaramWP",
+  "statistic": {
+    "current_season": {
+      "matches_count": 439,
+      "win_rate": 52.16,
+      "kda": 1.49,
+      "team_participation": 38.7,
+      "gold_per_min": 595,
+      "dmg_per_min": 3706,
+      "deaths_per_match": 6.04,
+      "turret_dmg_per_match": 2839,
+      "legendary": 44,
+      "maniac": 9,
+      "savage": 0,
+      "double_kill": 283,
+      "triple_kill": 51,
+      "most_kills": 24,
+      "most_assists": 27,
+      "longest_win_streak": 10,
+      "first_blood": 64,
+      "highest_dmg_per_min": 11436,
+      "highest_gold_per_min": 1074,
+      "highest_dmg_taken_per_min": 18487
+    },
+    "all_season": {
+      "matches_count": 6663,
+      "win_rate": 50.35,
+      "kda": 2.68,
+      "team_participation": 48.8,
+      "gold_per_min": 664,
+      "dmg_per_min": 3349,
+      "deaths_per_match": 5.75,
+      "turret_dmg_per_match": 2561,
+      "mvp_count": 515,
+      "legendary": 631,
+      "maniac": 98,
+      "savage": 11,
+      "double_kill": 3892,
+      "triple_kill": 569,
+      "most_kills": 54,
+      "most_assists": 38,
+      "longest_win_streak": 20,
+      "first_blood": 757,
+      "highest_dmg_per_min": 13871,
+      "highest_gold_per_min": 1275,
+      "highest_dmg_taken_per_min": 20002
+    }
+  },
+  "hero_favorite": {
+    "current_season": [
+      {
+        "hero_name": "Lancelot",
+        "matches": 55,
+        "win_rate": 45.5
+      },
+      {
+        "hero_name": "Ling",
+        "matches": 46,
+        "win_rate": 41.3
+      },
+      {
+        "hero_name": "Hayabusa",
+        "matches": 37,
+        "win_rate": 32.4
+      },
+      {
+        "hero_name": "Franco",
+        "matches": 31,
+        "win_rate": 58.1
+      },
+      {
+        "hero_name": "Aamon",
+        "matches": 25,
+        "win_rate": 64.0
+      },
+      {
+        "hero_name": "Nolan",
+        "matches": 24,
+        "win_rate": 54.2
+      }
+    ],
+    "all_season": [
+      {
+        "hero_name": "Lancelot",
+        "matches": 729,
+        "win_rate": 43.9
+      },
+      {
+        "hero_name": "Nolan",
+        "matches": 666,
+        "win_rate": 48.9
+      },
+      {
+        "hero_name": "Franco",
+        "matches": 564,
+        "win_rate": 48.3
+      },
+      {
+        "hero_name": "Moskov",
+        "matches": 402,
+        "win_rate": 58.2
+      },
+      {
+        "hero_name": "Ling",
+        "matches": 390,
+        "win_rate": 43.6
+      },
+      {
+        "hero_name": "Hayabusa",
+        "matches": 355,
+        "win_rate": 47.3
+      }
+    ]
+  }
+}
