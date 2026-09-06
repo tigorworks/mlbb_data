@@ -1,0 +1,84 @@
+{
+  "id": "81972854",
+  "nick": "RMN. Tokyo",
+  "zone_id": "2218",
+  "role": "jungler",
+  "rank_current": "90",
+  "rank_highest": "15",
+  "region": "Indonesia",
+  "guild": "Cilandak No.71 Yi Sun-shin",
+  "organization": "SBM SafuanBerani Mati",
+  "squad_status": "In a squad",
+  "statistic": {
+    "current_season": {
+      "matches_count": 378,
+      "win_rate": 57.41,
+      "kda": 3.19,
+      "team_participation": 49.6,
+      "gold_per_min": 619,
+      "dmg_per_min": 3415,
+      "deaths_per_match": 4.32,
+      "turret_dmg_per_match": 1913,
+      "mvp_count": 51,
+      "legendary": 84,
+      "maniac": 13,
+      "savage": 4,
+      "double_kill": 473,
+      "triple_kill": 109,
+      "most_kills": 36,
+      "most_assists": 25,
+      "first_blood": 57,
+      "longest_win_streak": 7,
+      "highest_dmg_per_min": 7880,
+      "highest_gold_per_min": 1094
+    },
+    "all_season": {
+      "matches_count": 8486,
+      "win_rate": 53.85,
+      "kda": 3.71,
+      "team_participation": 54.0,
+      "gold_per_min": 662,
+      "dmg_per_min": 2980,
+      "deaths_per_match": 3.81,
+      "turret_dmg_per_match": 2401,
+      "mvp_count": 1008,
+      "legendary": 1583,
+      "maniac": 262,
+      "savage": 31,
+      "double_kill": 8021,
+      "triple_kill": 1515,
+      "most_kills": 36,
+      "most_assists": 27,
+      "first_blood": 1172,
+      "longest_win_streak": 12,
+      "highest_dmg_per_min": 9020,
+      "highest_gold_per_min": 1128
+    }
+  },
+  "hero_favorite": {
+    "current_season": [
+      { "hero_name": "Yi Sun-shin", "matches": 72, "win_rate": 66.7 },
+      { "hero_name": "Zhuxin", "matches": 54, "win_rate": 66.7 },
+      { "hero_name": "Ling", "matches": 52, "win_rate": 51.9 },
+      { "hero_name": "Fanny", "matches": 35, "win_rate": 48.6 },
+      { "hero_name": "Pharsa", "matches": 28, "win_rate": 57.1 },
+      { "hero_name": "Gord", "matches": 20, "win_rate": 70.0 }
+    ],
+    "all_season": [
+      { "hero_name": "Lancelot", "matches": 1886, "win_rate": 53.9 },
+      { "hero_name": "Karina", "matches": 1686, "win_rate": 54.2 },
+      { "hero_name": "Ling", "matches": 1686, "win_rate": 52.3 },
+      { "hero_name": "Zilong", "matches": 439, "win_rate": 60.4 },
+      { "hero_name": "Hayabusa", "matches": 436, "win_rate": 53.9 },
+      { "hero_name": "Yi Sun-shin", "matches": 316, "win_rate": 53.5 }
+    ]
+  },
+  "achievements": {
+    "total_matches": 10659,
+    "total_likes": 4253,
+    "current_rank": "Mythical Glory",
+    "highest_rank": 15,
+    "guardian_level": 6,
+    "renowned_collector": "III"
+  }
+}
