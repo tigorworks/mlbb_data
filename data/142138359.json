@@ -1,0 +1,122 @@
+{
+  "id": "142138359",
+  "nick": "Yokke.anthesky",
+  "zone_id": "2712",
+  "role": "explaner",
+  "rank_current": "107",
+  "rank_highest": "200",
+  "guild": "BFS Bagong Families",
+  "statistic": {
+    "current_season": {
+      "matches_count": 590,
+      "win_rate": 55.76,
+      "kda": 1.65,
+      "team_participation": 39.7,
+      "gold_per_min": 583,
+      "dmg_per_min": 4661,
+      "deaths_per_match": 5.74,
+      "turret_dmg_per_match": 4907,
+      "legendary": 123,
+      "maniac": 17,
+      "savage": 2,
+      "double_kill": 580,
+      "triple_kill": 84,
+      "most_kills": 25,
+      "most_assists": 23,
+      "longest_win_streak": 19,
+      "first_blood": 92,
+      "highest_dmg_per_min": 10434,
+      "highest_gold_per_min": 1108,
+      "highest_dmg_taken_per_min": 23654
+    },
+    "all_season": {
+      "matches_count": 15645,
+      "win_rate": 55.63,
+      "kda": 3.08,
+      "team_participation": 53.6,
+      "gold_per_min": 627,
+      "dmg_per_min": 4133,
+      "deaths_per_match": 5.38,
+      "turret_dmg_per_match": 4264,
+      "mvp_count": 2948,
+      "legendary": 2066,
+      "maniac": 225,
+      "savage": 30,
+      "double_kill": 11062,
+      "triple_kill": 1586,
+      "most_kills": 31,
+      "most_assists": 35,
+      "longest_win_streak": 19,
+      "first_blood": 2203,
+      "highest_dmg_per_min": 16749,
+      "highest_gold_per_min": 1220,
+      "highest_dmg_taken_per_min": 25197
+    }
+  },
+  "hero_favorite": {
+    "current_season": [
+      {
+        "hero_name": "Hirara",
+        "matches": 124,
+        "win_rate": 62.9
+      },
+      {
+        "hero_name": "Sora",
+        "matches": 111,
+        "win_rate": 53.2
+      },
+      {
+        "hero_name": "Yin",
+        "matches": 67,
+        "win_rate": 58.2
+      },
+      {
+        "hero_name": "Paquito",
+        "matches": 57,
+        "win_rate": 56.1
+      },
+      {
+        "hero_name": "Arlott",
+        "matches": 50,
+        "win_rate": 58.0
+      },
+      {
+        "hero_name": "Dyrroth",
+        "matches": 24,
+        "win_rate": 50.0
+      }
+    ],
+    "all_season": [
+      {
+        "hero_name": "Gusion",
+        "matches": 2029,
+        "win_rate": 60.3
+      },
+      {
+        "hero_name": "Johnson",
+        "matches": 1199,
+        "win_rate": 55.7
+      },
+      {
+        "hero_name": "Kimmy",
+        "matches": 1141,
+        "win_rate": 67.0
+      },
+      {
+        "hero_name": "X.Borg",
+        "matches": 963,
+        "win_rate": 65.8
+      },
+      {
+        "hero_name": "Hanzo",
+        "matches": 858,
+        "win_rate": 56.8
+      },
+      {
+        "hero_name": "Yin",
+        "matches": 758,
+        "win_rate": 57.7
+      }
+    ]
+  }
+}
