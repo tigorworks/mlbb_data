@@ -1,96 +1,136 @@
 {
   "id": "52396759",
-  "nick": "kennzyy",
+  "nick": "Kennzzy",
   "zone_id": "2083",
   "role": "jungler",
-  "rank_current": "77",
+  "rank_current": "124",
   "rank_highest": "124",
+  "region": "Indonesia",
+  "squad_status": "Not in a squad",
   "statistic": {
     "current_season": {
-      "matches_count": 339,
-      "win_rate": 58.70,
-      "kda": 3.8,
-      "team_participation": 49.7,
-      "gold_per_min": 645,
-      "dmg_per_min": 3627,
-      "deaths_per_match": 3.77,
-      "turret_dmg_per_match": 6156
+      "matches_count": 417,
+      "win_rate": 57.55,
+      "kda": 3.67,
+      "team_participation": 48.8,
+      "gold_per_min": 632,
+      "dmg_per_min": 3850,
+      "deaths_per_match": 3.84,
+      "turret_dmg_per_match": 6390,
+      "mvp_count": 71,
+      "legendary": 83,
+      "maniac": 15,
+      "double_kill": 340,
+      "triple_kill": 63,
+      "savage": 5,
+      "mvp_loss": 39,
+      "most_kills": 22,
+      "most_assists": 37,
+      "longest_win_streak": 11,
+      "first_blood": 37,
+      "highest_dmg_per_min": 10399,
+      "highest_gold_per_min": 1142,
+      "highest_dmg_taken_per_min": 14126
     },
     "all_season": {
-      "matches_count": 15679,
-      "win_rate": 56.46,
-      "kda": 3.84,
-      "team_participation": 57.3,
-      "gold_per_min": 591,
-      "dmg_per_min": 3099,
+      "matches_count": 16267,
+      "win_rate": 56.45,
+      "kda": 3.86,
+      "team_participation": 57.4,
+      "gold_per_min": 596,
+      "dmg_per_min": 3129,
       "deaths_per_match": 3.95,
-      "turret_dmg_per_match": 3534
+      "turret_dmg_per_match": 3632,
+      "mvp_count": 2459,
+      "legendary": 2251,
+      "maniac": 289,
+      "double_kill": 10166,
+      "triple_kill": 1734,
+      "savage": 51,
+      "mvp_loss": 1691,
+      "most_kills": 29,
+      "most_assists": 37,
+      "longest_win_streak": 17,
+      "first_blood": 2057,
+      "highest_dmg_per_min": 11025,
+      "highest_gold_per_min": 1257,
+      "highest_dmg_taken_per_min": 17177
     }
   },
   "hero_favorite": {
     "current_season": [
       {
-        "hero_name": "Suyou",
-        "matches": 75,
-        "win_rate": 68.0
+        "hero_name": "Fanny",
+        "matches": 51,
+        "win_rate": 54.9
       },
       {
         "hero_name": "Yi Sun-shin",
-        "matches": 61,
-        "win_rate": 60.7
-      },
-      {
-        "hero_name": "Fanny",
         "matches": 46,
-        "win_rate": 43.5
+        "win_rate": 63.0
       },
       {
-        "hero_name": "Granger",
-        "matches": 30,
-        "win_rate": 60.0
+        "hero_name": "Suyou",
+        "matches": 29,
+        "win_rate": 51.7
       },
       {
-        "hero_name": "Moskov",
-        "matches": 17,
-        "win_rate": 64.7
+        "hero_name": "Claude",
+        "matches": 28,
+        "win_rate": 64.3
       },
       {
-        "hero_name": "Tigreal",
-        "matches": 13,
-        "win_rate": 69.2
+        "hero_name": "Brody",
+        "matches": 25,
+        "win_rate": 56.0
+      },
+      {
+        "hero_name": "Akai",
+        "matches": 23,
+        "win_rate": 73.9
       }
     ],
     "all_season": [
       {
         "hero_name": "Fanny",
-        "matches": 2707,
-        "win_rate": 60.4
+        "matches": 2797,
+        "win_rate": 60.2
       },
       {
         "hero_name": "Chou",
-        "matches": 1236,
-        "win_rate": 58.0
+        "matches": 1248,
+        "win_rate": 57.9
       },
       {
         "hero_name": "Selena",
-        "matches": 983,
-        "win_rate": 62.7
+        "matches": 1009,
+        "win_rate": 62.6
       },
       {
         "hero_name": "Gusion",
-        "matches": 981,
+        "matches": 988,
         "win_rate": 62.0
       },
       {
         "hero_name": "Franco",
-        "matches": 863,
-        "win_rate": 55.0
+        "matches": 873,
+        "win_rate": 54.9
       },
       {
         "hero_name": "Lancelot",
-        "matches": 614,
-        "win_rate": 51.3
+        "matches": 617,
+        "win_rate": 51.2
       }
     ]
+  },
+  "achievements": {
+    "total_matches": 19286,
+    "total_likes": 18987,
+    "current_rank": "Star",
+    "highest_rank": 124,
+    "mythical_glory_medal": true,
+    "mvp_achievement": true,
+    "legend_of_war": true,
+    "best_overall": true
   }
 }
